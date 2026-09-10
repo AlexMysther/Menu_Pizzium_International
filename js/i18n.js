@@ -48,6 +48,22 @@ const I18N = (() => {
     }
   }
 
+  // Combines an already-fetched fallback dict with an already-fetched (or
+  // failed/null) override dict, without triggering any network request.
+  // Lets callers fire the fallback + override fetches in parallel with
+  // everything else on first load, instead of waiting on a round trip
+  // to resolve which language to fetch before fetching it.
+  function combine(fallbackDict, overrideDict) {
+    if (!overrideDict) return fallbackDict;
+    return deepMerge(fallbackDict, overrideDict);
+  }
+
+  function guessInitialLangCode() {
+    const saved = localStorage.getItem('pizzium_lang');
+    if (saved) return saved;
+    return (navigator.language || FALLBACK_LANG).slice(0, 2).toLowerCase();
+  }
+
   function t(dict, path) {
     const parts = path.split('.');
     let cur = dict;
@@ -58,5 +74,5 @@ const I18N = (() => {
     return cur == null ? path : cur;
   }
 
-  return { FALLBACK_LANG, loadLanguages, getTranslations, t };
+  return { FALLBACK_LANG, loadLanguages, loadLangFile, getTranslations, combine, guessInitialLangCode, t };
 })();

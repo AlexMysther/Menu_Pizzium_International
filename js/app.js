@@ -31,34 +31,46 @@ const el = {
   tabBevandeBtn: document.getElementById('tabBevandeBtn')
 };
 
-function detectInitialLang(available) {
-  const saved = localStorage.getItem('pizzium_lang');
-  if (saved && available.includes(saved)) return saved;
-  const browser = (navigator.language || 'it').slice(0, 2).toLowerCase();
-  if (available.includes(browser)) return browser;
-  return I18N.FALLBACK_LANG;
-}
-
 async function init() {
-  const [languages, categories, items] = await Promise.all([
+  // Fire every first-load request in one parallel batch, including a
+  // speculative fetch of the browser/saved language: waiting for
+  // languages.json to resolve before fetching the language file would
+  // turn one round trip of latency into two on every page load, which
+  // is the dominant cost on a slow venue wifi/4G connection (the JSON
+  // payloads themselves are only ~20KB total).
+  const guessCode = I18N.guessInitialLangCode();
+  const needsOverride = guessCode !== I18N.FALLBACK_LANG;
+
+  const [languages, categories, items, fallbackDict, guessDict] = await Promise.all([
     I18N.loadLanguages(),
     fetch('data/menu/categories.json').then(r => r.json()),
-    fetch('data/menu/items.json').then(r => r.json())
+    fetch('data/menu/items.json').then(r => r.json()),
+    I18N.loadLangFile(I18N.FALLBACK_LANG),
+    needsOverride ? I18N.loadLangFile(guessCode).catch(() => null) : Promise.resolve(null)
   ]);
+
   state.languages = languages;
   state.categories = categories.sort((a, b) => a.order - b.order);
   state.items = items;
 
   const codes = languages.map(l => l.code);
-  const initialLang = detectInitialLang(codes);
-  await setLanguage(initialLang);
+  const initialLang = codes.includes(guessCode) ? guessCode : I18N.FALLBACK_LANG;
+  const dict = initialLang === I18N.FALLBACK_LANG
+    ? fallbackDict
+    : I18N.combine(fallbackDict, guessDict);
 
+  applyLanguage(initialLang, dict);
   bindEvents();
 }
 
 async function setLanguage(code) {
+  const dict = await I18N.getTranslations(code);
+  applyLanguage(code, dict);
+}
+
+function applyLanguage(code, dict) {
   state.currentLang = code;
-  state.dict = await I18N.getTranslations(code);
+  state.dict = dict;
   localStorage.setItem('pizzium_lang', code);
 
   const lang = state.languages.find(l => l.code === code);
