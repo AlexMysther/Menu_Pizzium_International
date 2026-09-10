@@ -1,0 +1,11 @@
+[
+  { "code": "it", "nativeName": "Italiano", "englishName": "Italian", "flag": "🇮🇹", "dir": "ltr" },
+  { "code": "en", "nativeName": "English", "englishName": "English", "flag": "🇬🇧", "dir": "ltr" },
+  { "code": "de", "nativeName": "Deutsch", "englishName": "German", "flag": "🇩🇪", "dir": "ltr" },
+  { "code": "fr", "nativeName": "Français", "englishName": "French", "flag": "🇫🇷", "dir": "ltr" },
+  { "code": "es", "nativeName": "Español", "englishName": "Spanish", "flag": "🇪🇸", "dir": "ltr" },
+  { "code": "ru", "nativeName": "Русский", "englishName": "Russian", "flag": "🇷🇺", "dir": "ltr" },
+  { "code": "zh", "nativeName": "中文", "englishName": "Chinese", "flag": "🇨🇳", "dir": "ltr" },
+  { "code": "ar", "nativeName": "العربية", "englishName": "Arabic", "flag": "🇸🇦", "dir": "rtl" },
+  { "code": "pt", "nativeName": "Português", "englishName": "Portuguese", "flag": "🇵🇹", "dir": "ltr" }
+]

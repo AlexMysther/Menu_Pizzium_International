@@ -1,0 +1,56 @@
+{
+  "ui": {
+    "menuTitle": "NUESTRO MENÚ",
+    "searchPlaceholder": "Buscar en la categoría...",
+    "tabMenu": "Menú",
+    "tabBevande": "Bebidas",
+    "langSearchPlaceholder": "Buscar idioma...",
+    "noResults": "Sin resultados"
+  },
+  "categories": {
+    "novita": "Novedades",
+    "aperitivo": "Aperitivo",
+    "antipasti": "Entrantes",
+    "primi": "Primeros",
+    "secondi": "Segundos",
+    "calzoni": "Calzones",
+    "pizze": "Pizzas",
+    "insalate": "Ensaladas",
+    "dolci": "Postres",
+    "bevande": "Bebidas"
+  },
+  "groups": {
+    "pizze-regionali": "Pizzas Regionales",
+    "pizze-classiche": "Pizzas Clásicas"
+  },
+  "items": {
+    "valle-aosta": {
+      "name": "Valle d'Aosta",
+      "desc": "Tomate pelado La Carmela, fior di latte, jamón cocido de alta calidad a la brasa, alcachofas al horno, setas cardoncello, aceitunas taggiasche, aceite de oliva virgen extra de Puglia Guglielmi, albahaca"
+    },
+    "piemonte": {
+      "name": "Piemonte",
+      "desc": "Fior di latte, salchicha fassona, aceite de trufa, pimienta negra, albahaca, borde relleno de ricotta de vaca"
+    },
+    "lombardia": {
+      "name": "Lombardia",
+      "desc": "Fior di latte, provola ahumada, salami de Milán, setas porcini, albahaca"
+    },
+    "margherita": {
+      "name": "Margherita",
+      "desc": "Tomate, fior di latte, albahaca, aceite de oliva virgen extra"
+    },
+    "acqua-naturale": {
+      "name": "Agua Natural",
+      "desc": "500ml"
+    },
+    "coca-cola": {
+      "name": "Coca-Cola",
+      "desc": "330ml"
+    }
+  },
+  "allergens": {
+    "gluten": "Gluten",
+    "milk": "Lácteos"
+  }
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "id": "valle-aosta",
+    "categoryId": "pizze",
+    "group": "pizze-regionali",
+    "price": "13.50",
+    "allergens": ["gluten", "milk"],
+    "tags": []
+  },
+  {
+    "id": "piemonte",
+    "categoryId": "pizze",
+    "group": "pizze-regionali",
+    "price": "14.00",
+    "allergens": ["gluten", "milk"],
+    "tags": []
+  },
+  {
+    "id": "lombardia",
+    "categoryId": "pizze",
+    "group": "pizze-regionali",
+    "price": "14.50",
+    "allergens": ["gluten", "milk"],
+    "tags": []
+  },
+  {
+    "id": "margherita",
+    "categoryId": "pizze",
+    "group": "pizze-classiche",
+    "price": "8.00",
+    "allergens": ["gluten", "milk"],
+    "tags": ["novita"]
+  },
+  {
+    "id": "acqua-naturale",
+    "categoryId": "bevande",
+    "price": "3.00",
+    "allergens": [],
+    "tags": []
+  },
+  {
+    "id": "coca-cola",
+    "categoryId": "bevande",
+    "price": "4.00",
+    "allergens": [],
+    "tags": []
+  }
+]

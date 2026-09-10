@@ -1,0 +1,56 @@
+{
+  "ui": {
+    "menuTitle": "UNSER MENÜ",
+    "searchPlaceholder": "In der Kategorie suchen...",
+    "tabMenu": "Menü",
+    "tabBevande": "Getränke",
+    "langSearchPlaceholder": "Sprache suchen...",
+    "noResults": "Keine Ergebnisse"
+  },
+  "categories": {
+    "novita": "Neu",
+    "aperitivo": "Aperitif",
+    "antipasti": "Vorspeisen",
+    "primi": "Erste Gänge",
+    "secondi": "Hauptgerichte",
+    "calzoni": "Calzone",
+    "pizze": "Pizza",
+    "insalate": "Salate",
+    "dolci": "Desserts",
+    "bevande": "Getränke"
+  },
+  "groups": {
+    "pizze-regionali": "Regionale Pizzen",
+    "pizze-classiche": "Klassische Pizzen"
+  },
+  "items": {
+    "valle-aosta": {
+      "name": "Valle d'Aosta",
+      "desc": "Geschälte Tomaten La Carmela, Fior di Latte, hochwertiger gegrillter Kochschinken, gebackene Artischocken, Kräuterseitlinge, Taggiasca-Oliven, natives Olivenöl extra aus Apulien Guglielmi, Basilikum"
+    },
+    "piemonte": {
+      "name": "Piemonte",
+      "desc": "Fior di Latte, Fassona-Wurst, Trüffelöl, schwarzer Pfeffer, Basilikum, Rand gefüllt mit Kuhmilch-Ricotta"
+    },
+    "lombardia": {
+      "name": "Lombardia",
+      "desc": "Fior di Latte, geräucherte Provola, Mailänder Salami, Steinpilze, Basilikum"
+    },
+    "margherita": {
+      "name": "Margherita",
+      "desc": "Tomate, Fior di Latte, Basilikum, natives Olivenöl extra"
+    },
+    "acqua-naturale": {
+      "name": "Stilles Wasser",
+      "desc": "500ml"
+    },
+    "coca-cola": {
+      "name": "Coca-Cola",
+      "desc": "330ml"
+    }
+  },
+  "allergens": {
+    "gluten": "Gluten",
+    "milk": "Milchprodukte"
+  }
+}

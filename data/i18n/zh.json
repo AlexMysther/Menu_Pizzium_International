@@ -1,0 +1,56 @@
+{
+  "ui": {
+    "menuTitle": "我们的菜单",
+    "searchPlaceholder": "在分类中搜索...",
+    "tabMenu": "菜单",
+    "tabBevande": "饮品",
+    "langSearchPlaceholder": "搜索语言...",
+    "noResults": "没有结果"
+  },
+  "categories": {
+    "novita": "新品",
+    "aperitivo": "开胃酒",
+    "antipasti": "前菜",
+    "primi": "第一道菜",
+    "secondi": "主菜",
+    "calzoni": "卡尔佐内",
+    "pizze": "披萨",
+    "insalate": "沙拉",
+    "dolci": "甜点",
+    "bevande": "饮品"
+  },
+  "groups": {
+    "pizze-regionali": "地区特色披萨",
+    "pizze-classiche": "经典披萨"
+  },
+  "items": {
+    "valle-aosta": {
+      "name": "奥斯塔山谷",
+      "desc": "La Carmela去皮番茄、水牛芝士、木炭烤制高品质熟火腿、烤朝鲜蓟、皇帝蘑菇、塔贾斯卡橄榄、普利亚Guglielmi特级初榨橄榄油、罗勒"
+    },
+    "piemonte": {
+      "name": "皮埃蒙特",
+      "desc": "水牛芝士、法索纳香肠、松露油、黑胡椒、罗勒，饼边内馅为牛奶里科塔芝士"
+    },
+    "lombardia": {
+      "name": "伦巴第",
+      "desc": "水牛芝士、烟熏波萝伏洛芝士、米兰萨拉米香肠、牛肝菌、罗勒"
+    },
+    "margherita": {
+      "name": "玛格丽塔",
+      "desc": "番茄、水牛芝士、罗勒、特级初榨橄榄油"
+    },
+    "acqua-naturale": {
+      "name": "天然水",
+      "desc": "500毫升"
+    },
+    "coca-cola": {
+      "name": "可口可乐",
+      "desc": "330毫升"
+    }
+  },
+  "allergens": {
+    "gluten": "麸质",
+    "milk": "乳制品"
+  }
+}

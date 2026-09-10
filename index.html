@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pizzium - Menu</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="app-header">
+  <div class="brand">PIZZIUM</div>
+  <button class="icon-btn" id="menuToggle" aria-label="Menu" type="button">
+    <span></span><span></span><span></span>
+  </button>
+  <button class="lang-switch" id="langSwitchBtn" type="button" aria-haspopup="dialog" aria-expanded="false">
+    <span id="langFlag">🇮🇹</span>
+    <span id="langCode">IT</span>
+    <svg width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+  </button>
+</header>
+
+<div class="lang-panel" id="langPanel" role="dialog" aria-modal="true" hidden>
+  <div class="lang-panel-inner">
+    <input type="text" id="langSearchInput" class="lang-search-input" autocomplete="off">
+    <ul class="lang-list" id="langList"></ul>
+  </div>
+</div>
+<div class="lang-backdrop" id="langBackdrop" hidden></div>
+
+<main class="content">
+  <h1 class="page-title" id="menuTitle"></h1>
+
+  <div class="search-bar">
+    <input type="text" id="searchInput" class="search-input" autocomplete="off">
+  </div>
+
+  <nav class="category-pills" id="categoryPills"></nav>
+
+  <div class="menu-list" id="menuList"></div>
+
+  <p class="no-results" id="noResults" hidden></p>
+</main>
+
+<nav class="bottom-tabs">
+  <button class="bottom-tab active" id="tabMenuBtn" type="button" data-view="menu"></button>
+  <button class="bottom-tab" id="tabBevandeBtn" type="button" data-view="bevande"></button>
+</nav>
+
+<script src="js/i18n.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

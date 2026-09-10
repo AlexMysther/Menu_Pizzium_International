@@ -1,0 +1,56 @@
+{
+  "ui": {
+    "menuTitle": "IL NOSTRO MENU",
+    "searchPlaceholder": "Cerca nella categoria...",
+    "tabMenu": "Menu",
+    "tabBevande": "Bevande",
+    "langSearchPlaceholder": "Cerca lingua...",
+    "noResults": "Nessun risultato"
+  },
+  "categories": {
+    "novita": "Novità",
+    "aperitivo": "Aperitivo",
+    "antipasti": "Antipasti",
+    "primi": "Primi",
+    "secondi": "Secondi",
+    "calzoni": "Calzoni",
+    "pizze": "Pizze",
+    "insalate": "Insalate",
+    "dolci": "Dolci",
+    "bevande": "Bevande"
+  },
+  "groups": {
+    "pizze-regionali": "Pizze Regionali",
+    "pizze-classiche": "Pizze Classiche"
+  },
+  "items": {
+    "valle-aosta": {
+      "name": "Valle d'Aosta",
+      "desc": "Pomodori pelati La Carmela, fior di latte, prosciutto cotto alta qualità alla brace Lorenzi, carciofi al forno, funghi cardoncelli, olive taggiasche, olio EVO di Puglia Guglielmi, basilico"
+    },
+    "piemonte": {
+      "name": "Piemonte",
+      "desc": "Fior di latte, salsiccia fassona, olio al tartufo, pepe nero, basilico, cornicione ripieno di ricotta vaccina"
+    },
+    "lombardia": {
+      "name": "Lombardia",
+      "desc": "Fior di latte, provola affumicata, salame Milano, funghi porcini, basilico"
+    },
+    "margherita": {
+      "name": "Margherita",
+      "desc": "Pomodoro, fior di latte, basilico, olio EVO"
+    },
+    "acqua-naturale": {
+      "name": "Acqua Naturale",
+      "desc": "500ml"
+    },
+    "coca-cola": {
+      "name": "Coca-Cola",
+      "desc": "330ml"
+    }
+  },
+  "allergens": {
+    "gluten": "Glutine",
+    "milk": "Latticini"
+  }
+}

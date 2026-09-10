@@ -1,0 +1,56 @@
+{
+  "ui": {
+    "menuTitle": "NOSSO MENU",
+    "searchPlaceholder": "Pesquisar na categoria...",
+    "tabMenu": "Menu",
+    "tabBevande": "Bebidas",
+    "langSearchPlaceholder": "Pesquisar idioma...",
+    "noResults": "Nenhum resultado"
+  },
+  "categories": {
+    "novita": "Novidades",
+    "aperitivo": "Aperitivo",
+    "antipasti": "Entradas",
+    "primi": "Primeiros Pratos",
+    "secondi": "Segundos Pratos",
+    "calzoni": "Calzones",
+    "pizze": "Pizzas",
+    "insalate": "Saladas",
+    "dolci": "Sobremesas",
+    "bevande": "Bebidas"
+  },
+  "groups": {
+    "pizze-regionali": "Pizzas Regionais",
+    "pizze-classiche": "Pizzas Clássicas"
+  },
+  "items": {
+    "valle-aosta": {
+      "name": "Valle d'Aosta",
+      "desc": "Tomate pelado La Carmela, fior di latte, presunto cozido de alta qualidade grelhado na brasa, alcachofras assadas, cogumelos cardoncelli, azeitonas taggiasche, azeite extra virgem da Puglia Guglielmi, manjericão"
+    },
+    "piemonte": {
+      "name": "Piemonte",
+      "desc": "Fior di latte, linguiça fassona, óleo de trufa, pimenta preta, manjericão, borda recheada com ricota de vaca"
+    },
+    "lombardia": {
+      "name": "Lombardia",
+      "desc": "Fior di latte, provola defumada, salame de Milão, cogumelos porcini, manjericão"
+    },
+    "margherita": {
+      "name": "Margherita",
+      "desc": "Tomate, fior di latte, manjericão, azeite extra virgem"
+    },
+    "acqua-naturale": {
+      "name": "Água Natural",
+      "desc": "500ml"
+    },
+    "coca-cola": {
+      "name": "Coca-Cola",
+      "desc": "330ml"
+    }
+  },
+  "allergens": {
+    "gluten": "Glúten",
+    "milk": "Laticínios"
+  }
+}

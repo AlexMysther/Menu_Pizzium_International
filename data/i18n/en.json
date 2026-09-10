@@ -1,0 +1,56 @@
+{
+  "ui": {
+    "menuTitle": "OUR MENU",
+    "searchPlaceholder": "Search in category...",
+    "tabMenu": "Menu",
+    "tabBevande": "Drinks",
+    "langSearchPlaceholder": "Search language...",
+    "noResults": "No results"
+  },
+  "categories": {
+    "novita": "New",
+    "aperitivo": "Aperitif",
+    "antipasti": "Starters",
+    "primi": "First Courses",
+    "secondi": "Main Courses",
+    "calzoni": "Calzones",
+    "pizze": "Pizzas",
+    "insalate": "Salads",
+    "dolci": "Desserts",
+    "bevande": "Drinks"
+  },
+  "groups": {
+    "pizze-regionali": "Regional Pizzas",
+    "pizze-classiche": "Classic Pizzas"
+  },
+  "items": {
+    "valle-aosta": {
+      "name": "Valle d'Aosta",
+      "desc": "La Carmela peeled tomatoes, fior di latte, wood-fired high quality cooked ham, roasted artichokes, king oyster mushrooms, taggiasca olives, Guglielmi Puglia EVO oil, basil"
+    },
+    "piemonte": {
+      "name": "Piemonte",
+      "desc": "Fior di latte, Fassona sausage, truffle oil, black pepper, basil, crust filled with cow's milk ricotta"
+    },
+    "lombardia": {
+      "name": "Lombardia",
+      "desc": "Fior di latte, smoked provola, Milano salami, porcini mushrooms, basil"
+    },
+    "margherita": {
+      "name": "Margherita",
+      "desc": "Tomato, fior di latte, basil, EVO oil"
+    },
+    "acqua-naturale": {
+      "name": "Still Water",
+      "desc": "500ml"
+    },
+    "coca-cola": {
+      "name": "Coca-Cola",
+      "desc": "330ml"
+    }
+  },
+  "allergens": {
+    "gluten": "Gluten",
+    "milk": "Dairy"
+  }
+}

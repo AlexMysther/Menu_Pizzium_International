@@ -1,0 +1,56 @@
+{
+  "ui": {
+    "menuTitle": "NOTRE MENU",
+    "searchPlaceholder": "Rechercher dans la catégorie...",
+    "tabMenu": "Menu",
+    "tabBevande": "Boissons",
+    "langSearchPlaceholder": "Rechercher une langue...",
+    "noResults": "Aucun résultat"
+  },
+  "categories": {
+    "novita": "Nouveautés",
+    "aperitivo": "Apéritif",
+    "antipasti": "Entrées",
+    "primi": "Premiers plats",
+    "secondi": "Plats principaux",
+    "calzoni": "Calzones",
+    "pizze": "Pizzas",
+    "insalate": "Salades",
+    "dolci": "Desserts",
+    "bevande": "Boissons"
+  },
+  "groups": {
+    "pizze-regionali": "Pizzas Régionales",
+    "pizze-classiche": "Pizzas Classiques"
+  },
+  "items": {
+    "valle-aosta": {
+      "name": "Valle d'Aosta",
+      "desc": "Tomates pelées La Carmela, fior di latte, jambon cuit haut de gamme grillé, artichauts rôtis, pleurotes, olives taggiasche, huile d'olive extra vierge des Pouilles Guglielmi, basilic"
+    },
+    "piemonte": {
+      "name": "Piemonte",
+      "desc": "Fior di latte, saucisse fassona, huile à la truffe, poivre noir, basilic, corniche farcie de ricotta de vache"
+    },
+    "lombardia": {
+      "name": "Lombardia",
+      "desc": "Fior di latte, provola fumée, salami de Milan, cèpes, basilic"
+    },
+    "margherita": {
+      "name": "Margherita",
+      "desc": "Tomate, fior di latte, basilic, huile d'olive extra vierge"
+    },
+    "acqua-naturale": {
+      "name": "Eau Plate",
+      "desc": "500ml"
+    },
+    "coca-cola": {
+      "name": "Coca-Cola",
+      "desc": "330ml"
+    }
+  },
+  "allergens": {
+    "gluten": "Gluten",
+    "milk": "Produits laitiers"
+  }
+}

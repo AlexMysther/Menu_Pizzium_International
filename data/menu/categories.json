@@ -1,0 +1,12 @@
+[
+  { "id": "novita", "order": 1 },
+  { "id": "aperitivo", "order": 2 },
+  { "id": "antipasti", "order": 3 },
+  { "id": "primi", "order": 4 },
+  { "id": "secondi", "order": 5 },
+  { "id": "calzoni", "order": 6 },
+  { "id": "pizze", "order": 7 },
+  { "id": "insalate", "order": 8 },
+  { "id": "dolci", "order": 9 },
+  { "id": "bevande", "order": 10 }
+]
