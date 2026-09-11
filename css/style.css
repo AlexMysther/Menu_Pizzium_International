@@ -215,6 +215,13 @@ button { font-family: inherit; }
   font-size: 15px;
   grid-column: 1;
 }
+.item-name-it {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 0.85em;
+  color: var(--muted);
+  unicode-bidi: isolate;
+}
 .item-price {
   font-weight: 700;
   font-size: 15px;

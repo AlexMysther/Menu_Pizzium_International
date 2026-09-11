@@ -8,6 +8,7 @@ const state = {
   languages: [],
   currentLang: null,
   dict: null,
+  itDict: null,
   categories: [],
   items: [],
   activeCategory: 'pizze',
@@ -55,6 +56,9 @@ async function init() {
   state.languages = languages;
   state.categories = categories.sort((a, b) => a.order - b.order);
   state.items = items;
+  // Kept around (not just used for the fallback merge) so pizza names can
+  // always show the Italian original alongside the active language.
+  state.itDict = fallbackDict;
 
   const codes = languages.map(l => l.code);
   const initialLang = codes.includes(guessCode) ? guessCode : I18N.FALLBACK_LANG;
@@ -186,7 +190,18 @@ function renderItem(item) {
 
   const name = document.createElement('h3');
   name.className = 'item-name';
-  name.textContent = tr(`items.${item.id}.name`);
+  const nameText = tr(`items.${item.id}.name`);
+  name.textContent = nameText;
+
+  if (item.categoryId === 'pizze') {
+    const itName = I18N.get(state.itDict, `items.${item.id}.name`);
+    if (itName && itName !== nameText) {
+      const itSpan = document.createElement('span');
+      itSpan.className = 'item-name-it';
+      itSpan.textContent = ` (${itName})`;
+      name.appendChild(itSpan);
+    }
+  }
   wrap.appendChild(name);
 
   const priceText = formatPrice(item);
