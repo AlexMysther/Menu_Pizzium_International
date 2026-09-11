@@ -1,48 +1,105 @@
 [
-  {
-    "id": "valle-aosta",
-    "categoryId": "pizze",
-    "group": "pizze-regionali",
-    "price": "13.50",
-    "allergens": ["gluten", "milk"],
-    "tags": []
-  },
-  {
-    "id": "piemonte",
-    "categoryId": "pizze",
-    "group": "pizze-regionali",
-    "price": "14.00",
-    "allergens": ["gluten", "milk"],
-    "tags": []
-  },
-  {
-    "id": "lombardia",
-    "categoryId": "pizze",
-    "group": "pizze-regionali",
-    "price": "14.50",
-    "allergens": ["gluten", "milk"],
-    "tags": []
-  },
-  {
-    "id": "margherita",
-    "categoryId": "pizze",
-    "group": "pizze-classiche",
-    "price": "8.00",
-    "allergens": ["gluten", "milk"],
-    "tags": ["novita"]
-  },
-  {
-    "id": "acqua-naturale",
-    "categoryId": "bevande",
-    "price": "3.00",
-    "allergens": [],
-    "tags": []
-  },
-  {
-    "id": "coca-cola",
-    "categoryId": "bevande",
-    "price": "4.00",
-    "allergens": [],
-    "tags": []
-  }
+  { "id": "tris-perfetto", "categoryId": "antipasti", "price": "11.00", "tags": [] },
+  { "id": "tagliere-condividere", "categoryId": "antipasti", "price": "16.00", "tags": [] },
+  { "id": "verdure-grigliate-burrata", "categoryId": "antipasti", "price": "11.00", "tags": ["vegetarian"] },
+  { "id": "prosciutto-crudo-bufala", "categoryId": "antipasti", "price": "12.00", "tags": [] },
+  { "id": "panzanella-mediterranea", "categoryId": "antipasti", "price": "10.00", "tags": ["vegetarian"] },
+  { "id": "bruschetta-stracciatella-zucchine", "categoryId": "antipasti", "price": "4.00", "tags": ["vegetarian"] },
+
+  { "id": "gnocchi-sorrentina", "categoryId": "primi", "price": "12.00", "tags": ["vegetarian"] },
+  { "id": "lasagna-golosa", "categoryId": "primi", "price": "13.00", "tags": [] },
+  { "id": "fregola-estate", "categoryId": "primi", "price": "10.00", "tags": ["vegetarian"] },
+
+  { "id": "polpette-sugo", "categoryId": "secondi", "price": "13.00", "tags": [] },
+  { "id": "parmigiana-melanzane", "categoryId": "secondi", "price": "11.00", "tags": ["vegetarian"] },
+  { "id": "frisella-mare", "categoryId": "secondi", "price": "13.00", "tags": [] },
+  { "id": "frisella-terra", "categoryId": "secondi", "price": "13.00", "tags": ["vegetarian"] },
+
+  { "id": "calzone-napoletano", "categoryId": "calzoni", "price": "11.00", "tags": [] },
+  { "id": "calzone-vegetariano", "categoryId": "calzoni", "price": "12.00", "tags": ["vegetarian"] },
+
+  { "id": "valle-aosta", "categoryId": "pizze", "group": "pizze-regionali", "price": "14.00", "tags": [] },
+  { "id": "piemonte", "categoryId": "pizze", "group": "pizze-regionali", "price": "14.00", "tags": [] },
+  { "id": "lombardia", "categoryId": "pizze", "group": "pizze-regionali", "price": "12.00", "tags": ["vegetarian"] },
+  { "id": "trentino-alto-adige", "categoryId": "pizze", "group": "pizze-regionali", "price": "13.00", "tags": [] },
+  { "id": "friuli-venezia-giulia", "categoryId": "pizze", "group": "pizze-regionali", "price": "13.00", "tags": [] },
+  { "id": "veneto", "categoryId": "pizze", "group": "pizze-regionali", "price": "12.00", "tags": ["vegetarian"] },
+  { "id": "liguria", "categoryId": "pizze", "group": "pizze-regionali", "price": "12.00", "tags": ["vegetarian"] },
+  { "id": "emilia-romagna", "categoryId": "pizze", "group": "pizze-regionali", "price": "12.00", "tags": [] },
+  { "id": "toscana", "categoryId": "pizze", "group": "pizze-regionali", "price": "14.00", "tags": ["vegetarian"] },
+  { "id": "marche", "categoryId": "pizze", "group": "pizze-regionali", "price": "13.00", "tags": [] },
+  { "id": "umbria", "categoryId": "pizze", "group": "pizze-regionali", "price": "12.00", "tags": [] },
+  { "id": "lazio", "categoryId": "pizze", "group": "pizze-regionali", "price": "14.00", "tags": [] },
+  { "id": "abruzzo", "categoryId": "pizze", "group": "pizze-regionali", "price": "12.00", "tags": [] },
+  { "id": "molise", "categoryId": "pizze", "group": "pizze-regionali", "price": "13.00", "tags": [] },
+  { "id": "campania", "categoryId": "pizze", "group": "pizze-regionali", "price": "12.00", "tags": ["vegetarian"] },
+  { "id": "puglia", "categoryId": "pizze", "group": "pizze-regionali", "price": "15.00", "tags": [] },
+  { "id": "basilicata", "categoryId": "pizze", "group": "pizze-regionali", "price": "12.00", "tags": ["vegetarian"] },
+  { "id": "calabria", "categoryId": "pizze", "group": "pizze-regionali", "price": "12.00", "tags": ["vegetarian"] },
+  { "id": "sicilia", "categoryId": "pizze", "group": "pizze-regionali", "price": "11.00", "tags": ["vegetarian"] },
+  { "id": "sardegna", "categoryId": "pizze", "group": "pizze-regionali", "price": "14.00", "tags": [] },
+
+  { "id": "margherita", "categoryId": "pizze", "group": "pizze-classiche", "price": "8.50", "tags": ["vegetarian"] },
+  { "id": "margherita-vegana", "categoryId": "pizze", "group": "pizze-classiche", "price": "10.00", "tags": ["vegan"] },
+  { "id": "bufalina", "categoryId": "pizze", "group": "pizze-classiche", "price": "12.00", "tags": ["vegetarian"] },
+  { "id": "bufalina-senza-lattosio", "categoryId": "pizze", "group": "pizze-classiche", "price": "12.00", "tags": ["vegetarian", "lactose-free"] },
+  { "id": "marinara-pizzium", "categoryId": "pizze", "group": "pizze-classiche", "price": "10.00", "tags": ["lactose-free"] },
+  { "id": "diavola", "categoryId": "pizze", "group": "pizze-classiche", "price": "11.00", "tags": [] },
+
+  { "id": "orto-venere", "categoryId": "insalate", "price": "11.00", "tags": ["vegetarian"] },
+  { "id": "insalata-caesar", "categoryId": "insalate", "price": "12.00", "tags": [] },
+  { "id": "caprese-pizzium", "categoryId": "insalate", "price": "11.00", "tags": ["vegetarian"] },
+  { "id": "insalata-marinara", "categoryId": "insalate", "price": "11.00", "tags": [] },
+
+  { "id": "cheesecake", "categoryId": "dolci", "price": "7.00", "tags": [] },
+  { "id": "tiramisu", "categoryId": "dolci", "price": "7.00", "tags": [] },
+  { "id": "nuvole-cremose", "categoryId": "dolci", "price": "8.00", "tags": [] },
+  { "id": "sorbetto-limone", "categoryId": "dolci", "price": "6.00", "tags": ["vegan", "lactose-free"] },
+  { "id": "caffe-goloso", "categoryId": "dolci", "price": "4.00", "tags": ["lactose-free"] },
+
+  { "id": "menu-bambino", "categoryId": "bambini", "price": "10.00", "tags": [] },
+
+  { "id": "ichnusa-anima-sarda", "categoryId": "bevande", "group": "birre-spina", "variants": [{ "label": "20cl", "price": "4.00" }, { "label": "40cl", "price": "6.00" }], "tags": [] },
+  { "id": "ichnusa-non-filtrata", "categoryId": "bevande", "group": "birre-spina", "variants": [{ "label": "20cl", "price": "4.50" }, { "label": "40cl", "price": "6.50" }], "tags": [] },
+
+  { "id": "birrium-blonde", "categoryId": "bevande", "group": "birre-bottiglia", "variants": [{ "label": "33cl", "price": "6.00" }], "tags": [] },
+  { "id": "birrium-white-ipa", "categoryId": "bevande", "group": "birre-bottiglia", "variants": [{ "label": "33cl", "price": "6.00" }], "tags": [] },
+  { "id": "birrium-ipa", "categoryId": "bevande", "group": "birre-bottiglia", "variants": [{ "label": "33cl", "price": "6.00" }], "tags": [] },
+  { "id": "birrium-belgian-ale", "categoryId": "bevande", "group": "birre-bottiglia", "variants": [{ "label": "33cl", "price": "6.00" }], "tags": [] },
+  { "id": "heineken-00", "categoryId": "bevande", "group": "birre-bottiglia", "variants": [{ "label": "33cl", "price": "6.00" }], "tags": [] },
+
+  { "id": "acqua-naturale-frizzante", "categoryId": "bevande", "group": "acqua-bibite", "variants": [{ "label": "50cl", "price": "2.70" }], "tags": [] },
+  { "id": "coca-cola", "categoryId": "bevande", "group": "acqua-bibite", "variants": [{ "label": "33cl", "price": "3.50" }], "tags": [] },
+  { "id": "coca-cola-zero-zero", "categoryId": "bevande", "group": "acqua-bibite", "variants": [{ "label": "33cl", "price": "3.50" }], "tags": [] },
+  { "id": "fanta-sprite", "categoryId": "bevande", "group": "acqua-bibite", "variants": [{ "label": "33cl", "price": "3.50" }], "tags": [] },
+  { "id": "estathe", "categoryId": "bevande", "group": "acqua-bibite", "variants": [{ "label": "25cl", "price": "4.00" }], "tags": [] },
+  { "id": "bibita-lurisia", "categoryId": "bevande", "group": "acqua-bibite", "variants": [{ "label": "27.5cl", "price": "4.00" }], "tags": [] },
+  { "id": "crodino-xl", "categoryId": "bevande", "group": "acqua-bibite", "variants": [{ "label": "17.5cl", "price": "5.00" }], "tags": [] },
+
+  { "id": "aperol-spritz", "categoryId": "bevande", "group": "cocktails", "price": "7.00", "tags": [] },
+  { "id": "campari-spritz", "categoryId": "bevande", "group": "cocktails", "price": "8.00", "tags": [] },
+  { "id": "mondoro-hugo-spritz", "categoryId": "bevande", "group": "cocktails", "price": "8.00", "tags": [] },
+  { "id": "americano-cocktail", "categoryId": "bevande", "group": "cocktails", "price": "8.00", "tags": [] },
+  { "id": "negroni", "categoryId": "bevande", "group": "cocktails", "price": "8.00", "tags": [] },
+  { "id": "milano-torino", "categoryId": "bevande", "group": "cocktails", "price": "8.00", "tags": [] },
+  { "id": "gin-tonic", "categoryId": "bevande", "group": "cocktails", "price": "8.00", "tags": [] },
+
+  { "id": "prosecco-soligo", "categoryId": "bevande", "group": "bollicine", "variants": [{ "label": "calice", "price": "6.00" }, { "label": "bottiglia 75cl", "price": "22.00" }], "tags": [] },
+
+  { "id": "pecorino-terre-chieti", "categoryId": "bevande", "group": "vini-bianchi", "variants": [{ "label": "calice", "price": "6.00" }, { "label": "bottiglia 75cl", "price": "20.00" }], "tags": [] },
+  { "id": "soave-classico", "categoryId": "bevande", "group": "vini-bianchi", "variants": [{ "label": "bottiglia 75cl", "price": "26.00" }], "tags": [] },
+  { "id": "gewurztraminer-kies", "categoryId": "bevande", "group": "vini-bianchi", "variants": [{ "label": "bottiglia 75cl", "price": "30.00" }], "tags": [] },
+
+  { "id": "primitivo-rosato", "categoryId": "bevande", "group": "vini-rose", "variants": [{ "label": "calice", "price": "6.00" }, { "label": "bottiglia 75cl", "price": "24.00" }], "tags": [] },
+
+  { "id": "montepulciano-abruzzo", "categoryId": "bevande", "group": "vini-rossi", "variants": [{ "label": "calice", "price": "6.00" }, { "label": "bottiglia 75cl", "price": "20.00" }], "tags": [] },
+  { "id": "morellino-scansano", "categoryId": "bevande", "group": "vini-rossi", "variants": [{ "label": "bottiglia 75cl", "price": "26.00" }], "tags": [] },
+
+  { "id": "lavazza-caffe", "categoryId": "bevande", "group": "caffe-digestivi", "price": "2.00", "tags": [] },
+  { "id": "lavazza-decaffeinato", "categoryId": "bevande", "group": "caffe-digestivi", "price": "2.50", "tags": [] },
+  { "id": "caffe-americano", "categoryId": "bevande", "group": "caffe-digestivi", "price": "2.50", "tags": [] },
+  { "id": "cappuccino", "categoryId": "bevande", "group": "caffe-digestivi", "price": "2.50", "tags": [] },
+  { "id": "limoncello-mirto", "categoryId": "bevande", "group": "caffe-digestivi", "price": "4.00", "tags": [] },
+  { "id": "grappa", "categoryId": "bevande", "group": "caffe-digestivi", "price": "5.00", "tags": [] },
+  { "id": "amaro", "categoryId": "bevande", "group": "caffe-digestivi", "price": "5.00", "tags": [] }
 ]

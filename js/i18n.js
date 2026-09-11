@@ -64,15 +64,24 @@ const I18N = (() => {
     return (navigator.language || FALLBACK_LANG).slice(0, 2).toLowerCase();
   }
 
-  function t(dict, path) {
+  // Returns undefined (not the path) when the key is absent, so callers can
+  // tell "not translated" apart from "translated to this literal string" —
+  // needed for optional fields like an item description that not every
+  // dish has.
+  function get(dict, path) {
     const parts = path.split('.');
     let cur = dict;
     for (const p of parts) {
-      if (cur == null) return path;
+      if (cur == null) return undefined;
       cur = cur[p];
     }
-    return cur == null ? path : cur;
+    return cur;
   }
 
-  return { FALLBACK_LANG, loadLanguages, loadLangFile, getTranslations, combine, guessInitialLangCode, t };
+  function t(dict, path) {
+    const v = get(dict, path);
+    return v == null ? path : v;
+  }
+
+  return { FALLBACK_LANG, loadLanguages, loadLangFile, getTranslations, combine, guessInitialLangCode, get, t };
 })();

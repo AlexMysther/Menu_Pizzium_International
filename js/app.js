@@ -1,6 +1,7 @@
-const ALLERGEN_ICONS = {
-  gluten: '🌾',
-  milk: '🥛'
+const TAG_ICONS = {
+  vegan: '🌱',
+  vegetarian: '🌿',
+  'lactose-free': '💧'
 };
 
 const state = {
@@ -25,8 +26,10 @@ const el = {
   menuTitle: document.getElementById('menuTitle'),
   searchInput: document.getElementById('searchInput'),
   categoryPills: document.getElementById('categoryPills'),
+  categoryNote: document.getElementById('categoryNote'),
   menuList: document.getElementById('menuList'),
   noResults: document.getElementById('noResults'),
+  coverCharge: document.getElementById('coverCharge'),
   tabMenuBtn: document.getElementById('tabMenuBtn'),
   tabBevandeBtn: document.getElementById('tabBevandeBtn')
 };
@@ -97,6 +100,7 @@ function renderStaticText() {
   el.tabMenuBtn.textContent = tr('ui.tabMenu');
   el.tabBevandeBtn.textContent = tr('ui.tabBevande');
   el.noResults.textContent = tr('ui.noResults');
+  el.coverCharge.textContent = tr('ui.coverCharge');
 }
 
 function renderCategoryPills() {
@@ -126,11 +130,15 @@ function matchesSearch(item) {
   if (!state.searchQuery) return true;
   const q = state.searchQuery.toLowerCase();
   const name = (tr(`items.${item.id}.name`) || '').toLowerCase();
-  const desc = (tr(`items.${item.id}.desc`) || '').toLowerCase();
+  const desc = (I18N.get(state.dict, `items.${item.id}.desc`) || '').toLowerCase();
   return name.includes(q) || desc.includes(q);
 }
 
 function renderMenuList() {
+  const note = I18N.get(state.dict, `categoryNotes.${state.activeCategory}`);
+  el.categoryNote.textContent = note || '';
+  el.categoryNote.hidden = !note;
+
   el.menuList.innerHTML = '';
   const items = state.items.filter(
     it => it.categoryId === state.activeCategory && matchesSearch(it)
@@ -164,6 +172,14 @@ function renderMenuList() {
   });
 }
 
+function formatPrice(item) {
+  if (item.variants && item.variants.length) {
+    return item.variants.map(v => `${v.label} € ${v.price}`).join(' / ');
+  }
+  if (item.price) return `€ ${item.price}`;
+  return '';
+}
+
 function renderItem(item) {
   const wrap = document.createElement('article');
   wrap.className = 'menu-item';
@@ -173,28 +189,33 @@ function renderItem(item) {
   name.textContent = tr(`items.${item.id}.name`);
   wrap.appendChild(name);
 
-  if (item.price) {
+  const priceText = formatPrice(item);
+  if (priceText) {
     const price = document.createElement('span');
     price.className = 'item-price';
-    price.textContent = `€ ${item.price}`;
+    if (item.variants && item.variants.length > 1) price.classList.add('item-price--variants');
+    price.textContent = priceText;
     wrap.appendChild(price);
   }
 
-  const desc = document.createElement('p');
-  desc.className = 'item-desc';
-  desc.textContent = tr(`items.${item.id}.desc`);
-  wrap.appendChild(desc);
+  const descText = I18N.get(state.dict, `items.${item.id}.desc`);
+  if (descText) {
+    const desc = document.createElement('p');
+    desc.className = 'item-desc';
+    desc.textContent = descText;
+    wrap.appendChild(desc);
+  }
 
-  if (item.allergens && item.allergens.length) {
-    const allergens = document.createElement('div');
-    allergens.className = 'item-allergens';
-    item.allergens.forEach(code => {
+  if (item.tags && item.tags.length) {
+    const tags = document.createElement('div');
+    tags.className = 'item-tags';
+    item.tags.forEach(code => {
       const span = document.createElement('span');
-      span.title = tr(`allergens.${code}`);
-      span.textContent = ALLERGEN_ICONS[code] || '';
-      allergens.appendChild(span);
+      span.title = tr(`tags.${code}`);
+      span.textContent = TAG_ICONS[code] || '';
+      tags.appendChild(span);
     });
-    wrap.appendChild(allergens);
+    wrap.appendChild(tags);
   }
 
   return wrap;

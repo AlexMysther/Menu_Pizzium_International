@@ -221,6 +221,12 @@ button { font-family: inherit; }
   color: var(--red);
   grid-column: 2;
   white-space: nowrap;
+  text-align: right;
+}
+.item-price--variants {
+  font-size: 12.5px;
+  white-space: normal;
+  max-width: 140px;
 }
 .item-desc {
   grid-column: 1 / -1;
@@ -228,20 +234,37 @@ button { font-family: inherit; }
   font-size: 13.5px;
   line-height: 1.45;
 }
-.item-allergens {
+.item-tags {
   grid-column: 1 / -1;
   display: flex;
   gap: 8px;
   margin-top: 2px;
   font-size: 15px;
 }
-.item-allergens span { cursor: default; }
+.item-tags span { cursor: default; }
 
 .no-results {
   text-align: center;
   color: var(--muted);
   padding: 40px 0;
   font-size: 14px;
+}
+
+.category-note {
+  color: var(--muted);
+  font-size: 12px;
+  font-style: italic;
+  margin: -8px 0 16px;
+  line-height: 1.4;
+}
+
+.cover-charge {
+  color: var(--muted);
+  font-size: 12.5px;
+  text-align: center;
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid #f1e0e0;
 }
 
 /* Bottom tabs */

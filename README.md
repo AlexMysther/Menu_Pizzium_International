@@ -14,7 +14,7 @@ js/app.js           # rendering menu, filtri, switch lingua
 data/
   menu/
     categories.json # categorie del menu (id, ordine) — NON tradotto
-    items.json       # piatti: id, categoria, prezzo, allergeni — NON tradotto
+    items.json       # piatti: id, categoria, prezzo/varianti, tag dietetici, gruppo — NON tradotto
   i18n/
     languages.json  # registro delle lingue disponibili (bandiera, nome nativo, direzione testo)
     it.json          # lingua di fallback — DEVE sempre contenere tutte le chiavi
@@ -40,9 +40,12 @@ Se una traduzione è incompleta, le chiavi mancanti mostrano automaticamente il 
 
 ## Come aggiungere/modificare un piatto
 
-1. Aggiungere una voce in `data/menu/items.json` con un `id` univoco, `categoryId`, `price`, `allergens` (`gluten`, `milk`, ...) ed eventualmente `group` (per sotto-sezioni come "Pizze Regionali").
-2. Aggiungere la traduzione (`name`, `desc`) sotto `items.<id>` in **ogni** file `data/i18n/*.json` (almeno in `it.json`; le altre lingue useranno il fallback finché non tradotte).
+1. Aggiungere una voce in `data/menu/items.json` con un `id` univoco, `categoryId`, `group` (opzionale, per sotto-sezioni come "Pizze Regionali" o "Vini Bianchi") e:
+   - `price`: singolo prezzo (es. `"14.00"`), oppure
+   - `variants`: array di formati/prezzi, es. `[{ "label": "calice", "price": "6.00" }, { "label": "bottiglia 75cl", "price": "22.00" }]` per vini e birre alla spina.
+   - `tags`: array di tag dietetici tra `vegan`, `vegetarian`, `lactose-free` (icone mostrate automaticamente).
+2. Aggiungere la traduzione (`name`, `desc` — `desc` è opzionale, si può omettere) sotto `items.<id>` in **ogni** file `data/i18n/*.json` (almeno in `it.json`; le altre lingue useranno il fallback finché non tradotte).
 
 ## Lingue attualmente incluse
 
-Italiano, Inglese, Tedesco, Francese, Spagnolo, Russo, Cinese, Arabo, Portoghese.
+Italiano, Inglese, Tedesco, Francese, Spagnolo, Russo, Cinese, Arabo, Portoghese — contenuto reale trascritto dal menu cartaceo Pizzium (86 voci: antipasti, primi, secondi, calzoni, pizze regionali e classiche, insalate, dolci, menu bambino, bevande con birre/vini/cocktail/caffetteria).

@@ -5,52 +5,144 @@
     "tabMenu": "Menu",
     "tabBevande": "Bebidas",
     "langSearchPlaceholder": "Pesquisar idioma...",
-    "noResults": "Nenhum resultado"
+    "noResults": "Nenhum resultado",
+    "coverCharge": "Couvert e serviço: € 2,00"
   },
   "categories": {
-    "novita": "Novidades",
-    "aperitivo": "Aperitivo",
     "antipasti": "Entradas",
     "primi": "Primeiros Pratos",
     "secondi": "Segundos Pratos",
-    "calzoni": "Calzones",
+    "calzoni": "Calzones Assados",
     "pizze": "Pizzas",
     "insalate": "Saladas",
     "dolci": "Sobremesas",
+    "bambini": "Menu Infantil",
     "bevande": "Bebidas"
+  },
+  "categoryNotes": {
+    "dolci": "* Algumas sobremesas preparadas no nosso laboratório podem ter sido congeladas para garantir a qualidade e a segurança alimentar."
   },
   "groups": {
     "pizze-regionali": "Pizzas Regionais",
-    "pizze-classiche": "Pizzas Clássicas"
+    "pizze-classiche": "Pizzas Napolitanas Clássicas",
+    "birre-spina": "Cervejas de Barril",
+    "birre-bottiglia": "Cervejas em Garrafa",
+    "acqua-bibite": "Água e Refrigerantes",
+    "cocktails": "Cocktails",
+    "bollicine": "Vinho Espumante",
+    "vini-bianchi": "Vinhos Brancos",
+    "vini-rose": "Vinhos Rosés",
+    "vini-rossi": "Vinhos Tintos",
+    "caffe-digestivi": "Café e Digestivos"
+  },
+  "tags": {
+    "vegan": "Vegano",
+    "vegetarian": "Vegetariano",
+    "lactose-free": "Sem Lactose"
   },
   "items": {
-    "valle-aosta": {
-      "name": "Valle d'Aosta",
-      "desc": "Tomate pelado La Carmela, fior di latte, presunto cozido de alta qualidade grelhado na brasa, alcachofras assadas, cogumelos cardoncelli, azeitonas taggiasche, azeite extra virgem da Puglia Guglielmi, manjericão"
-    },
-    "piemonte": {
-      "name": "Piemonte",
-      "desc": "Fior di latte, linguiça fassona, óleo de trufa, pimenta preta, manjericão, borda recheada com ricota de vaca"
-    },
-    "lombardia": {
-      "name": "Lombardia",
-      "desc": "Fior di latte, provola defumada, salame de Milão, cogumelos porcini, manjericão"
-    },
-    "margherita": {
-      "name": "Margherita",
-      "desc": "Tomate, fior di latte, manjericão, azeite extra virgem"
-    },
-    "acqua-naturale": {
-      "name": "Água Natural",
-      "desc": "500ml"
-    },
-    "coca-cola": {
-      "name": "Coca-Cola",
-      "desc": "330ml"
-    }
-  },
-  "allergens": {
-    "gluten": "Glúten",
-    "milk": "Laticínios"
+    "tris-perfetto": { "name": "Il Tris Perfetto", "desc": "Croquete de batata com creme de Pecorino Romano DOP, frittatina à Nerano com creme de courgette, arancino de ragù com molho de tomate assado" },
+    "tagliere-condividere": { "name": "Tábua para Partilhar", "desc": "Presunto cru San Daniele DOP, salame doce tipo Nápoles, courgette grelhada, beringela grelhada, Casciotta di Urbino DOP, azeitonas taggiasche. Servido com focaccina quente" },
+    "verdure-grigliate-burrata": { "name": "Legumes Grelhados e Burrata" },
+    "prosciutto-crudo-bufala": { "name": "Presunto Cru e Mozzarella de Búfala", "desc": "Presunto cru San Daniele DOP e mozzarella de búfala DOP" },
+    "panzanella-mediterranea": { "name": "Panzanella Mediterrânea", "desc": "Alcachofras assadas, grão-de-bico, tomate cereja e lascas de Grana Padano DOP com redução balsâmica" },
+    "bruschetta-stracciatella-zucchine": { "name": "Bruschetta de Stracciatella e Courgette", "desc": "Bruschetta com stracciatella da Puglia e chips de courgette" },
+
+    "gnocchi-sorrentina": { "name": "Nhoque à Sorrentina", "desc": "Nhoque de batata, molho de tomate, fior di latte" },
+    "lasagna-golosa": { "name": "Lasanha Golosa", "desc": "Lasanha à bolonhesa com massa de espinafre, recheio de carne moída e bechamel" },
+    "fregola-estate": { "name": "Fregola de Verão", "desc": "Fregola sarda com tomate seco, azeitonas taggiasche, feta esfarelada, manjericão" },
+
+    "polpette-sugo": { "name": "Almôndegas ao Molho de Tomate" },
+    "parmigiana-melanzane": { "name": "Parmigiana de Beringela" },
+    "frisella-mare": { "name": "Frisella di Mare", "desc": "Tomate cereja vermelho e amarelo, filetes de atum de barbatana amarela Pescatorello, alcaparras Maione, azeitonas taggiasche, azeite extra virgem da Puglia Guglielmi, manjericão" },
+    "frisella-terra": { "name": "Frisella di Terra", "desc": "Alcachofras assadas, mistura de folhas verdes, tomate cereja seco, mozzarella de búfala DOP, azeite extra virgem da Puglia Guglielmi, manjericão" },
+
+    "calzone-napoletano": { "name": "Calzone Napolitano", "desc": "Tomate pelado La Carmela, ricota de vaca, provola defumada, Grana Padano DOP, salame doce tipo Nápoles, pimenta preta, azeite extra virgem da Puglia Guglielmi, manjericão" },
+    "calzone-vegetariano": { "name": "Calzone Vegetariano", "desc": "Provola defumada, cogumelos cardoncelli, creme de courgette, Grana Padano DOP, pinhões torrados, azeite extra virgem da Puglia Guglielmi, manjericão" },
+
+    "valle-aosta": { "name": "Valle d'Aosta", "desc": "Tomate pelado La Carmela, fior di latte, presunto cozido de alta qualidade grelhado na brasa, alcachofras assadas, cogumelos cardoncelli, azeitonas taggiasche, azeite extra virgem da Puglia Guglielmi, manjericão" },
+    "piemonte": { "name": "Piemonte", "desc": "Fior di latte, linguiça de vaca fassona, óleo de trufa, pimenta preta, manjericão, borda recheada com ricota de vaca" },
+    "lombardia": { "name": "Lombardia", "desc": "Fior di latte, provola defumada, gorgonzola DOP, Grana Padano DOP, nozes, azeite extra virgem da Puglia Guglielmi, manjericão" },
+    "trentino-alto-adige": { "name": "Trentino Alto Adige", "desc": "Fior di latte, speck do Trentino Alto Adige, gorgonzola DOP, mel silvestre, pó de alcaçuz, azeite extra virgem da Puglia Guglielmi, manjericão" },
+    "friuli-venezia-giulia": { "name": "Friuli Venezia Giulia", "desc": "Fior di latte, tomate cereja, presunto cru San Daniele DOP, rúcula, lascas de Grana Padano DOP, manjericão" },
+    "veneto": { "name": "Veneto", "desc": "Fior di latte, caciocavallo de Agnone, radicchio fresco, nozes, azeite extra virgem da Puglia Guglielmi, manjericão" },
+    "liguria": { "name": "Liguria", "desc": "Fior di latte, tomate cereja amarelo e vermelho, pesto de manjericão, azeite extra virgem da Puglia Guglielmi, manjericão" },
+    "emilia-romagna": { "name": "Emilia Romagna", "desc": "Fior di latte, mortadela de Bolonha IGP, pedacinhos de pistache, azeite extra virgem da Puglia Guglielmi, manjericão" },
+    "toscana": { "name": "Toscana", "desc": "Fior di latte, creme de couve-negra, batatas assadas, tiras de beringela frita, courgette frita, pinhões torrados, manjericão" },
+    "marche": { "name": "Marche", "desc": "Tomate pelado La Carmela, fior di latte, salame doce, Casciotta di Urbino DOP, pimenta preta, azeite extra virgem da Puglia Guglielmi, manjericão" },
+    "umbria": { "name": "Umbria", "desc": "Provola defumada, batatas assadas, linguiça de Norcia, fondue de Pecorino Romano DOP, azeite extra virgem da Puglia Guglielmi, manjericão" },
+    "lazio": { "name": "Lazio", "desc": "Fior di latte, creme de alcachofra, coração de alcachofra, presunto cozido de alta qualidade grelhado na brasa, fondue de Pecorino Romano DOP, azeite extra virgem da Puglia Guglielmi, manjericão" },
+    "abruzzo": { "name": "Abruzzo", "desc": "Tomate pelado La Carmela, fior di latte, guanciale curado estilo amatriciana da Salumificio Sano, Pecorino Romano DOP, pimenta moída, manjericão" },
+    "molise": { "name": "Molise", "desc": "Fior di latte, caciocavallo de Agnone, linguiça de Norcia, azeite extra virgem da Puglia Guglielmi, manjericão" },
+    "campania": { "name": "Campania", "desc": "Provola defumada, creme de courgette, courgette frita, Grana Padano DOP, azeite extra virgem da Puglia Guglielmi, manjericão" },
+    "puglia": { "name": "Puglia", "desc": "Molho de tomate amarelo, capocollo de leitão, burrata pugliese, tarallo esfarelado, azeitonas taggiasche, azeite extra virgem da Puglia Guglielmi, manjericão" },
+    "basilicata": { "name": "Basilicata", "desc": "Provola defumada, batatas assadas, creme de pimentão, pimentão crusco esfarelado, azeite extra virgem da Puglia Guglielmi, manjericão" },
+    "calabria": { "name": "Calabria", "desc": "Fior di latte, cebola roxa caramelizada, stracciatella pugliese, azeitonas taggiasche, azeite picante Guglielmi, manjericão" },
+    "sicilia": { "name": "Sicilia", "desc": "Tomate pelado La Carmela, beringela frita, ricota salgada, azeite extra virgem da Puglia Guglielmi, manjericão" },
+    "sardegna": { "name": "Sardegna", "desc": "Fior di latte, tomate cereja, feta esfarelada, anchovas do Mediterrâneo, redução de vinho tinto Cannonau, manjericão" },
+
+    "margherita": { "name": "Margherita", "desc": "Tomate pelado La Carmela, fior di latte, um toque de Grana Padano DOP, azeite extra virgem da Puglia Guglielmi, manjericão" },
+    "margherita-vegana": { "name": "Margherita Vegana", "desc": "Tomate pelado La Carmela, alternativa vegetal à mozzarella, azeite extra virgem da Puglia Guglielmi, manjericão" },
+    "bufalina": { "name": "Bufalina", "desc": "Tomate pelado La Carmela, mozzarella de búfala DOP, um toque de Grana Padano DOP, azeite extra virgem da Puglia Guglielmi, manjericão" },
+    "bufalina-senza-lattosio": { "name": "Bufalina Sem Lactose", "desc": "Tomate pelado La Carmela, mozzarella de búfala DOP sem lactose, azeite extra virgem da Puglia Guglielmi, manjericão" },
+    "marinara-pizzium": { "name": "Marinara à Moda Pizzium", "desc": "Tomate pelado La Carmela, tomate cereja, alcaparras Maione, filetes de anchova do Mediterrâneo, azeitonas taggiasche, orégãos, alho, azeite extra virgem da Puglia Guglielmi, manjericão" },
+    "diavola": { "name": "Diavola", "desc": "Tomate pelado La Carmela, fior di latte, ventricina picante, azeite extra virgem da Puglia Guglielmi, manjericão" },
+
+    "orto-venere": { "name": "Orto & Venere", "desc": "Arroz negro venere, caponata de legumes, stracciatella pugliese" },
+    "insalata-caesar": { "name": "Salada Caesar", "desc": "Mistura de folhas verdes, peito de frango assado, tomate cereja, lascas de Grana Padano DOP, croutons, molho Caesar" },
+    "caprese-pizzium": { "name": "Caprese à Moda Pizzium", "desc": "Tomate coração-de-boi, mozzarella de búfala DOP, pesto de manjericão, raspas de limão" },
+    "insalata-marinara": { "name": "Salada Marinara", "desc": "Mistura de folhas verdes, tomate cereja vermelho e amarelo, orégãos, azeitonas taggiasche, filetes de anchova do Mediterrâneo" },
+
+    "cheesecake": { "name": "Cheesecake", "desc": "Nutella®, pistache ou frutos silvestres" },
+    "tiramisu": { "name": "Tiramisù" },
+    "nuvole-cremose": { "name": "Nuvens Cremosas", "desc": "2 esferas de massa recheadas com creme de leite e cítricos" },
+    "sorbetto-limone": { "name": "Sorbet de Limão" },
+    "caffe-goloso": { "name": "Caffè Goloso", "desc": "Espresso servido com biscoito caseiro de amêndoa e cítricos" },
+
+    "menu-bambino": { "name": "Menu Infantil", "desc": "Pizza Margherita Baby + Bebida" },
+
+    "ichnusa-anima-sarda": { "name": "Ichnusa Anima Sarda", "desc": "Clara e refrescante" },
+    "ichnusa-non-filtrata": { "name": "Ichnusa Non Filtrata", "desc": "Frutada, com aromas de lúpulo" },
+
+    "birrium-blonde": { "name": "Birrium Blonde - Sem Glúten", "desc": "Cerveja loira estilo britânico com lúpulos ingleses e americanos" },
+    "birrium-white-ipa": { "name": "Birrium White IPA", "desc": "Cerveja branca de trigo, sedutora e lupulada" },
+    "birrium-ipa": { "name": "Birrium IPA", "desc": "Cerveja âmbar com lúpulos americanos, marcante e aromática" },
+    "birrium-belgian-ale": { "name": "Birrium Belgian Ale", "desc": "Cerveja avermelhada estilo belga, frutada e especiada" },
+    "heineken-00": { "name": "Heineken 0.0 Sem Álcool" },
+
+    "acqua-naturale-frizzante": { "name": "Água Natural Electa / Água com Gás Maxima" },
+    "coca-cola": { "name": "Coca-Cola / Coca-Cola Zero" },
+    "coca-cola-zero-zero": { "name": "Coca-Cola Zero Açúcar Zero Cafeína" },
+    "fanta-sprite": { "name": "Fanta / Sprite" },
+    "estathe": { "name": "Estathé de Limão / Pêssego" },
+    "bibita-lurisia": { "name": "Refrigerante Lurisia", "desc": "Laranjada / chinotto / limonada / tónica" },
+    "crodino-xl": { "name": "Crodino XL" },
+
+    "aperol-spritz": { "name": "Aperol Spritz" },
+    "campari-spritz": { "name": "Campari Spritz" },
+    "mondoro-hugo-spritz": { "name": "Mondoro Hugo Spritz" },
+    "americano-cocktail": { "name": "Americano" },
+    "negroni": { "name": "Negroni" },
+    "milano-torino": { "name": "Milano-Torino" },
+    "gin-tonic": { "name": "Gin Tónico" },
+
+    "prosecco-soligo": { "name": "Prosecco DOC Treviso Millesimato Extra Dry", "desc": "Soligo, Veneto" },
+
+    "pecorino-terre-chieti": { "name": "Pecorino Terre di Chieti", "desc": "Tratturo Spinelli, Abruzzo" },
+    "soave-classico": { "name": "Soave Classico DOC \"San Michele\"", "desc": "Ca Rugate, Veneto" },
+    "gewurztraminer-kies": { "name": "Gewürztraminer Trentino DOC \"Kies\"", "desc": "Roeno, Trentino Alto Adige" },
+
+    "primitivo-rosato": { "name": "Primitivo Rosato Puglia IGP", "desc": "A Mano, Puglia" },
+
+    "montepulciano-abruzzo": { "name": "Montepulciano d'Abruzzo DOC", "desc": "Tratturo Spinelli, Abruzzo" },
+    "morellino-scansano": { "name": "Morellino di Scansano DOCG", "desc": "Cerreto Piano, Toscana" },
+
+    "lavazza-caffe": { "name": "Café Lavazza" },
+    "lavazza-decaffeinato": { "name": "Café Lavazza Descafeinado" },
+    "caffe-americano": { "name": "Café Americano" },
+    "cappuccino": { "name": "Cappuccino" },
+    "limoncello-mirto": { "name": "Limoncello / Mirto" },
+    "grappa": { "name": "Grappa" },
+    "amaro": { "name": "Amaro" }
   }
 }
