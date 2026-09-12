@@ -267,7 +267,7 @@ button { font-family: inherit; }
 .group-title {
   color: var(--red);
   font-weight: 700;
-  font-size: 17px;
+  font-size: 20px;
   text-decoration: underline;
   text-decoration-color: var(--red);
   margin: 6px 0 2px;
@@ -283,7 +283,7 @@ button { font-family: inherit; }
 
 .item-name {
   font-weight: 700;
-  font-size: 15px;
+  font-size: 17px;
   grid-column: 1;
 }
 .item-name-it {
@@ -309,7 +309,7 @@ button { font-family: inherit; }
 .item-desc {
   grid-column: 1 / -1;
   color: var(--muted);
-  font-size: 13.5px;
+  font-size: 15px;
   line-height: 1.45;
 }
 .item-tags {
