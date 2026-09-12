@@ -200,14 +200,14 @@ function renderItem(item) {
   const nameText = tr(`items.${item.id}.name`);
   name.textContent = nameText;
 
-  if (item.categoryId === 'pizze') {
-    const itName = I18N.get(state.itDict, `items.${item.id}.name`);
-    if (itName && itName !== nameText) {
-      const itSpan = document.createElement('span');
-      itSpan.className = 'item-name-it';
-      itSpan.textContent = ` (${itName})`;
-      name.appendChild(itSpan);
-    }
+  // Shown for every category (not just pizze): the Italian-majority staff
+  // relies on the Italian name to identify orders regardless of dish type.
+  const itName = I18N.get(state.itDict, `items.${item.id}.name`);
+  if (itName && itName !== nameText) {
+    const itSpan = document.createElement('span');
+    itSpan.className = 'item-name-it';
+    itSpan.textContent = ` (${itName})`;
+    name.appendChild(itSpan);
   }
   wrap.appendChild(name);
 
