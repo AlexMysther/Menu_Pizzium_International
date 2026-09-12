@@ -4,7 +4,6 @@
     "searchPlaceholder": "In der Kategorie suchen...",
     "tabMenu": "Menü",
     "tabBevande": "Getränke",
-    "langSearchPlaceholder": "Sprache suchen...",
     "noResults": "Keine Ergebnisse",
     "coverCharge": "Gedeck und Bedienung: € 2,00"
   },
@@ -41,108 +40,323 @@
     "lactose-free": "Laktosefrei"
   },
   "items": {
-    "tris-perfetto": { "name": "Il Tris Perfetto", "desc": "Kartoffelkrokette mit Pecorino-Romano-DOP-Creme, Frittatina alla Nerano mit Zucchinicreme, Arancino mit Ragù und gerösteter Tomatensauce" },
-    "tagliere-condividere": { "name": "Sharing-Platte", "desc": "Rohschinken San Daniele DOP, süße Salami neapolitanischer Art, gegrillte Zucchini, gegrillte Aubergine, Casciotta di Urbino DOP, Taggiasca-Oliven. Serviert mit warmer Focaccina" },
-    "verdure-grigliate-burrata": { "name": "Gegrilltes Gemüse und Burrata" },
-    "prosciutto-crudo-bufala": { "name": "Rohschinken und Büffelmozzarella", "desc": "Rohschinken San Daniele DOP und Büffelmozzarella DOP" },
-    "panzanella-mediterranea": { "name": "Mediterrane Panzanella", "desc": "Ofenartischocken, Kichererbsen, Kirschtomaten und Grana-Padano-DOP-Späne mit Balsamico-Glasur" },
-    "bruschetta-stracciatella-zucchine": { "name": "Bruschetta mit Stracciatella und Zucchini", "desc": "Bruschetta mit apulischer Stracciatella und Zucchinichips" },
-
-    "gnocchi-sorrentina": { "name": "Gnocchi alla Sorrentina", "desc": "Kartoffelgnocchi, Tomatensauce, Fior di Latte" },
-    "lasagna-golosa": { "name": "Üppige Lasagne", "desc": "Lasagne bolognese mit Spinatnudelblättern, Hackfleischfüllung und Béchamel" },
-    "fregola-estate": { "name": "Sommer-Fregola", "desc": "Sardische Fregola mit getrockneten Tomaten, Taggiasca-Oliven, zerbröckeltem Feta, Basilikum" },
-
-    "polpette-sugo": { "name": "Fleischbällchen in Tomatensauce" },
-    "parmigiana-melanzane": { "name": "Auberginen-Parmigiana" },
-    "frisella-mare": { "name": "Frisella di Mare", "desc": "Rote und gelbe Kirschtomaten, Pescatorello-Gelbflossenthunfischfilets, Maione-Kapern, Taggiasca-Oliven, Guglielmi-Olivenöl aus Apulien, Basilikum" },
-    "frisella-terra": { "name": "Frisella di Terra", "desc": "Ofenartischocken, gemischter Blattsalat, getrocknete Kirschtomaten, Büffelmozzarella DOP, Guglielmi-Olivenöl aus Apulien, Basilikum" },
-
-    "calzone-napoletano": { "name": "Calzone Napoletano", "desc": "Geschälte Tomaten La Carmela, Kuhmilch-Ricotta, geräucherte Provola, Grana Padano DOP, süße Salami neapolitanischer Art, schwarzer Pfeffer, Guglielmi-Olivenöl aus Apulien, Basilikum" },
-    "calzone-vegetariano": { "name": "Calzone Vegetariano", "desc": "Geräucherte Provola, Kräuterseitlinge, Zucchinicreme, Grana Padano DOP, geröstete Pinienkerne, Guglielmi-Olivenöl aus Apulien, Basilikum" },
-
-    "valle-aosta": { "name": "Valle d'Aosta", "desc": "Geschälte Tomaten La Carmela, Fior di Latte, über Holzkohle gegrillter hochwertiger Kochschinken, Ofenartischocken, Kräuterseitlinge, Taggiasca-Oliven, Guglielmi-Olivenöl aus Apulien, Basilikum" },
-    "piemonte": { "name": "Piemonte", "desc": "Fior di Latte, Fassona-Rinderwurst, Trüffelöl, schwarzer Pfeffer, Basilikum, Rand gefüllt mit Kuhmilch-Ricotta" },
-    "lombardia": { "name": "Lombardia", "desc": "Fior di Latte, geräucherte Provola, Gorgonzola DOP, Grana Padano DOP, Walnüsse, Guglielmi-Olivenöl aus Apulien, Basilikum" },
-    "trentino-alto-adige": { "name": "Trentino Alto Adige", "desc": "Fior di Latte, Südtiroler Speck, Gorgonzola DOP, Blütenhonig, Lakritzpulver, Guglielmi-Olivenöl aus Apulien, Basilikum" },
-    "friuli-venezia-giulia": { "name": "Friuli Venezia Giulia", "desc": "Fior di Latte, Kirschtomaten, Rohschinken San Daniele DOP, Rucola, Grana-Padano-DOP-Späne, Basilikum" },
-    "veneto": { "name": "Veneto", "desc": "Fior di Latte, Caciocavallo aus Agnone, frischer Radicchio, Walnüsse, Guglielmi-Olivenöl aus Apulien, Basilikum" },
-    "liguria": { "name": "Liguria", "desc": "Fior di Latte, gelbe und rote Kirschtomaten, Basilikumpesto, Guglielmi-Olivenöl aus Apulien, Basilikum" },
-    "emilia-romagna": { "name": "Emilia Romagna", "desc": "Fior di Latte, Mortadella Bologna IGP, gehackte Pistazien, Guglielmi-Olivenöl aus Apulien, Basilikum" },
-    "toscana": { "name": "Toscana", "desc": "Fior di Latte, Schwarzkohlcreme, Ofenkartoffeln, frittierte Auberginenstreifen, frittierte Zucchini, geröstete Pinienkerne, Basilikum" },
-    "marche": { "name": "Marche", "desc": "Geschälte Tomaten La Carmela, Fior di Latte, süße Salami, Casciotta di Urbino DOP, schwarzer Pfeffer, Guglielmi-Olivenöl aus Apulien, Basilikum" },
-    "umbria": { "name": "Umbria", "desc": "Geräucherte Provola, Ofenkartoffeln, Wurst aus Norcia, Pecorino-Romano-DOP-Fonduta, Guglielmi-Olivenöl aus Apulien, Basilikum" },
-    "lazio": { "name": "Lazio", "desc": "Fior di Latte, Artischockencreme, Artischockenherz, über Holzkohle gegrillter hochwertiger Kochschinken, Pecorino-Romano-DOP-Fonduta, Guglielmi-Olivenöl aus Apulien, Basilikum" },
-    "abruzzo": { "name": "Abruzzo", "desc": "Geschälte Tomaten La Carmela, Fior di Latte, gereifter Guanciale amatriciana-Art von Salumificio Sano, Pecorino Romano DOP, gemahlener Pfeffer, Basilikum" },
-    "molise": { "name": "Molise", "desc": "Fior di Latte, Caciocavallo aus Agnone, Wurst aus Norcia, Guglielmi-Olivenöl aus Apulien, Basilikum" },
-    "campania": { "name": "Campania", "desc": "Geräucherte Provola, Zucchinicreme, frittierte Zucchini, Grana Padano DOP, Guglielmi-Olivenöl aus Apulien, Basilikum" },
-    "puglia": { "name": "Puglia", "desc": "Passata aus gelben Tomaten, Capocollo vom Ferkel, apulische Burrata, zerbröckelter Tarallo, Taggiasca-Oliven, Guglielmi-Olivenöl aus Apulien, Basilikum" },
-    "basilicata": { "name": "Basilicata", "desc": "Geräucherte Provola, Ofenkartoffeln, Paprikacreme, zerbröckelter Crusco-Paprika, Guglielmi-Olivenöl aus Apulien, Basilikum" },
-    "calabria": { "name": "Calabria", "desc": "Fior di Latte, karamellisierte rote Zwiebel, apulische Stracciatella, Taggiasca-Oliven, Guglielmi-Chiliöl, Basilikum" },
-    "sicilia": { "name": "Sicilia", "desc": "Geschälte Tomaten La Carmela, frittierte Auberginen, gesalzener Ricotta, Guglielmi-Olivenöl aus Apulien, Basilikum" },
-    "sardegna": { "name": "Sardegna", "desc": "Fior di Latte, Kirschtomaten, zerbröckelter Feta, mediterrane Sardellen, Cannonau-Rotweinreduktion, Basilikum" },
-
-    "margherita": { "name": "Margherita", "desc": "Geschälte Tomaten La Carmela, Fior di Latte, bestäubt mit Grana Padano DOP, Guglielmi-Olivenöl aus Apulien, Basilikum" },
-    "margherita-vegana": { "name": "Margherita Vegana", "desc": "Geschälte Tomaten La Carmela, pflanzliche Mozzarella-Alternative, Guglielmi-Olivenöl aus Apulien, Basilikum" },
-    "bufalina": { "name": "Bufalina", "desc": "Geschälte Tomaten La Carmela, Büffelmozzarella DOP, bestäubt mit Grana Padano DOP, Guglielmi-Olivenöl aus Apulien, Basilikum" },
-    "bufalina-senza-lattosio": { "name": "Bufalina Laktosefrei", "desc": "Geschälte Tomaten La Carmela, laktosefreie Büffelmozzarella DOP, Guglielmi-Olivenöl aus Apulien, Basilikum" },
-    "marinara-pizzium": { "name": "Marinara nach Pizzium-Art", "desc": "Geschälte Tomaten La Carmela, Kirschtomaten, Maione-Kapern, mediterrane Sardellenfilets, Taggiasca-Oliven, Oregano, Knoblauch, Guglielmi-Olivenöl aus Apulien, Basilikum" },
-    "diavola": { "name": "Diavola", "desc": "Geschälte Tomaten La Carmela, Fior di Latte, scharfe Ventricina, Guglielmi-Olivenöl aus Apulien, Basilikum" },
-
-    "orto-venere": { "name": "Orto & Venere", "desc": "Venere-Schwarzreis, Gemüse-Caponata, apulische Stracciatella" },
-    "insalata-caesar": { "name": "Caesar Salat", "desc": "Gemischter Blattsalat, gebackene Hähnchenbrust, Kirschtomaten, Grana-Padano-DOP-Späne, Croutons, Caesar-Dressing" },
-    "caprese-pizzium": { "name": "Caprese nach Pizzium-Art", "desc": "Ochsenherztomate, Büffelmozzarella DOP, Basilikumpesto, Zitronenzeste" },
-    "insalata-marinara": { "name": "Insalata Marinara", "desc": "Gemischter Blattsalat, rote und gelbe Kirschtomaten, Oregano, Taggiasca-Oliven, mediterrane Sardellenfilets" },
-
-    "cheesecake": { "name": "Cheesecake", "desc": "Nutella®, Pistazie oder Waldfrüchte" },
-    "tiramisu": { "name": "Tiramisù" },
-    "nuvole-cremose": { "name": "Cremige Wolken", "desc": "2 gefüllte Teigkugeln mit Milch-Zitrus-Creme" },
-    "sorbetto-limone": { "name": "Zitronensorbet" },
-    "caffe-goloso": { "name": "Caffè Goloso", "desc": "Espresso serviert mit hausgemachtem Mandel-Zitrus-Keks" },
-
-    "menu-bambino": { "name": "Kindermenü", "desc": "Pizza Margherita Baby + Getränk" },
-
-    "ichnusa-anima-sarda": { "name": "Ichnusa Anima Sarda", "desc": "Hell und erfrischend" },
-    "ichnusa-non-filtrata": { "name": "Ichnusa Non Filtrata", "desc": "Fruchtig, mit hopfigem Aroma" },
-
-    "birrium-blonde": { "name": "Birrium Blonde - Glutenfrei", "desc": "Blondes Bier britischer Art mit englischem und amerikanischem Hopfen" },
-    "birrium-white-ipa": { "name": "Birrium White IPA", "desc": "Weißbier auf Weizenbasis, verführerisch und hopfig" },
-    "birrium-ipa": { "name": "Birrium IPA", "desc": "Bernsteinfarbenes Bier mit amerikanischem Hopfen, kräftig und aromatisch" },
-    "birrium-belgian-ale": { "name": "Birrium Belgian Ale", "desc": "Rotes Bier belgischer Art, fruchtig und würzig" },
-    "heineken-00": { "name": "Heineken 0.0 Alkoholfrei" },
-
-    "acqua-naturale-frizzante": { "name": "Stilles Wasser Electa / Sprudelwasser Maxima" },
-    "coca-cola": { "name": "Coca-Cola / Coca-Cola Zero" },
-    "coca-cola-zero-zero": { "name": "Coca-Cola Zero Zucker Zero Koffein" },
-    "fanta-sprite": { "name": "Fanta / Sprite" },
-    "estathe": { "name": "Estathé Zitrone / Pfirsich" },
-    "bibita-lurisia": { "name": "Lurisia Getränk", "desc": "Orangeade / Chinotto / Limonade / Tonic" },
-    "crodino-xl": { "name": "Crodino XL" },
-
-    "aperol-spritz": { "name": "Aperol Spritz" },
-    "campari-spritz": { "name": "Campari Spritz" },
-    "mondoro-hugo-spritz": { "name": "Mondoro Hugo Spritz" },
-    "americano-cocktail": { "name": "Americano" },
-    "negroni": { "name": "Negroni" },
-    "milano-torino": { "name": "Milano-Torino" },
-    "gin-tonic": { "name": "Gin Tonic" },
-
-    "prosecco-soligo": { "name": "Prosecco DOC Treviso Millesimato Extra Dry", "desc": "Soligo, Venetien" },
-
-    "pecorino-terre-chieti": { "name": "Pecorino Terre di Chieti", "desc": "Tratturo Spinelli, Abruzzen" },
-    "soave-classico": { "name": "Soave Classico DOC \"San Michele\"", "desc": "Ca Rugate, Venetien" },
-    "gewurztraminer-kies": { "name": "Gewürztraminer Trentino DOC \"Kies\"", "desc": "Roeno, Südtirol" },
-
-    "primitivo-rosato": { "name": "Primitivo Rosato Puglia IGP", "desc": "A Mano, Apulien" },
-
-    "montepulciano-abruzzo": { "name": "Montepulciano d'Abruzzo DOC", "desc": "Tratturo Spinelli, Abruzzen" },
-    "morellino-scansano": { "name": "Morellino di Scansano DOCG", "desc": "Cerreto Piano, Toskana" },
-
-    "lavazza-caffe": { "name": "Lavazza Kaffee" },
-    "lavazza-decaffeinato": { "name": "Lavazza Kaffee Entkoffeiniert" },
-    "caffe-americano": { "name": "Caffè Americano" },
-    "cappuccino": { "name": "Cappuccino" },
-    "limoncello-mirto": { "name": "Limoncello / Mirto" },
-    "grappa": { "name": "Grappa" },
-    "amaro": { "name": "Amaro" }
+    "tris-perfetto": {
+      "name": "Il Tris Perfetto",
+      "desc": "Kartoffelkrokette mit Pecorino-Romano-DOP-Creme, Frittatina alla Nerano mit Zucchinicreme, Arancino mit Ragù und gerösteter Tomatensauce"
+    },
+    "tagliere-condividere": {
+      "name": "Sharing-Platte",
+      "desc": "Rohschinken San Daniele DOP, süße Salami neapolitanischer Art, gegrillte Zucchini, gegrillte Aubergine, Casciotta di Urbino DOP, Taggiasca-Oliven. Serviert mit warmer Focaccina"
+    },
+    "verdure-grigliate-burrata": {
+      "name": "Gegrilltes Gemüse und Burrata"
+    },
+    "prosciutto-crudo-bufala": {
+      "name": "Rohschinken und Büffelmozzarella",
+      "desc": "Rohschinken San Daniele DOP und Büffelmozzarella DOP"
+    },
+    "panzanella-mediterranea": {
+      "name": "Mediterrane Panzanella",
+      "desc": "Ofenartischocken, Kichererbsen, Kirschtomaten und Grana-Padano-DOP-Späne mit Balsamico-Glasur"
+    },
+    "bruschetta-stracciatella-zucchine": {
+      "name": "Bruschetta mit Stracciatella und Zucchini",
+      "desc": "Bruschetta mit apulischer Stracciatella und Zucchinichips"
+    },
+    "gnocchi-sorrentina": {
+      "name": "Gnocchi alla Sorrentina",
+      "desc": "Kartoffelgnocchi, Tomatensauce, Fior di Latte"
+    },
+    "lasagna-golosa": {
+      "name": "Üppige Lasagne",
+      "desc": "Lasagne bolognese mit Spinatnudelblättern, Hackfleischfüllung und Béchamel"
+    },
+    "fregola-estate": {
+      "name": "Sommer-Fregola",
+      "desc": "Sardische Fregola mit getrockneten Tomaten, Taggiasca-Oliven, zerbröckeltem Feta, Basilikum"
+    },
+    "polpette-sugo": {
+      "name": "Fleischbällchen in Tomatensauce"
+    },
+    "parmigiana-melanzane": {
+      "name": "Auberginen-Parmigiana"
+    },
+    "frisella-mare": {
+      "name": "Frisella di Mare",
+      "desc": "Rote und gelbe Kirschtomaten, Pescatorello-Gelbflossenthunfischfilets, Maione-Kapern, Taggiasca-Oliven, Guglielmi-Olivenöl aus Apulien, Basilikum"
+    },
+    "frisella-terra": {
+      "name": "Frisella di Terra",
+      "desc": "Ofenartischocken, gemischter Blattsalat, getrocknete Kirschtomaten, Büffelmozzarella DOP, Guglielmi-Olivenöl aus Apulien, Basilikum"
+    },
+    "calzone-napoletano": {
+      "name": "Calzone Napoletano",
+      "desc": "Geschälte Tomaten La Carmela, Kuhmilch-Ricotta, geräucherte Provola, Grana Padano DOP, süße Salami neapolitanischer Art, schwarzer Pfeffer, Guglielmi-Olivenöl aus Apulien, Basilikum"
+    },
+    "calzone-vegetariano": {
+      "name": "Calzone Vegetariano",
+      "desc": "Geräucherte Provola, Kräuterseitlinge, Zucchinicreme, Grana Padano DOP, geröstete Pinienkerne, Guglielmi-Olivenöl aus Apulien, Basilikum"
+    },
+    "valle-aosta": {
+      "name": "Valle d'Aosta",
+      "desc": "Geschälte Tomaten La Carmela, Fior di Latte, über Holzkohle gegrillter hochwertiger Kochschinken, Ofenartischocken, Kräuterseitlinge, Taggiasca-Oliven, Guglielmi-Olivenöl aus Apulien, Basilikum"
+    },
+    "piemonte": {
+      "name": "Piemonte",
+      "desc": "Fior di Latte, Fassona-Rinderwurst, Trüffelöl, schwarzer Pfeffer, Basilikum, Rand gefüllt mit Kuhmilch-Ricotta"
+    },
+    "lombardia": {
+      "name": "Lombardia",
+      "desc": "Fior di Latte, geräucherte Provola, Gorgonzola DOP, Grana Padano DOP, Walnüsse, Guglielmi-Olivenöl aus Apulien, Basilikum"
+    },
+    "trentino-alto-adige": {
+      "name": "Trentino Alto Adige",
+      "desc": "Fior di Latte, Südtiroler Speck, Gorgonzola DOP, Blütenhonig, Lakritzpulver, Guglielmi-Olivenöl aus Apulien, Basilikum"
+    },
+    "friuli-venezia-giulia": {
+      "name": "Friuli Venezia Giulia",
+      "desc": "Fior di Latte, Kirschtomaten, Rohschinken San Daniele DOP, Rucola, Grana-Padano-DOP-Späne, Basilikum"
+    },
+    "veneto": {
+      "name": "Veneto",
+      "desc": "Fior di Latte, Caciocavallo aus Agnone, frischer Radicchio, Walnüsse, Guglielmi-Olivenöl aus Apulien, Basilikum"
+    },
+    "liguria": {
+      "name": "Liguria",
+      "desc": "Fior di Latte, gelbe und rote Kirschtomaten, Basilikumpesto, Guglielmi-Olivenöl aus Apulien, Basilikum"
+    },
+    "emilia-romagna": {
+      "name": "Emilia Romagna",
+      "desc": "Fior di Latte, Mortadella Bologna IGP, gehackte Pistazien, Guglielmi-Olivenöl aus Apulien, Basilikum"
+    },
+    "toscana": {
+      "name": "Toscana",
+      "desc": "Fior di Latte, Schwarzkohlcreme, Ofenkartoffeln, frittierte Auberginenstreifen, frittierte Zucchini, geröstete Pinienkerne, Basilikum"
+    },
+    "marche": {
+      "name": "Marche",
+      "desc": "Geschälte Tomaten La Carmela, Fior di Latte, süße Salami, Casciotta di Urbino DOP, schwarzer Pfeffer, Guglielmi-Olivenöl aus Apulien, Basilikum"
+    },
+    "umbria": {
+      "name": "Umbria",
+      "desc": "Geräucherte Provola, Ofenkartoffeln, Wurst aus Norcia, Pecorino-Romano-DOP-Fonduta, Guglielmi-Olivenöl aus Apulien, Basilikum"
+    },
+    "lazio": {
+      "name": "Lazio",
+      "desc": "Fior di Latte, Artischockencreme, Artischockenherz, über Holzkohle gegrillter hochwertiger Kochschinken, Pecorino-Romano-DOP-Fonduta, Guglielmi-Olivenöl aus Apulien, Basilikum"
+    },
+    "abruzzo": {
+      "name": "Abruzzo",
+      "desc": "Geschälte Tomaten La Carmela, Fior di Latte, gereifter Guanciale amatriciana-Art von Salumificio Sano, Pecorino Romano DOP, gemahlener Pfeffer, Basilikum"
+    },
+    "molise": {
+      "name": "Molise",
+      "desc": "Fior di Latte, Caciocavallo aus Agnone, Wurst aus Norcia, Guglielmi-Olivenöl aus Apulien, Basilikum"
+    },
+    "campania": {
+      "name": "Campania",
+      "desc": "Geräucherte Provola, Zucchinicreme, frittierte Zucchini, Grana Padano DOP, Guglielmi-Olivenöl aus Apulien, Basilikum"
+    },
+    "puglia": {
+      "name": "Puglia",
+      "desc": "Passata aus gelben Tomaten, Capocollo vom Ferkel, apulische Burrata, zerbröckelter Tarallo, Taggiasca-Oliven, Guglielmi-Olivenöl aus Apulien, Basilikum"
+    },
+    "basilicata": {
+      "name": "Basilicata",
+      "desc": "Geräucherte Provola, Ofenkartoffeln, Paprikacreme, zerbröckelter Crusco-Paprika, Guglielmi-Olivenöl aus Apulien, Basilikum"
+    },
+    "calabria": {
+      "name": "Calabria",
+      "desc": "Fior di Latte, karamellisierte rote Zwiebel, apulische Stracciatella, Taggiasca-Oliven, Guglielmi-Chiliöl, Basilikum"
+    },
+    "sicilia": {
+      "name": "Sicilia",
+      "desc": "Geschälte Tomaten La Carmela, frittierte Auberginen, gesalzener Ricotta, Guglielmi-Olivenöl aus Apulien, Basilikum"
+    },
+    "sardegna": {
+      "name": "Sardegna",
+      "desc": "Fior di Latte, Kirschtomaten, zerbröckelter Feta, mediterrane Sardellen, Cannonau-Rotweinreduktion, Basilikum"
+    },
+    "margherita": {
+      "name": "Margherita",
+      "desc": "Geschälte Tomaten La Carmela, Fior di Latte, bestäubt mit Grana Padano DOP, Guglielmi-Olivenöl aus Apulien, Basilikum"
+    },
+    "margherita-vegana": {
+      "name": "Margherita Vegana",
+      "desc": "Geschälte Tomaten La Carmela, pflanzliche Mozzarella-Alternative, Guglielmi-Olivenöl aus Apulien, Basilikum"
+    },
+    "bufalina": {
+      "name": "Bufalina",
+      "desc": "Geschälte Tomaten La Carmela, Büffelmozzarella DOP, bestäubt mit Grana Padano DOP, Guglielmi-Olivenöl aus Apulien, Basilikum"
+    },
+    "bufalina-senza-lattosio": {
+      "name": "Bufalina Laktosefrei",
+      "desc": "Geschälte Tomaten La Carmela, laktosefreie Büffelmozzarella DOP, Guglielmi-Olivenöl aus Apulien, Basilikum"
+    },
+    "marinara-pizzium": {
+      "name": "Marinara nach Pizzium-Art",
+      "desc": "Geschälte Tomaten La Carmela, Kirschtomaten, Maione-Kapern, mediterrane Sardellenfilets, Taggiasca-Oliven, Oregano, Knoblauch, Guglielmi-Olivenöl aus Apulien, Basilikum"
+    },
+    "diavola": {
+      "name": "Diavola",
+      "desc": "Geschälte Tomaten La Carmela, Fior di Latte, scharfe Ventricina, Guglielmi-Olivenöl aus Apulien, Basilikum"
+    },
+    "orto-venere": {
+      "name": "Orto & Venere",
+      "desc": "Venere-Schwarzreis, Gemüse-Caponata, apulische Stracciatella"
+    },
+    "insalata-caesar": {
+      "name": "Caesar Salat",
+      "desc": "Gemischter Blattsalat, gebackene Hähnchenbrust, Kirschtomaten, Grana-Padano-DOP-Späne, Croutons, Caesar-Dressing"
+    },
+    "caprese-pizzium": {
+      "name": "Caprese nach Pizzium-Art",
+      "desc": "Ochsenherztomate, Büffelmozzarella DOP, Basilikumpesto, Zitronenzeste"
+    },
+    "insalata-marinara": {
+      "name": "Insalata Marinara",
+      "desc": "Gemischter Blattsalat, rote und gelbe Kirschtomaten, Oregano, Taggiasca-Oliven, mediterrane Sardellenfilets"
+    },
+    "cheesecake": {
+      "name": "Cheesecake",
+      "desc": "Nutella®, Pistazie oder Waldfrüchte"
+    },
+    "tiramisu": {
+      "name": "Tiramisù"
+    },
+    "nuvole-cremose": {
+      "name": "Cremige Wolken",
+      "desc": "2 gefüllte Teigkugeln mit Milch-Zitrus-Creme"
+    },
+    "sorbetto-limone": {
+      "name": "Zitronensorbet"
+    },
+    "caffe-goloso": {
+      "name": "Caffè Goloso",
+      "desc": "Espresso serviert mit hausgemachtem Mandel-Zitrus-Keks"
+    },
+    "menu-bambino": {
+      "name": "Kindermenü",
+      "desc": "Pizza Margherita Baby + Getränk"
+    },
+    "ichnusa-anima-sarda": {
+      "name": "Ichnusa Anima Sarda",
+      "desc": "Hell und erfrischend"
+    },
+    "ichnusa-non-filtrata": {
+      "name": "Ichnusa Non Filtrata",
+      "desc": "Fruchtig, mit hopfigem Aroma"
+    },
+    "birrium-blonde": {
+      "name": "Birrium Blonde - Glutenfrei",
+      "desc": "Blondes Bier britischer Art mit englischem und amerikanischem Hopfen"
+    },
+    "birrium-white-ipa": {
+      "name": "Birrium White IPA",
+      "desc": "Weißbier auf Weizenbasis, verführerisch und hopfig"
+    },
+    "birrium-ipa": {
+      "name": "Birrium IPA",
+      "desc": "Bernsteinfarbenes Bier mit amerikanischem Hopfen, kräftig und aromatisch"
+    },
+    "birrium-belgian-ale": {
+      "name": "Birrium Belgian Ale",
+      "desc": "Rotes Bier belgischer Art, fruchtig und würzig"
+    },
+    "heineken-00": {
+      "name": "Heineken 0.0 Alkoholfrei"
+    },
+    "acqua-naturale-frizzante": {
+      "name": "Stilles Wasser Electa / Sprudelwasser Maxima"
+    },
+    "coca-cola": {
+      "name": "Coca-Cola / Coca-Cola Zero"
+    },
+    "coca-cola-zero-zero": {
+      "name": "Coca-Cola Zero Zucker Zero Koffein"
+    },
+    "fanta-sprite": {
+      "name": "Fanta / Sprite"
+    },
+    "estathe": {
+      "name": "Estathé Zitrone / Pfirsich"
+    },
+    "bibita-lurisia": {
+      "name": "Lurisia Getränk",
+      "desc": "Orangeade / Chinotto / Limonade / Tonic"
+    },
+    "crodino-xl": {
+      "name": "Crodino XL"
+    },
+    "aperol-spritz": {
+      "name": "Aperol Spritz"
+    },
+    "campari-spritz": {
+      "name": "Campari Spritz"
+    },
+    "mondoro-hugo-spritz": {
+      "name": "Mondoro Hugo Spritz"
+    },
+    "americano-cocktail": {
+      "name": "Americano"
+    },
+    "negroni": {
+      "name": "Negroni"
+    },
+    "milano-torino": {
+      "name": "Milano-Torino"
+    },
+    "gin-tonic": {
+      "name": "Gin Tonic"
+    },
+    "prosecco-soligo": {
+      "name": "Prosecco DOC Treviso Millesimato Extra Dry",
+      "desc": "Soligo, Venetien"
+    },
+    "pecorino-terre-chieti": {
+      "name": "Pecorino Terre di Chieti",
+      "desc": "Tratturo Spinelli, Abruzzen"
+    },
+    "soave-classico": {
+      "name": "Soave Classico DOC \"San Michele\"",
+      "desc": "Ca Rugate, Venetien"
+    },
+    "gewurztraminer-kies": {
+      "name": "Gewürztraminer Trentino DOC \"Kies\"",
+      "desc": "Roeno, Südtirol"
+    },
+    "primitivo-rosato": {
+      "name": "Primitivo Rosato Puglia IGP",
+      "desc": "A Mano, Apulien"
+    },
+    "montepulciano-abruzzo": {
+      "name": "Montepulciano d'Abruzzo DOC",
+      "desc": "Tratturo Spinelli, Abruzzen"
+    },
+    "morellino-scansano": {
+      "name": "Morellino di Scansano DOCG",
+      "desc": "Cerreto Piano, Toskana"
+    },
+    "lavazza-caffe": {
+      "name": "Lavazza Kaffee"
+    },
+    "lavazza-decaffeinato": {
+      "name": "Lavazza Kaffee Entkoffeiniert"
+    },
+    "caffe-americano": {
+      "name": "Caffè Americano"
+    },
+    "cappuccino": {
+      "name": "Cappuccino"
+    },
+    "limoncello-mirto": {
+      "name": "Limoncello / Mirto"
+    },
+    "grappa": {
+      "name": "Grappa"
+    },
+    "amaro": {
+      "name": "Amaro"
+    }
   }
 }

@@ -4,7 +4,6 @@
     "searchPlaceholder": "Search in category...",
     "tabMenu": "Menu",
     "tabBevande": "Drinks",
-    "langSearchPlaceholder": "Search language...",
     "noResults": "No results",
     "coverCharge": "Cover charge: € 2.00"
   },
@@ -41,108 +40,323 @@
     "lactose-free": "Lactose-Free"
   },
   "items": {
-    "tris-perfetto": { "name": "The Perfect Trio", "desc": "Potato croquette with Pecorino Romano DOP cream, Nerano-style frittata with courgette cream, arancino with ragù and roasted tomato sauce" },
-    "tagliere-condividere": { "name": "Sharing Board", "desc": "San Daniele DOP cured ham, sweet Napoli-style salami, grilled courgette, grilled aubergine, Casciotta di Urbino DOP, taggiasca olives. Served with warm focaccia" },
-    "verdure-grigliate-burrata": { "name": "Grilled Vegetables and Burrata" },
-    "prosciutto-crudo-bufala": { "name": "Cured Ham and Buffalo Mozzarella", "desc": "San Daniele DOP cured ham and buffalo mozzarella DOP" },
-    "panzanella-mediterranea": { "name": "Mediterranean Panzanella", "desc": "Roasted artichokes, chickpeas, cherry tomatoes and Grana Padano DOP shavings with balsamic glaze" },
-    "bruschetta-stracciatella-zucchine": { "name": "Bruschetta with Stracciatella and Courgette", "desc": "Bruschetta with Puglian stracciatella and courgette crisps" },
-
-    "gnocchi-sorrentina": { "name": "Gnocchi alla Sorrentina", "desc": "Potato gnocchi, tomato sauce, fior di latte" },
-    "lasagna-golosa": { "name": "Indulgent Lasagna", "desc": "Bolognese-style lasagna with spinach pasta sheets, ground meat filling and béchamel" },
-    "fregola-estate": { "name": "Summer Fregola", "desc": "Sardinian fregola with sun-dried tomatoes, taggiasca olives, crumbled feta, basil" },
-
-    "polpette-sugo": { "name": "Meatballs in Tomato Sauce" },
-    "parmigiana-melanzane": { "name": "Aubergine Parmigiana" },
-    "frisella-mare": { "name": "Frisella di Mare", "desc": "Red and yellow cherry tomatoes, Pescatorello yellowfin tuna fillets, Maione capers, taggiasca olives, Guglielmi Puglia EVO oil, basil" },
-    "frisella-terra": { "name": "Frisella di Terra", "desc": "Roasted artichokes, mixed greens, sun-dried cherry tomatoes, buffalo mozzarella DOP, Guglielmi Puglia EVO oil, basil" },
-
-    "calzone-napoletano": { "name": "Neapolitan Calzone", "desc": "La Carmela peeled tomatoes, cow's milk ricotta, smoked provola, Grana Padano DOP, sweet Napoli-style salami, black pepper, Guglielmi Puglia EVO oil, basil" },
-    "calzone-vegetariano": { "name": "Vegetarian Calzone", "desc": "Smoked provola, king oyster mushrooms, courgette cream, Grana Padano DOP, toasted pine nuts, Guglielmi Puglia EVO oil, basil" },
-
-    "valle-aosta": { "name": "Valle d'Aosta", "desc": "La Carmela peeled tomatoes, fior di latte, wood-fired high quality cooked ham, roasted artichokes, king oyster mushrooms, taggiasca olives, Guglielmi Puglia EVO oil, basil" },
-    "piemonte": { "name": "Piemonte", "desc": "Fior di latte, Fassona beef sausage, truffle oil, black pepper, basil, crust filled with cow's milk ricotta" },
-    "lombardia": { "name": "Lombardia", "desc": "Fior di latte, smoked provola, gorgonzola DOP, Grana Padano DOP, walnuts, Guglielmi Puglia EVO oil, basil" },
-    "trentino-alto-adige": { "name": "Trentino Alto Adige", "desc": "Fior di latte, Trentino Alto Adige speck, gorgonzola DOP, wildflower honey, liquorice powder, Guglielmi Puglia EVO oil, basil" },
-    "friuli-venezia-giulia": { "name": "Friuli Venezia Giulia", "desc": "Fior di latte, cherry tomatoes, San Daniele DOP cured ham, rocket, Grana Padano DOP shavings, basil" },
-    "veneto": { "name": "Veneto", "desc": "Fior di latte, Agnone caciocavallo, fresh radicchio, walnuts, Guglielmi Puglia EVO oil, basil" },
-    "liguria": { "name": "Liguria", "desc": "Fior di latte, yellow and red cherry tomatoes, basil pesto, Guglielmi Puglia EVO oil, basil" },
-    "emilia-romagna": { "name": "Emilia Romagna", "desc": "Fior di latte, mortadella Bologna IGP, chopped pistachios, Guglielmi Puglia EVO oil, basil" },
-    "toscana": { "name": "Toscana", "desc": "Fior di latte, black kale cream, roasted potatoes, fried aubergine strips, fried courgette, toasted pine nuts, basil" },
-    "marche": { "name": "Marche", "desc": "La Carmela peeled tomatoes, fior di latte, sweet salami, Casciotta di Urbino DOP, black pepper, Guglielmi Puglia EVO oil, basil" },
-    "umbria": { "name": "Umbria", "desc": "Smoked provola, roasted potatoes, Norcia sausage, Pecorino Romano DOP fondue, Guglielmi Puglia EVO oil, basil" },
-    "lazio": { "name": "Lazio", "desc": "Fior di latte, artichoke cream, artichoke heart, wood-fired high quality cooked ham, Pecorino Romano DOP fondue, Guglielmi Puglia EVO oil, basil" },
-    "abruzzo": { "name": "Abruzzo", "desc": "La Carmela peeled tomatoes, fior di latte, aged amatriciana-style guanciale from Salumificio Sano, Pecorino Romano DOP, ground pepper, basil" },
-    "molise": { "name": "Molise", "desc": "Fior di latte, Agnone caciocavallo, Norcia sausage, Guglielmi Puglia EVO oil, basil" },
-    "campania": { "name": "Campania", "desc": "Smoked provola, courgette cream, fried courgette, Grana Padano DOP, Guglielmi Puglia EVO oil, basil" },
-    "puglia": { "name": "Puglia", "desc": "Yellow tomato passata, pork capocollo, Puglian burrata, crumbled tarallo, taggiasca olives, Guglielmi Puglia EVO oil, basil" },
-    "basilicata": { "name": "Basilicata", "desc": "Smoked provola, roasted potatoes, pepper cream, crumbled crusco pepper, Guglielmi Puglia EVO oil, basil" },
-    "calabria": { "name": "Calabria", "desc": "Fior di latte, caramelised red onion, Puglian stracciatella, taggiasca olives, Guglielmi chili oil, basil" },
-    "sicilia": { "name": "Sicilia", "desc": "La Carmela peeled tomatoes, fried aubergine, salted ricotta, Guglielmi Puglia EVO oil, basil" },
-    "sardegna": { "name": "Sardegna", "desc": "Fior di latte, cherry tomatoes, crumbled feta, Mediterranean anchovies, Cannonau red wine reduction, basil" },
-
-    "margherita": { "name": "Margherita", "desc": "La Carmela peeled tomatoes, fior di latte, a dusting of Grana Padano DOP, Guglielmi Puglia EVO oil, basil" },
-    "margherita-vegana": { "name": "Vegan Margherita", "desc": "La Carmela peeled tomatoes, plant-based mozzarella alternative, Guglielmi Puglia EVO oil, basil" },
-    "bufalina": { "name": "Bufalina", "desc": "La Carmela peeled tomatoes, buffalo mozzarella DOP, a dusting of Grana Padano DOP, Guglielmi Puglia EVO oil, basil" },
-    "bufalina-senza-lattosio": { "name": "Bufalina Lactose-Free", "desc": "La Carmela peeled tomatoes, lactose-free buffalo mozzarella DOP, Guglielmi Puglia EVO oil, basil" },
-    "marinara-pizzium": { "name": "Marinara, Pizzium-Style", "desc": "La Carmela peeled tomatoes, cherry tomatoes, Maione capers, Mediterranean anchovy fillets, taggiasca olives, oregano, garlic, Guglielmi Puglia EVO oil, basil" },
-    "diavola": { "name": "Diavola", "desc": "La Carmela peeled tomatoes, fior di latte, spicy ventricina, Guglielmi Puglia EVO oil, basil" },
-
-    "orto-venere": { "name": "Orto & Venere", "desc": "Venere black rice, vegetable caponata, Puglian stracciatella" },
-    "insalata-caesar": { "name": "Caesar Salad", "desc": "Mixed greens, roasted chicken breast, cherry tomatoes, Grana Padano DOP shavings, croutons, Caesar dressing" },
-    "caprese-pizzium": { "name": "Caprese, Pizzium-Style", "desc": "Beefsteak tomato, buffalo mozzarella DOP, basil pesto, lemon zest" },
-    "insalata-marinara": { "name": "Marinara Salad", "desc": "Mixed greens, red and yellow cherry tomatoes, oregano, taggiasca olives, Mediterranean anchovy fillets" },
-
-    "cheesecake": { "name": "Cheesecake", "desc": "Nutella®, pistachio or forest fruits" },
-    "tiramisu": { "name": "Tiramisù" },
-    "nuvole-cremose": { "name": "Creamy Clouds", "desc": "2 filled pastry spheres with milk and citrus cream" },
-    "sorbetto-limone": { "name": "Lemon Sorbet" },
-    "caffe-goloso": { "name": "Indulgent Coffee", "desc": "Espresso served with a homemade almond-citrus biscuit" },
-
-    "menu-bambino": { "name": "Kids Menu", "desc": "Baby Margherita Pizza + Drink" },
-
-    "ichnusa-anima-sarda": { "name": "Ichnusa Anima Sarda", "desc": "Pale and refreshing" },
-    "ichnusa-non-filtrata": { "name": "Ichnusa Non Filtrata", "desc": "Fruity, with hoppy aromas" },
-
-    "birrium-blonde": { "name": "Birrium Blonde - Gluten Free", "desc": "British-style blonde ale with English and American hops" },
-    "birrium-white-ipa": { "name": "Birrium White IPA", "desc": "Wheat-based white beer, alluring and hoppy" },
-    "birrium-ipa": { "name": "Birrium IPA", "desc": "Amber beer with American hops, bold and aromatic" },
-    "birrium-belgian-ale": { "name": "Birrium Belgian Ale", "desc": "Belgian-style red beer, fruity and spiced" },
-    "heineken-00": { "name": "Heineken 0.0 Alcohol-Free" },
-
-    "acqua-naturale-frizzante": { "name": "Still Water Electa / Sparkling Water Maxima" },
-    "coca-cola": { "name": "Coca-Cola / Coca-Cola Zero" },
-    "coca-cola-zero-zero": { "name": "Coca-Cola Zero Sugar Zero Caffeine" },
-    "fanta-sprite": { "name": "Fanta / Sprite" },
-    "estathe": { "name": "Estathé Lemon / Peach Iced Tea" },
-    "bibita-lurisia": { "name": "Lurisia Soft Drink", "desc": "Orangeade / chinotto / lemonade / tonic" },
-    "crodino-xl": { "name": "Crodino XL" },
-
-    "aperol-spritz": { "name": "Aperol Spritz" },
-    "campari-spritz": { "name": "Campari Spritz" },
-    "mondoro-hugo-spritz": { "name": "Mondoro Hugo Spritz" },
-    "americano-cocktail": { "name": "Americano" },
-    "negroni": { "name": "Negroni" },
-    "milano-torino": { "name": "Milano-Torino" },
-    "gin-tonic": { "name": "Gin & Tonic" },
-
-    "prosecco-soligo": { "name": "Prosecco DOC Treviso Millesimato Extra Dry", "desc": "Soligo, Veneto" },
-
-    "pecorino-terre-chieti": { "name": "Pecorino Terre di Chieti", "desc": "Tratturo Spinelli, Abruzzo" },
-    "soave-classico": { "name": "Soave Classico DOC \"San Michele\"", "desc": "Ca Rugate, Veneto" },
-    "gewurztraminer-kies": { "name": "Gewürztraminer Trentino DOC \"Kies\"", "desc": "Roeno, Trentino Alto Adige" },
-
-    "primitivo-rosato": { "name": "Primitivo Rosato Puglia IGP", "desc": "A Mano, Puglia" },
-
-    "montepulciano-abruzzo": { "name": "Montepulciano d'Abruzzo DOC", "desc": "Tratturo Spinelli, Abruzzo" },
-    "morellino-scansano": { "name": "Morellino di Scansano DOCG", "desc": "Cerreto Piano, Toscana" },
-
-    "lavazza-caffe": { "name": "Lavazza Coffee" },
-    "lavazza-decaffeinato": { "name": "Lavazza Decaffeinated Coffee" },
-    "caffe-americano": { "name": "Americano Coffee" },
-    "cappuccino": { "name": "Cappuccino" },
-    "limoncello-mirto": { "name": "Limoncello / Mirto" },
-    "grappa": { "name": "Grappa" },
-    "amaro": { "name": "Amaro" }
+    "tris-perfetto": {
+      "name": "The Perfect Trio",
+      "desc": "Potato croquette with Pecorino Romano DOP cream, Nerano-style frittata with courgette cream, arancino with ragù and roasted tomato sauce"
+    },
+    "tagliere-condividere": {
+      "name": "Sharing Board",
+      "desc": "San Daniele DOP cured ham, sweet Napoli-style salami, grilled courgette, grilled aubergine, Casciotta di Urbino DOP, taggiasca olives. Served with warm focaccia"
+    },
+    "verdure-grigliate-burrata": {
+      "name": "Grilled Vegetables and Burrata"
+    },
+    "prosciutto-crudo-bufala": {
+      "name": "Cured Ham and Buffalo Mozzarella",
+      "desc": "San Daniele DOP cured ham and buffalo mozzarella DOP"
+    },
+    "panzanella-mediterranea": {
+      "name": "Mediterranean Panzanella",
+      "desc": "Roasted artichokes, chickpeas, cherry tomatoes and Grana Padano DOP shavings with balsamic glaze"
+    },
+    "bruschetta-stracciatella-zucchine": {
+      "name": "Bruschetta with Stracciatella and Courgette",
+      "desc": "Bruschetta with Puglian stracciatella and courgette crisps"
+    },
+    "gnocchi-sorrentina": {
+      "name": "Gnocchi alla Sorrentina",
+      "desc": "Potato gnocchi, tomato sauce, fior di latte"
+    },
+    "lasagna-golosa": {
+      "name": "Indulgent Lasagna",
+      "desc": "Bolognese-style lasagna with spinach pasta sheets, ground meat filling and béchamel"
+    },
+    "fregola-estate": {
+      "name": "Summer Fregola",
+      "desc": "Sardinian fregola with sun-dried tomatoes, taggiasca olives, crumbled feta, basil"
+    },
+    "polpette-sugo": {
+      "name": "Meatballs in Tomato Sauce"
+    },
+    "parmigiana-melanzane": {
+      "name": "Aubergine Parmigiana"
+    },
+    "frisella-mare": {
+      "name": "Frisella di Mare",
+      "desc": "Red and yellow cherry tomatoes, Pescatorello yellowfin tuna fillets, Maione capers, taggiasca olives, Guglielmi Puglia EVO oil, basil"
+    },
+    "frisella-terra": {
+      "name": "Frisella di Terra",
+      "desc": "Roasted artichokes, mixed greens, sun-dried cherry tomatoes, buffalo mozzarella DOP, Guglielmi Puglia EVO oil, basil"
+    },
+    "calzone-napoletano": {
+      "name": "Neapolitan Calzone",
+      "desc": "La Carmela peeled tomatoes, cow's milk ricotta, smoked provola, Grana Padano DOP, sweet Napoli-style salami, black pepper, Guglielmi Puglia EVO oil, basil"
+    },
+    "calzone-vegetariano": {
+      "name": "Vegetarian Calzone",
+      "desc": "Smoked provola, king oyster mushrooms, courgette cream, Grana Padano DOP, toasted pine nuts, Guglielmi Puglia EVO oil, basil"
+    },
+    "valle-aosta": {
+      "name": "Valle d'Aosta",
+      "desc": "La Carmela peeled tomatoes, fior di latte, wood-fired high quality cooked ham, roasted artichokes, king oyster mushrooms, taggiasca olives, Guglielmi Puglia EVO oil, basil"
+    },
+    "piemonte": {
+      "name": "Piemonte",
+      "desc": "Fior di latte, Fassona beef sausage, truffle oil, black pepper, basil, crust filled with cow's milk ricotta"
+    },
+    "lombardia": {
+      "name": "Lombardia",
+      "desc": "Fior di latte, smoked provola, gorgonzola DOP, Grana Padano DOP, walnuts, Guglielmi Puglia EVO oil, basil"
+    },
+    "trentino-alto-adige": {
+      "name": "Trentino Alto Adige",
+      "desc": "Fior di latte, Trentino Alto Adige speck, gorgonzola DOP, wildflower honey, liquorice powder, Guglielmi Puglia EVO oil, basil"
+    },
+    "friuli-venezia-giulia": {
+      "name": "Friuli Venezia Giulia",
+      "desc": "Fior di latte, cherry tomatoes, San Daniele DOP cured ham, rocket, Grana Padano DOP shavings, basil"
+    },
+    "veneto": {
+      "name": "Veneto",
+      "desc": "Fior di latte, Agnone caciocavallo, fresh radicchio, walnuts, Guglielmi Puglia EVO oil, basil"
+    },
+    "liguria": {
+      "name": "Liguria",
+      "desc": "Fior di latte, yellow and red cherry tomatoes, basil pesto, Guglielmi Puglia EVO oil, basil"
+    },
+    "emilia-romagna": {
+      "name": "Emilia Romagna",
+      "desc": "Fior di latte, mortadella Bologna IGP, chopped pistachios, Guglielmi Puglia EVO oil, basil"
+    },
+    "toscana": {
+      "name": "Toscana",
+      "desc": "Fior di latte, black kale cream, roasted potatoes, fried aubergine strips, fried courgette, toasted pine nuts, basil"
+    },
+    "marche": {
+      "name": "Marche",
+      "desc": "La Carmela peeled tomatoes, fior di latte, sweet salami, Casciotta di Urbino DOP, black pepper, Guglielmi Puglia EVO oil, basil"
+    },
+    "umbria": {
+      "name": "Umbria",
+      "desc": "Smoked provola, roasted potatoes, Norcia sausage, Pecorino Romano DOP fondue, Guglielmi Puglia EVO oil, basil"
+    },
+    "lazio": {
+      "name": "Lazio",
+      "desc": "Fior di latte, artichoke cream, artichoke heart, wood-fired high quality cooked ham, Pecorino Romano DOP fondue, Guglielmi Puglia EVO oil, basil"
+    },
+    "abruzzo": {
+      "name": "Abruzzo",
+      "desc": "La Carmela peeled tomatoes, fior di latte, aged amatriciana-style guanciale from Salumificio Sano, Pecorino Romano DOP, ground pepper, basil"
+    },
+    "molise": {
+      "name": "Molise",
+      "desc": "Fior di latte, Agnone caciocavallo, Norcia sausage, Guglielmi Puglia EVO oil, basil"
+    },
+    "campania": {
+      "name": "Campania",
+      "desc": "Smoked provola, courgette cream, fried courgette, Grana Padano DOP, Guglielmi Puglia EVO oil, basil"
+    },
+    "puglia": {
+      "name": "Puglia",
+      "desc": "Yellow tomato passata, pork capocollo, Puglian burrata, crumbled tarallo, taggiasca olives, Guglielmi Puglia EVO oil, basil"
+    },
+    "basilicata": {
+      "name": "Basilicata",
+      "desc": "Smoked provola, roasted potatoes, pepper cream, crumbled crusco pepper, Guglielmi Puglia EVO oil, basil"
+    },
+    "calabria": {
+      "name": "Calabria",
+      "desc": "Fior di latte, caramelised red onion, Puglian stracciatella, taggiasca olives, Guglielmi chili oil, basil"
+    },
+    "sicilia": {
+      "name": "Sicilia",
+      "desc": "La Carmela peeled tomatoes, fried aubergine, salted ricotta, Guglielmi Puglia EVO oil, basil"
+    },
+    "sardegna": {
+      "name": "Sardegna",
+      "desc": "Fior di latte, cherry tomatoes, crumbled feta, Mediterranean anchovies, Cannonau red wine reduction, basil"
+    },
+    "margherita": {
+      "name": "Margherita",
+      "desc": "La Carmela peeled tomatoes, fior di latte, a dusting of Grana Padano DOP, Guglielmi Puglia EVO oil, basil"
+    },
+    "margherita-vegana": {
+      "name": "Vegan Margherita",
+      "desc": "La Carmela peeled tomatoes, plant-based mozzarella alternative, Guglielmi Puglia EVO oil, basil"
+    },
+    "bufalina": {
+      "name": "Bufalina",
+      "desc": "La Carmela peeled tomatoes, buffalo mozzarella DOP, a dusting of Grana Padano DOP, Guglielmi Puglia EVO oil, basil"
+    },
+    "bufalina-senza-lattosio": {
+      "name": "Bufalina Lactose-Free",
+      "desc": "La Carmela peeled tomatoes, lactose-free buffalo mozzarella DOP, Guglielmi Puglia EVO oil, basil"
+    },
+    "marinara-pizzium": {
+      "name": "Marinara, Pizzium-Style",
+      "desc": "La Carmela peeled tomatoes, cherry tomatoes, Maione capers, Mediterranean anchovy fillets, taggiasca olives, oregano, garlic, Guglielmi Puglia EVO oil, basil"
+    },
+    "diavola": {
+      "name": "Diavola",
+      "desc": "La Carmela peeled tomatoes, fior di latte, spicy ventricina, Guglielmi Puglia EVO oil, basil"
+    },
+    "orto-venere": {
+      "name": "Orto & Venere",
+      "desc": "Venere black rice, vegetable caponata, Puglian stracciatella"
+    },
+    "insalata-caesar": {
+      "name": "Caesar Salad",
+      "desc": "Mixed greens, roasted chicken breast, cherry tomatoes, Grana Padano DOP shavings, croutons, Caesar dressing"
+    },
+    "caprese-pizzium": {
+      "name": "Caprese, Pizzium-Style",
+      "desc": "Beefsteak tomato, buffalo mozzarella DOP, basil pesto, lemon zest"
+    },
+    "insalata-marinara": {
+      "name": "Marinara Salad",
+      "desc": "Mixed greens, red and yellow cherry tomatoes, oregano, taggiasca olives, Mediterranean anchovy fillets"
+    },
+    "cheesecake": {
+      "name": "Cheesecake",
+      "desc": "Nutella®, pistachio or forest fruits"
+    },
+    "tiramisu": {
+      "name": "Tiramisù"
+    },
+    "nuvole-cremose": {
+      "name": "Creamy Clouds",
+      "desc": "2 filled pastry spheres with milk and citrus cream"
+    },
+    "sorbetto-limone": {
+      "name": "Lemon Sorbet"
+    },
+    "caffe-goloso": {
+      "name": "Indulgent Coffee",
+      "desc": "Espresso served with a homemade almond-citrus biscuit"
+    },
+    "menu-bambino": {
+      "name": "Kids Menu",
+      "desc": "Baby Margherita Pizza + Drink"
+    },
+    "ichnusa-anima-sarda": {
+      "name": "Ichnusa Anima Sarda",
+      "desc": "Pale and refreshing"
+    },
+    "ichnusa-non-filtrata": {
+      "name": "Ichnusa Non Filtrata",
+      "desc": "Fruity, with hoppy aromas"
+    },
+    "birrium-blonde": {
+      "name": "Birrium Blonde - Gluten Free",
+      "desc": "British-style blonde ale with English and American hops"
+    },
+    "birrium-white-ipa": {
+      "name": "Birrium White IPA",
+      "desc": "Wheat-based white beer, alluring and hoppy"
+    },
+    "birrium-ipa": {
+      "name": "Birrium IPA",
+      "desc": "Amber beer with American hops, bold and aromatic"
+    },
+    "birrium-belgian-ale": {
+      "name": "Birrium Belgian Ale",
+      "desc": "Belgian-style red beer, fruity and spiced"
+    },
+    "heineken-00": {
+      "name": "Heineken 0.0 Alcohol-Free"
+    },
+    "acqua-naturale-frizzante": {
+      "name": "Still Water Electa / Sparkling Water Maxima"
+    },
+    "coca-cola": {
+      "name": "Coca-Cola / Coca-Cola Zero"
+    },
+    "coca-cola-zero-zero": {
+      "name": "Coca-Cola Zero Sugar Zero Caffeine"
+    },
+    "fanta-sprite": {
+      "name": "Fanta / Sprite"
+    },
+    "estathe": {
+      "name": "Estathé Lemon / Peach Iced Tea"
+    },
+    "bibita-lurisia": {
+      "name": "Lurisia Soft Drink",
+      "desc": "Orangeade / chinotto / lemonade / tonic"
+    },
+    "crodino-xl": {
+      "name": "Crodino XL"
+    },
+    "aperol-spritz": {
+      "name": "Aperol Spritz"
+    },
+    "campari-spritz": {
+      "name": "Campari Spritz"
+    },
+    "mondoro-hugo-spritz": {
+      "name": "Mondoro Hugo Spritz"
+    },
+    "americano-cocktail": {
+      "name": "Americano"
+    },
+    "negroni": {
+      "name": "Negroni"
+    },
+    "milano-torino": {
+      "name": "Milano-Torino"
+    },
+    "gin-tonic": {
+      "name": "Gin & Tonic"
+    },
+    "prosecco-soligo": {
+      "name": "Prosecco DOC Treviso Millesimato Extra Dry",
+      "desc": "Soligo, Veneto"
+    },
+    "pecorino-terre-chieti": {
+      "name": "Pecorino Terre di Chieti",
+      "desc": "Tratturo Spinelli, Abruzzo"
+    },
+    "soave-classico": {
+      "name": "Soave Classico DOC \"San Michele\"",
+      "desc": "Ca Rugate, Veneto"
+    },
+    "gewurztraminer-kies": {
+      "name": "Gewürztraminer Trentino DOC \"Kies\"",
+      "desc": "Roeno, Trentino Alto Adige"
+    },
+    "primitivo-rosato": {
+      "name": "Primitivo Rosato Puglia IGP",
+      "desc": "A Mano, Puglia"
+    },
+    "montepulciano-abruzzo": {
+      "name": "Montepulciano d'Abruzzo DOC",
+      "desc": "Tratturo Spinelli, Abruzzo"
+    },
+    "morellino-scansano": {
+      "name": "Morellino di Scansano DOCG",
+      "desc": "Cerreto Piano, Toscana"
+    },
+    "lavazza-caffe": {
+      "name": "Lavazza Coffee"
+    },
+    "lavazza-decaffeinato": {
+      "name": "Lavazza Decaffeinated Coffee"
+    },
+    "caffe-americano": {
+      "name": "Americano Coffee"
+    },
+    "cappuccino": {
+      "name": "Cappuccino"
+    },
+    "limoncello-mirto": {
+      "name": "Limoncello / Mirto"
+    },
+    "grappa": {
+      "name": "Grappa"
+    },
+    "amaro": {
+      "name": "Amaro"
+    }
   }
 }

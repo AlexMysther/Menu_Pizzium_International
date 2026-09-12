@@ -22,7 +22,6 @@ const el = {
   langSwitchBtn: document.getElementById('langSwitchBtn'),
   langPanel: document.getElementById('langPanel'),
   langBackdrop: document.getElementById('langBackdrop'),
-  langSearchInput: document.getElementById('langSearchInput'),
   langList: document.getElementById('langList'),
   menuTitle: document.getElementById('menuTitle'),
   searchInput: document.getElementById('searchInput'),
@@ -89,7 +88,7 @@ function applyLanguage(code, dict) {
 
   renderStaticText();
   renderCategoryPills();
-  renderLangList('');
+  renderLangList();
   renderMenuList();
 }
 
@@ -100,7 +99,6 @@ function tr(path) {
 function renderStaticText() {
   el.menuTitle.textContent = tr('ui.menuTitle');
   el.searchInput.placeholder = tr('ui.searchPlaceholder');
-  el.langSearchInput.placeholder = tr('ui.langSearchPlaceholder');
   el.tabMenuBtn.textContent = tr('ui.tabMenu');
   el.tabBevandeBtn.textContent = tr('ui.tabBevande');
   el.noResults.textContent = tr('ui.noResults');
@@ -236,17 +234,9 @@ function renderItem(item) {
   return wrap;
 }
 
-function renderLangList(filter) {
+function renderLangList() {
   el.langList.innerHTML = '';
-  const q = filter.trim().toLowerCase();
-  const filtered = state.languages.filter(l =>
-    !q ||
-    l.nativeName.toLowerCase().includes(q) ||
-    l.englishName.toLowerCase().includes(q) ||
-    l.code.toLowerCase().includes(q)
-  );
-
-  filtered.forEach(l => {
+  state.languages.forEach(l => {
     const li = document.createElement('li');
     const btn = document.createElement('button');
     btn.type = 'button';
@@ -265,9 +255,7 @@ function openLangPanel() {
   el.langPanel.hidden = false;
   el.langBackdrop.hidden = false;
   el.langSwitchBtn.setAttribute('aria-expanded', 'true');
-  el.langSearchInput.value = '';
-  renderLangList('');
-  el.langSearchInput.focus();
+  renderLangList();
 }
 
 function closeLangPanel() {
@@ -281,7 +269,6 @@ function bindEvents() {
     el.langPanel.hidden ? openLangPanel() : closeLangPanel();
   });
   el.langBackdrop.addEventListener('click', closeLangPanel);
-  el.langSearchInput.addEventListener('input', e => renderLangList(e.target.value));
 
   el.searchInput.addEventListener('input', e => {
     state.searchQuery = e.target.value;

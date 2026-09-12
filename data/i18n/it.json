@@ -4,7 +4,6 @@
     "searchPlaceholder": "Cerca nella categoria...",
     "tabMenu": "Menu",
     "tabBevande": "Bevande",
-    "langSearchPlaceholder": "Cerca lingua...",
     "noResults": "Nessun risultato",
     "coverCharge": "Coperto e servizio: € 2,00"
   },
@@ -41,108 +40,323 @@
     "lactose-free": "Senza Lattosio"
   },
   "items": {
-    "tris-perfetto": { "name": "Il Tris Perfetto", "desc": "Crocchè di patate con crema al Pecorino Romano DOP, frittatina alla Nerano con crema di zucchine, arancino al ragù con salsa al pomodoro arrosto" },
-    "tagliere-condividere": { "name": "Tagliere da Condividere", "desc": "Prosciutto crudo San Daniele DOP, salame dolce di tipo Napoli, zucchina grigliata, melanzana grigliata, casciotta di Urbino DOP, olive taggiasche. Servito con focaccina calda" },
-    "verdure-grigliate-burrata": { "name": "Verdure Grigliate e Burrata" },
-    "prosciutto-crudo-bufala": { "name": "Prosciutto Crudo e Bufala", "desc": "Prosciutto crudo San Daniele DOP e mozzarella di bufala DOP" },
-    "panzanella-mediterranea": { "name": "Panzanella Mediterranea", "desc": "Carciofi al forno, ceci, datterini rossi e scaglie di Grana Padano DOP con glassa balsamica" },
-    "bruschetta-stracciatella-zucchine": { "name": "Bruschetta Stracciatella e Zucchine", "desc": "Bruschetta con stracciatella pugliese e chips di zucchine" },
-
-    "gnocchi-sorrentina": { "name": "Gnocchi alla Sorrentina", "desc": "Gnocchi di patate, sugo al pomodoro, fior di latte" },
-    "lasagna-golosa": { "name": "Lasagna Golosa", "desc": "Lasagna alla bolognese con sfoglie agli spinaci e ripieno di carne macinata e besciamella" },
-    "fregola-estate": { "name": "Fregola d'Estate", "desc": "Fregola sarda con pomodori secchi, olive taggiasche, feta sbriciolata, basilico" },
-
-    "polpette-sugo": { "name": "Polpette al Sugo" },
-    "parmigiana-melanzane": { "name": "Parmigiana di Melanzane" },
-    "frisella-mare": { "name": "Frisella di Mare", "desc": "Datterini rossi e gialli, filetti di tonno pinna gialla Pescatorello, capperi Maione, olive taggiasche, olio EVO di Puglia Guglielmi, basilico" },
-    "frisella-terra": { "name": "Frisella di Terra", "desc": "Carciofi al forno, misticanza, pomodorini secchi, mozzarella di bufala DOP, olio EVO di Puglia Guglielmi, basilico" },
-
-    "calzone-napoletano": { "name": "Calzone Napoletano", "desc": "Pomodori pelati La Carmela, ricotta vaccina, provola affumicata, Grana Padano DOP, salame dolce di tipo Napoli, pepe nero, olio EVO di Puglia Guglielmi, basilico" },
-    "calzone-vegetariano": { "name": "Calzone Vegetariano", "desc": "Provola affumicata, funghi cardoncelli, crema di zucchine, Grana Padano DOP, pinoli tostati, olio EVO di Puglia Guglielmi, basilico" },
-
-    "valle-aosta": { "name": "Valle d'Aosta", "desc": "Pomodori pelati La Carmela, fior di latte, prosciutto cotto alta qualità alla brace Lorenzi, carciofi al forno, funghi cardoncelli, olive taggiasche, olio EVO di Puglia Guglielmi, basilico" },
-    "piemonte": { "name": "Piemonte", "desc": "Fior di latte, salsiccia fassona, olio al tartufo, pepe nero, basilico, cornicione ripieno di ricotta vaccina" },
-    "lombardia": { "name": "Lombardia", "desc": "Fior di latte, provola affumicata, gorgonzola DOP, Grana Padano DOP, noci, olio EVO di Puglia Guglielmi, basilico" },
-    "trentino-alto-adige": { "name": "Trentino Alto Adige", "desc": "Fior di latte, speck del Trentino Alto Adige, gorgonzola DOP, miele millefiori, polvere di liquirizia, olio EVO di Puglia Guglielmi, basilico" },
-    "friuli-venezia-giulia": { "name": "Friuli Venezia Giulia", "desc": "Fior di latte, datterini rossi, prosciutto crudo San Daniele DOP, rucola, scaglie di Grana Padano DOP, basilico" },
-    "veneto": { "name": "Veneto", "desc": "Fior di latte, caciocavallo di Agnone, radicchio fresco, noci, olio EVO di Puglia Guglielmi, basilico" },
-    "liguria": { "name": "Liguria", "desc": "Fior di latte, datterini gialli e rossi, pesto di basilico, olio EVO di Puglia Guglielmi, basilico" },
-    "emilia-romagna": { "name": "Emilia Romagna", "desc": "Fior di latte, mortadella Bologna IGP, granella di pistacchio, olio EVO di Puglia Guglielmi, basilico" },
-    "toscana": { "name": "Toscana", "desc": "Fior di latte, crema di cavolo nero, patate al forno, straccetti di melanzane fritte, zucchine fritte, pinoli tostati, basilico" },
-    "marche": { "name": "Marche", "desc": "Pomodori pelati La Carmela, fior di latte, salame dolce, casciotta di Urbino DOP, pepe nero, olio EVO di Puglia Guglielmi, basilico" },
-    "umbria": { "name": "Umbria", "desc": "Provola affumicata, patate al forno, salsiccia di Norcia, fonduta di Pecorino Romano DOP, olio EVO di Puglia Guglielmi, basilico" },
-    "lazio": { "name": "Lazio", "desc": "Fior di latte, crema di carciofi, cuore di carciofo, prosciutto cotto alta qualità alla brace Lorenzi, fonduta di Pecorino Romano DOP, olio EVO di Puglia Guglielmi, basilico" },
-    "abruzzo": { "name": "Abruzzo", "desc": "Pomodori pelati La Carmela, fior di latte, guanciale amatriciano stagionato salumificio Sano, Pecorino Romano DOP, pepe macinato, basilico" },
-    "molise": { "name": "Molise", "desc": "Fior di latte, caciocavallo di Agnone, salsiccia di Norcia, olio EVO di Puglia Guglielmi, basilico" },
-    "campania": { "name": "Campania", "desc": "Provola affumicata, crema di zucchine, zucchine fritte, Grana Padano DOP, olio EVO di Puglia Guglielmi, basilico" },
-    "puglia": { "name": "Puglia", "desc": "Passata di pomodori gialli, capocollo di maialino, burrata pugliese, tarallo sbriciolato, olive taggiasche, olio EVO di Puglia Guglielmi, basilico" },
-    "basilicata": { "name": "Basilicata", "desc": "Provola affumicata, patate al forno, crema di peperoni, peperone crusco sbriciolato, olio EVO di Puglia Guglielmi, basilico" },
-    "calabria": { "name": "Calabria", "desc": "Fior di latte, cipolla rossa caramellata, stracciatella pugliese, olive taggiasche, olio al peperoncino Guglielmi, basilico" },
-    "sicilia": { "name": "Sicilia", "desc": "Pomodori pelati La Carmela, melanzane fritte, ricotta salata, olio EVO di Puglia Guglielmi, basilico" },
-    "sardegna": { "name": "Sardegna", "desc": "Fior di latte, datterini rossi, feta sbriciolata, alici del Mediterraneo, riduzione di vino rosso Cannonau, basilico" },
-
-    "margherita": { "name": "Margherita", "desc": "Pomodori pelati La Carmela, fior di latte, spolverata di Grana Padano DOP, olio EVO di Puglia Guglielmi, basilico" },
-    "margherita-vegana": { "name": "Margherita Vegana", "desc": "Pomodori pelati La Carmela, alternativa vegetale alla mozzarella, olio EVO di Puglia Guglielmi, basilico" },
-    "bufalina": { "name": "Bufalina", "desc": "Pomodori pelati La Carmela, mozzarella di bufala DOP, spolverata di Grana Padano DOP, olio EVO di Puglia Guglielmi, basilico" },
-    "bufalina-senza-lattosio": { "name": "Bufalina Senza Lattosio", "desc": "Pomodori pelati La Carmela, mozzarella di bufala senza lattosio DOP, olio EVO di Puglia Guglielmi, basilico" },
-    "marinara-pizzium": { "name": "Marinara secondo Pizzium", "desc": "Pomodori pelati La Carmela, datterini rossi, capperi Maione, filetti di acciughe del Mediterraneo, olive taggiasche, origano, aglio, olio EVO di Puglia Guglielmi, basilico" },
-    "diavola": { "name": "Diavola", "desc": "Pomodori pelati La Carmela, fior di latte, ventricina piccante, olio EVO di Puglia Guglielmi, basilico" },
-
-    "orto-venere": { "name": "Orto & Venere", "desc": "Riso venere, caponatina di verdure, stracciatella pugliese" },
-    "insalata-caesar": { "name": "Insalata Caesar", "desc": "Misticanza, petto di pollo al forno, datterini rossi, scaglie di Grana Padano DOP, crostini di pane, salsa Caesar" },
-    "caprese-pizzium": { "name": "Caprese alla Pizzium", "desc": "Pomodoro cuore di bue, mozzarella di bufala DOP, pesto di basilico, zest di limone" },
-    "insalata-marinara": { "name": "Insalata Marinara", "desc": "Misticanza, datterini rossi e gialli, origano, olive taggiasche, filetti di acciughe del Mediterraneo" },
-
-    "cheesecake": { "name": "Cheesecake", "desc": "Nutella® o pistacchio o frutti di bosco" },
-    "tiramisu": { "name": "Tiramisù" },
-    "nuvole-cremose": { "name": "Nuvole Cremose", "desc": "2 sfere di pasta ripiene alla crema di latte e agli agrumi" },
-    "sorbetto-limone": { "name": "Sorbetto al Limone" },
-    "caffe-goloso": { "name": "Caffè Goloso", "desc": "Caffè espresso servito con biscottino homemade agrumato alle mandorle" },
-
-    "menu-bambino": { "name": "Menu Bambino", "desc": "Pizza Margherita Baby + Bibita" },
-
-    "ichnusa-anima-sarda": { "name": "Ichnusa Anima Sarda", "desc": "Chiara e rinfrescante" },
-    "ichnusa-non-filtrata": { "name": "Ichnusa Non Filtrata", "desc": "Fruttata con profumi di luppolo" },
-
-    "birrium-blonde": { "name": "Birrium Blonde - Gluten Free", "desc": "Birra Bionda stile britannico con luppoli inglesi e americani" },
-    "birrium-white-ipa": { "name": "Birrium White IPA", "desc": "Birra bianca, seducente e luppolata, a base di frumento" },
-    "birrium-ipa": { "name": "Birrium IPA", "desc": "Birra ambrata con luppoli americani, decisa e ricca di profumi" },
-    "birrium-belgian-ale": { "name": "Birrium Belgian Ale", "desc": "Birra rossa stile belga, fruttata e speziata" },
-    "heineken-00": { "name": "Heineken 0.0 Analcolica" },
-
-    "acqua-naturale-frizzante": { "name": "Acqua Naturale Electa / Frizzante Maxima" },
-    "coca-cola": { "name": "Coca-Cola / Coca-Cola Zero" },
-    "coca-cola-zero-zero": { "name": "Coca-Cola Zero Zuccheri Zero Caffeina" },
-    "fanta-sprite": { "name": "Fanta / Sprite" },
-    "estathe": { "name": "Estathé al Limone / Pesca" },
-    "bibita-lurisia": { "name": "Bibita Lurisia", "desc": "Aranciata / chinotto / limonata / tonica" },
-    "crodino-xl": { "name": "Crodino XL" },
-
-    "aperol-spritz": { "name": "Aperol Spritz" },
-    "campari-spritz": { "name": "Campari Spritz" },
-    "mondoro-hugo-spritz": { "name": "Mondoro Hugo Spritz" },
-    "americano-cocktail": { "name": "Americano" },
-    "negroni": { "name": "Negroni" },
-    "milano-torino": { "name": "Milano-Torino" },
-    "gin-tonic": { "name": "Gin Tonic" },
-
-    "prosecco-soligo": { "name": "Prosecco DOC Treviso Millesimato Extra Dry", "desc": "Soligo, Veneto" },
-
-    "pecorino-terre-chieti": { "name": "Pecorino Terre di Chieti", "desc": "Tratturo Spinelli, Abruzzo" },
-    "soave-classico": { "name": "Soave Classico DOC \"San Michele\"", "desc": "Ca Rugate, Veneto" },
-    "gewurztraminer-kies": { "name": "Gewürztraminer Trentino DOC \"Kies\"", "desc": "Roeno, Trentino Alto Adige" },
-
-    "primitivo-rosato": { "name": "Primitivo Rosato Puglia IGP", "desc": "A Mano, Puglia" },
-
-    "montepulciano-abruzzo": { "name": "Montepulciano d'Abruzzo DOC", "desc": "Tratturo Spinelli, Abruzzo" },
-    "morellino-scansano": { "name": "Morellino di Scansano DOCG", "desc": "Cerreto Piano, Toscana" },
-
-    "lavazza-caffe": { "name": "Lavazza Caffè" },
-    "lavazza-decaffeinato": { "name": "Lavazza Caffè Decaffeinato" },
-    "caffe-americano": { "name": "Caffè Americano" },
-    "cappuccino": { "name": "Cappuccino" },
-    "limoncello-mirto": { "name": "Limoncello / Mirto" },
-    "grappa": { "name": "Grappa" },
-    "amaro": { "name": "Amaro" }
+    "tris-perfetto": {
+      "name": "Il Tris Perfetto",
+      "desc": "Crocchè di patate con crema al Pecorino Romano DOP, frittatina alla Nerano con crema di zucchine, arancino al ragù con salsa al pomodoro arrosto"
+    },
+    "tagliere-condividere": {
+      "name": "Tagliere da Condividere",
+      "desc": "Prosciutto crudo San Daniele DOP, salame dolce di tipo Napoli, zucchina grigliata, melanzana grigliata, casciotta di Urbino DOP, olive taggiasche. Servito con focaccina calda"
+    },
+    "verdure-grigliate-burrata": {
+      "name": "Verdure Grigliate e Burrata"
+    },
+    "prosciutto-crudo-bufala": {
+      "name": "Prosciutto Crudo e Bufala",
+      "desc": "Prosciutto crudo San Daniele DOP e mozzarella di bufala DOP"
+    },
+    "panzanella-mediterranea": {
+      "name": "Panzanella Mediterranea",
+      "desc": "Carciofi al forno, ceci, datterini rossi e scaglie di Grana Padano DOP con glassa balsamica"
+    },
+    "bruschetta-stracciatella-zucchine": {
+      "name": "Bruschetta Stracciatella e Zucchine",
+      "desc": "Bruschetta con stracciatella pugliese e chips di zucchine"
+    },
+    "gnocchi-sorrentina": {
+      "name": "Gnocchi alla Sorrentina",
+      "desc": "Gnocchi di patate, sugo al pomodoro, fior di latte"
+    },
+    "lasagna-golosa": {
+      "name": "Lasagna Golosa",
+      "desc": "Lasagna alla bolognese con sfoglie agli spinaci e ripieno di carne macinata e besciamella"
+    },
+    "fregola-estate": {
+      "name": "Fregola d'Estate",
+      "desc": "Fregola sarda con pomodori secchi, olive taggiasche, feta sbriciolata, basilico"
+    },
+    "polpette-sugo": {
+      "name": "Polpette al Sugo"
+    },
+    "parmigiana-melanzane": {
+      "name": "Parmigiana di Melanzane"
+    },
+    "frisella-mare": {
+      "name": "Frisella di Mare",
+      "desc": "Datterini rossi e gialli, filetti di tonno pinna gialla Pescatorello, capperi Maione, olive taggiasche, olio EVO di Puglia Guglielmi, basilico"
+    },
+    "frisella-terra": {
+      "name": "Frisella di Terra",
+      "desc": "Carciofi al forno, misticanza, pomodorini secchi, mozzarella di bufala DOP, olio EVO di Puglia Guglielmi, basilico"
+    },
+    "calzone-napoletano": {
+      "name": "Calzone Napoletano",
+      "desc": "Pomodori pelati La Carmela, ricotta vaccina, provola affumicata, Grana Padano DOP, salame dolce di tipo Napoli, pepe nero, olio EVO di Puglia Guglielmi, basilico"
+    },
+    "calzone-vegetariano": {
+      "name": "Calzone Vegetariano",
+      "desc": "Provola affumicata, funghi cardoncelli, crema di zucchine, Grana Padano DOP, pinoli tostati, olio EVO di Puglia Guglielmi, basilico"
+    },
+    "valle-aosta": {
+      "name": "Valle d'Aosta",
+      "desc": "Pomodori pelati La Carmela, fior di latte, prosciutto cotto alta qualità alla brace Lorenzi, carciofi al forno, funghi cardoncelli, olive taggiasche, olio EVO di Puglia Guglielmi, basilico"
+    },
+    "piemonte": {
+      "name": "Piemonte",
+      "desc": "Fior di latte, salsiccia fassona, olio al tartufo, pepe nero, basilico, cornicione ripieno di ricotta vaccina"
+    },
+    "lombardia": {
+      "name": "Lombardia",
+      "desc": "Fior di latte, provola affumicata, gorgonzola DOP, Grana Padano DOP, noci, olio EVO di Puglia Guglielmi, basilico"
+    },
+    "trentino-alto-adige": {
+      "name": "Trentino Alto Adige",
+      "desc": "Fior di latte, speck del Trentino Alto Adige, gorgonzola DOP, miele millefiori, polvere di liquirizia, olio EVO di Puglia Guglielmi, basilico"
+    },
+    "friuli-venezia-giulia": {
+      "name": "Friuli Venezia Giulia",
+      "desc": "Fior di latte, datterini rossi, prosciutto crudo San Daniele DOP, rucola, scaglie di Grana Padano DOP, basilico"
+    },
+    "veneto": {
+      "name": "Veneto",
+      "desc": "Fior di latte, caciocavallo di Agnone, radicchio fresco, noci, olio EVO di Puglia Guglielmi, basilico"
+    },
+    "liguria": {
+      "name": "Liguria",
+      "desc": "Fior di latte, datterini gialli e rossi, pesto di basilico, olio EVO di Puglia Guglielmi, basilico"
+    },
+    "emilia-romagna": {
+      "name": "Emilia Romagna",
+      "desc": "Fior di latte, mortadella Bologna IGP, granella di pistacchio, olio EVO di Puglia Guglielmi, basilico"
+    },
+    "toscana": {
+      "name": "Toscana",
+      "desc": "Fior di latte, crema di cavolo nero, patate al forno, straccetti di melanzane fritte, zucchine fritte, pinoli tostati, basilico"
+    },
+    "marche": {
+      "name": "Marche",
+      "desc": "Pomodori pelati La Carmela, fior di latte, salame dolce, casciotta di Urbino DOP, pepe nero, olio EVO di Puglia Guglielmi, basilico"
+    },
+    "umbria": {
+      "name": "Umbria",
+      "desc": "Provola affumicata, patate al forno, salsiccia di Norcia, fonduta di Pecorino Romano DOP, olio EVO di Puglia Guglielmi, basilico"
+    },
+    "lazio": {
+      "name": "Lazio",
+      "desc": "Fior di latte, crema di carciofi, cuore di carciofo, prosciutto cotto alta qualità alla brace Lorenzi, fonduta di Pecorino Romano DOP, olio EVO di Puglia Guglielmi, basilico"
+    },
+    "abruzzo": {
+      "name": "Abruzzo",
+      "desc": "Pomodori pelati La Carmela, fior di latte, guanciale amatriciano stagionato salumificio Sano, Pecorino Romano DOP, pepe macinato, basilico"
+    },
+    "molise": {
+      "name": "Molise",
+      "desc": "Fior di latte, caciocavallo di Agnone, salsiccia di Norcia, olio EVO di Puglia Guglielmi, basilico"
+    },
+    "campania": {
+      "name": "Campania",
+      "desc": "Provola affumicata, crema di zucchine, zucchine fritte, Grana Padano DOP, olio EVO di Puglia Guglielmi, basilico"
+    },
+    "puglia": {
+      "name": "Puglia",
+      "desc": "Passata di pomodori gialli, capocollo di maialino, burrata pugliese, tarallo sbriciolato, olive taggiasche, olio EVO di Puglia Guglielmi, basilico"
+    },
+    "basilicata": {
+      "name": "Basilicata",
+      "desc": "Provola affumicata, patate al forno, crema di peperoni, peperone crusco sbriciolato, olio EVO di Puglia Guglielmi, basilico"
+    },
+    "calabria": {
+      "name": "Calabria",
+      "desc": "Fior di latte, cipolla rossa caramellata, stracciatella pugliese, olive taggiasche, olio al peperoncino Guglielmi, basilico"
+    },
+    "sicilia": {
+      "name": "Sicilia",
+      "desc": "Pomodori pelati La Carmela, melanzane fritte, ricotta salata, olio EVO di Puglia Guglielmi, basilico"
+    },
+    "sardegna": {
+      "name": "Sardegna",
+      "desc": "Fior di latte, datterini rossi, feta sbriciolata, alici del Mediterraneo, riduzione di vino rosso Cannonau, basilico"
+    },
+    "margherita": {
+      "name": "Margherita",
+      "desc": "Pomodori pelati La Carmela, fior di latte, spolverata di Grana Padano DOP, olio EVO di Puglia Guglielmi, basilico"
+    },
+    "margherita-vegana": {
+      "name": "Margherita Vegana",
+      "desc": "Pomodori pelati La Carmela, alternativa vegetale alla mozzarella, olio EVO di Puglia Guglielmi, basilico"
+    },
+    "bufalina": {
+      "name": "Bufalina",
+      "desc": "Pomodori pelati La Carmela, mozzarella di bufala DOP, spolverata di Grana Padano DOP, olio EVO di Puglia Guglielmi, basilico"
+    },
+    "bufalina-senza-lattosio": {
+      "name": "Bufalina Senza Lattosio",
+      "desc": "Pomodori pelati La Carmela, mozzarella di bufala senza lattosio DOP, olio EVO di Puglia Guglielmi, basilico"
+    },
+    "marinara-pizzium": {
+      "name": "Marinara secondo Pizzium",
+      "desc": "Pomodori pelati La Carmela, datterini rossi, capperi Maione, filetti di acciughe del Mediterraneo, olive taggiasche, origano, aglio, olio EVO di Puglia Guglielmi, basilico"
+    },
+    "diavola": {
+      "name": "Diavola",
+      "desc": "Pomodori pelati La Carmela, fior di latte, ventricina piccante, olio EVO di Puglia Guglielmi, basilico"
+    },
+    "orto-venere": {
+      "name": "Orto & Venere",
+      "desc": "Riso venere, caponatina di verdure, stracciatella pugliese"
+    },
+    "insalata-caesar": {
+      "name": "Insalata Caesar",
+      "desc": "Misticanza, petto di pollo al forno, datterini rossi, scaglie di Grana Padano DOP, crostini di pane, salsa Caesar"
+    },
+    "caprese-pizzium": {
+      "name": "Caprese alla Pizzium",
+      "desc": "Pomodoro cuore di bue, mozzarella di bufala DOP, pesto di basilico, zest di limone"
+    },
+    "insalata-marinara": {
+      "name": "Insalata Marinara",
+      "desc": "Misticanza, datterini rossi e gialli, origano, olive taggiasche, filetti di acciughe del Mediterraneo"
+    },
+    "cheesecake": {
+      "name": "Cheesecake",
+      "desc": "Nutella® o pistacchio o frutti di bosco"
+    },
+    "tiramisu": {
+      "name": "Tiramisù"
+    },
+    "nuvole-cremose": {
+      "name": "Nuvole Cremose",
+      "desc": "2 sfere di pasta ripiene alla crema di latte e agli agrumi"
+    },
+    "sorbetto-limone": {
+      "name": "Sorbetto al Limone"
+    },
+    "caffe-goloso": {
+      "name": "Caffè Goloso",
+      "desc": "Caffè espresso servito con biscottino homemade agrumato alle mandorle"
+    },
+    "menu-bambino": {
+      "name": "Menu Bambino",
+      "desc": "Pizza Margherita Baby + Bibita"
+    },
+    "ichnusa-anima-sarda": {
+      "name": "Ichnusa Anima Sarda",
+      "desc": "Chiara e rinfrescante"
+    },
+    "ichnusa-non-filtrata": {
+      "name": "Ichnusa Non Filtrata",
+      "desc": "Fruttata con profumi di luppolo"
+    },
+    "birrium-blonde": {
+      "name": "Birrium Blonde - Gluten Free",
+      "desc": "Birra Bionda stile britannico con luppoli inglesi e americani"
+    },
+    "birrium-white-ipa": {
+      "name": "Birrium White IPA",
+      "desc": "Birra bianca, seducente e luppolata, a base di frumento"
+    },
+    "birrium-ipa": {
+      "name": "Birrium IPA",
+      "desc": "Birra ambrata con luppoli americani, decisa e ricca di profumi"
+    },
+    "birrium-belgian-ale": {
+      "name": "Birrium Belgian Ale",
+      "desc": "Birra rossa stile belga, fruttata e speziata"
+    },
+    "heineken-00": {
+      "name": "Heineken 0.0 Analcolica"
+    },
+    "acqua-naturale-frizzante": {
+      "name": "Acqua Naturale Electa / Frizzante Maxima"
+    },
+    "coca-cola": {
+      "name": "Coca-Cola / Coca-Cola Zero"
+    },
+    "coca-cola-zero-zero": {
+      "name": "Coca-Cola Zero Zuccheri Zero Caffeina"
+    },
+    "fanta-sprite": {
+      "name": "Fanta / Sprite"
+    },
+    "estathe": {
+      "name": "Estathé al Limone / Pesca"
+    },
+    "bibita-lurisia": {
+      "name": "Bibita Lurisia",
+      "desc": "Aranciata / chinotto / limonata / tonica"
+    },
+    "crodino-xl": {
+      "name": "Crodino XL"
+    },
+    "aperol-spritz": {
+      "name": "Aperol Spritz"
+    },
+    "campari-spritz": {
+      "name": "Campari Spritz"
+    },
+    "mondoro-hugo-spritz": {
+      "name": "Mondoro Hugo Spritz"
+    },
+    "americano-cocktail": {
+      "name": "Americano"
+    },
+    "negroni": {
+      "name": "Negroni"
+    },
+    "milano-torino": {
+      "name": "Milano-Torino"
+    },
+    "gin-tonic": {
+      "name": "Gin Tonic"
+    },
+    "prosecco-soligo": {
+      "name": "Prosecco DOC Treviso Millesimato Extra Dry",
+      "desc": "Soligo, Veneto"
+    },
+    "pecorino-terre-chieti": {
+      "name": "Pecorino Terre di Chieti",
+      "desc": "Tratturo Spinelli, Abruzzo"
+    },
+    "soave-classico": {
+      "name": "Soave Classico DOC \"San Michele\"",
+      "desc": "Ca Rugate, Veneto"
+    },
+    "gewurztraminer-kies": {
+      "name": "Gewürztraminer Trentino DOC \"Kies\"",
+      "desc": "Roeno, Trentino Alto Adige"
+    },
+    "primitivo-rosato": {
+      "name": "Primitivo Rosato Puglia IGP",
+      "desc": "A Mano, Puglia"
+    },
+    "montepulciano-abruzzo": {
+      "name": "Montepulciano d'Abruzzo DOC",
+      "desc": "Tratturo Spinelli, Abruzzo"
+    },
+    "morellino-scansano": {
+      "name": "Morellino di Scansano DOCG",
+      "desc": "Cerreto Piano, Toscana"
+    },
+    "lavazza-caffe": {
+      "name": "Lavazza Caffè"
+    },
+    "lavazza-decaffeinato": {
+      "name": "Lavazza Caffè Decaffeinato"
+    },
+    "caffe-americano": {
+      "name": "Caffè Americano"
+    },
+    "cappuccino": {
+      "name": "Cappuccino"
+    },
+    "limoncello-mirto": {
+      "name": "Limoncello / Mirto"
+    },
+    "grappa": {
+      "name": "Grappa"
+    },
+    "amaro": {
+      "name": "Amaro"
+    }
   }
 }
