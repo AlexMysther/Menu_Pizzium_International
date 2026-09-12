@@ -5,7 +5,10 @@
     "tabMenu": "Menu",
     "tabBevande": "Bevande",
     "noResults": "Nessun risultato",
-    "coverCharge": "Coperto e servizio: € 2,00"
+    "coverCharge": "Coperto e servizio: € 2,00",
+    "infoLabel": "Info",
+    "infoTitle": "Legenda dei simboli",
+    "pizzaPromo": "Con € 2,00 puoi avere il cornicione ripieno di ricotta"
   },
   "categories": {
     "antipasti": "Antipasti",
@@ -38,6 +41,12 @@
     "vegan": "Vegano",
     "vegetarian": "Vegetariano",
     "lactose-free": "Senza Lattosio"
+  },
+  "legend": {
+    "intro": "I pallini colorati accanto ai piatti indicano:",
+    "vegetarian": "Piatto vegetariano, senza carne né pesce.",
+    "vegan": "Piatto vegano, senza alcun ingrediente di origine animale.",
+    "lactose-free": "Piatto senza lattosio."
   },
   "items": {
     "tris-perfetto": {

@@ -5,7 +5,10 @@
     "tabMenu": "菜单",
     "tabBevande": "饮品",
     "noResults": "没有结果",
-    "coverCharge": "餐位费及服务费：2.00 欧元"
+    "coverCharge": "餐位费及服务费：2.00 欧元",
+    "infoLabel": "信息",
+    "infoTitle": "图标说明",
+    "pizzaPromo": "加2.00欧元，边缘可换成里科塔奶酪馅"
   },
   "categories": {
     "antipasti": "前菜",
@@ -38,6 +41,12 @@
     "vegan": "纯素",
     "vegetarian": "素食",
     "lactose-free": "无乳糖"
+  },
+  "legend": {
+    "intro": "菜品旁的彩色圆点含义如下：",
+    "vegetarian": "素食菜品，不含肉或鱼。",
+    "vegan": "纯素菜品，不含任何动物性成分。",
+    "lactose-free": "无乳糖菜品。"
   },
   "items": {
     "tris-perfetto": {

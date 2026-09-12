@@ -11,6 +11,7 @@ index.html
 css/style.css
 js/i18n.js          # loader traduzioni (fallback su IT per chiavi mancanti)
 js/app.js           # rendering menu, filtri, switch lingua
+img/flags/          # bandiere PNG (@2x per retina), da flagcdn.com
 data/
   menu/
     categories.json # categorie del menu (id, ordine) — NON tradotto
@@ -18,8 +19,8 @@ data/
   i18n/
     languages.json  # registro delle lingue disponibili (bandiera, nome nativo, direzione testo)
     it.json          # lingua di fallback — DEVE sempre contenere tutte le chiavi
-    en.json, de.json, fr.json, es.json
-    ru.json, zh.json, ar.json, pt.json
+    en.json, de.json, fr.json, es.json, pt.json
+    ru.json, uk.json, zh.json, ja.json, ko.json, ar.json
 ```
 
 Il contenuto del menu (`categories.json`, `items.json`) è **separato dalle traduzioni**: ogni piatto ha un id stabile (es. `"valle-aosta"`) usato come chiave nei file `data/i18n/*.json` per recuperare nome/descrizione nella lingua attiva.
@@ -29,12 +30,13 @@ Il contenuto del menu (`categories.json`, `items.json`) è **separato dalle trad
 Nessuna modifica al codice JS/HTML è necessaria.
 
 1. Copiare `data/i18n/it.json` in `data/i18n/<codice>.json` (es. `ja.json` per il giapponese) e tradurre tutti i valori (lasciare invariate le chiavi).
-2. Aggiungere una riga in `data/i18n/languages.json`:
+2. Scaricare la bandiera del paese in PNG (es. da https://flagcdn.com/w80/jp.png e https://flagcdn.com/w160/jp.png per il retina) e salvarla in `img/flags/` come `<codice-paese-iso>.png` e `<codice-paese-iso>@2x.png` (il codice paese ISO può differire dal codice lingua, es. inglese → `gb`, arabo → `sa`, cinese → `cn`).
+3. Aggiungere una riga in `data/i18n/languages.json`:
    ```json
-   { "code": "ja", "nativeName": "日本語", "englishName": "Japanese", "flag": "🇯🇵", "dir": "ltr" }
+   { "code": "ja", "nativeName": "日本語", "englishName": "Japanese", "flag": "img/flags/jp.png", "dir": "ltr" }
    ```
    Usare `"dir": "rtl"` per lingue scritte da destra a sinistra (es. arabo, ebraico, persiano).
-3. Fatto: la lingua compare automaticamente nel selettore ricercabile in alto a destra.
+4. Fatto: la lingua compare automaticamente nel selettore ricercabile in alto a destra.
 
 Se una traduzione è incompleta, le chiavi mancanti mostrano automaticamente il testo italiano (fallback), quindi si può pubblicare una lingua anche mentre viene completata.
 
@@ -48,4 +50,4 @@ Se una traduzione è incompleta, le chiavi mancanti mostrano automaticamente il 
 
 ## Lingue attualmente incluse
 
-Italiano, Inglese, Tedesco, Francese, Spagnolo, Russo, Cinese, Arabo, Portoghese — contenuto reale trascritto dal menu cartaceo Pizzium (86 voci: antipasti, primi, secondi, calzoni, pizze regionali e classiche, insalate, dolci, menu bambino, bevande con birre/vini/cocktail/caffetteria).
+Italiano, Inglese, Tedesco, Francese, Spagnolo, Portoghese, Russo, Ucraino, Cinese, Giapponese, Coreano, Arabo — contenuto reale trascritto dal menu cartaceo Pizzium (86 voci: antipasti, primi, secondi, calzoni, pizze regionali e classiche, insalate, dolci, menu bambino, bevande con birre/vini/cocktail/caffetteria).

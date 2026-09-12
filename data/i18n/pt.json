@@ -5,7 +5,10 @@
     "tabMenu": "Menu",
     "tabBevande": "Bebidas",
     "noResults": "Nenhum resultado",
-    "coverCharge": "Couvert e serviço: € 2,00"
+    "coverCharge": "Couvert e serviço: € 2,00",
+    "infoLabel": "Info",
+    "infoTitle": "Legenda dos símbolos",
+    "pizzaPromo": "Por € 2,00 pode ter a borda recheada com ricota"
   },
   "categories": {
     "antipasti": "Entradas",
@@ -38,6 +41,12 @@
     "vegan": "Vegano",
     "vegetarian": "Vegetariano",
     "lactose-free": "Sem Lactose"
+  },
+  "legend": {
+    "intro": "Os pontos coloridos junto aos pratos indicam:",
+    "vegetarian": "Prato vegetariano, sem carne nem peixe.",
+    "vegan": "Prato vegano, sem qualquer ingrediente de origem animal.",
+    "lactose-free": "Prato sem lactose."
   },
   "items": {
     "tris-perfetto": {
