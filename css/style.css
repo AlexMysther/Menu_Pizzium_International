@@ -45,11 +45,11 @@ button { font-family: inherit; }
   justify-self: center;
   background: #fff;
   border-radius: 8px;
-  padding: 4px 10px;
+  padding: 5px 12px;
   line-height: 0;
 }
 .brand-logo {
-  height: 26px;
+  height: 32px;
   width: auto;
   display: block;
 }
