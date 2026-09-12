@@ -10,5 +10,9 @@
   { "code": "zh", "nativeName": "中文", "englishName": "Chinese", "flag": "img/flags/cn.png", "dir": "ltr" },
   { "code": "ja", "nativeName": "日本語", "englishName": "Japanese", "flag": "img/flags/jp.png", "dir": "ltr" },
   { "code": "ko", "nativeName": "한국어", "englishName": "Korean", "flag": "img/flags/kr.png", "dir": "ltr" },
-  { "code": "ar", "nativeName": "العربية", "englishName": "Arabic", "flag": "img/flags/ar.png", "dir": "rtl" }
+  { "code": "ar", "nativeName": "العربية", "englishName": "Arabic", "flag": "img/flags/ar.png", "dir": "rtl" },
+  { "code": "nl", "nativeName": "Nederlands", "englishName": "Dutch", "flag": "img/flags/nl.png", "dir": "ltr" },
+  { "code": "pl", "nativeName": "Polski", "englishName": "Polish", "flag": "img/flags/pl.png", "dir": "ltr" },
+  { "code": "tr", "nativeName": "Türkçe", "englishName": "Turkish", "flag": "img/flags/tr.png", "dir": "ltr" },
+  { "code": "he", "nativeName": "עברית", "englishName": "Hebrew", "flag": "img/flags/il.png", "dir": "rtl" }
 ]

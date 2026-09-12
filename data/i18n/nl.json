@@ -1,0 +1,371 @@
+{
+  "ui": {
+    "menuTitle": "ONS MENU",
+    "searchPlaceholder": "Zoeken in categorie...",
+    "tabMenu": "Menu",
+    "tabBevande": "Dranken",
+    "noResults": "Geen resultaten",
+    "coverCharge": "Tafelgeld en bediening: € 2,00",
+    "infoLabel": "Info",
+    "infoTitle": "Legenda symbolen",
+    "pizzaPromo": "Voor € 2,00 kun je de rand laten vullen met ricotta"
+  },
+  "categories": {
+    "antipasti": "Voorgerechten",
+    "primi": "Eerste gangen",
+    "secondi": "Hoofdgerechten",
+    "calzoni": "Gebakken calzone",
+    "pizze": "Pizza's",
+    "insalate": "Salades",
+    "dolci": "Desserts",
+    "bambini": "Kindermenu",
+    "bevande": "Dranken"
+  },
+  "categoryNotes": {
+    "dolci": "* Sommige in onze keuken bereide desserts kunnen zijn ingevroren om de kwaliteit en voedselveiligheid te waarborgen."
+  },
+  "groups": {
+    "pizze-regionali": "Regionale pizza's",
+    "pizze-classiche": "Klassieke Napolitaanse pizza's",
+    "birre-spina": "Bier van de tap",
+    "birre-bottiglia": "Bier op fles",
+    "acqua-bibite": "Water & frisdrank",
+    "cocktails": "Cocktails",
+    "bollicine": "Mousserende wijn",
+    "vini-bianchi": "Witte wijnen",
+    "vini-rose": "Rosé wijnen",
+    "vini-rossi": "Rode wijnen",
+    "caffe-digestivi": "Koffie & digestieven"
+  },
+  "tags": {
+    "vegan": "Vegan",
+    "vegetarian": "Vegetarisch",
+    "lactose-free": "Lactosevrij"
+  },
+  "legend": {
+    "intro": "De gekleurde stippen naast de gerechten betekenen:",
+    "vegetarian": "Vegetarisch gerecht, zonder vlees of vis.",
+    "vegan": "Vegan gerecht, zonder ingrediënten van dierlijke oorsprong.",
+    "lactose-free": "Lactosevrij gerecht."
+  },
+  "items": {
+    "tris-perfetto": {
+      "name": "Het Perfecte Trio",
+      "desc": "Aardappelkroket met Pecorino Romano DOP-crème, frittata alla Nerano met courgettecrème, arancino met ragù en gebakken tomatensaus"
+    },
+    "tagliere-condividere": {
+      "name": "Deelplank",
+      "desc": "San Daniele DOP-rauwe ham, zoete salami Napoli-stijl, gegrilde courgette, gegrilde aubergine, Casciotta di Urbino DOP, taggiasca-olijven. Geserveerd met warme focaccia"
+    },
+    "verdure-grigliate-burrata": {
+      "name": "Gegrilde Groenten en Burrata"
+    },
+    "prosciutto-crudo-bufala": {
+      "name": "Rauwe Ham en Buffelmozzarella",
+      "desc": "San Daniele DOP-rauwe ham en buffelmozzarella DOP"
+    },
+    "panzanella-mediterranea": {
+      "name": "Mediterrane Panzanella",
+      "desc": "Geroosterde artisjokken, kikkererwten, rode cherrytomaatjes en Grana Padano DOP-schilfers met balsamicoglazuur"
+    },
+    "bruschetta-stracciatella-zucchine": {
+      "name": "Bruschetta met Stracciatella en Courgette",
+      "desc": "Bruschetta met Apulische stracciatella en courgettechips"
+    },
+    "gnocchi-sorrentina": {
+      "name": "Gnocchi alla Sorrentina",
+      "desc": "Aardappelgnocchi, tomatensaus, fior di latte"
+    },
+    "lasagna-golosa": {
+      "name": "Rijkelijke Lasagne",
+      "desc": "Lasagne bolognese-stijl met spinazievellen, gehaktvulling en bechamel"
+    },
+    "fregola-estate": {
+      "name": "Zomerse Fregola",
+      "desc": "Sardijnse fregola met zongedroogde tomaatjes, taggiasca-olijven, verkruimelde feta, basilicum"
+    },
+    "polpette-sugo": {
+      "name": "Gehaktballetjes in Tomatensaus"
+    },
+    "parmigiana-melanzane": {
+      "name": "Auberginenparmigiana"
+    },
+    "frisella-mare": {
+      "name": "Frisella di Mare",
+      "desc": "Rode en gele cherrytomaatjes, Pescatorello geelvintonijnfilet, Maione-kappertjes, taggiasca-olijven, Guglielmi extra vergine olijfolie uit Puglia, basilicum"
+    },
+    "frisella-terra": {
+      "name": "Frisella di Terra",
+      "desc": "Geroosterde artisjokken, gemengde sla, zongedroogde cherrytomaatjes, buffelmozzarella DOP, Guglielmi extra vergine olijfolie uit Puglia, basilicum"
+    },
+    "calzone-napoletano": {
+      "name": "Calzone Napoletano",
+      "desc": "Gepelde tomaten La Carmela, koemelkricotta, gerookte provola, Grana Padano DOP, zoete salami Napoli-stijl, zwarte peper, Guglielmi extra vergine olijfolie uit Puglia, basilicum"
+    },
+    "calzone-vegetariano": {
+      "name": "Vegetarische Calzone",
+      "desc": "Gerookte provola, koningsoesterzwammen, courgettecrème, Grana Padano DOP, geroosterde pijnboompitten, Guglielmi extra vergine olijfolie uit Puglia, basilicum"
+    },
+    "valle-aosta": {
+      "name": "Valle d'Aosta",
+      "desc": "Gepelde tomaten La Carmela, fior di latte, houtgegrilde hoogwaardige gekookte ham Lorenzi, geroosterde artisjokken, koningsoesterzwammen, taggiasca-olijven, Guglielmi extra vergine olijfolie uit Puglia, basilicum"
+    },
+    "piemonte": {
+      "name": "Piemonte",
+      "desc": "Fior di latte, Fassona-rundworst, truffelolie, zwarte peper, basilicum, rand gevuld met koemelkricotta"
+    },
+    "lombardia": {
+      "name": "Lombardia",
+      "desc": "Fior di latte, gerookte provola, gorgonzola DOP, Grana Padano DOP, walnoten, Guglielmi extra vergine olijfolie uit Puglia, basilicum"
+    },
+    "trentino-alto-adige": {
+      "name": "Trentino Alto Adige",
+      "desc": "Fior di latte, speck uit Trentino Alto Adige, gorgonzola DOP, wilde bloemenhoning, zoethoutpoeder, Guglielmi extra vergine olijfolie uit Puglia, basilicum"
+    },
+    "friuli-venezia-giulia": {
+      "name": "Friuli Venezia Giulia",
+      "desc": "Fior di latte, rode cherrytomaatjes, San Daniele DOP-rauwe ham, rucola, Grana Padano DOP-schilfers, basilicum"
+    },
+    "veneto": {
+      "name": "Veneto",
+      "desc": "Fior di latte, caciocavallo uit Agnone, verse radicchio, walnoten, Guglielmi extra vergine olijfolie uit Puglia, basilicum"
+    },
+    "liguria": {
+      "name": "Liguria",
+      "desc": "Fior di latte, gele en rode cherrytomaatjes, basilicumpesto, Guglielmi extra vergine olijfolie uit Puglia, basilicum"
+    },
+    "emilia-romagna": {
+      "name": "Emilia Romagna",
+      "desc": "Fior di latte, mortadella Bologna IGP, gehakte pistachenoten, Guglielmi extra vergine olijfolie uit Puglia, basilicum"
+    },
+    "toscana": {
+      "name": "Toscana",
+      "desc": "Fior di latte, zwarte-koolcrème, ovengebakken aardappelen, gefrituurde auberginereepjes, gefrituurde courgette, geroosterde pijnboompitten, basilicum"
+    },
+    "marche": {
+      "name": "Marche",
+      "desc": "Gepelde tomaten La Carmela, fior di latte, zoete salami, Casciotta di Urbino DOP, zwarte peper, Guglielmi extra vergine olijfolie uit Puglia, basilicum"
+    },
+    "umbria": {
+      "name": "Umbria",
+      "desc": "Gerookte provola, ovengebakken aardappelen, worst uit Norcia, Pecorino Romano DOP-fondue, Guglielmi extra vergine olijfolie uit Puglia, basilicum"
+    },
+    "lazio": {
+      "name": "Lazio",
+      "desc": "Fior di latte, artisjokkencrème, artisjokkenhart, houtgegrilde hoogwaardige gekookte ham Lorenzi, Pecorino Romano DOP-fondue, Guglielmi extra vergine olijfolie uit Puglia, basilicum"
+    },
+    "abruzzo": {
+      "name": "Abruzzo",
+      "desc": "Gepelde tomaten La Carmela, fior di latte, gerijpte guanciale amatriciana-stijl van Salumificio Sano, Pecorino Romano DOP, gemalen peper, basilicum"
+    },
+    "molise": {
+      "name": "Molise",
+      "desc": "Fior di latte, caciocavallo uit Agnone, worst uit Norcia, Guglielmi extra vergine olijfolie uit Puglia, basilicum"
+    },
+    "campania": {
+      "name": "Campania",
+      "desc": "Gerookte provola, courgettecrème, gefrituurde courgette, Grana Padano DOP, Guglielmi extra vergine olijfolie uit Puglia, basilicum"
+    },
+    "puglia": {
+      "name": "Puglia",
+      "desc": "Passata van gele tomaten, capocollo van speenvarken, Apulische burrata, verkruimelde tarallo, taggiasca-olijven, Guglielmi extra vergine olijfolie uit Puglia, basilicum"
+    },
+    "basilicata": {
+      "name": "Basilicata",
+      "desc": "Gerookte provola, ovengebakken aardappelen, paprikacrème, verkruimelde crusco-peper, Guglielmi extra vergine olijfolie uit Puglia, basilicum"
+    },
+    "calabria": {
+      "name": "Calabria",
+      "desc": "Fior di latte, gekarameliseerde rode ui, Apulische stracciatella, taggiasca-olijven, Guglielmi chiliolie, basilicum"
+    },
+    "sicilia": {
+      "name": "Sicilia",
+      "desc": "Gepelde tomaten La Carmela, gefrituurde aubergine, gezouten ricotta, Guglielmi extra vergine olijfolie uit Puglia, basilicum"
+    },
+    "sardegna": {
+      "name": "Sardegna",
+      "desc": "Fior di latte, rode cherrytomaatjes, verkruimelde feta, mediterrane ansjovis, Cannonau-rodewijnreductie, basilicum"
+    },
+    "margherita": {
+      "name": "Margherita",
+      "desc": "Gepelde tomaten La Carmela, fior di latte, bestrooid met Grana Padano DOP, Guglielmi extra vergine olijfolie uit Puglia, basilicum"
+    },
+    "margherita-vegana": {
+      "name": "Vegan Margherita",
+      "desc": "Gepelde tomaten La Carmela, plantaardig mozzarella-alternatief, Guglielmi extra vergine olijfolie uit Puglia, basilicum"
+    },
+    "bufalina": {
+      "name": "Bufalina",
+      "desc": "Gepelde tomaten La Carmela, buffelmozzarella DOP, bestrooid met Grana Padano DOP, Guglielmi extra vergine olijfolie uit Puglia, basilicum"
+    },
+    "bufalina-senza-lattosio": {
+      "name": "Bufalina Lactosevrij",
+      "desc": "Gepelde tomaten La Carmela, lactosevrije buffelmozzarella DOP, Guglielmi extra vergine olijfolie uit Puglia, basilicum"
+    },
+    "marinara-pizzium": {
+      "name": "Marinara volgens Pizzium",
+      "desc": "Gepelde tomaten La Carmela, rode cherrytomaatjes, Maione-kappertjes, mediterrane ansjovisfilets, taggiasca-olijven, oregano, knoflook, Guglielmi extra vergine olijfolie uit Puglia, basilicum"
+    },
+    "diavola": {
+      "name": "Diavola",
+      "desc": "Gepelde tomaten La Carmela, fior di latte, pikante ventricina, Guglielmi extra vergine olijfolie uit Puglia, basilicum"
+    },
+    "orto-venere": {
+      "name": "Orto & Venere",
+      "desc": "Venere zwarte rijst, groentecaponata, Apulische stracciatella"
+    },
+    "insalata-caesar": {
+      "name": "Caesarsalade",
+      "desc": "Gemengde sla, ovengebakken kipfilet, rode cherrytomaatjes, Grana Padano DOP-schilfers, croutons, Caesardressing"
+    },
+    "caprese-pizzium": {
+      "name": "Caprese volgens Pizzium",
+      "desc": "Ossenharttomaat, buffelmozzarella DOP, basilicumpesto, citroenrasp"
+    },
+    "insalata-marinara": {
+      "name": "Marinarasalade",
+      "desc": "Gemengde sla, rode en gele cherrytomaatjes, oregano, taggiasca-olijven, mediterrane ansjovisfilets"
+    },
+    "cheesecake": {
+      "name": "Cheesecake",
+      "desc": "Nutella®, pistache of bosvruchten"
+    },
+    "tiramisu": {
+      "name": "Tiramisù"
+    },
+    "nuvole-cremose": {
+      "name": "Romige Wolkjes",
+      "desc": "2 gevulde bolletjes deeg met melk- en citruscrème"
+    },
+    "sorbetto-limone": {
+      "name": "Citroensorbet"
+    },
+    "caffe-goloso": {
+      "name": "Verwennende Koffie",
+      "desc": "Espresso geserveerd met een zelfgemaakt amandel-citruskoekje"
+    },
+    "menu-bambino": {
+      "name": "Kindermenu",
+      "desc": "Pizza Margherita Baby + Drankje"
+    },
+    "ichnusa-anima-sarda": {
+      "name": "Ichnusa Anima Sarda",
+      "desc": "Licht en verfrissend"
+    },
+    "ichnusa-non-filtrata": {
+      "name": "Ichnusa Non Filtrata",
+      "desc": "Fruitig met hopachtige aroma's"
+    },
+    "birrium-blonde": {
+      "name": "Birrium Blonde - Glutenvrij",
+      "desc": "Blond bier in Britse stijl met Engelse en Amerikaanse hop"
+    },
+    "birrium-white-ipa": {
+      "name": "Birrium White IPA",
+      "desc": "Witbier op basis van tarwe, verleidelijk en hoppig"
+    },
+    "birrium-ipa": {
+      "name": "Birrium IPA",
+      "desc": "Amberkleurig bier met Amerikaanse hop, krachtig en aromatisch"
+    },
+    "birrium-belgian-ale": {
+      "name": "Birrium Belgian Ale",
+      "desc": "Rood bier in Belgische stijl, fruitig en kruidig"
+    },
+    "heineken-00": {
+      "name": "Heineken 0.0 Alcoholvrij"
+    },
+    "acqua-naturale-frizzante": {
+      "name": "Water Electa Plat / Maxima Bruisend"
+    },
+    "coca-cola": {
+      "name": "Coca-Cola / Coca-Cola Zero"
+    },
+    "coca-cola-zero-zero": {
+      "name": "Coca-Cola Zero Suiker Zero Cafeïne"
+    },
+    "fanta-sprite": {
+      "name": "Fanta / Sprite"
+    },
+    "estathe": {
+      "name": "Estathé Citroen / Perzik Ijsthee"
+    },
+    "bibita-lurisia": {
+      "name": "Lurisia Frisdrank",
+      "desc": "Sinaasappel / chinotto / limonade / tonic"
+    },
+    "crodino-xl": {
+      "name": "Crodino XL"
+    },
+    "aperol-spritz": {
+      "name": "Aperol Spritz"
+    },
+    "campari-spritz": {
+      "name": "Campari Spritz"
+    },
+    "mondoro-hugo-spritz": {
+      "name": "Mondoro Hugo Spritz"
+    },
+    "americano-cocktail": {
+      "name": "Americano"
+    },
+    "negroni": {
+      "name": "Negroni"
+    },
+    "milano-torino": {
+      "name": "Milano-Torino"
+    },
+    "gin-tonic": {
+      "name": "Gin Tonic"
+    },
+    "prosecco-soligo": {
+      "name": "Prosecco DOC Treviso Millesimato Extra Dry",
+      "desc": "Soligo, Veneto"
+    },
+    "pecorino-terre-chieti": {
+      "name": "Pecorino Terre di Chieti",
+      "desc": "Tratturo Spinelli, Abruzzo"
+    },
+    "soave-classico": {
+      "name": "Soave Classico DOC \"San Michele\"",
+      "desc": "Ca Rugate, Veneto"
+    },
+    "gewurztraminer-kies": {
+      "name": "Gewürztraminer Trentino DOC \"Kies\"",
+      "desc": "Roeno, Trentino Alto Adige"
+    },
+    "primitivo-rosato": {
+      "name": "Primitivo Rosato Puglia IGP",
+      "desc": "A Mano, Puglia"
+    },
+    "montepulciano-abruzzo": {
+      "name": "Montepulciano d'Abruzzo DOC",
+      "desc": "Tratturo Spinelli, Abruzzo"
+    },
+    "morellino-scansano": {
+      "name": "Morellino di Scansano DOCG",
+      "desc": "Cerreto Piano, Toscana"
+    },
+    "lavazza-caffe": {
+      "name": "Lavazza Koffie"
+    },
+    "lavazza-decaffeinato": {
+      "name": "Lavazza Cafeïnevrije Koffie"
+    },
+    "caffe-americano": {
+      "name": "Koffie Americano"
+    },
+    "cappuccino": {
+      "name": "Cappuccino"
+    },
+    "limoncello-mirto": {
+      "name": "Limoncello / Mirto"
+    },
+    "grappa": {
+      "name": "Grappa"
+    },
+    "amaro": {
+      "name": "Amaro"
+    }
+  }
+}

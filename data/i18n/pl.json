@@ -1,0 +1,371 @@
+{
+  "ui": {
+    "menuTitle": "NASZE MENU",
+    "searchPlaceholder": "Szukaj w kategorii...",
+    "tabMenu": "Menu",
+    "tabBevande": "Napoje",
+    "noResults": "Brak wyników",
+    "coverCharge": "Nakrycie i obsługa: 2,00 €",
+    "infoLabel": "Info",
+    "infoTitle": "Legenda symboli",
+    "pizzaPromo": "Za 2,00 € brzeg może być nadziewany ricottą"
+  },
+  "categories": {
+    "antipasti": "Przystawki",
+    "primi": "Pierwsze dania",
+    "secondi": "Drugie dania",
+    "calzoni": "Calzone z pieca",
+    "pizze": "Pizza",
+    "insalate": "Sałatki",
+    "dolci": "Desery",
+    "bambini": "Menu dla dzieci",
+    "bevande": "Napoje"
+  },
+  "categoryNotes": {
+    "dolci": "* Niektóre desery przygotowywane w naszej kuchni mogły zostać zamrożone, aby zagwarantować jakość i bezpieczeństwo żywności."
+  },
+  "groups": {
+    "pizze-regionali": "Pizze regionalne",
+    "pizze-classiche": "Klasyczne pizze neapolitańskie",
+    "birre-spina": "Piwo z beczki",
+    "birre-bottiglia": "Piwo butelkowe",
+    "acqua-bibite": "Woda i napoje bezalkoholowe",
+    "cocktails": "Koktajle",
+    "bollicine": "Wina musujące",
+    "vini-bianchi": "Wina białe",
+    "vini-rose": "Wina różowe",
+    "vini-rossi": "Wina czerwone",
+    "caffe-digestivi": "Kawa i digestify"
+  },
+  "tags": {
+    "vegan": "Wegańskie",
+    "vegetarian": "Wegetariańskie",
+    "lactose-free": "Bez laktozy"
+  },
+  "legend": {
+    "intro": "Kolorowe kropki obok dań oznaczają:",
+    "vegetarian": "Danie wegetariańskie, bez mięsa i ryb.",
+    "vegan": "Danie wegańskie, bez jakichkolwiek składników pochodzenia zwierzęcego.",
+    "lactose-free": "Danie bez laktozy."
+  },
+  "items": {
+    "tris-perfetto": {
+      "name": "Idealne Trio",
+      "desc": "Krokiet ziemniaczany z kremem z Pecorino Romano DOP, frittata w stylu Nerano z kremem z cukinii, arancino z ragù i sosem z pieczonych pomidorów"
+    },
+    "tagliere-condividere": {
+      "name": "Deska do Dzielenia",
+      "desc": "Szynka dojrzewająca San Daniele DOP, słodkie salami w stylu neapolitańskim, grillowana cukinia, grillowany bakłażan, Casciotta di Urbino DOP, oliwki taggiasca. Podawane z ciepłą focaccią"
+    },
+    "verdure-grigliate-burrata": {
+      "name": "Grillowane Warzywa z Burratą"
+    },
+    "prosciutto-crudo-bufala": {
+      "name": "Szynka Dojrzewająca z Mozzarellą z Bawolego Mleka",
+      "desc": "Szynka dojrzewająca San Daniele DOP i mozzarella z bawolego mleka DOP"
+    },
+    "panzanella-mediterranea": {
+      "name": "Panzanella Śródziemnomorska",
+      "desc": "Pieczone karczochy, ciecierzyca, czerwone pomidorki cherry i płatki Grana Padano DOP z glazurą balsamiczną"
+    },
+    "bruschetta-stracciatella-zucchine": {
+      "name": "Bruschetta ze Stracciatellą i Cukinią",
+      "desc": "Bruschetta z apulijską stracciatellą i chipsami z cukinii"
+    },
+    "gnocchi-sorrentina": {
+      "name": "Gnocchi alla Sorrentina",
+      "desc": "Gnocchi ziemniaczane, sos pomidorowy, fior di latte"
+    },
+    "lasagna-golosa": {
+      "name": "Rozkoszna Lasagne",
+      "desc": "Lasagne bolońska z płatami szpinakowymi, nadzieniem z mielonego mięsa i beszamelem"
+    },
+    "fregola-estate": {
+      "name": "Letnia Fregola",
+      "desc": "Sardyńska fregola z suszonymi pomidorami, oliwkami taggiasca, kruszoną fetą, bazylią"
+    },
+    "polpette-sugo": {
+      "name": "Klopsiki w Sosie Pomidorowym"
+    },
+    "parmigiana-melanzane": {
+      "name": "Parmigiana z Bakłażana"
+    },
+    "frisella-mare": {
+      "name": "Frisella di Mare",
+      "desc": "Czerwone i żółte pomidorki cherry, filet z tuńczyka żółtopłetwego Pescatorello, kapary Maione, oliwki taggiasca, oliwa z oliwek extra vergine Guglielmi z Apulii, bazylia"
+    },
+    "frisella-terra": {
+      "name": "Frisella di Terra",
+      "desc": "Pieczone karczochy, mieszane sałaty, suszone pomidorki cherry, mozzarella z bawolego mleka DOP, oliwa z oliwek extra vergine Guglielmi z Apulii, bazylia"
+    },
+    "calzone-napoletano": {
+      "name": "Calzone Napoletano",
+      "desc": "Pomidory obrane La Carmela, ricotta z mleka krowiego, wędzona provola, Grana Padano DOP, słodkie salami w stylu neapolitańskim, czarny pieprz, oliwa z oliwek extra vergine Guglielmi z Apulii, bazylia"
+    },
+    "calzone-vegetariano": {
+      "name": "Calzone Wegetariańskie",
+      "desc": "Wędzona provola, boczniaki, krem z cukinii, Grana Padano DOP, prażone orzeszki piniowe, oliwa z oliwek extra vergine Guglielmi z Apulii, bazylia"
+    },
+    "valle-aosta": {
+      "name": "Valle d'Aosta",
+      "desc": "Pomidory obrane La Carmela, fior di latte, wysokiej jakości szynka gotowana pieczona nad ogniem Lorenzi, pieczone karczochy, boczniaki, oliwki taggiasca, oliwa z oliwek extra vergine Guglielmi z Apulii, bazylia"
+    },
+    "piemonte": {
+      "name": "Piemonte",
+      "desc": "Fior di latte, kiełbasa wołowa fassona, olej truflowy, czarny pieprz, bazylia, brzeg nadziewany ricottą z mleka krowiego"
+    },
+    "lombardia": {
+      "name": "Lombardia",
+      "desc": "Fior di latte, wędzona provola, gorgonzola DOP, Grana Padano DOP, orzechy włoskie, oliwa z oliwek extra vergine Guglielmi z Apulii, bazylia"
+    },
+    "trentino-alto-adige": {
+      "name": "Trentino Alto Adige",
+      "desc": "Fior di latte, speck z Trentino Alto Adige, gorgonzola DOP, miód wielokwiatowy, proszek lukrecjowy, oliwa z oliwek extra vergine Guglielmi z Apulii, bazylia"
+    },
+    "friuli-venezia-giulia": {
+      "name": "Friuli Venezia Giulia",
+      "desc": "Fior di latte, czerwone pomidorki cherry, szynka dojrzewająca San Daniele DOP, rukola, płatki Grana Padano DOP, bazylia"
+    },
+    "veneto": {
+      "name": "Veneto",
+      "desc": "Fior di latte, caciocavallo z Agnone, świeża radicchio, orzechy włoskie, oliwa z oliwek extra vergine Guglielmi z Apulii, bazylia"
+    },
+    "liguria": {
+      "name": "Liguria",
+      "desc": "Fior di latte, żółte i czerwone pomidorki cherry, pesto bazyliowe, oliwa z oliwek extra vergine Guglielmi z Apulii, bazylia"
+    },
+    "emilia-romagna": {
+      "name": "Emilia Romagna",
+      "desc": "Fior di latte, mortadela Bolonia IGP, posiekane pistacje, oliwa z oliwek extra vergine Guglielmi z Apulii, bazylia"
+    },
+    "toscana": {
+      "name": "Toscana",
+      "desc": "Fior di latte, krem z czarnej kapusty (cavolo nero), pieczone ziemniaki, smażone paski bakłażana, smażona cukinia, prażone orzeszki piniowe, bazylia"
+    },
+    "marche": {
+      "name": "Marche",
+      "desc": "Pomidory obrane La Carmela, fior di latte, słodkie salami, Casciotta di Urbino DOP, czarny pieprz, oliwa z oliwek extra vergine Guglielmi z Apulii, bazylia"
+    },
+    "umbria": {
+      "name": "Umbria",
+      "desc": "Wędzona provola, pieczone ziemniaki, kiełbasa z Norcii, fonduta z Pecorino Romano DOP, oliwa z oliwek extra vergine Guglielmi z Apulii, bazylia"
+    },
+    "lazio": {
+      "name": "Lazio",
+      "desc": "Fior di latte, krem z karczochów, serce karczocha, wysokiej jakości szynka gotowana pieczona nad ogniem Lorenzi, fonduta z Pecorino Romano DOP, oliwa z oliwek extra vergine Guglielmi z Apulii, bazylia"
+    },
+    "abruzzo": {
+      "name": "Abruzzo",
+      "desc": "Pomidory obrane La Carmela, fior di latte, dojrzewający guanciale w stylu amatriciana od Salumificio Sano, Pecorino Romano DOP, mielony pieprz, bazylia"
+    },
+    "molise": {
+      "name": "Molise",
+      "desc": "Fior di latte, caciocavallo z Agnone, kiełbasa z Norcii, oliwa z oliwek extra vergine Guglielmi z Apulii, bazylia"
+    },
+    "campania": {
+      "name": "Campania",
+      "desc": "Wędzona provola, krem z cukinii, smażona cukinia, Grana Padano DOP, oliwa z oliwek extra vergine Guglielmi z Apulii, bazylia"
+    },
+    "puglia": {
+      "name": "Puglia",
+      "desc": "Passata z żółtych pomidorów, capocollo z prosięcia, burrata apulijska, kruszony tarallo, oliwki taggiasca, oliwa z oliwek extra vergine Guglielmi z Apulii, bazylia"
+    },
+    "basilicata": {
+      "name": "Basilicata",
+      "desc": "Wędzona provola, pieczone ziemniaki, krem z papryki, kruszona papryka crusco, oliwa z oliwek extra vergine Guglielmi z Apulii, bazylia"
+    },
+    "calabria": {
+      "name": "Calabria",
+      "desc": "Fior di latte, karmelizowana czerwona cebula, apulijska stracciatella, oliwki taggiasca, oliwa chili Guglielmi, bazylia"
+    },
+    "sicilia": {
+      "name": "Sicilia",
+      "desc": "Pomidory obrane La Carmela, smażony bakłażan, solona ricotta, oliwa z oliwek extra vergine Guglielmi z Apulii, bazylia"
+    },
+    "sardegna": {
+      "name": "Sardegna",
+      "desc": "Fior di latte, czerwone pomidorki cherry, kruszona feta, śródziemnomorskie sardele, redukcja z czerwonego wina Cannonau, bazylia"
+    },
+    "margherita": {
+      "name": "Margherita",
+      "desc": "Pomidory obrane La Carmela, fior di latte, posypane Grana Padano DOP, oliwa z oliwek extra vergine Guglielmi z Apulii, bazylia"
+    },
+    "margherita-vegana": {
+      "name": "Margherita Wegańska",
+      "desc": "Pomidory obrane La Carmela, roślinny zamiennik mozzarelli, oliwa z oliwek extra vergine Guglielmi z Apulii, bazylia"
+    },
+    "bufalina": {
+      "name": "Bufalina",
+      "desc": "Pomidory obrane La Carmela, mozzarella z bawolego mleka DOP, posypane Grana Padano DOP, oliwa z oliwek extra vergine Guglielmi z Apulii, bazylia"
+    },
+    "bufalina-senza-lattosio": {
+      "name": "Bufalina Bez Laktozy",
+      "desc": "Pomidory obrane La Carmela, mozzarella z bawolego mleka DOP bez laktozy, oliwa z oliwek extra vergine Guglielmi z Apulii, bazylia"
+    },
+    "marinara-pizzium": {
+      "name": "Marinara po Pizzium",
+      "desc": "Pomidory obrane La Carmela, czerwone pomidorki cherry, kapary Maione, filety z sardeli śródziemnomorskiej, oliwki taggiasca, oregano, czosnek, oliwa z oliwek extra vergine Guglielmi z Apulii, bazylia"
+    },
+    "diavola": {
+      "name": "Diavola",
+      "desc": "Pomidory obrane La Carmela, fior di latte, pikantna ventricina, oliwa z oliwek extra vergine Guglielmi z Apulii, bazylia"
+    },
+    "orto-venere": {
+      "name": "Orto & Venere",
+      "desc": "Czarny ryż Venere, warzywna caponata, apulijska stracciatella"
+    },
+    "insalata-caesar": {
+      "name": "Sałatka Cezar",
+      "desc": "Mieszane sałaty, pieczona pierś z kurczaka, czerwone pomidorki cherry, płatki Grana Padano DOP, grzanki, sos Cezar"
+    },
+    "caprese-pizzium": {
+      "name": "Caprese po Pizzium",
+      "desc": "Pomidor wole serce, mozzarella z bawolego mleka DOP, pesto bazyliowe, skórka z cytryny"
+    },
+    "insalata-marinara": {
+      "name": "Sałatka Marinara",
+      "desc": "Mieszane sałaty, czerwone i żółte pomidorki cherry, oregano, oliwki taggiasca, filety z sardeli śródziemnomorskiej"
+    },
+    "cheesecake": {
+      "name": "Sernik",
+      "desc": "Nutella®, pistacjowy lub owoce leśne"
+    },
+    "tiramisu": {
+      "name": "Tiramisù"
+    },
+    "nuvole-cremose": {
+      "name": "Kremowe Chmurki",
+      "desc": "2 nadziewane kulki ciasta z kremem mleczno-cytrusowym"
+    },
+    "sorbetto-limone": {
+      "name": "Sorbet Cytrynowy"
+    },
+    "caffe-goloso": {
+      "name": "Rozkoszna Kawa",
+      "desc": "Espresso podawane z domowym ciasteczkiem migdałowo-cytrusowym"
+    },
+    "menu-bambino": {
+      "name": "Menu dla Dzieci",
+      "desc": "Pizza Margherita Baby + Napój"
+    },
+    "ichnusa-anima-sarda": {
+      "name": "Ichnusa Anima Sarda",
+      "desc": "Jasne i orzeźwiające"
+    },
+    "ichnusa-non-filtrata": {
+      "name": "Ichnusa Non Filtrata",
+      "desc": "Owocowe, o chmielowych aromatach"
+    },
+    "birrium-blonde": {
+      "name": "Birrium Blonde - Bezglutenowe",
+      "desc": "Piwo jasne w stylu brytyjskim z angielskim i amerykańskim chmielem"
+    },
+    "birrium-white-ipa": {
+      "name": "Birrium White IPA",
+      "desc": "Piwo pszeniczne, kuszące i chmielowe"
+    },
+    "birrium-ipa": {
+      "name": "Birrium IPA",
+      "desc": "Piwo bursztynowe z amerykańskim chmielem, mocne i aromatyczne"
+    },
+    "birrium-belgian-ale": {
+      "name": "Birrium Belgian Ale",
+      "desc": "Piwo czerwone w stylu belgijskim, owocowe i korzenne"
+    },
+    "heineken-00": {
+      "name": "Heineken 0.0 Bezalkoholowe"
+    },
+    "acqua-naturale-frizzante": {
+      "name": "Woda Niegazowana Electa / Gazowana Maxima"
+    },
+    "coca-cola": {
+      "name": "Coca-Cola / Coca-Cola Zero"
+    },
+    "coca-cola-zero-zero": {
+      "name": "Coca-Cola Zero Cukru Zero Kofeiny"
+    },
+    "fanta-sprite": {
+      "name": "Fanta / Sprite"
+    },
+    "estathe": {
+      "name": "Mrożona Herbata Estathé Cytrynowa / Brzoskwiniowa"
+    },
+    "bibita-lurisia": {
+      "name": "Napój Lurisia",
+      "desc": "Pomarańczowy / chinotto / cytrynowy / tonik"
+    },
+    "crodino-xl": {
+      "name": "Crodino XL"
+    },
+    "aperol-spritz": {
+      "name": "Aperol Spritz"
+    },
+    "campari-spritz": {
+      "name": "Campari Spritz"
+    },
+    "mondoro-hugo-spritz": {
+      "name": "Mondoro Hugo Spritz"
+    },
+    "americano-cocktail": {
+      "name": "Americano"
+    },
+    "negroni": {
+      "name": "Negroni"
+    },
+    "milano-torino": {
+      "name": "Milano-Torino"
+    },
+    "gin-tonic": {
+      "name": "Gin z Tonikiem"
+    },
+    "prosecco-soligo": {
+      "name": "Prosecco DOC Treviso Millesimato Extra Dry",
+      "desc": "Soligo, Veneto"
+    },
+    "pecorino-terre-chieti": {
+      "name": "Pecorino Terre di Chieti",
+      "desc": "Tratturo Spinelli, Abruzzo"
+    },
+    "soave-classico": {
+      "name": "Soave Classico DOC \"San Michele\"",
+      "desc": "Ca Rugate, Veneto"
+    },
+    "gewurztraminer-kies": {
+      "name": "Gewürztraminer Trentino DOC \"Kies\"",
+      "desc": "Roeno, Trentino Alto Adige"
+    },
+    "primitivo-rosato": {
+      "name": "Primitivo Rosato Puglia IGP",
+      "desc": "A Mano, Puglia"
+    },
+    "montepulciano-abruzzo": {
+      "name": "Montepulciano d'Abruzzo DOC",
+      "desc": "Tratturo Spinelli, Abruzzo"
+    },
+    "morellino-scansano": {
+      "name": "Morellino di Scansano DOCG",
+      "desc": "Cerreto Piano, Toscana"
+    },
+    "lavazza-caffe": {
+      "name": "Kawa Lavazza"
+    },
+    "lavazza-decaffeinato": {
+      "name": "Kawa Lavazza Bezkofeinowa"
+    },
+    "caffe-americano": {
+      "name": "Kawa Americano"
+    },
+    "cappuccino": {
+      "name": "Cappuccino"
+    },
+    "limoncello-mirto": {
+      "name": "Limoncello / Mirto"
+    },
+    "grappa": {
+      "name": "Grappa"
+    },
+    "amaro": {
+      "name": "Amaro"
+    }
+  }
+}

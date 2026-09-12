@@ -1,0 +1,371 @@
+{
+  "ui": {
+    "menuTitle": "MENÜMÜZ",
+    "searchPlaceholder": "Kategoride ara...",
+    "tabMenu": "Menü",
+    "tabBevande": "İçecekler",
+    "noResults": "Sonuç bulunamadı",
+    "coverCharge": "Masa ve servis ücreti: 2,00 €",
+    "infoLabel": "Bilgi",
+    "infoTitle": "Sembol açıklamaları",
+    "pizzaPromo": "2,00 € ile kenarı ricotta ile doldurabilirsiniz"
+  },
+  "categories": {
+    "antipasti": "Başlangıçlar",
+    "primi": "İlk Yemekler",
+    "secondi": "Ana Yemekler",
+    "calzoni": "Fırında Calzone",
+    "pizze": "Pizzalar",
+    "insalate": "Salatalar",
+    "dolci": "Tatlılar",
+    "bambini": "Çocuk Menüsü",
+    "bevande": "İçecekler"
+  },
+  "categoryNotes": {
+    "dolci": "* Mutfağımızda hazırlanan bazı tatlılar, kalite ve gıda güvenliğini sağlamak amacıyla dondurulmuş olabilir."
+  },
+  "groups": {
+    "pizze-regionali": "Bölgesel Pizzalar",
+    "pizze-classiche": "Klasik Napoli Pizzaları",
+    "birre-spina": "Fıçı Biralar",
+    "birre-bottiglia": "Şişe Biralar",
+    "acqua-bibite": "Su ve Meşrubatlar",
+    "cocktails": "Kokteyller",
+    "bollicine": "Köpüklü Şaraplar",
+    "vini-bianchi": "Beyaz Şaraplar",
+    "vini-rose": "Roze Şaraplar",
+    "vini-rossi": "Kırmızı Şaraplar",
+    "caffe-digestivi": "Kahve ve Sindirim Likörleri"
+  },
+  "tags": {
+    "vegan": "Vegan",
+    "vegetarian": "Vejetaryen",
+    "lactose-free": "Laktozsuz"
+  },
+  "legend": {
+    "intro": "Yemeklerin yanındaki renkli noktalar şu anlama gelir:",
+    "vegetarian": "Vejetaryen yemek, et veya balık içermez.",
+    "vegan": "Vegan yemek, hiçbir hayvansal içerik barındırmaz.",
+    "lactose-free": "Laktozsuz yemek."
+  },
+  "items": {
+    "tris-perfetto": {
+      "name": "Mükemmel Üçlü",
+      "desc": "Pecorino Romano DOP kremalı patates kroketi, kabak kremalı Nerano usulü frittata, kavrulmuş domates soslu ragù'lu arancino"
+    },
+    "tagliere-condividere": {
+      "name": "Paylaşım Tahtası",
+      "desc": "San Daniele DOP jambon, tatlı Napoli usulü salam, ızgara kabak, ızgara patlıcan, Casciotta di Urbino DOP, taggiasca zeytinleri. Sıcak focaccia ile servis edilir"
+    },
+    "verdure-grigliate-burrata": {
+      "name": "Izgara Sebzeler ve Burrata"
+    },
+    "prosciutto-crudo-bufala": {
+      "name": "Jambon ve Bufala Mozzarella",
+      "desc": "San Daniele DOP jambon ve bufala mozzarella DOP"
+    },
+    "panzanella-mediterranea": {
+      "name": "Akdeniz Panzanella",
+      "desc": "Fırında enginar, nohut, kırmızı kiraz domates ve balzamik sos ile Grana Padano DOP talaşları"
+    },
+    "bruschetta-stracciatella-zucchine": {
+      "name": "Stracciatella ve Kabaklı Bruschetta",
+      "desc": "Puglia usulü stracciatella ve kabak cipsli bruschetta"
+    },
+    "gnocchi-sorrentina": {
+      "name": "Gnocchi alla Sorrentina",
+      "desc": "Patates gnocchi, domates sosu, fior di latte"
+    },
+    "lasagna-golosa": {
+      "name": "Doyurucu Lazanya",
+      "desc": "Ispanaklı yufka, kıyma iç harcı ve beşamel soslu Bologna usulü lazanya"
+    },
+    "fregola-estate": {
+      "name": "Yaz Fregolası",
+      "desc": "Kurutulmuş domates, taggiasca zeytini, ufalanmış feta ve fesleğenli Sardinya fregolası"
+    },
+    "polpette-sugo": {
+      "name": "Domates Soslu Köfte"
+    },
+    "parmigiana-melanzane": {
+      "name": "Patlıcan Parmigiana"
+    },
+    "frisella-mare": {
+      "name": "Frisella di Mare",
+      "desc": "Kırmızı ve sarı kiraz domates, Pescatorello sarı yüzgeçli ton balığı fileto, Maione kapari, taggiasca zeytini, Puglia Guglielmi sızma zeytinyağı, fesleğen"
+    },
+    "frisella-terra": {
+      "name": "Frisella di Terra",
+      "desc": "Fırında enginar, karışık yeşillik, kurutulmuş kiraz domates, bufala mozzarella DOP, Puglia Guglielmi sızma zeytinyağı, fesleğen"
+    },
+    "calzone-napoletano": {
+      "name": "Calzone Napoletano",
+      "desc": "La Carmela soyulmuş domates, inek sütü ricotta, füme provola, Grana Padano DOP, tatlı Napoli usulü salam, karabiber, Puglia Guglielmi sızma zeytinyağı, fesleğen"
+    },
+    "calzone-vegetariano": {
+      "name": "Vejetaryen Calzone",
+      "desc": "Füme provola, kral istiridye mantarı, kabak kreması, Grana Padano DOP, kavrulmuş çam fıstığı, Puglia Guglielmi sızma zeytinyağı, fesleğen"
+    },
+    "valle-aosta": {
+      "name": "Valle d'Aosta",
+      "desc": "La Carmela soyulmuş domates, fior di latte, odun ateşinde pişmiş yüksek kaliteli haşlanmış jambon Lorenzi, fırında enginar, kral istiridye mantarı, taggiasca zeytini, Puglia Guglielmi sızma zeytinyağı, fesleğen"
+    },
+    "piemonte": {
+      "name": "Piemonte",
+      "desc": "Fior di latte, fassona sığır sosisi, trüf yağı, karabiber, fesleğen, kenarı inek sütü ricotta ile doldurulmuş"
+    },
+    "lombardia": {
+      "name": "Lombardia",
+      "desc": "Fior di latte, füme provola, gorgonzola DOP, Grana Padano DOP, ceviz, Puglia Guglielmi sızma zeytinyağı, fesleğen"
+    },
+    "trentino-alto-adige": {
+      "name": "Trentino Alto Adige",
+      "desc": "Fior di latte, Trentino Alto Adige speck'i, gorgonzola DOP, kır çiçeği balı, meyan kökü tozu, Puglia Guglielmi sızma zeytinyağı, fesleğen"
+    },
+    "friuli-venezia-giulia": {
+      "name": "Friuli Venezia Giulia",
+      "desc": "Fior di latte, kırmızı kiraz domates, San Daniele DOP jambon, roka, Grana Padano DOP talaşları, fesleğen"
+    },
+    "veneto": {
+      "name": "Veneto",
+      "desc": "Fior di latte, Agnone caciocavallo peyniri, taze radicchio, ceviz, Puglia Guglielmi sızma zeytinyağı, fesleğen"
+    },
+    "liguria": {
+      "name": "Liguria",
+      "desc": "Fior di latte, sarı ve kırmızı kiraz domates, fesleğen pestosu, Puglia Guglielmi sızma zeytinyağı, fesleğen"
+    },
+    "emilia-romagna": {
+      "name": "Emilia Romagna",
+      "desc": "Fior di latte, mortadella Bologna IGP, doğranmış antep fıstığı, Puglia Guglielmi sızma zeytinyağı, fesleğen"
+    },
+    "toscana": {
+      "name": "Toscana",
+      "desc": "Fior di latte, kara lahana kreması, fırınlanmış patates, kızarmış patlıcan şeritleri, kızarmış kabak, kavrulmuş çam fıstığı, fesleğen"
+    },
+    "marche": {
+      "name": "Marche",
+      "desc": "La Carmela soyulmuş domates, fior di latte, tatlı salam, Casciotta di Urbino DOP, karabiber, Puglia Guglielmi sızma zeytinyağı, fesleğen"
+    },
+    "umbria": {
+      "name": "Umbria",
+      "desc": "Füme provola, fırınlanmış patates, Norcia sosisi, Pecorino Romano DOP fondüsü, Puglia Guglielmi sızma zeytinyağı, fesleğen"
+    },
+    "lazio": {
+      "name": "Lazio",
+      "desc": "Fior di latte, enginar kreması, enginar kalbi, odun ateşinde pişmiş yüksek kaliteli haşlanmış jambon Lorenzi, Pecorino Romano DOP fondüsü, Puglia Guglielmi sızma zeytinyağı, fesleğen"
+    },
+    "abruzzo": {
+      "name": "Abruzzo",
+      "desc": "La Carmela soyulmuş domates, fior di latte, Salumificio Sano'nun olgunlaştırılmış amatriciana usulü guanciale'si, Pecorino Romano DOP, çekilmiş karabiber, fesleğen"
+    },
+    "molise": {
+      "name": "Molise",
+      "desc": "Fior di latte, Agnone caciocavallo peyniri, Norcia sosisi, Puglia Guglielmi sızma zeytinyağı, fesleğen"
+    },
+    "campania": {
+      "name": "Campania",
+      "desc": "Füme provola, kabak kreması, kızarmış kabak, Grana Padano DOP, Puglia Guglielmi sızma zeytinyağı, fesleğen"
+    },
+    "puglia": {
+      "name": "Puglia",
+      "desc": "Sarı domates püresi, domuz yavrusu capocollo'su, Puglia usulü burrata, ufalanmış tarallo, taggiasca zeytini, Puglia Guglielmi sızma zeytinyağı, fesleğen"
+    },
+    "basilicata": {
+      "name": "Basilicata",
+      "desc": "Füme provola, fırınlanmış patates, biber kreması, ufalanmış crusco biberi, Puglia Guglielmi sızma zeytinyağı, fesleğen"
+    },
+    "calabria": {
+      "name": "Calabria",
+      "desc": "Fior di latte, karamelize kırmızı soğan, Puglia usulü stracciatella, taggiasca zeytini, Guglielmi acı biber yağı, fesleğen"
+    },
+    "sicilia": {
+      "name": "Sicilia",
+      "desc": "La Carmela soyulmuş domates, kızarmış patlıcan, tuzlu ricotta, Puglia Guglielmi sızma zeytinyağı, fesleğen"
+    },
+    "sardegna": {
+      "name": "Sardegna",
+      "desc": "Fior di latte, kırmızı kiraz domates, ufalanmış feta, Akdeniz ançüezi, Cannonau kırmızı şarap redüksiyonu, fesleğen"
+    },
+    "margherita": {
+      "name": "Margherita",
+      "desc": "La Carmela soyulmuş domates, fior di latte, üzerine serpilmiş Grana Padano DOP, Puglia Guglielmi sızma zeytinyağı, fesleğen"
+    },
+    "margherita-vegana": {
+      "name": "Vegan Margherita",
+      "desc": "La Carmela soyulmuş domates, bitkisel mozzarella alternatifi, Puglia Guglielmi sızma zeytinyağı, fesleğen"
+    },
+    "bufalina": {
+      "name": "Bufalina",
+      "desc": "La Carmela soyulmuş domates, bufala mozzarella DOP, üzerine serpilmiş Grana Padano DOP, Puglia Guglielmi sızma zeytinyağı, fesleğen"
+    },
+    "bufalina-senza-lattosio": {
+      "name": "Laktozsuz Bufalina",
+      "desc": "La Carmela soyulmuş domates, laktozsuz bufala mozzarella DOP, Puglia Guglielmi sızma zeytinyağı, fesleğen"
+    },
+    "marinara-pizzium": {
+      "name": "Pizzium Usulü Marinara",
+      "desc": "La Carmela soyulmuş domates, kırmızı kiraz domates, Maione kapari, Akdeniz ançüez fileto, taggiasca zeytini, kekik, sarımsak, Puglia Guglielmi sızma zeytinyağı, fesleğen"
+    },
+    "diavola": {
+      "name": "Diavola",
+      "desc": "La Carmela soyulmuş domates, fior di latte, acılı ventricina, Puglia Guglielmi sızma zeytinyağı, fesleğen"
+    },
+    "orto-venere": {
+      "name": "Orto & Venere",
+      "desc": "Venere siyah pirinci, sebze caponatası, Puglia usulü stracciatella"
+    },
+    "insalata-caesar": {
+      "name": "Sezar Salata",
+      "desc": "Karışık yeşillik, fırınlanmış tavuk göğsü, kırmızı kiraz domates, Grana Padano DOP talaşları, kruton, Sezar sosu"
+    },
+    "caprese-pizzium": {
+      "name": "Pizzium Usulü Caprese",
+      "desc": "Sığır kalbi domates, bufala mozzarella DOP, fesleğen pestosu, limon kabuğu rendesi"
+    },
+    "insalata-marinara": {
+      "name": "Marinara Salata",
+      "desc": "Karışık yeşillik, kırmızı ve sarı kiraz domates, kekik, taggiasca zeytini, Akdeniz ançüez fileto"
+    },
+    "cheesecake": {
+      "name": "Cheesecake",
+      "desc": "Nutella®, antep fıstıklı veya orman meyveli"
+    },
+    "tiramisu": {
+      "name": "Tiramisù"
+    },
+    "nuvole-cremose": {
+      "name": "Kremalı Bulutlar",
+      "desc": "Süt ve narenciye kremalı 2 dolgulu hamur topu"
+    },
+    "sorbetto-limone": {
+      "name": "Limon Sorbesi"
+    },
+    "caffe-goloso": {
+      "name": "Nefis Kahve",
+      "desc": "Ev yapımı bademli-narenciyeli kurabiye ile servis edilen espresso"
+    },
+    "menu-bambino": {
+      "name": "Çocuk Menüsü",
+      "desc": "Margherita Baby Pizza + İçecek"
+    },
+    "ichnusa-anima-sarda": {
+      "name": "Ichnusa Anima Sarda",
+      "desc": "Açık renkli ve ferahlatıcı"
+    },
+    "ichnusa-non-filtrata": {
+      "name": "Ichnusa Non Filtrata",
+      "desc": "Meyvemsi, şerbetçiotu aromalı"
+    },
+    "birrium-blonde": {
+      "name": "Birrium Blonde - Glutensiz",
+      "desc": "İngiliz ve Amerikan şerbetçiotlarıyla İngiliz usulü blond bira"
+    },
+    "birrium-white-ipa": {
+      "name": "Birrium White IPA",
+      "desc": "Buğday bazlı, çekici ve şerbetçiotlu beyaz bira"
+    },
+    "birrium-ipa": {
+      "name": "Birrium IPA",
+      "desc": "Amerikan şerbetçiotlu, güçlü ve aromatik kehribar rengi bira"
+    },
+    "birrium-belgian-ale": {
+      "name": "Birrium Belgian Ale",
+      "desc": "Meyvemsi ve baharatlı Belçika usulü kırmızı bira"
+    },
+    "heineken-00": {
+      "name": "Heineken 0.0 Alkolsüz"
+    },
+    "acqua-naturale-frizzante": {
+      "name": "Electa Sade Su / Maxima Gazlı Su"
+    },
+    "coca-cola": {
+      "name": "Coca-Cola / Coca-Cola Zero"
+    },
+    "coca-cola-zero-zero": {
+      "name": "Coca-Cola Zero Şeker Zero Kafein"
+    },
+    "fanta-sprite": {
+      "name": "Fanta / Sprite"
+    },
+    "estathe": {
+      "name": "Estathé Limonlu / Şeftalili Buzlu Çay"
+    },
+    "bibita-lurisia": {
+      "name": "Lurisia İçeceği",
+      "desc": "Portakallı / turunç / limonlu / tonik"
+    },
+    "crodino-xl": {
+      "name": "Crodino XL"
+    },
+    "aperol-spritz": {
+      "name": "Aperol Spritz"
+    },
+    "campari-spritz": {
+      "name": "Campari Spritz"
+    },
+    "mondoro-hugo-spritz": {
+      "name": "Mondoro Hugo Spritz"
+    },
+    "americano-cocktail": {
+      "name": "Americano"
+    },
+    "negroni": {
+      "name": "Negroni"
+    },
+    "milano-torino": {
+      "name": "Milano-Torino"
+    },
+    "gin-tonic": {
+      "name": "Cin Tonik"
+    },
+    "prosecco-soligo": {
+      "name": "Prosecco DOC Treviso Millesimato Extra Dry",
+      "desc": "Soligo, Veneto"
+    },
+    "pecorino-terre-chieti": {
+      "name": "Pecorino Terre di Chieti",
+      "desc": "Tratturo Spinelli, Abruzzo"
+    },
+    "soave-classico": {
+      "name": "Soave Classico DOC \"San Michele\"",
+      "desc": "Ca Rugate, Veneto"
+    },
+    "gewurztraminer-kies": {
+      "name": "Gewürztraminer Trentino DOC \"Kies\"",
+      "desc": "Roeno, Trentino Alto Adige"
+    },
+    "primitivo-rosato": {
+      "name": "Primitivo Rosato Puglia IGP",
+      "desc": "A Mano, Puglia"
+    },
+    "montepulciano-abruzzo": {
+      "name": "Montepulciano d'Abruzzo DOC",
+      "desc": "Tratturo Spinelli, Abruzzo"
+    },
+    "morellino-scansano": {
+      "name": "Morellino di Scansano DOCG",
+      "desc": "Cerreto Piano, Toscana"
+    },
+    "lavazza-caffe": {
+      "name": "Lavazza Kahve"
+    },
+    "lavazza-decaffeinato": {
+      "name": "Lavazza Kafeinsiz Kahve"
+    },
+    "caffe-americano": {
+      "name": "Americano Kahve"
+    },
+    "cappuccino": {
+      "name": "Cappuccino"
+    },
+    "limoncello-mirto": {
+      "name": "Limoncello / Mirto"
+    },
+    "grappa": {
+      "name": "Grappa"
+    },
+    "amaro": {
+      "name": "Amaro"
+    }
+  }
+}
