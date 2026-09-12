@@ -1,0 +1,148 @@
+{
+  "ui": {
+    "menuTitle": "저희 메뉴",
+    "searchPlaceholder": "카테고리 내 검색...",
+    "tabMenu": "메뉴",
+    "tabBevande": "음료",
+    "langSearchPlaceholder": "언어 검색...",
+    "noResults": "검색 결과가 없습니다",
+    "coverCharge": "커버 차지 및 서비스료: €2.00"
+  },
+  "categories": {
+    "antipasti": "전채",
+    "primi": "프리모 피아토",
+    "secondi": "세콘도 피아토",
+    "calzoni": "화덕에 구운 칼초네",
+    "pizze": "피자",
+    "insalate": "샐러드",
+    "dolci": "디저트",
+    "bambini": "키즈 메뉴",
+    "bevande": "음료"
+  },
+  "categoryNotes": {
+    "dolci": "* 저희 주방에서 만드는 일부 디저트는 품질과 안전을 위해 냉동 처리될 수 있습니다."
+  },
+  "groups": {
+    "pizze-regionali": "지역 피자",
+    "pizze-classiche": "클래식 나폴리 피자",
+    "birre-spina": "생맥주",
+    "birre-bottiglia": "병맥주",
+    "acqua-bibite": "물・탄산음료",
+    "cocktails": "칵테일",
+    "bollicine": "스파클링 와인",
+    "vini-bianchi": "화이트 와인",
+    "vini-rose": "로제 와인",
+    "vini-rossi": "레드 와인",
+    "caffe-digestivi": "커피・식후주"
+  },
+  "tags": {
+    "vegan": "비건",
+    "vegetarian": "채식",
+    "lactose-free": "락토프리(유당 무첨가)"
+  },
+  "items": {
+    "tris-perfetto": { "name": "퍼펙트 트리오", "desc": "페코리노 로마노 DOP 크림을 곁들인 감자 크로켓, 애호박 크림을 곁들인 네라노식 프리타타, 라구와 구운 토마토 소스를 곁들인 아란치노" },
+    "tagliere-condividere": { "name": "쉐어링 플래터", "desc": "산 다니엘레 DOP 프로슈토, 나폴리식 스위트 살라미, 구운 애호박, 구운 가지, 카쇼타 디 우르비노 DOP, 타지아스카 올리브. 따뜻한 포카치나와 함께 제공" },
+    "verdure-grigliate-burrata": { "name": "구운 채소와 부라타 치즈" },
+    "prosciutto-crudo-bufala": { "name": "프로슈토와 버팔로 모차렐라", "desc": "산 다니엘레 DOP 프로슈토와 버팔로 모차렐라 DOP" },
+    "panzanella-mediterranea": { "name": "지중해식 판자넬라", "desc": "구운 아티초크, 병아리콩, 붉은 방울토마토와 그라나 파다노 DOP 슈레드에 발사믹 글레이즈를 곁들인" },
+    "bruschetta-stracciatella-zucchine": { "name": "스트라차텔라와 애호박 브루스케타", "desc": "풀리아산 스트라차텔라와 애호박 칩을 곁들인 브루스케타" },
+
+    "gnocchi-sorrentina": { "name": "뇨키 알라 소렌티나", "desc": "감자 뇨키, 토마토 소스, 피오르 디 라테" },
+    "lasagna-golosa": { "name": "라자냐 골로자", "desc": "시금치 반죽과 다진 고기, 베샤멜 소스로 만든 볼로냐식 라자냐" },
+    "fregola-estate": { "name": "여름 프레골라", "desc": "사르데냐산 프레골라, 선드라이 토마토, 타지아스카 올리브, 부순 페타 치즈, 바질" },
+
+    "polpette-sugo": { "name": "토마토 소스 미트볼" },
+    "parmigiana-melanzane": { "name": "가지 파르미자나" },
+    "frisella-mare": { "name": "프리셀라 디 마레", "desc": "붉은색과 노란색 방울토마토, Pescatorello사의 황다랑어 필레, Maione사의 케이퍼, 타지아스카 올리브, 풀리아산 굴리엘미 엑스트라 버진 올리브오일, 바질" },
+    "frisella-terra": { "name": "프리셀라 디 테라", "desc": "구운 아티초크, 믹스 그린, 선드라이 방울토마토, 버팔로 모차렐라 DOP, 풀리아산 굴리엘미 엑스트라 버진 올리브오일, 바질" },
+
+    "calzone-napoletano": { "name": "칼초네 나폴레타노", "desc": "La Carmela 홀토마토, 우유 리코타 치즈, 훈제 프로볼라 치즈, 그라나 파다노 DOP, 나폴리식 스위트 살라미, 흑후추, 풀리아산 굴리엘미 엑스트라 버진 올리브오일, 바질" },
+    "calzone-vegetariano": { "name": "베지테리언 칼초네", "desc": "훈제 프로볼라 치즈, 새송이버섯, 애호박 크림, 그라나 파다노 DOP, 구운 잣, 풀리아산 굴리엘미 엑스트라 버진 올리브오일, 바질" },
+
+    "valle-aosta": { "name": "발레 다오스타", "desc": "La Carmela 홀토마토, 피오르 디 라테, 숯불에 구운 고급 코토 햄, 구운 아티초크, 새송이버섯, 타지아스카 올리브, 풀리아산 굴리엘미 엑스트라 버진 올리브오일, 바질" },
+    "piemonte": { "name": "피에몬테", "desc": "피오르 디 라테, 파쏘나 소고기 소시지, 트러플 오일, 흑후추, 바질, 테두리에 우유 리코타 치즈를 채운 도우" },
+    "lombardia": { "name": "롬바르디아", "desc": "피오르 디 라테, 훈제 프로볼라 치즈, 고르곤졸라 DOP, 그라나 파다노 DOP, 호두, 풀리아산 굴리엘미 엑스트라 버진 올리브오일, 바질" },
+    "trentino-alto-adige": { "name": "트렌티노알토아디제", "desc": "피오르 디 라테, 트렌티노알토아디제산 스펙, 고르곤졸라 DOP, 야생화 꿀, 감초 가루, 풀리아산 굴리엘미 엑스트라 버진 올리브오일, 바질" },
+    "friuli-venezia-giulia": { "name": "프리울리베네치아줄리아", "desc": "피오르 디 라테, 붉은 방울토마토, 산 다니엘레 DOP 프로슈토, 루꼴라, 그라나 파다노 DOP 슈레드, 바질" },
+    "veneto": { "name": "베네토", "desc": "피오르 디 라테, 아뇨네산 카초카발로, 신선한 라디키오, 호두, 풀리아산 굴리엘미 엑스트라 버진 올리브오일, 바질" },
+    "liguria": { "name": "리구리아", "desc": "피오르 디 라테, 노란색과 붉은색 방울토마토, 바질 페스토, 풀리아산 굴리엘미 엑스트라 버진 올리브오일, 바질" },
+    "emilia-romagna": { "name": "에밀리아로마냐", "desc": "피오르 디 라테, 볼로냐산 모르타델라 IGP, 다진 피스타치오, 풀리아산 굴리엘미 엑스트라 버진 올리브오일, 바질" },
+    "toscana": { "name": "토스카나", "desc": "피오르 디 라테, 블랙케일 크림, 구운 감자, 튀긴 가지 스틱, 튀긴 애호박, 구운 잣, 바질" },
+    "marche": { "name": "마르케", "desc": "La Carmela 홀토마토, 피오르 디 라테, 스위트 살라미, 카쇼타 디 우르비노 DOP, 흑후추, 풀리아산 굴리엘미 엑스트라 버진 올리브오일, 바질" },
+    "umbria": { "name": "움브리아", "desc": "훈제 프로볼라 치즈, 구운 감자, 노르차산 소시지, 페코리노 로마노 DOP 퐁뒤, 풀리아산 굴리엘미 엑스트라 버진 올리브오일, 바질" },
+    "lazio": { "name": "라치오", "desc": "피오르 디 라테, 아티초크 크림, 아티초크 속살, 숯불에 구운 고급 코토 햄, 페코리노 로마노 DOP 퐁뒤, 풀리아산 굴리엘미 엑스트라 버진 올리브오일, 바질" },
+    "abruzzo": { "name": "아브루초", "desc": "La Carmela 홀토마토, 피오르 디 라테, Salumificio Sano사의 숙성 관찰레(아마트리치아나 스타일), 페코리노 로마노 DOP, 갈아낸 후추, 바질" },
+    "molise": { "name": "몰리세", "desc": "피오르 디 라테, 아뇨네산 카초카발로, 노르차산 소시지, 풀리아산 굴리엘미 엑스트라 버진 올리브오일, 바질" },
+    "campania": { "name": "캄파니아", "desc": "훈제 프로볼라 치즈, 애호박 크림, 튀긴 애호박, 그라나 파다노 DOP, 풀리아산 굴리엘미 엑스트라 버진 올리브오일, 바질" },
+    "puglia": { "name": "풀리아", "desc": "노란 토마토 파사타, 새끼돼지 카포콜로, 풀리아산 부라타 치즈, 부순 타랄로, 타지아스카 올리브, 풀리아산 굴리엘미 엑스트라 버진 올리브오일, 바질" },
+    "basilicata": { "name": "바실리카타", "desc": "훈제 프로볼라 치즈, 구운 감자, 파프리카 크림, 부순 크루스코 고추, 풀리아산 굴리엘미 엑스트라 버진 올리브오일, 바질" },
+    "calabria": { "name": "칼라브리아", "desc": "피오르 디 라테, 카라멜라이즈드 적양파, 풀리아산 스트라차텔라, 타지아스카 올리브, 굴리엘미 칠리 오일, 바질" },
+    "sicilia": { "name": "시칠리아", "desc": "La Carmela 홀토마토, 튀긴 가지, 소금에 절인 리코타 치즈, 풀리아산 굴리엘미 엑스트라 버진 올리브오일, 바질" },
+    "sardegna": { "name": "사르데냐", "desc": "피오르 디 라테, 붉은 방울토마토, 부순 페타 치즈, 지중해산 안초비, 칸노나우 레드와인 리덕션, 바질" },
+
+    "margherita": { "name": "마르게리타", "desc": "La Carmela 홀토마토, 피오르 디 라테, 그라나 파다노 DOP 가루, 풀리아산 굴리엘미 엑스트라 버진 올리브오일, 바질" },
+    "margherita-vegana": { "name": "비건 마르게리타", "desc": "La Carmela 홀토마토, 식물성 모차렐라 대체품, 풀리아산 굴리엘미 엑스트라 버진 올리브오일, 바질" },
+    "bufalina": { "name": "부팔리나", "desc": "La Carmela 홀토마토, 버팔로 모차렐라 DOP, 그라나 파다노 DOP 가루, 풀리아산 굴리엘미 엑스트라 버진 올리브오일, 바질" },
+    "bufalina-senza-lattosio": { "name": "부팔리나(락토프리)", "desc": "La Carmela 홀토마토, 락토프리 버팔로 모차렐라 DOP, 풀리아산 굴리엘미 엑스트라 버진 올리브오일, 바질" },
+    "marinara-pizzium": { "name": "피지움 스타일 마리나라", "desc": "La Carmela 홀토마토, 붉은 방울토마토, Maione사의 케이퍼, 지중해산 안초비 필레, 타지아스카 올리브, 오레가노, 마늘, 풀리아산 굴리엘미 엑스트라 버진 올리브오일, 바질" },
+    "diavola": { "name": "디아볼라", "desc": "La Carmela 홀토마토, 피오르 디 라테, 매콤한 벤트리치나, 풀리아산 굴리엘미 엑스트라 버진 올리브오일, 바질" },
+
+    "orto-venere": { "name": "오르토 에 베네레", "desc": "베네레 흑미, 채소 카포나타, 풀리아산 스트라차텔라" },
+    "insalata-caesar": { "name": "시저 샐러드", "desc": "믹스 그린, 구운 닭가슴살, 붉은 방울토마토, 그라나 파다노 DOP 슈레드, 크루통, 시저 드레싱" },
+    "caprese-pizzium": { "name": "피지움 스타일 카프레제", "desc": "비프스테이크 토마토, 버팔로 모차렐라 DOP, 바질 페스토, 레몬 제스트" },
+    "insalata-marinara": { "name": "마리나라 샐러드", "desc": "믹스 그린, 붉은색과 노란색 방울토마토, 오레가노, 타지아스카 올리브, 지중해산 안초비 필레" },
+
+    "cheesecake": { "name": "치즈케이크", "desc": "누텔라®, 피스타치오, 베리 믹스 중 선택" },
+    "tiramisu": { "name": "티라미수" },
+    "nuvole-cremose": { "name": "크리미 클라우드", "desc": "밀크 시트러스 크림을 채운 반죽 볼 2개" },
+    "sorbetto-limone": { "name": "레몬 소르베" },
+    "caffe-goloso": { "name": "카페 골로조", "desc": "홈메이드 아몬드 시트러스 비스킷을 곁들인 에스프레소" },
+
+    "menu-bambino": { "name": "키즈 메뉴", "desc": "키즈용 마르게리타 피자 + 음료" },
+
+    "ichnusa-anima-sarda": { "name": "이크누사 아니마 사르다", "desc": "가볍고 상쾌한 맛" },
+    "ichnusa-non-filtrata": { "name": "이크누사 논 필트라타(무여과)", "desc": "홉 향이 풍부한 과일향 맥주" },
+
+    "birrium-blonde": { "name": "비리움 블론드(글루텐 프리)", "desc": "영국산과 미국산 홉을 사용한 브리티시 스타일 블론드 에일" },
+    "birrium-white-ipa": { "name": "비리움 화이트 IPA", "desc": "밀을 사용한 매혹적이고 홉향이 풍부한 화이트 맥주" },
+    "birrium-ipa": { "name": "비리움 IPA", "desc": "미국산 홉을 사용한 앰버 맥주, 진하고 향이 풍부함" },
+    "birrium-belgian-ale": { "name": "비리움 벨지안 에일", "desc": "벨기에 스타일의 레드 맥주, 과일향과 스파이시함" },
+    "heineken-00": { "name": "하이네켄 0.0(무알콜)" },
+
+    "acqua-naturale-frizzante": { "name": "생수 Electa／탄산수 Maxima" },
+    "coca-cola": { "name": "코카콜라／코카콜라 제로" },
+    "coca-cola-zero-zero": { "name": "코카콜라 제로슈거 제로카페인" },
+    "fanta-sprite": { "name": "환타／스프라이트" },
+    "estathe": { "name": "에스타테(레몬／복숭아 아이스티)" },
+    "bibita-lurisia": { "name": "루리시아 음료", "desc": "오렌지에이드／키노토／레모네이드／토닉 중 선택" },
+    "crodino-xl": { "name": "크로디노 XL" },
+
+    "aperol-spritz": { "name": "아페롤 스프리츠" },
+    "campari-spritz": { "name": "캄파리 스프리츠" },
+    "mondoro-hugo-spritz": { "name": "몬도로 휴고 스프리츠" },
+    "americano-cocktail": { "name": "아메리카노" },
+    "negroni": { "name": "네그로니" },
+    "milano-torino": { "name": "밀라노토리노" },
+    "gin-tonic": { "name": "진토닉" },
+
+    "prosecco-soligo": { "name": "프로세코 DOC 트레비소 밀레지마토 엑스트라 드라이", "desc": "솔리고, 베네토주" },
+
+    "pecorino-terre-chieti": { "name": "페코리노 테레 디 키에티", "desc": "트라투로 스피넬리, 아브루초주" },
+    "soave-classico": { "name": "소아베 클라시코 DOC 「산 미켈레」", "desc": "카 루가테, 베네토주" },
+    "gewurztraminer-kies": { "name": "게뷔르츠트라미너 트렌티노 DOC 「키스」", "desc": "로에노, 트렌티노알토아디제주" },
+
+    "primitivo-rosato": { "name": "프리미티보 로자토 풀리아 IGP", "desc": "아 마노, 풀리아주" },
+
+    "montepulciano-abruzzo": { "name": "몬테풀치아노 다브루초 DOC", "desc": "트라투로 스피넬리, 아브루초주" },
+    "morellino-scansano": { "name": "모렐리노 디 스칸사노 DOCG", "desc": "체레토 피아노, 토스카나주" },
+
+    "lavazza-caffe": { "name": "라바짜 커피" },
+    "lavazza-decaffeinato": { "name": "라바짜 디카페인 커피" },
+    "caffe-americano": { "name": "아메리카노" },
+    "cappuccino": { "name": "카푸치노" },
+    "limoncello-mirto": { "name": "리몬첼로／미르토" },
+    "grappa": { "name": "그라파" },
+    "amaro": { "name": "아마로" }
+  }
+}

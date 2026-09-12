@@ -4,6 +4,11 @@ const TAG_ICONS = {
   'lactose-free': '💧'
 };
 
+// Given e.g. "img/flags/it.png", returns the @2x retina variant path.
+function retinaFlag(path) {
+  return path.replace(/\.png$/, '@2x.png');
+}
+
 const state = {
   languages: [],
   currentLang: null,
@@ -84,7 +89,9 @@ function applyLanguage(code, dict) {
   document.documentElement.lang = code;
   document.documentElement.dir = lang ? lang.dir : 'ltr';
 
-  el.langFlag.textContent = lang ? lang.flag : '';
+  el.langFlag.src = lang ? lang.flag : '';
+  el.langFlag.srcset = lang ? `${retinaFlag(lang.flag)} 2x` : '';
+  el.langFlag.alt = lang ? lang.englishName : '';
   el.langCode.textContent = code.toUpperCase();
 
   renderStaticText();
@@ -251,7 +258,7 @@ function renderLangList(filter) {
     const btn = document.createElement('button');
     btn.type = 'button';
     btn.className = 'lang-item' + (l.code === state.currentLang ? ' active' : '');
-    btn.innerHTML = `<span class="flag">${l.flag}</span><span class="native">${l.nativeName}</span><span class="english">${l.englishName}</span>`;
+    btn.innerHTML = `<img class="flag" src="${l.flag}" srcset="${retinaFlag(l.flag)} 2x" alt="${l.englishName}"><span class="native">${l.nativeName}</span><span class="english">${l.englishName}</span>`;
     btn.addEventListener('click', () => {
       setLanguage(l.code);
       closeLangPanel();
