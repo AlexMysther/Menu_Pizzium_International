@@ -29,7 +29,11 @@ button { font-family: inherit; }
 /* Header */
 .app-header {
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  /* Equal 1fr side columns (not auto) so the logo lands on the true
+     header center regardless of the info button and language switch
+     having different widths — with two "auto" side columns, the logo
+     was only centered in the leftover space between them. */
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
   background: var(--red);
   color: #fff;
