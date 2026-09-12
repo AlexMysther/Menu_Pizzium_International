@@ -1,0 +1,371 @@
+{
+  "ui": {
+    "menuTitle": "ΤΟ ΜΕΝΟΥ ΜΑΣ",
+    "searchPlaceholder": "Αναζήτηση στην κατηγορία...",
+    "tabMenu": "Μενού",
+    "tabBevande": "Ποτά",
+    "noResults": "Δεν βρέθηκαν αποτελέσματα",
+    "coverCharge": "Κουβέρ και σέρβις: 2,00 €",
+    "infoLabel": "Πληροφορίες",
+    "infoTitle": "Υπόμνημα συμβόλων",
+    "pizzaPromo": "Με 2,00 € μπορείτε να έχετε την άκρη γεμιστή με ρικότα"
+  },
+  "categories": {
+    "antipasti": "Ορεκτικά",
+    "primi": "Πρώτα πιάτα",
+    "secondi": "Κυρίως πιάτα",
+    "calzoni": "Ψητό καλτσόνε",
+    "pizze": "Πίτσες",
+    "insalate": "Σαλάτες",
+    "dolci": "Επιδόρπια",
+    "bambini": "Παιδικό μενού",
+    "bevande": "Ποτά"
+  },
+  "categoryNotes": {
+    "dolci": "* Ορισμένα επιδόρπια που παρασκευάζονται στην κουζίνα μας ενδέχεται να έχουν καταψυχθεί για να διασφαλιστεί η ποιότητα και η ασφάλεια των τροφίμων."
+  },
+  "groups": {
+    "pizze-regionali": "Περιφερειακές πίτσες",
+    "pizze-classiche": "Κλασικές νεαπολιτάνικες πίτσες",
+    "birre-spina": "Βαρελίσια μπύρα",
+    "birre-bottiglia": "Εμφιαλωμένη μπύρα",
+    "acqua-bibite": "Νερό και αναψυκτικά",
+    "cocktails": "Κοκτέιλ",
+    "bollicine": "Αφρώδεις οίνοι",
+    "vini-bianchi": "Λευκά κρασιά",
+    "vini-rose": "Ροζέ κρασιά",
+    "vini-rossi": "Κόκκινα κρασιά",
+    "caffe-digestivi": "Καφές και χωνευτικά ποτά"
+  },
+  "tags": {
+    "vegan": "Vegan",
+    "vegetarian": "Χορτοφαγικό",
+    "lactose-free": "Χωρίς λακτόζη"
+  },
+  "legend": {
+    "intro": "Οι έγχρωμες κουκκίδες δίπλα στα πιάτα σημαίνουν:",
+    "vegetarian": "Χορτοφαγικό πιάτο, χωρίς κρέας ή ψάρι.",
+    "vegan": "Vegan πιάτο, χωρίς κανένα συστατικό ζωικής προέλευσης.",
+    "lactose-free": "Πιάτο χωρίς λακτόζη."
+  },
+  "items": {
+    "tris-perfetto": {
+      "name": "Το Τέλειο Τρίο",
+      "desc": "Κροκέτα πατάτας με κρέμα Pecorino Romano DOP, φριτάτα στυλ Nerano με κρέμα κολοκυθιού, arancino με ραγού και σάλτσα ψητής ντομάτας"
+    },
+    "tagliere-condividere": {
+      "name": "Πιατέλα για Μοίρασμα",
+      "desc": "Ωμό χοιρομέρι San Daniele DOP, γλυκό σαλάμι νεαπολιτάνικου τύπου, ψητό κολοκύθι, ψητή μελιτζάνα, Casciotta di Urbino DOP, ελιές taggiasca. Σερβίρεται με ζεστή φοκάτσια"
+    },
+    "verdure-grigliate-burrata": {
+      "name": "Ψητά Λαχανικά με Burrata"
+    },
+    "prosciutto-crudo-bufala": {
+      "name": "Ωμό Χοιρομέρι και Μοτσαρέλα Βουβαλίσιου Γάλακτος",
+      "desc": "Ωμό χοιρομέρι San Daniele DOP και μοτσαρέλα βουβαλίσιου γάλακτος DOP"
+    },
+    "panzanella-mediterranea": {
+      "name": "Μεσογειακή Παντσανέλα",
+      "desc": "Ψητές αγκινάρες, ρεβίθια, κόκκινα ντοματίνια cherry και τρίμμα Grana Padano DOP με βαλσάμικο γλάσο"
+    },
+    "bruschetta-stracciatella-zucchine": {
+      "name": "Μπρουσκέτα με Στρατσατέλα και Κολοκύθι",
+      "desc": "Μπρουσκέτα με στρατσατέλα Puglia και τσιπς κολοκυθιού"
+    },
+    "gnocchi-sorrentina": {
+      "name": "Gnocchi alla Sorrentina",
+      "desc": "Νιόκι πατάτας, σάλτσα ντομάτας, fior di latte"
+    },
+    "lasagna-golosa": {
+      "name": "Λαχταριστή Λαζάνια",
+      "desc": "Λαζάνια μπολονέζ με φύλλα σπανακιού, γέμιση κιμά και μπεσαμέλ"
+    },
+    "fregola-estate": {
+      "name": "Καλοκαιρινή Fregola",
+      "desc": "Σαρδηνιακή fregola με λιαστή ντομάτα, ελιές taggiasca, θρυμματισμένη φέτα, βασιλικό"
+    },
+    "polpette-sugo": {
+      "name": "Κεφτεδάκια σε Σάλτσα Ντομάτας"
+    },
+    "parmigiana-melanzane": {
+      "name": "Παρμιτζάνα Μελιτζάνας"
+    },
+    "frisella-mare": {
+      "name": "Frisella di Mare",
+      "desc": "Κόκκινα και κίτρινα ντοματίνια cherry, φιλέτο τόνου κίτρινου φτερού Pescatorello, κάπαρη Maione, ελιές taggiasca, εξαιρετικό παρθένο ελαιόλαδο Guglielmi από την Puglia, βασιλικός"
+    },
+    "frisella-terra": {
+      "name": "Frisella di Terra",
+      "desc": "Ψητές αγκινάρες, ανάμεικτη σαλάτα, λιαστά ντοματίνια cherry, μοτσαρέλα βουβαλίσιου γάλακτος DOP, εξαιρετικό παρθένο ελαιόλαδο Guglielmi από την Puglia, βασιλικός"
+    },
+    "calzone-napoletano": {
+      "name": "Calzone Napoletano",
+      "desc": "Ξεφλουδισμένη ντομάτα La Carmela, ρικότα αγελαδινού γάλακτος, καπνιστή provola, Grana Padano DOP, γλυκό σαλάμι νεαπολιτάνικου τύπου, μαύρο πιπέρι, εξαιρετικό παρθένο ελαιόλαδο Guglielmi από την Puglia, βασιλικός"
+    },
+    "calzone-vegetariano": {
+      "name": "Χορτοφαγικό Calzone",
+      "desc": "Καπνιστή provola, μανιτάρια cardoncelli, κρέμα κολοκυθιού, Grana Padano DOP, καβουρδισμένα κουκουνάρια, εξαιρετικό παρθένο ελαιόλαδο Guglielmi από την Puglia, βασιλικός"
+    },
+    "valle-aosta": {
+      "name": "Valle d'Aosta",
+      "desc": "Ξεφλουδισμένη ντομάτα La Carmela, fior di latte, ψητό στη σχάρα ξύλου βραστό χοιρομέρι υψηλής ποιότητας Lorenzi, ψητές αγκινάρες, μανιτάρια cardoncelli, ελιές taggiasca, εξαιρετικό παρθένο ελαιόλαδο Guglielmi από την Puglia, βασιλικός"
+    },
+    "piemonte": {
+      "name": "Piemonte",
+      "desc": "Fior di latte, λουκάνικο βοδινού fassona, λάδι τρούφας, μαύρο πιπέρι, βασιλικός, άκρη γεμιστή με ρικότα αγελαδινού γάλακτος"
+    },
+    "lombardia": {
+      "name": "Lombardia",
+      "desc": "Fior di latte, καπνιστή provola, gorgonzola DOP, Grana Padano DOP, καρύδια, εξαιρετικό παρθένο ελαιόλαδο Guglielmi από την Puglia, βασιλικός"
+    },
+    "trentino-alto-adige": {
+      "name": "Trentino Alto Adige",
+      "desc": "Fior di latte, speck από το Trentino Alto Adige, gorgonzola DOP, μέλι πολυανθές, σκόνη γλυκόριζας, εξαιρετικό παρθένο ελαιόλαδο Guglielmi από την Puglia, βασιλικός"
+    },
+    "friuli-venezia-giulia": {
+      "name": "Friuli Venezia Giulia",
+      "desc": "Fior di latte, κόκκινα ντοματίνια cherry, ωμό χοιρομέρι San Daniele DOP, ρόκα, τρίμμα Grana Padano DOP, βασιλικός"
+    },
+    "veneto": {
+      "name": "Veneto",
+      "desc": "Fior di latte, caciocavallo από το Agnone, φρέσκο ραντίκιο, καρύδια, εξαιρετικό παρθένο ελαιόλαδο Guglielmi από την Puglia, βασιλικός"
+    },
+    "liguria": {
+      "name": "Liguria",
+      "desc": "Fior di latte, κίτρινα και κόκκινα ντοματίνια cherry, πέστο βασιλικού, εξαιρετικό παρθένο ελαιόλαδο Guglielmi από την Puglia, βασιλικός"
+    },
+    "emilia-romagna": {
+      "name": "Emilia Romagna",
+      "desc": "Fior di latte, μορταδέλα Bologna IGP, τριμμένο φιστίκι Αιγίνης, εξαιρετικό παρθένο ελαιόλαδο Guglielmi από την Puglia, βασιλικός"
+    },
+    "toscana": {
+      "name": "Toscana",
+      "desc": "Fior di latte, κρέμα μαύρου λάχανου, ψητές πατάτες, τηγανητές λωρίδες μελιτζάνας, τηγανητό κολοκύθι, καβουρδισμένα κουκουνάρια, βασιλικός"
+    },
+    "marche": {
+      "name": "Marche",
+      "desc": "Ξεφλουδισμένη ντομάτα La Carmela, fior di latte, γλυκό σαλάμι, Casciotta di Urbino DOP, μαύρο πιπέρι, εξαιρετικό παρθένο ελαιόλαδο Guglielmi από την Puglia, βασιλικός"
+    },
+    "umbria": {
+      "name": "Umbria",
+      "desc": "Καπνιστή provola, ψητές πατάτες, λουκάνικο Norcia, fonduta Pecorino Romano DOP, εξαιρετικό παρθένο ελαιόλαδο Guglielmi από την Puglia, βασιλικός"
+    },
+    "lazio": {
+      "name": "Lazio",
+      "desc": "Fior di latte, κρέμα αγκινάρας, καρδιά αγκινάρας, ψητό στη σχάρα ξύλου βραστό χοιρομέρι υψηλής ποιότητας Lorenzi, fonduta Pecorino Romano DOP, εξαιρετικό παρθένο ελαιόλαδο Guglielmi από την Puglia, βασιλικός"
+    },
+    "abruzzo": {
+      "name": "Abruzzo",
+      "desc": "Ξεφλουδισμένη ντομάτα La Carmela, fior di latte, ωριμασμένο guanciale στυλ amatriciana από τη Salumificio Sano, Pecorino Romano DOP, τριμμένο πιπέρι, βασιλικός"
+    },
+    "molise": {
+      "name": "Molise",
+      "desc": "Fior di latte, caciocavallo από το Agnone, λουκάνικο Norcia, εξαιρετικό παρθένο ελαιόλαδο Guglielmi από την Puglia, βασιλικός"
+    },
+    "campania": {
+      "name": "Campania",
+      "desc": "Καπνιστή provola, κρέμα κολοκυθιού, τηγανητό κολοκύθι, Grana Padano DOP, εξαιρετικό παρθένο ελαιόλαδο Guglielmi από την Puglia, βασιλικός"
+    },
+    "puglia": {
+      "name": "Puglia",
+      "desc": "Πουρές κίτρινης ντομάτας, capocollo χοιριδίου, burrata της Puglia, θρυμματισμένο tarallo, ελιές taggiasca, εξαιρετικό παρθένο ελαιόλαδο Guglielmi από την Puglia, βασιλικός"
+    },
+    "basilicata": {
+      "name": "Basilicata",
+      "desc": "Καπνιστή provola, ψητές πατάτες, κρέμα πιπεριάς, θρυμματισμένη πιπεριά crusco, εξαιρετικό παρθένο ελαιόλαδο Guglielmi από την Puglia, βασιλικός"
+    },
+    "calabria": {
+      "name": "Calabria",
+      "desc": "Fior di latte, καραμελωμένο κόκκινο κρεμμύδι, στρατσατέλα Puglia, ελιές taggiasca, λάδι τσίλι Guglielmi, βασιλικός"
+    },
+    "sicilia": {
+      "name": "Sicilia",
+      "desc": "Ξεφλουδισμένη ντομάτα La Carmela, τηγανητή μελιτζάνα, αλατισμένη ρικότα, εξαιρετικό παρθένο ελαιόλαδο Guglielmi από την Puglia, βασιλικός"
+    },
+    "sardegna": {
+      "name": "Sardegna",
+      "desc": "Fior di latte, κόκκινα ντοματίνια cherry, θρυμματισμένη φέτα, μεσογειακές αντσούγιες, ρεντζού κόκκινου κρασιού Cannonau, βασιλικός"
+    },
+    "margherita": {
+      "name": "Margherita",
+      "desc": "Ξεφλουδισμένη ντομάτα La Carmela, fior di latte, πασπαλισμένη με Grana Padano DOP, εξαιρετικό παρθένο ελαιόλαδο Guglielmi από την Puglia, βασιλικός"
+    },
+    "margherita-vegana": {
+      "name": "Vegan Margherita",
+      "desc": "Ξεφλουδισμένη ντομάτα La Carmela, φυτική εναλλακτική μοτσαρέλας, εξαιρετικό παρθένο ελαιόλαδο Guglielmi από την Puglia, βασιλικός"
+    },
+    "bufalina": {
+      "name": "Bufalina",
+      "desc": "Ξεφλουδισμένη ντομάτα La Carmela, μοτσαρέλα βουβαλίσιου γάλακτος DOP, πασπαλισμένη με Grana Padano DOP, εξαιρετικό παρθένο ελαιόλαδο Guglielmi από την Puglia, βασιλικός"
+    },
+    "bufalina-senza-lattosio": {
+      "name": "Bufalina Χωρίς Λακτόζη",
+      "desc": "Ξεφλουδισμένη ντομάτα La Carmela, μοτσαρέλα βουβαλίσιου γάλακτος DOP χωρίς λακτόζη, εξαιρετικό παρθένο ελαιόλαδο Guglielmi από την Puglia, βασιλικός"
+    },
+    "marinara-pizzium": {
+      "name": "Marinara κατά Pizzium",
+      "desc": "Ξεφλουδισμένη ντομάτα La Carmela, κόκκινα ντοματίνια cherry, κάπαρη Maione, φιλέτα μεσογειακής αντσούγιας, ελιές taggiasca, ρίγανη, σκόρδο, εξαιρετικό παρθένο ελαιόλαδο Guglielmi από την Puglia, βασιλικός"
+    },
+    "diavola": {
+      "name": "Diavola",
+      "desc": "Ξεφλουδισμένη ντομάτα La Carmela, fior di latte, πικάντικη ventricina, εξαιρετικό παρθένο ελαιόλαδο Guglielmi από την Puglia, βασιλικός"
+    },
+    "orto-venere": {
+      "name": "Orto & Venere",
+      "desc": "Μαύρο ρύζι Venere, καπονάτα λαχανικών, στρατσατέλα Puglia"
+    },
+    "insalata-caesar": {
+      "name": "Σαλάτα Καίσαρα",
+      "desc": "Ανάμεικτη σαλάτα, ψητό στήθος κοτόπουλου, κόκκινα ντοματίνια cherry, τρίμμα Grana Padano DOP, κρουτόν, σάλτσα Καίσαρα"
+    },
+    "caprese-pizzium": {
+      "name": "Caprese κατά Pizzium",
+      "desc": "Ντομάτα «βοδινή καρδιά», μοτσαρέλα βουβαλίσιου γάλακτος DOP, πέστο βασιλικού, ξύσμα λεμονιού"
+    },
+    "insalata-marinara": {
+      "name": "Σαλάτα Marinara",
+      "desc": "Ανάμεικτη σαλάτα, κόκκινα και κίτρινα ντοματίνια cherry, ρίγανη, ελιές taggiasca, φιλέτα μεσογειακής αντσούγιας"
+    },
+    "cheesecake": {
+      "name": "Cheesecake",
+      "desc": "Nutella®, φιστίκι Αιγίνης ή φρούτα του δάσους"
+    },
+    "tiramisu": {
+      "name": "Tiramisù"
+    },
+    "nuvole-cremose": {
+      "name": "Κρεμώδη Σύννεφα",
+      "desc": "2 σφαίρες ζύμης γεμιστές με κρέμα γάλακτος και εσπεριδοειδών"
+    },
+    "sorbetto-limone": {
+      "name": "Σορμπέ Λεμονιού"
+    },
+    "caffe-goloso": {
+      "name": "Λαχταριστός Καφές",
+      "desc": "Espresso σερβιρισμένο με σπιτικό μπισκότο αμυγδάλου-εσπεριδοειδών"
+    },
+    "menu-bambino": {
+      "name": "Παιδικό Μενού",
+      "desc": "Πίτσα Margherita Baby + Αναψυκτικό"
+    },
+    "ichnusa-anima-sarda": {
+      "name": "Ichnusa Anima Sarda",
+      "desc": "Ανοιχτόχρωμη και δροσιστική"
+    },
+    "ichnusa-non-filtrata": {
+      "name": "Ichnusa Non Filtrata",
+      "desc": "Φρουτώδης, με αρώματα λυκίσκου"
+    },
+    "birrium-blonde": {
+      "name": "Birrium Blonde - Χωρίς Γλουτένη",
+      "desc": "Ξανθιά μπύρα βρετανικού στυλ με αγγλικό και αμερικανικό λυκίσκο"
+    },
+    "birrium-white-ipa": {
+      "name": "Birrium White IPA",
+      "desc": "Λευκή μπύρα με βάση το σιτάρι, δελεαστική και με λυκίσκο"
+    },
+    "birrium-ipa": {
+      "name": "Birrium IPA",
+      "desc": "Κεχριμπαρένια μπύρα με αμερικανικό λυκίσκο, έντονη και αρωματική"
+    },
+    "birrium-belgian-ale": {
+      "name": "Birrium Belgian Ale",
+      "desc": "Κόκκινη μπύρα βελγικού στυλ, φρουτώδης και μπαχαρική"
+    },
+    "heineken-00": {
+      "name": "Heineken 0.0 Χωρίς Αλκοόλ"
+    },
+    "acqua-naturale-frizzante": {
+      "name": "Νερό Χωρίς Ανθρακικό Electa / Ανθρακούχο Maxima"
+    },
+    "coca-cola": {
+      "name": "Coca-Cola / Coca-Cola Zero"
+    },
+    "coca-cola-zero-zero": {
+      "name": "Coca-Cola Zero Ζάχαρη Zero Καφεΐνη"
+    },
+    "fanta-sprite": {
+      "name": "Fanta / Sprite"
+    },
+    "estathe": {
+      "name": "Estathé Λεμόνι / Ροδάκινο"
+    },
+    "bibita-lurisia": {
+      "name": "Αναψυκτικό Lurisia",
+      "desc": "Πορτοκαλάδα / chinotto / λεμονάδα / τόνικ"
+    },
+    "crodino-xl": {
+      "name": "Crodino XL"
+    },
+    "aperol-spritz": {
+      "name": "Aperol Spritz"
+    },
+    "campari-spritz": {
+      "name": "Campari Spritz"
+    },
+    "mondoro-hugo-spritz": {
+      "name": "Mondoro Hugo Spritz"
+    },
+    "americano-cocktail": {
+      "name": "Americano"
+    },
+    "negroni": {
+      "name": "Negroni"
+    },
+    "milano-torino": {
+      "name": "Milano-Torino"
+    },
+    "gin-tonic": {
+      "name": "Gin Tonic"
+    },
+    "prosecco-soligo": {
+      "name": "Prosecco DOC Treviso Millesimato Extra Dry",
+      "desc": "Soligo, Veneto"
+    },
+    "pecorino-terre-chieti": {
+      "name": "Pecorino Terre di Chieti",
+      "desc": "Tratturo Spinelli, Abruzzo"
+    },
+    "soave-classico": {
+      "name": "Soave Classico DOC «San Michele»",
+      "desc": "Ca Rugate, Veneto"
+    },
+    "gewurztraminer-kies": {
+      "name": "Gewürztraminer Trentino DOC «Kies»",
+      "desc": "Roeno, Trentino Alto Adige"
+    },
+    "primitivo-rosato": {
+      "name": "Primitivo Rosato Puglia IGP",
+      "desc": "A Mano, Puglia"
+    },
+    "montepulciano-abruzzo": {
+      "name": "Montepulciano d'Abruzzo DOC",
+      "desc": "Tratturo Spinelli, Abruzzo"
+    },
+    "morellino-scansano": {
+      "name": "Morellino di Scansano DOCG",
+      "desc": "Cerreto Piano, Toscana"
+    },
+    "lavazza-caffe": {
+      "name": "Καφές Lavazza"
+    },
+    "lavazza-decaffeinato": {
+      "name": "Καφές Lavazza Χωρίς Καφεΐνη"
+    },
+    "caffe-americano": {
+      "name": "Καφές Americano"
+    },
+    "cappuccino": {
+      "name": "Cappuccino"
+    },
+    "limoncello-mirto": {
+      "name": "Limoncello / Mirto"
+    },
+    "grappa": {
+      "name": "Grappa"
+    },
+    "amaro": {
+      "name": "Amaro"
+    }
+  }
+}

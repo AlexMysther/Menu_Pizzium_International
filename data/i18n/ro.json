@@ -1,0 +1,371 @@
+{
+  "ui": {
+    "menuTitle": "MENIUL NOSTRU",
+    "searchPlaceholder": "Caută în categorie...",
+    "tabMenu": "Meniu",
+    "tabBevande": "Băuturi",
+    "noResults": "Niciun rezultat",
+    "coverCharge": "Cuvert și serviciu: 2,00 €",
+    "infoLabel": "Info",
+    "infoTitle": "Legenda simbolurilor",
+    "pizzaPromo": "Cu 2,00 € poți avea marginea umplută cu ricotta"
+  },
+  "categories": {
+    "antipasti": "Aperitive",
+    "primi": "Feluri întâi",
+    "secondi": "Feluri principale",
+    "calzoni": "Calzone la cuptor",
+    "pizze": "Pizza",
+    "insalate": "Salate",
+    "dolci": "Deserturi",
+    "bambini": "Meniu copii",
+    "bevande": "Băuturi"
+  },
+  "categoryNotes": {
+    "dolci": "* Unele deserturi preparate în bucătăria noastră pot fi fost supuse congelării pentru a garanta calitatea și siguranța alimentară."
+  },
+  "groups": {
+    "pizze-regionali": "Pizza regionale",
+    "pizze-classiche": "Pizza napolitane clasice",
+    "birre-spina": "Bere la halbă",
+    "birre-bottiglia": "Bere la sticlă",
+    "acqua-bibite": "Apă și băuturi răcoritoare",
+    "cocktails": "Cocktailuri",
+    "bollicine": "Vinuri spumante",
+    "vini-bianchi": "Vinuri albe",
+    "vini-rose": "Vinuri roze",
+    "vini-rossi": "Vinuri roșii",
+    "caffe-digestivi": "Cafea și digestive"
+  },
+  "tags": {
+    "vegan": "Vegan",
+    "vegetarian": "Vegetarian",
+    "lactose-free": "Fără lactoză"
+  },
+  "legend": {
+    "intro": "Punctele colorate de lângă preparate înseamnă:",
+    "vegetarian": "Preparat vegetarian, fără carne sau pește.",
+    "vegan": "Preparat vegan, fără niciun ingredient de origine animală.",
+    "lactose-free": "Preparat fără lactoză."
+  },
+  "items": {
+    "tris-perfetto": {
+      "name": "Trio-ul Perfect",
+      "desc": "Chiftea de cartofi cu cremă de Pecorino Romano DOP, frittata în stil Nerano cu cremă de dovlecei, arancino cu ragù și sos de roșii coapte"
+    },
+    "tagliere-condividere": {
+      "name": "Platou de Împărțit",
+      "desc": "Prosciutto crudo San Daniele DOP, salam dulce de tip napolitan, dovlecei la grătar, vinete la grătar, Casciotta di Urbino DOP, măsline taggiasca. Servit cu focaccia caldă"
+    },
+    "verdure-grigliate-burrata": {
+      "name": "Legume la Grătar și Burrata"
+    },
+    "prosciutto-crudo-bufala": {
+      "name": "Prosciutto Crudo și Mozzarella de Bivoliță",
+      "desc": "Prosciutto crudo San Daniele DOP și mozzarella de bivoliță DOP"
+    },
+    "panzanella-mediterranea": {
+      "name": "Panzanella Mediteraneeană",
+      "desc": "Anghinare coapte, năut, roșii cherry roșii și fulgi de Grana Padano DOP cu glazură balsamică"
+    },
+    "bruschetta-stracciatella-zucchine": {
+      "name": "Bruschetta cu Stracciatella și Dovlecei",
+      "desc": "Bruschetta cu stracciatella pugliese și chipsuri de dovlecei"
+    },
+    "gnocchi-sorrentina": {
+      "name": "Gnocchi alla Sorrentina",
+      "desc": "Gnocchi de cartofi, sos de roșii, fior di latte"
+    },
+    "lasagna-golosa": {
+      "name": "Lasagna Delicioasă",
+      "desc": "Lasagna bologneză cu foi de paste cu spanac și umplutură de carne tocată și sos bechamel"
+    },
+    "fregola-estate": {
+      "name": "Fregola de Vară",
+      "desc": "Fregola sardă cu roșii uscate la soare, măsline taggiasca, feta mărunțită, busuioc"
+    },
+    "polpette-sugo": {
+      "name": "Chiftele în Sos de Roșii"
+    },
+    "parmigiana-melanzane": {
+      "name": "Parmigiana de Vinete"
+    },
+    "frisella-mare": {
+      "name": "Frisella di Mare",
+      "desc": "Roșii cherry roșii și galbene, file de ton cu înotătoare galbene Pescatorello, capere Maione, măsline taggiasca, ulei de măsline extravirgin din Puglia Guglielmi, busuioc"
+    },
+    "frisella-terra": {
+      "name": "Frisella di Terra",
+      "desc": "Anghinare coapte, salată mixtă, roșii cherry uscate la soare, mozzarella de bivoliță DOP, ulei de măsline extravirgin din Puglia Guglielmi, busuioc"
+    },
+    "calzone-napoletano": {
+      "name": "Calzone Napoletano",
+      "desc": "Roșii decojite La Carmela, ricotta de vacă, provola afumată, Grana Padano DOP, salam dulce de tip napolitan, piper negru, ulei de măsline extravirgin din Puglia Guglielmi, busuioc"
+    },
+    "calzone-vegetariano": {
+      "name": "Calzone Vegetarian",
+      "desc": "Provola afumată, ciuperci cardoncelli, cremă de dovlecei, Grana Padano DOP, semințe de pin prăjite, ulei de măsline extravirgin din Puglia Guglielmi, busuioc"
+    },
+    "valle-aosta": {
+      "name": "Valle d'Aosta",
+      "desc": "Roșii decojite La Carmela, fior di latte, șuncă fiartă de calitate superioară friptă pe lemne Lorenzi, anghinare coapte, ciuperci cardoncelli, măsline taggiasca, ulei de măsline extravirgin din Puglia Guglielmi, busuioc"
+    },
+    "piemonte": {
+      "name": "Piemonte",
+      "desc": "Fior di latte, cârnat de vită fassona, ulei de trufe, piper negru, busuioc, margine umplută cu ricotta de vacă"
+    },
+    "lombardia": {
+      "name": "Lombardia",
+      "desc": "Fior di latte, provola afumată, gorgonzola DOP, Grana Padano DOP, nuci, ulei de măsline extravirgin din Puglia Guglielmi, busuioc"
+    },
+    "trentino-alto-adige": {
+      "name": "Trentino Alto Adige",
+      "desc": "Fior di latte, speck din Trentino Alto Adige, gorgonzola DOP, miere poliflora, pudră de lemn-dulce, ulei de măsline extravirgin din Puglia Guglielmi, busuioc"
+    },
+    "friuli-venezia-giulia": {
+      "name": "Friuli Venezia Giulia",
+      "desc": "Fior di latte, roșii cherry roșii, prosciutto crudo San Daniele DOP, rucola, fulgi de Grana Padano DOP, busuioc"
+    },
+    "veneto": {
+      "name": "Veneto",
+      "desc": "Fior di latte, caciocavallo din Agnone, radicchio proaspăt, nuci, ulei de măsline extravirgin din Puglia Guglielmi, busuioc"
+    },
+    "liguria": {
+      "name": "Liguria",
+      "desc": "Fior di latte, roșii cherry galbene și roșii, pesto de busuioc, ulei de măsline extravirgin din Puglia Guglielmi, busuioc"
+    },
+    "emilia-romagna": {
+      "name": "Emilia Romagna",
+      "desc": "Fior di latte, mortadella Bologna IGP, fistic mărunțit, ulei de măsline extravirgin din Puglia Guglielmi, busuioc"
+    },
+    "toscana": {
+      "name": "Toscana",
+      "desc": "Fior di latte, cremă de varză neagră, cartofi copți, fâșii de vinete prăjite, dovlecei prăjiți, semințe de pin prăjite, busuioc"
+    },
+    "marche": {
+      "name": "Marche",
+      "desc": "Roșii decojite La Carmela, fior di latte, salam dulce, Casciotta di Urbino DOP, piper negru, ulei de măsline extravirgin din Puglia Guglielmi, busuioc"
+    },
+    "umbria": {
+      "name": "Umbria",
+      "desc": "Provola afumată, cartofi copți, cârnat de Norcia, fondue de Pecorino Romano DOP, ulei de măsline extravirgin din Puglia Guglielmi, busuioc"
+    },
+    "lazio": {
+      "name": "Lazio",
+      "desc": "Fior di latte, cremă de anghinare, inimă de anghinare, șuncă fiartă de calitate superioară friptă pe lemne Lorenzi, fondue de Pecorino Romano DOP, ulei de măsline extravirgin din Puglia Guglielmi, busuioc"
+    },
+    "abruzzo": {
+      "name": "Abruzzo",
+      "desc": "Roșii decojite La Carmela, fior di latte, guanciale maturat în stil amatriciana de la Salumificio Sano, Pecorino Romano DOP, piper măcinat, busuioc"
+    },
+    "molise": {
+      "name": "Molise",
+      "desc": "Fior di latte, caciocavallo din Agnone, cârnat de Norcia, ulei de măsline extravirgin din Puglia Guglielmi, busuioc"
+    },
+    "campania": {
+      "name": "Campania",
+      "desc": "Provola afumată, cremă de dovlecei, dovlecei prăjiți, Grana Padano DOP, ulei de măsline extravirgin din Puglia Guglielmi, busuioc"
+    },
+    "puglia": {
+      "name": "Puglia",
+      "desc": "Pastă de roșii galbene, capocollo de purcel, burrata pugliese, tarallo mărunțit, măsline taggiasca, ulei de măsline extravirgin din Puglia Guglielmi, busuioc"
+    },
+    "basilicata": {
+      "name": "Basilicata",
+      "desc": "Provola afumată, cartofi copți, cremă de ardei, ardei crusco mărunțit, ulei de măsline extravirgin din Puglia Guglielmi, busuioc"
+    },
+    "calabria": {
+      "name": "Calabria",
+      "desc": "Fior di latte, ceapă roșie caramelizată, stracciatella pugliese, măsline taggiasca, ulei de ardei iute Guglielmi, busuioc"
+    },
+    "sicilia": {
+      "name": "Sicilia",
+      "desc": "Roșii decojite La Carmela, vinete prăjite, ricotta sărată, ulei de măsline extravirgin din Puglia Guglielmi, busuioc"
+    },
+    "sardegna": {
+      "name": "Sardegna",
+      "desc": "Fior di latte, roșii cherry roșii, feta mărunțită, hamsii mediteraneene, reducție de vin roșu Cannonau, busuioc"
+    },
+    "margherita": {
+      "name": "Margherita",
+      "desc": "Roșii decojite La Carmela, fior di latte, presărat cu Grana Padano DOP, ulei de măsline extravirgin din Puglia Guglielmi, busuioc"
+    },
+    "margherita-vegana": {
+      "name": "Margherita Vegană",
+      "desc": "Roșii decojite La Carmela, alternativă vegetală la mozzarella, ulei de măsline extravirgin din Puglia Guglielmi, busuioc"
+    },
+    "bufalina": {
+      "name": "Bufalina",
+      "desc": "Roșii decojite La Carmela, mozzarella de bivoliță DOP, presărat cu Grana Padano DOP, ulei de măsline extravirgin din Puglia Guglielmi, busuioc"
+    },
+    "bufalina-senza-lattosio": {
+      "name": "Bufalina Fără Lactoză",
+      "desc": "Roșii decojite La Carmela, mozzarella de bivoliță DOP fără lactoză, ulei de măsline extravirgin din Puglia Guglielmi, busuioc"
+    },
+    "marinara-pizzium": {
+      "name": "Marinara după Pizzium",
+      "desc": "Roșii decojite La Carmela, roșii cherry roșii, capere Maione, file de hamsii mediteraneene, măsline taggiasca, oregano, usturoi, ulei de măsline extravirgin din Puglia Guglielmi, busuioc"
+    },
+    "diavola": {
+      "name": "Diavola",
+      "desc": "Roșii decojite La Carmela, fior di latte, ventricina picantă, ulei de măsline extravirgin din Puglia Guglielmi, busuioc"
+    },
+    "orto-venere": {
+      "name": "Orto & Venere",
+      "desc": "Orez negru Venere, caponata de legume, stracciatella pugliese"
+    },
+    "insalata-caesar": {
+      "name": "Salată Caesar",
+      "desc": "Salată mixtă, piept de pui la cuptor, roșii cherry roșii, fulgi de Grana Padano DOP, crutoane, sos Caesar"
+    },
+    "caprese-pizzium": {
+      "name": "Caprese după Pizzium",
+      "desc": "Roșie inimă de bou, mozzarella de bivoliță DOP, pesto de busuioc, coajă de lămâie rasă"
+    },
+    "insalata-marinara": {
+      "name": "Salată Marinara",
+      "desc": "Salată mixtă, roșii cherry roșii și galbene, oregano, măsline taggiasca, file de hamsii mediteraneene"
+    },
+    "cheesecake": {
+      "name": "Cheesecake",
+      "desc": "Nutella®, fistic sau fructe de pădure"
+    },
+    "tiramisu": {
+      "name": "Tiramisù"
+    },
+    "nuvole-cremose": {
+      "name": "Nori Cremoși",
+      "desc": "2 bile de aluat umplute cu cremă de lapte și citrice"
+    },
+    "sorbetto-limone": {
+      "name": "Sorbet de Lămâie"
+    },
+    "caffe-goloso": {
+      "name": "Cafea Delicioasă",
+      "desc": "Espresso servit cu un fursec de casă cu migdale și citrice"
+    },
+    "menu-bambino": {
+      "name": "Meniu Copii",
+      "desc": "Pizza Margherita Baby + Băutură"
+    },
+    "ichnusa-anima-sarda": {
+      "name": "Ichnusa Anima Sarda",
+      "desc": "Deschisă la culoare și răcoritoare"
+    },
+    "ichnusa-non-filtrata": {
+      "name": "Ichnusa Non Filtrata",
+      "desc": "Fructată, cu arome de hamei"
+    },
+    "birrium-blonde": {
+      "name": "Birrium Blonde - Fără Gluten",
+      "desc": "Bere blondă în stil britanic cu hamei englezesc și american"
+    },
+    "birrium-white-ipa": {
+      "name": "Birrium White IPA",
+      "desc": "Bere albă pe bază de grâu, seducătoare și cu hamei"
+    },
+    "birrium-ipa": {
+      "name": "Birrium IPA",
+      "desc": "Bere chihlimbarie cu hamei american, puternică și aromată"
+    },
+    "birrium-belgian-ale": {
+      "name": "Birrium Belgian Ale",
+      "desc": "Bere roșie în stil belgian, fructată și condimentată"
+    },
+    "heineken-00": {
+      "name": "Heineken 0.0 Fără Alcool"
+    },
+    "acqua-naturale-frizzante": {
+      "name": "Apă Plată Electa / Apă Minerală Maxima"
+    },
+    "coca-cola": {
+      "name": "Coca-Cola / Coca-Cola Zero"
+    },
+    "coca-cola-zero-zero": {
+      "name": "Coca-Cola Zero Zahăr Zero Cofeină"
+    },
+    "fanta-sprite": {
+      "name": "Fanta / Sprite"
+    },
+    "estathe": {
+      "name": "Estathé Lămâie / Piersică"
+    },
+    "bibita-lurisia": {
+      "name": "Băutură Lurisia",
+      "desc": "Portocală / chinotto / limonadă / tonic"
+    },
+    "crodino-xl": {
+      "name": "Crodino XL"
+    },
+    "aperol-spritz": {
+      "name": "Aperol Spritz"
+    },
+    "campari-spritz": {
+      "name": "Campari Spritz"
+    },
+    "mondoro-hugo-spritz": {
+      "name": "Mondoro Hugo Spritz"
+    },
+    "americano-cocktail": {
+      "name": "Americano"
+    },
+    "negroni": {
+      "name": "Negroni"
+    },
+    "milano-torino": {
+      "name": "Milano-Torino"
+    },
+    "gin-tonic": {
+      "name": "Gin Tonic"
+    },
+    "prosecco-soligo": {
+      "name": "Prosecco DOC Treviso Millesimato Extra Dry",
+      "desc": "Soligo, Veneto"
+    },
+    "pecorino-terre-chieti": {
+      "name": "Pecorino Terre di Chieti",
+      "desc": "Tratturo Spinelli, Abruzzo"
+    },
+    "soave-classico": {
+      "name": "Soave Classico DOC \"San Michele\"",
+      "desc": "Ca Rugate, Veneto"
+    },
+    "gewurztraminer-kies": {
+      "name": "Gewürztraminer Trentino DOC \"Kies\"",
+      "desc": "Roeno, Trentino Alto Adige"
+    },
+    "primitivo-rosato": {
+      "name": "Primitivo Rosato Puglia IGP",
+      "desc": "A Mano, Puglia"
+    },
+    "montepulciano-abruzzo": {
+      "name": "Montepulciano d'Abruzzo DOC",
+      "desc": "Tratturo Spinelli, Abruzzo"
+    },
+    "morellino-scansano": {
+      "name": "Morellino di Scansano DOCG",
+      "desc": "Cerreto Piano, Toscana"
+    },
+    "lavazza-caffe": {
+      "name": "Cafea Lavazza"
+    },
+    "lavazza-decaffeinato": {
+      "name": "Cafea Lavazza Decofeinizată"
+    },
+    "caffe-americano": {
+      "name": "Cafea Americano"
+    },
+    "cappuccino": {
+      "name": "Cappuccino"
+    },
+    "limoncello-mirto": {
+      "name": "Limoncello / Mirto"
+    },
+    "grappa": {
+      "name": "Grappa"
+    },
+    "amaro": {
+      "name": "Amaro"
+    }
+  }
+}
