@@ -1,8 +1,4 @@
-const TAG_ICONS = {
-  vegan: '🌱',
-  vegetarian: '🌿',
-  'lactose-free': '💧'
-};
+const LEGEND_ORDER = ['vegetarian', 'vegan', 'lactose-free'];
 
 // Given e.g. "img/flags/it.png", returns the @2x retina variant path.
 function retinaFlag(path) {
@@ -29,13 +25,21 @@ const el = {
   langBackdrop: document.getElementById('langBackdrop'),
   langSearchInput: document.getElementById('langSearchInput'),
   langList: document.getElementById('langList'),
+  infoBtn: document.getElementById('infoBtn'),
+  infoPanel: document.getElementById('infoPanel'),
+  infoBackdrop: document.getElementById('infoBackdrop'),
+  infoPanelTitle: document.getElementById('infoPanelTitle'),
+  infoPanelIntro: document.getElementById('infoPanelIntro'),
+  legendList: document.getElementById('legendList'),
+  infoCoverCharge: document.getElementById('infoCoverCharge'),
   menuTitle: document.getElementById('menuTitle'),
   searchInput: document.getElementById('searchInput'),
   categoryPills: document.getElementById('categoryPills'),
   categoryNote: document.getElementById('categoryNote'),
   menuList: document.getElementById('menuList'),
   noResults: document.getElementById('noResults'),
-  coverCharge: document.getElementById('coverCharge'),
+  bottomFixed: document.getElementById('bottomFixed'),
+  pizzaPromoBar: document.getElementById('pizzaPromoBar'),
   tabMenuBtn: document.getElementById('tabMenuBtn'),
   tabBevandeBtn: document.getElementById('tabBevandeBtn')
 };
@@ -97,6 +101,7 @@ function applyLanguage(code, dict) {
   renderStaticText();
   renderCategoryPills();
   renderLangList('');
+  renderLegend();
   renderMenuList();
 }
 
@@ -111,7 +116,49 @@ function renderStaticText() {
   el.tabMenuBtn.textContent = tr('ui.tabMenu');
   el.tabBevandeBtn.textContent = tr('ui.tabBevande');
   el.noResults.textContent = tr('ui.noResults');
-  el.coverCharge.textContent = tr('ui.coverCharge');
+  el.infoBtn.setAttribute('aria-label', tr('ui.infoLabel'));
+  el.infoPanelTitle.textContent = tr('ui.infoTitle');
+  el.infoPanelIntro.textContent = tr('legend.intro');
+  el.infoCoverCharge.textContent = tr('ui.coverCharge');
+}
+
+// Keeps the page's bottom padding in sync with the fixed footer's actual
+// height, since the pizza promo bar appears/disappears and its text wraps
+// to a different number of lines per language.
+function syncBottomFixedHeight() {
+  document.body.style.paddingBottom = el.bottomFixed.offsetHeight + 'px';
+}
+
+function updatePizzaPromoBar() {
+  const show = state.activeCategory === 'pizze';
+  el.pizzaPromoBar.hidden = !show;
+  el.pizzaPromoBar.textContent = show ? tr('ui.pizzaPromo') : '';
+  syncBottomFixedHeight();
+}
+
+function renderLegend() {
+  el.legendList.innerHTML = '';
+  LEGEND_ORDER.forEach(code => {
+    const li = document.createElement('li');
+    li.className = 'legend-item';
+
+    const dot = document.createElement('span');
+    dot.className = `tag-dot tag-dot--${code}`;
+    li.appendChild(dot);
+
+    const text = document.createElement('div');
+    text.className = 'legend-text';
+    const label = document.createElement('strong');
+    label.textContent = tr(`tags.${code}`);
+    const desc = document.createElement('span');
+    desc.className = 'legend-desc';
+    desc.textContent = tr(`legend.${code}`);
+    text.appendChild(label);
+    text.appendChild(desc);
+    li.appendChild(text);
+
+    el.legendList.appendChild(li);
+  });
 }
 
 function renderCategoryPills() {
@@ -146,6 +193,8 @@ function matchesSearch(item) {
 }
 
 function renderMenuList() {
+  updatePizzaPromoBar();
+
   const note = I18N.get(state.dict, `categoryNotes.${state.activeCategory}`);
   el.categoryNote.textContent = note || '';
   el.categoryNote.hidden = !note;
@@ -233,8 +282,10 @@ function renderItem(item) {
     tags.className = 'item-tags';
     item.tags.forEach(code => {
       const span = document.createElement('span');
+      span.className = `tag-dot tag-dot--${code}`;
       span.title = tr(`tags.${code}`);
-      span.textContent = TAG_ICONS[code] || '';
+      span.setAttribute('role', 'img');
+      span.setAttribute('aria-label', tr(`tags.${code}`));
       tags.appendChild(span);
     });
     wrap.appendChild(tags);
@@ -283,12 +334,31 @@ function closeLangPanel() {
   el.langSwitchBtn.setAttribute('aria-expanded', 'false');
 }
 
+function openInfoPanel() {
+  closeLangPanel();
+  el.infoPanel.hidden = false;
+  el.infoBackdrop.hidden = false;
+  el.infoBtn.setAttribute('aria-expanded', 'true');
+}
+
+function closeInfoPanel() {
+  el.infoPanel.hidden = true;
+  el.infoBackdrop.hidden = true;
+  el.infoBtn.setAttribute('aria-expanded', 'false');
+}
+
 function bindEvents() {
   el.langSwitchBtn.addEventListener('click', () => {
+    closeInfoPanel();
     el.langPanel.hidden ? openLangPanel() : closeLangPanel();
   });
   el.langBackdrop.addEventListener('click', closeLangPanel);
   el.langSearchInput.addEventListener('input', e => renderLangList(e.target.value));
+
+  el.infoBtn.addEventListener('click', () => {
+    el.infoPanel.hidden ? openInfoPanel() : closeInfoPanel();
+  });
+  el.infoBackdrop.addEventListener('click', closeInfoPanel);
 
   el.searchInput.addEventListener('input', e => {
     state.searchQuery = e.target.value;
@@ -310,6 +380,8 @@ function bindEvents() {
     renderCategoryPills();
     renderMenuList();
   });
+
+  window.addEventListener('resize', syncBottomFixedHeight);
 }
 
 init();

@@ -6,7 +6,10 @@
     "tabBevande": "ドリンク",
     "langSearchPlaceholder": "言語を検索...",
     "noResults": "該当する結果がありません",
-    "coverCharge": "カバーチャージ・サービス料：€2.00"
+    "coverCharge": "カバーチャージ・サービス料：€2.00",
+    "infoLabel": "情報",
+    "infoTitle": "記号の説明",
+    "pizzaPromo": "2.00€でリコッタチーズ入りのクラストにできます"
   },
   "categories": {
     "antipasti": "前菜",
@@ -39,6 +42,12 @@
     "vegan": "ヴィーガン",
     "vegetarian": "ベジタリアン",
     "lactose-free": "乳糖不使用"
+  },
+  "legend": {
+    "intro": "料理の横にある色付きの丸は以下を示します：",
+    "vegetarian": "ベジタリアン料理（肉・魚不使用）",
+    "vegan": "ヴィーガン料理（動物性原料不使用）",
+    "lactose-free": "乳糖不使用の料理"
   },
   "items": {
     "tris-perfetto": { "name": "パーフェクト・トリオ", "desc": "ペコリーノ・ロマーノDOPクリーム添えポテトコロッケ、ズッキーニクリーム添えネラーノ風フリッタータ、ラグーソースと焼きトマトソースのアランチーノ" },

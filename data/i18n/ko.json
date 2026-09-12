@@ -6,7 +6,10 @@
     "tabBevande": "음료",
     "langSearchPlaceholder": "언어 검색...",
     "noResults": "검색 결과가 없습니다",
-    "coverCharge": "커버 차지 및 서비스료: €2.00"
+    "coverCharge": "커버 차지 및 서비스료: €2.00",
+    "infoLabel": "정보",
+    "infoTitle": "기호 안내",
+    "pizzaPromo": "2.00€를 추가하면 리코타 치즈가 채워진 크러스트로 변경할 수 있습니다"
   },
   "categories": {
     "antipasti": "전채",
@@ -39,6 +42,12 @@
     "vegan": "비건",
     "vegetarian": "채식",
     "lactose-free": "락토프리(유당 무첨가)"
+  },
+  "legend": {
+    "intro": "요리 옆의 색깔 점은 다음을 의미합니다:",
+    "vegetarian": "채식 요리 (고기·생선 미사용)",
+    "vegan": "비건 요리 (동물성 재료 미사용)",
+    "lactose-free": "락토프리(유당 무첨가) 요리"
   },
   "items": {
     "tris-perfetto": { "name": "퍼펙트 트리오", "desc": "페코리노 로마노 DOP 크림을 곁들인 감자 크로켓, 애호박 크림을 곁들인 네라노식 프리타타, 라구와 구운 토마토 소스를 곁들인 아란치노" },

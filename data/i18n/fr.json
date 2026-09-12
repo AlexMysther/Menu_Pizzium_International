@@ -6,7 +6,10 @@
     "tabBevande": "Boissons",
     "langSearchPlaceholder": "Rechercher une langue...",
     "noResults": "Aucun résultat",
-    "coverCharge": "Couvert et service : 2,00 €"
+    "coverCharge": "Couvert et service : 2,00 €",
+    "infoLabel": "Info",
+    "infoTitle": "Légende des symboles",
+    "pizzaPromo": "Pour 2,00 € vous pouvez avoir le bord fourré à la ricotta"
   },
   "categories": {
     "antipasti": "Entrées",
@@ -39,6 +42,12 @@
     "vegan": "Vegan",
     "vegetarian": "Végétarien",
     "lactose-free": "Sans Lactose"
+  },
+  "legend": {
+    "intro": "Les pastilles de couleur à côté des plats indiquent :",
+    "vegetarian": "Plat végétarien, sans viande ni poisson.",
+    "vegan": "Plat vegan, sans aucun ingrédient d'origine animale.",
+    "lactose-free": "Plat sans lactose."
   },
   "items": {
     "tris-perfetto": { "name": "Il Tris Perfetto", "desc": "Croquette de pommes de terre à la crème de Pecorino Romano DOP, frittata alla Nerano à la crème de courgette, arancino au ragù et sauce tomate rôtie" },

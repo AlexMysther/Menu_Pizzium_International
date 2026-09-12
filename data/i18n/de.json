@@ -6,7 +6,10 @@
     "tabBevande": "Getränke",
     "langSearchPlaceholder": "Sprache suchen...",
     "noResults": "Keine Ergebnisse",
-    "coverCharge": "Gedeck und Bedienung: € 2,00"
+    "coverCharge": "Gedeck und Bedienung: € 2,00",
+    "infoLabel": "Info",
+    "infoTitle": "Symbol-Legende",
+    "pizzaPromo": "Für € 2,00 gibt es den mit Ricotta gefüllten Rand"
   },
   "categories": {
     "antipasti": "Vorspeisen",
@@ -39,6 +42,12 @@
     "vegan": "Vegan",
     "vegetarian": "Vegetarisch",
     "lactose-free": "Laktosefrei"
+  },
+  "legend": {
+    "intro": "Die farbigen Punkte neben den Gerichten bedeuten:",
+    "vegetarian": "Vegetarisches Gericht, ohne Fleisch oder Fisch.",
+    "vegan": "Veganes Gericht, ohne Zutaten tierischen Ursprungs.",
+    "lactose-free": "Laktosefreies Gericht."
   },
   "items": {
     "tris-perfetto": { "name": "Il Tris Perfetto", "desc": "Kartoffelkrokette mit Pecorino-Romano-DOP-Creme, Frittatina alla Nerano mit Zucchinicreme, Arancino mit Ragù und gerösteter Tomatensauce" },

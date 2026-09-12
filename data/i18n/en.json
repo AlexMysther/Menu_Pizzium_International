@@ -6,7 +6,10 @@
     "tabBevande": "Drinks",
     "langSearchPlaceholder": "Search language...",
     "noResults": "No results",
-    "coverCharge": "Cover charge: € 2.00"
+    "coverCharge": "Cover charge: € 2.00",
+    "infoLabel": "Info",
+    "infoTitle": "Symbol Legend",
+    "pizzaPromo": "For € 2.00 you can have the crust filled with ricotta"
   },
   "categories": {
     "antipasti": "Starters",
@@ -39,6 +42,12 @@
     "vegan": "Vegan",
     "vegetarian": "Vegetarian",
     "lactose-free": "Lactose-Free"
+  },
+  "legend": {
+    "intro": "The colored dots next to each dish mean:",
+    "vegetarian": "Vegetarian dish, no meat or fish.",
+    "vegan": "Vegan dish, no ingredients of animal origin.",
+    "lactose-free": "Lactose-free dish."
   },
   "items": {
     "tris-perfetto": { "name": "The Perfect Trio", "desc": "Potato croquette with Pecorino Romano DOP cream, Nerano-style frittata with courgette cream, arancino with ragù and roasted tomato sauce" },

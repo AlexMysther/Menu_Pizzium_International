@@ -9,10 +9,12 @@
 <body>
 
 <header class="app-header">
-  <div class="brand">PIZZIUM</div>
-  <button class="icon-btn" id="menuToggle" aria-label="Menu" type="button">
-    <span></span><span></span><span></span>
+  <button class="icon-btn" id="infoBtn" aria-label="Info" type="button" aria-haspopup="dialog" aria-expanded="false">
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="8.5" stroke="currentColor" stroke-width="1.5"/><rect x="9.15" y="8.5" width="1.7" height="6" rx="0.85" fill="currentColor"/><circle cx="10" cy="6" r="1.1" fill="currentColor"/></svg>
   </button>
+  <div class="brand-logo-wrap">
+    <img class="brand-logo" src="img/logo.png" alt="Pizzium">
+  </div>
   <button class="lang-switch" id="langSwitchBtn" type="button" aria-haspopup="dialog" aria-expanded="false">
     <img id="langFlag" class="flag-icon" src="img/flags/it.png" srcset="img/flags/it@2x.png 2x" alt="">
     <span id="langCode">IT</span>
@@ -28,6 +30,16 @@
 </div>
 <div class="lang-backdrop" id="langBackdrop" hidden></div>
 
+<div class="info-panel" id="infoPanel" role="dialog" aria-modal="true" hidden>
+  <div class="info-panel-inner">
+    <h2 class="info-panel-title" id="infoPanelTitle"></h2>
+    <p class="info-panel-intro" id="infoPanelIntro"></p>
+    <ul class="legend-list" id="legendList"></ul>
+    <p class="info-cover-charge" id="infoCoverCharge"></p>
+  </div>
+</div>
+<div class="info-backdrop" id="infoBackdrop" hidden></div>
+
 <main class="content">
   <h1 class="page-title" id="menuTitle"></h1>
 
@@ -42,14 +54,15 @@
   <div class="menu-list" id="menuList"></div>
 
   <p class="no-results" id="noResults" hidden></p>
-
-  <p class="cover-charge" id="coverCharge"></p>
 </main>
 
-<nav class="bottom-tabs">
-  <button class="bottom-tab active" id="tabMenuBtn" type="button" data-view="menu"></button>
-  <button class="bottom-tab" id="tabBevandeBtn" type="button" data-view="bevande"></button>
-</nav>
+<div class="bottom-fixed" id="bottomFixed">
+  <p class="pizza-promo-bar" id="pizzaPromoBar" hidden></p>
+  <nav class="bottom-tabs">
+    <button class="bottom-tab active" id="tabMenuBtn" type="button" data-view="menu"></button>
+    <button class="bottom-tab" id="tabBevandeBtn" type="button" data-view="bevande"></button>
+  </nav>
+</div>
 
 <script src="js/i18n.js"></script>
 <script src="js/app.js"></script>
