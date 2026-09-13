@@ -276,6 +276,7 @@ button { font-family: inherit; }
 .menu-item {
   display: grid;
   grid-template-columns: 1fr auto;
+  align-items: baseline;
   gap: 4px 12px;
   padding-bottom: 14px;
   border-bottom: 1px solid #f1e0e0;
