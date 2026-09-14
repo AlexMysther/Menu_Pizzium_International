@@ -1,0 +1,495 @@
+{
+  "ui": {
+    "glossaryNote": "Ťuknutím na podčiarknuté suroviny zistíte, čo to je.",
+    "menuTitle": "NAŠE MENU",
+    "searchPlaceholder": "Hľadať v kategórii...",
+    "tabMenu": "Menu",
+    "tabBevande": "Nápoje",
+    "noResults": "Žiadne výsledky",
+    "coverCharge": "Couvert a obsluha: 2,00 €",
+    "infoLabel": "Info",
+    "infoTitle": "Vysvetlivky symbolov",
+    "pizzaPromo": "Za 2,00 € môžete mať okraj plnený ricottou"
+  },
+  "categories": {
+    "antipasti": "Predjedlá",
+    "primi": "Prvé chody",
+    "secondi": "Hlavné chody",
+    "calzoni": "Calzone z pece",
+    "pizze": "Pizze",
+    "insalate": "Šaláty",
+    "dolci": "Dezerty",
+    "bambini": "Detské menu",
+    "bevande": "Nápoje"
+  },
+  "categoryNotes": {
+    "dolci": "* Niektoré dezerty pripravené v našej kuchyni mohli byť zmrazené, aby sa zaručila ich kvalita a zdravotná neškodnosť."
+  },
+  "groups": {
+    "pizze-regionali": "Regionálne pizze",
+    "pizze-classiche": "Klasické neapolské pizze",
+    "birre-spina": "Čapované pivá",
+    "birre-bottiglia": "Fľaškové pivá",
+    "acqua-bibite": "Voda a nealkoholické nápoje",
+    "cocktails": "Koktaily",
+    "bollicine": "Šumivé vína",
+    "vini-bianchi": "Biele vína",
+    "vini-rose": "Ružové vína",
+    "vini-rossi": "Červené vína",
+    "caffe-digestivi": "Káva a digestívy"
+  },
+  "tags": {
+    "vegan": "Vegánske",
+    "vegetarian": "Vegetariánske",
+    "lactose-free": "Bez laktózy"
+  },
+  "legend": {
+    "intro": "Farebné bodky pri jedlách znamenajú:",
+    "vegetarian": "Vegetariánske jedlo, bez mäsa a rýb.",
+    "vegan": "Vegánske jedlo, bez akejkoľvek suroviny živočíšneho pôvodu.",
+    "lactose-free": "Jedlo bez laktózy."
+  },
+  "glossary": {
+    "fior-di-latte": {
+      "term": "Fior di latte",
+      "desc": "Čerstvá mozzarella z kravského mlieka, jemnejšia než byvolia. Obsahuje mlieko."
+    },
+    "mozzarella-bufala": {
+      "term": "Byvolia mozzarella",
+      "desc": "Mozzarella z byvolieho mlieka: krémovejšia a výraznejšia. Obsahuje mlieko.",
+      "match": ["byvolia mozzarella"]
+    },
+    "provola": {
+      "term": "Provola",
+      "desc": "Syr z kravského mlieka parenej konzistencie, tu údený. Obsahuje mlieko.",
+      "match": ["provola"]
+    },
+    "stracciatella": {
+      "term": "Stracciatella",
+      "desc": "Krémové srdce burraty: vlákna syrového cesta v smotane. Obsahuje mlieko.",
+      "match": ["stracciatella", "stracciatellou"]
+    },
+    "burrata": {
+      "term": "Burrata",
+      "desc": "Syr z Apúlie: obal z pareného syrového cesta so smotanovým srdcom. Obsahuje mlieko.",
+      "match": ["burrata"]
+    },
+    "ricotta": {
+      "term": "Ricotta",
+      "desc": "Čerstvý, jemne sladkastý mliečny výrobok zo srvátky. Obsahuje mlieko.",
+      "match": ["ricotta", "ricottou"]
+    },
+    "grana-padano": {
+      "term": "Grana Padano",
+      "desc": "Dlho zrejúci tvrdý syr, zrnitý a chuťovo výrazný. Obsahuje mlieko."
+    },
+    "pecorino": {
+      "term": "Pecorino Romano",
+      "desc": "Syr z ovčieho mlieka, slaný a zrejúci. Obsahuje mlieko."
+    },
+    "gorgonzola": {
+      "term": "Gorgonzola",
+      "desc": "Taliansky modrý syr z kravského mlieka: krémový, s modrou plesňou a výraznou chuťou. Obsahuje mlieko."
+    },
+    "caciocavallo": {
+      "term": "Caciocavallo",
+      "desc": "Zrejúci syr parenej konzistencie s intenzívnou chuťou. Obsahuje mlieko."
+    },
+    "casciotta": {
+      "term": "Casciotta di Urbino",
+      "desc": "Polozrejúci syr z regiónu Marche, z ovčieho a kravského mlieka. Obsahuje mlieko."
+    },
+    "speck": {
+      "term": "Speck",
+      "desc": "Údená a sušená šunka z Južného Tirolska. Bravčové mäso."
+    },
+    "guanciale": {
+      "term": "Guanciale",
+      "desc": "Sušené bravčové líca, tučnejšie a výraznejšie než pancetta. Bravčové mäso."
+    },
+    "capocollo": {
+      "term": "Capocollo",
+      "desc": "Sušená údenina z bravčovej krkovičky. Bravčové mäso."
+    },
+    "mortadella": {
+      "term": "Mortadella",
+      "desc": "Varená údenina z Bologne: ružová a jemná, často s pistáciami. Bravčové mäso."
+    },
+    "ventricina": {
+      "term": "Ventricina",
+      "desc": "Pikantná údenina z Abruzza a Molise, s čili. Bravčové mäso.",
+      "match": ["ventricina"]
+    },
+    "fassona": {
+      "term": "Fassona",
+      "desc": "Cenené piemontské plemeno hovädzieho dobytka s chudým mäsom. Hovädzie mäso."
+    },
+    "dop": {
+      "term": "DOP",
+      "desc": "Chránené označenie pôvodu: značka EÚ pre výrobky, ktoré vznikajú celé v presne vymedzenej oblasti podľa daných pravidiel."
+    },
+    "igp": {
+      "term": "IGP",
+      "desc": "Chránené zemepisné označenie: značka EÚ pre výrobky, pri ktorých aspoň jedna fáza výroby prebieha v oblasti pôvodu."
+    },
+    "evo": {
+      "term": "Extra panenský olivový olej",
+      "desc": "Olej získaný výhradne mechanickým lisovaním olív.",
+      "match": []
+    },
+    "taggiasche": {
+      "term": "Olivy taggiasca",
+      "desc": "Drobné ligurské olivy, sladkasté a jemné.",
+      "match": ["taggiasca"]
+    },
+    "crusco": {
+      "term": "Paprika crusco",
+      "desc": "Sladká paprika zo Senise, sušená a vyprážaná: chrumkavá, nepálivá.",
+      "match": ["crusco"]
+    },
+    "riso-venere": {
+      "term": "Ryža venere",
+      "desc": "Talianska čierna celozrnná ryža, voňavá a s pevným zrnom.",
+      "match": ["venere"]
+    },
+    "tarallo": {
+      "term": "Tarallo",
+      "desc": "Malý slaný krúžok z Apúlie, chrumkavý.",
+      "match": ["tarallo"]
+    },
+    "radicchio": {
+      "term": "Radicchio",
+      "desc": "Červená čakanka z Benátska, horkastej chuti.",
+      "match": ["radicchio"]
+    },
+    "passata": {
+      "term": "Passata",
+      "desc": "Husté pasírované pyré z čerstvých paradajok, tepelne neupravené.",
+      "match": ["passata"]
+    },
+    "carmela": {
+      "term": "La Carmela",
+      "desc": "Kampánska značka lúpaných paradajok, nie samostatná surovina."
+    }
+  },
+  "items": {
+    "tris-perfetto": {
+      "name": "Dokonalé trio",
+      "desc": "Zemiaková kroketa s krémom zo syra Pecorino Romano DOP, frittatina po neranskom spôsobe s cuketovým krémom, arancino s ragù a omáčkou z pečených paradajok"
+    },
+    "tagliere-condividere": {
+      "name": "Doska na zdieľanie",
+      "desc": "Šunka San Daniele DOP, jemná saláma neapolského typu, grilovaná cuketa, grilovaný baklažán, Casciotta di Urbino DOP, olivy taggiasca. Podáva sa s teplou focacciou"
+    },
+    "verdure-grigliate-burrata": {
+      "name": "Grilovaná zelenina a burrata"
+    },
+    "prosciutto-crudo-bufala": {
+      "name": "Šunka a byvolia mozzarella",
+      "desc": "Šunka San Daniele DOP a byvolia mozzarella DOP"
+    },
+    "panzanella-mediterranea": {
+      "name": "Stredomorská panzanella",
+      "desc": "Pečené artičoky, cícer, červené paradajky datterino a hobliny syra Grana Padano DOP s balzamikovou glazúrou"
+    },
+    "bruschetta-stracciatella-zucchine": {
+      "name": "Bruschetta so stracciatellou a cuketou",
+      "desc": "Bruschetta s apúlijskou stracciatellou a cuketovými chipsami"
+    },
+    "gnocchi-sorrentina": {
+      "name": "Gnocchi alla Sorrentina",
+      "desc": "Zemiakové gnocchi, paradajková omáčka, fior di latte"
+    },
+    "lasagna-golosa": {
+      "name": "Maškrtné lasagne",
+      "desc": "Boloňské lasagne so špenátovými plátmi, plnkou z mletého mäsa a bešamelom"
+    },
+    "fregola-estate": {
+      "name": "Letná fregola",
+      "desc": "Sardínska fregola so sušenými paradajkami, olivami taggiasca, rozdrobenou fetou a bazalkou"
+    },
+    "polpette-sugo": {
+      "name": "Mäsové guľky v omáčke"
+    },
+    "parmigiana-melanzane": {
+      "name": "Parmigiana z baklažánu"
+    },
+    "frisella-mare": {
+      "name": "Frisella z mora",
+      "desc": "Červené a žlté paradajky datterino, filety z tuniaka žltoplutvého Pescatorello, kapary Maione, olivy taggiasca, extra panenský olivový olej z Apúlie Guglielmi, bazalka"
+    },
+    "frisella-terra": {
+      "name": "Frisella zo zeme",
+      "desc": "Pečené artičoky, listový šalátový mix, sušené paradajky, byvolia mozzarella DOP, extra panenský olivový olej z Apúlie Guglielmi, bazalka"
+    },
+    "calzone-napoletano": {
+      "name": "Neapolské calzone",
+      "desc": "Lúpané paradajky La Carmela, kravská ricotta, údená provola, Grana Padano DOP, jemná saláma neapolského typu, čierne korenie, extra panenský olivový olej z Apúlie Guglielmi, bazalka"
+    },
+    "calzone-vegetariano": {
+      "name": "Vegetariánske calzone",
+      "desc": "Údená provola, hliva cardoncelli, cuketový krém, Grana Padano DOP, opražené píniové oriešky, extra panenský olivový olej z Apúlie Guglielmi, bazalka"
+    },
+    "valle-aosta": {
+      "name": "Valle d'Aosta",
+      "desc": "Lúpané paradajky La Carmela, fior di latte, prvotriedna varená šunka pečená na žeravých uhlíkoch Lorenzi, pečené artičoky, hliva cardoncelli, olivy taggiasca, extra panenský olivový olej z Apúlie Guglielmi, bazalka"
+    },
+    "piemonte": {
+      "name": "Piemonte",
+      "desc": "Fior di latte, klobása z hovädzieho fassona, hľuzovkový olej, čierne korenie, bazalka, okraj plnený kravskou ricottou"
+    },
+    "lombardia": {
+      "name": "Lombardia",
+      "desc": "Fior di latte, údená provola, gorgonzola DOP, Grana Padano DOP, vlašské orechy, extra panenský olivový olej z Apúlie Guglielmi, bazalka"
+    },
+    "trentino-alto-adige": {
+      "name": "Trentino Alto Adige",
+      "desc": "Fior di latte, speck z Južného Tirolska, gorgonzola DOP, kvetový med, sladovkový prášok, extra panenský olivový olej z Apúlie Guglielmi, bazalka"
+    },
+    "friuli-venezia-giulia": {
+      "name": "Friuli Venezia Giulia",
+      "desc": "Fior di latte, červené paradajky datterino, šunka San Daniele DOP, rukola, hobliny syra Grana Padano DOP, bazalka"
+    },
+    "veneto": {
+      "name": "Veneto",
+      "desc": "Fior di latte, caciocavallo z Agnone, čerstvé radicchio, vlašské orechy, extra panenský olivový olej z Apúlie Guglielmi, bazalka"
+    },
+    "liguria": {
+      "name": "Liguria",
+      "desc": "Fior di latte, žlté a červené paradajky datterino, bazalkové pesto, extra panenský olivový olej z Apúlie Guglielmi, bazalka"
+    },
+    "emilia-romagna": {
+      "name": "Emilia Romagna",
+      "desc": "Fior di latte, mortadella Bologna IGP, drvené pistácie, extra panenský olivový olej z Apúlie Guglielmi, bazalka"
+    },
+    "toscana": {
+      "name": "Toscana",
+      "desc": "Fior di latte, krém z kaderavého kelu, pečené zemiaky, prúžky vyprážaného baklažánu, vyprážaná cuketa, opražené píniové oriešky, bazalka"
+    },
+    "marche": {
+      "name": "Marche",
+      "desc": "Lúpané paradajky La Carmela, fior di latte, jemná saláma, Casciotta di Urbino DOP, čierne korenie, extra panenský olivový olej z Apúlie Guglielmi, bazalka"
+    },
+    "umbria": {
+      "name": "Umbria",
+      "desc": "Údená provola, pečené zemiaky, klobása z Norcie, fondue zo syra Pecorino Romano DOP, extra panenský olivový olej z Apúlie Guglielmi, bazalka"
+    },
+    "lazio": {
+      "name": "Lazio",
+      "desc": "Fior di latte, artičokový krém, artičokové srdce, prvotriedna varená šunka pečená na žeravých uhlíkoch Lorenzi, fondue zo syra Pecorino Romano DOP, extra panenský olivový olej z Apúlie Guglielmi, bazalka"
+    },
+    "abruzzo": {
+      "name": "Abruzzo",
+      "desc": "Lúpané paradajky La Carmela, fior di latte, zrejúci guanciale po amatricijsky z údenárstva Sano, Pecorino Romano DOP, mleté korenie, bazalka"
+    },
+    "molise": {
+      "name": "Molise",
+      "desc": "Fior di latte, caciocavallo z Agnone, klobása z Norcie, extra panenský olivový olej z Apúlie Guglielmi, bazalka"
+    },
+    "campania": {
+      "name": "Campania",
+      "desc": "Údená provola, cuketový krém, vyprážaná cuketa, Grana Padano DOP, extra panenský olivový olej z Apúlie Guglielmi, bazalka"
+    },
+    "puglia": {
+      "name": "Puglia",
+      "desc": "Passata zo žltých paradajok, capocollo z prasiatka, apúlijská burrata, rozdrobený tarallo, olivy taggiasca, extra panenský olivový olej z Apúlie Guglielmi, bazalka"
+    },
+    "basilicata": {
+      "name": "Basilicata",
+      "desc": "Údená provola, pečené zemiaky, paprikový krém, rozdrobená paprika crusco, extra panenský olivový olej z Apúlie Guglielmi, bazalka"
+    },
+    "calabria": {
+      "name": "Calabria",
+      "desc": "Fior di latte, karamelizovaná červená cibuľa, apúlijská stracciatella, olivy taggiasca, čili olej Guglielmi, bazalka"
+    },
+    "sicilia": {
+      "name": "Sicilia",
+      "desc": "Lúpané paradajky La Carmela, vyprážaný baklažán, solená ricotta, extra panenský olivový olej z Apúlie Guglielmi, bazalka"
+    },
+    "sardegna": {
+      "name": "Sardegna",
+      "desc": "Fior di latte, červené paradajky datterino, rozdrobená feta, stredomorské sardely, redukcia z červeného vína Cannonau, bazalka"
+    },
+    "margherita": {
+      "name": "Margherita",
+      "desc": "Lúpané paradajky La Carmela, fior di latte, posyp zo syra Grana Padano DOP, extra panenský olivový olej z Apúlie Guglielmi, bazalka"
+    },
+    "margherita-vegana": {
+      "name": "Vegánska Margherita",
+      "desc": "Lúpané paradajky La Carmela, rastlinná alternatíva mozzarelly, extra panenský olivový olej z Apúlie Guglielmi, bazalka"
+    },
+    "bufalina": {
+      "name": "Bufalina",
+      "desc": "Lúpané paradajky La Carmela, byvolia mozzarella DOP, posyp zo syra Grana Padano DOP, extra panenský olivový olej z Apúlie Guglielmi, bazalka"
+    },
+    "bufalina-senza-lattosio": {
+      "name": "Bufalina bez laktózy",
+      "desc": "Lúpané paradajky La Carmela, byvolia mozzarella bez laktózy DOP, extra panenský olivový olej z Apúlie Guglielmi, bazalka"
+    },
+    "marinara-pizzium": {
+      "name": "Marinara podľa Pizzia",
+      "desc": "Lúpané paradajky La Carmela, červené paradajky datterino, kapary Maione, filety zo stredomorských sardel, olivy taggiasca, oregano, cesnak, extra panenský olivový olej z Apúlie Guglielmi, bazalka"
+    },
+    "diavola": {
+      "name": "Diavola",
+      "desc": "Lúpané paradajky La Carmela, fior di latte, pikantná ventricina, extra panenský olivový olej z Apúlie Guglielmi, bazalka"
+    },
+    "orto-venere": {
+      "name": "Orto & Venere",
+      "desc": "Čierna ryža venere, zeleninová caponata, apúlijská stracciatella"
+    },
+    "insalata-caesar": {
+      "name": "Caesar šalát",
+      "desc": "Listový šalátový mix, pečené kuracie prsia, červené paradajky datterino, hobliny syra Grana Padano DOP, krutóny, Caesar dresing"
+    },
+    "caprese-pizzium": {
+      "name": "Caprese podľa Pizzia",
+      "desc": "Paradajka volské srdce, byvolia mozzarella DOP, bazalkové pesto, citrónová kôra"
+    },
+    "insalata-marinara": {
+      "name": "Šalát Marinara",
+      "desc": "Listový šalátový mix, červené a žlté paradajky datterino, oregano, olivy taggiasca, filety zo stredomorských sardel"
+    },
+    "cheesecake": {
+      "name": "Cheesecake",
+      "desc": "Nutella®, pistácie alebo lesné ovocie"
+    },
+    "tiramisu": {
+      "name": "Tiramisu"
+    },
+    "nuvole-cremose": {
+      "name": "Krémové obláčiky",
+      "desc": "2 guľôčky z cesta plnené mliečnym krémom s citrusmi"
+    },
+    "sorbetto-limone": {
+      "name": "Citrónový sorbet"
+    },
+    "caffe-goloso": {
+      "name": "Maškrtná káva",
+      "desc": "Espresso podávané s domácim mandľovým keksíkom s citrusmi"
+    },
+    "menu-bambino": {
+      "name": "Detské menu",
+      "desc": "Malá pizza Margherita + nápoj"
+    },
+    "ichnusa-anima-sarda": {
+      "name": "Ichnusa Anima Sarda",
+      "desc": "Svetlé a osviežujúce"
+    },
+    "ichnusa-non-filtrata": {
+      "name": "Ichnusa Non Filtrata",
+      "desc": "Ovocné s vôňou chmeľu"
+    },
+    "birrium-blonde": {
+      "name": "Birrium Blonde – bez lepku",
+      "desc": "Svetlé pivo britského štýlu s anglickým a americkým chmeľom"
+    },
+    "birrium-white-ipa": {
+      "name": "Birrium White IPA",
+      "desc": "Pšeničné biele pivo, zvodné a chmeľové"
+    },
+    "birrium-ipa": {
+      "name": "Birrium IPA",
+      "desc": "Jantárové pivo s americkým chmeľom, výrazné a bohaté na vône"
+    },
+    "birrium-belgian-ale": {
+      "name": "Birrium Belgian Ale",
+      "desc": "Červené pivo belgického štýlu, ovocné a korenisté"
+    },
+    "heineken-00": {
+      "name": "Heineken 0.0 nealkoholické"
+    },
+    "acqua-naturale-frizzante": {
+      "name": "Neperlivá voda Electa / perlivá Maxima"
+    },
+    "coca-cola": {
+      "name": "Coca-Cola / Coca-Cola Zero"
+    },
+    "coca-cola-zero-zero": {
+      "name": "Coca-Cola bez cukru a bez kofeínu"
+    },
+    "fanta-sprite": {
+      "name": "Fanta / Sprite"
+    },
+    "estathe": {
+      "name": "Ľadový čaj Estathé citrón / broskyňa"
+    },
+    "bibita-lurisia": {
+      "name": "Nápoj Lurisia",
+      "desc": "Pomaranč / chinotto / limonáda / tonik"
+    },
+    "crodino-xl": {
+      "name": "Crodino XL"
+    },
+    "aperol-spritz": {
+      "name": "Aperol Spritz"
+    },
+    "campari-spritz": {
+      "name": "Campari Spritz"
+    },
+    "mondoro-hugo-spritz": {
+      "name": "Mondoro Hugo Spritz"
+    },
+    "americano-cocktail": {
+      "name": "Americano"
+    },
+    "negroni": {
+      "name": "Negroni"
+    },
+    "milano-torino": {
+      "name": "Milano-Torino"
+    },
+    "gin-tonic": {
+      "name": "Gin s tonikom"
+    },
+    "prosecco-soligo": {
+      "name": "Prosecco DOC Treviso Millesimato Extra Dry",
+      "desc": "Soligo, Veneto"
+    },
+    "pecorino-terre-chieti": {
+      "name": "Pecorino Terre di Chieti",
+      "desc": "Tratturo Spinelli, Abruzzo"
+    },
+    "soave-classico": {
+      "name": "Soave Classico DOC \"San Michele\"",
+      "desc": "Ca Rugate, Veneto"
+    },
+    "gewurztraminer-kies": {
+      "name": "Gewürztraminer Trentino DOC \"Kies\"",
+      "desc": "Roeno, Trentino Alto Adige"
+    },
+    "primitivo-rosato": {
+      "name": "Primitivo Rosato Puglia IGP",
+      "desc": "A Mano, Puglia"
+    },
+    "montepulciano-abruzzo": {
+      "name": "Montepulciano d'Abruzzo DOC",
+      "desc": "Tratturo Spinelli, Abruzzo"
+    },
+    "morellino-scansano": {
+      "name": "Morellino di Scansano DOCG",
+      "desc": "Cerreto Piano, Toscana"
+    },
+    "lavazza-caffe": {
+      "name": "Káva Lavazza"
+    },
+    "lavazza-decaffeinato": {
+      "name": "Káva Lavazza bez kofeínu"
+    },
+    "caffe-americano": {
+      "name": "Káva Americano"
+    },
+    "cappuccino": {
+      "name": "Cappuccino"
+    },
+    "limoncello-mirto": {
+      "name": "Limoncello / Mirto"
+    },
+    "grappa": {
+      "name": "Grappa"
+    },
+    "amaro": {
+      "name": "Amaro"
+    }
+  }
+}
