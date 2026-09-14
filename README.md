@@ -19,8 +19,10 @@ data/
   i18n/
     languages.json  # registro delle lingue disponibili (bandiera, nome nativo, direzione testo)
     it.json          # lingua di fallback — DEVE sempre contenere tutte le chiavi
-    en.json, de.json, fr.json, es.json, pt.json
-    ru.json, uk.json, zh.json, ja.json, ko.json, ar.json
+    en.json, fr.json, es.json, pt.json, de.json, nl.json
+    no.json, sv.json, ro.json, hu.json, pl.json, ru.json
+    uk.json, el.json, zh.json, ja.json, ko.json, tr.json
+    ar.json, he.json
 ```
 
 Ogni file di lingua contiene, oltre alle traduzioni dei piatti, un **glossario** (`glossary`) dei termini italiani che restano invariati nelle descrizioni (gorgonzola, capocollo, DOP, olio EVO...): nel menu compaiono sottolineati e, al tocco, aprono una spiegazione breve nella lingua attiva. Il termine si traduce **una volta sola per lingua**, non a ogni piatto in cui ricorre.
@@ -74,4 +76,4 @@ Le forme più lunghe hanno la precedenza, quindi `"grana padano"` vince su un ev
 
 ## Lingue attualmente incluse
 
-Italiano, Inglese, Tedesco, Francese, Spagnolo, Portoghese, Russo, Ucraino, Cinese, Giapponese, Coreano, Arabo — contenuto reale trascritto dal menu cartaceo Pizzium (86 voci: antipasti, primi, secondi, calzoni, pizze regionali e classiche, insalate, dolci, menu bambino, bevande con birre/vini/cocktail/caffetteria).
+Italiano, Inglese, Francese, Spagnolo, Portoghese, Tedesco, Olandese, Norvegese, Svedese, Rumeno, Ungherese, Polacco, Russo, Ucraino, Greco, Cinese, Giapponese, Coreano, Turco, Arabo, Ebraico — contenuto reale trascritto dal menu cartaceo Pizzium (86 voci: antipasti, primi, secondi, calzoni, pizze regionali e classiche, insalate, dolci, menu bambino, bevande con birre/vini/cocktail/caffetteria).

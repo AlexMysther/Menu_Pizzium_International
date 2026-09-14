@@ -267,7 +267,7 @@ button { font-family: inherit; }
 .group-title {
   color: var(--red);
   font-weight: 700;
-  font-size: 17px;
+  font-size: 20px;
   text-decoration: underline;
   text-decoration-color: var(--red);
   margin: 6px 0 2px;
@@ -276,6 +276,7 @@ button { font-family: inherit; }
 .menu-item {
   display: grid;
   grid-template-columns: 1fr auto;
+  align-items: baseline;
   gap: 4px 12px;
   padding-bottom: 14px;
   border-bottom: 1px solid #f1e0e0;
@@ -283,8 +284,9 @@ button { font-family: inherit; }
 
 .item-name {
   font-weight: 700;
-  font-size: 15px;
+  font-size: 17px;
   grid-column: 1;
+  grid-row: 1;
 }
 .item-name-it {
   font-weight: 400;
@@ -298,6 +300,7 @@ button { font-family: inherit; }
   font-size: 15px;
   color: var(--red);
   grid-column: 2;
+  grid-row: 1;
   white-space: nowrap;
   text-align: right;
 }
@@ -309,7 +312,7 @@ button { font-family: inherit; }
 .item-desc {
   grid-column: 1 / -1;
   color: var(--muted);
-  font-size: 13.5px;
+  font-size: 15px;
   line-height: 1.45;
 }
 .item-tags {
