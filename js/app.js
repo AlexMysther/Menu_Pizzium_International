@@ -402,21 +402,59 @@ function toggleGloss(btn, id) {
   positionGloss(btn);
 }
 
+// La porzione di pagina che l'utente sta davvero guardando. Con lo zoom a
+// due dita è molto più stretta della pagina: a 2x se ne vede metà. Va
+// misurata con visualViewport, non con clientWidth, altrimenti il riquadro
+// del glossario viene dimensionato su spazio che in quel momento non si
+// vede — e chi ingrandisce perché legge a fatica è proprio chi ha più
+// bisogno di leggerlo per intero.
+function visibleArea() {
+  const vv = window.visualViewport;
+  if (vv) return { left: vv.offsetLeft, top: vv.offsetTop, width: vv.width, height: vv.height };
+  const doc = document.documentElement;
+  return { left: 0, top: 0, width: doc.clientWidth, height: doc.clientHeight };
+}
+
 // Il popover vive in fondo al body con coordinate assolute di documento:
 // così scorre insieme alla pagina senza bisogno di riposizionarlo, e non
 // viene tagliato dal riquadro del piatto.
 function positionGloss(btn) {
   const pop = el.glossPopover;
-  pop.style.left = '0px';
-  const rect = btn.getBoundingClientRect();
+  const view = visibleArea();
   const margin = 10;
-  const maxLeft = document.documentElement.clientWidth - pop.offsetWidth - margin;
+
+  // Stretto quanto serve per stare nella parte visibile: ingrandendo, il
+  // riquadro si restringe e il testo va a capo, invece di finire fuori.
+  pop.style.left = '0px';
+  pop.style.maxWidth = Math.min(300, view.width - margin * 2) + 'px';
+  pop.style.maxHeight = (view.height - margin * 2) + 'px';
+
+  const rect = btn.getBoundingClientRect();
   // In RTL il riquadro parte dal bordo destro del termine, come il resto
-  // della pagina; poi in entrambi i versi lo si riporta dentro lo schermo.
+  // della pagina; poi in entrambi i versi lo si riporta dentro il visibile.
   const anchor = document.documentElement.dir === 'rtl' ? rect.right - pop.offsetWidth : rect.left;
-  const left = Math.max(margin, Math.min(anchor, maxLeft));
+  const minLeft = view.left + margin;
+  const maxLeft = view.left + view.width - pop.offsetWidth - margin;
+  const left = Math.max(minLeft, Math.min(anchor, Math.max(minLeft, maxLeft)));
+
+  // Sotto il termine; se lì sotto non c'è spazio visibile, sopra; se non
+  // c'è né sotto né sopra (zoom forte, finestra alta poche righe) lo si
+  // incolla in cima al visibile e il testo scorre dentro al riquadro.
+  const gap = 6;
+  const height = pop.offsetHeight;
+  const below = rect.bottom + gap;
+  const above = rect.top - gap - height;
+  let top;
+  if (below + height <= view.top + view.height - margin) top = below;
+  else if (above >= view.top + margin) top = above;
+  else top = view.top + margin;
+
   pop.style.left = (left + window.scrollX) + 'px';
-  pop.style.top = (rect.bottom + window.scrollY + 6) + 'px';
+  pop.style.top = (top + window.scrollY) + 'px';
+}
+
+function repositionGloss() {
+  if (openGlossBtn) positionGloss(openGlossBtn);
 }
 
 function closeGloss() {
@@ -520,6 +558,13 @@ function bindEvents() {
   document.addEventListener('keydown', e => {
     if (e.key === 'Escape') closeGloss();
   });
+
+  // Pinch-to-zoom cambia solo il visual viewport, non fa scattare il resize
+  // della finestra: senza questo, un riquadro già aperto resterebbe della
+  // larghezza di prima dello zoom.
+  if (window.visualViewport) {
+    window.visualViewport.addEventListener('resize', repositionGloss);
+  }
 }
 
 init();

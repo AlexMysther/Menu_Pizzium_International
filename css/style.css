@@ -431,6 +431,10 @@ html[dir="rtl"] .lang-item .english { margin-inline-start: 0; margin-inline-end:
   border-radius: 12px;
   padding: 10px 12px;
   box-shadow: 0 6px 20px rgba(0,0,0,.25);
+  /* Con lo zoom molto spinto la finestra visibile è alta poche righe: il
+     riquadro si limita a quell'altezza e il testo scorre al suo interno. */
+  overflow-y: auto;
+  overscroll-behavior: contain;
 }
 .gloss-popover-term {
   display: block;
