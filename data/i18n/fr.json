@@ -1,5 +1,6 @@
 {
   "ui": {
+    "glossaryNote": "Touchez les ingrédients soulignés pour savoir ce que c'est.",
     "menuTitle": "NOTRE MENU",
     "searchPlaceholder": "Rechercher dans la catégorie...",
     "tabMenu": "Menu",
@@ -47,6 +48,119 @@
     "vegetarian": "Plat végétarien, sans viande ni poisson.",
     "vegan": "Plat vegan, sans aucun ingrédient d'origine animale.",
     "lactose-free": "Plat sans lactose."
+  },
+  "glossary": {
+    "fior-di-latte": {
+      "term": "Fior di latte",
+      "desc": "Mozzarella fraîche au lait de vache, plus douce que celle de bufflonne. Contient du lait."
+    },
+    "mozzarella-bufala": {
+      "term": "Mozzarella di bufala",
+      "desc": "Mozzarella au lait de bufflonne : plus crémeuse et plus goûteuse. Contient du lait."
+    },
+    "provola": {
+      "term": "Provola",
+      "desc": "Fromage de vache à pâte filée, ici fumé. Contient du lait."
+    },
+    "stracciatella": {
+      "term": "Stracciatella",
+      "desc": "Le cœur crémeux de la burrata : filaments de pâte filée dans la crème. Contient du lait."
+    },
+    "burrata": {
+      "term": "Burrata",
+      "desc": "Fromage des Pouilles : enveloppe de pâte filée à cœur crémeux. Contient du lait."
+    },
+    "ricotta": {
+      "term": "Ricotta",
+      "desc": "Produit laitier frais et doux obtenu à partir du petit-lait. Contient du lait."
+    },
+    "grana-padano": {
+      "term": "Grana Padano",
+      "desc": "Fromage à pâte dure longuement affiné, granuleux et savoureux. Contient du lait."
+    },
+    "pecorino": {
+      "term": "Pecorino Romano",
+      "desc": "Fromage de brebis, salé et affiné. Contient du lait."
+    },
+    "gorgonzola": {
+      "term": "Gorgonzola",
+      "desc": "Fromage italien à pâte persillée au lait de vache : crémeux et corsé. Contient du lait."
+    },
+    "caciocavallo": {
+      "term": "Caciocavallo",
+      "desc": "Fromage à pâte filée affiné, au goût intense. Contient du lait."
+    },
+    "casciotta": {
+      "term": "Casciotta di Urbino",
+      "desc": "Fromage semi-affiné des Marches, au lait de brebis et de vache. Contient du lait."
+    },
+    "speck": {
+      "term": "Speck",
+      "desc": "Jambon cru fumé et affiné du Haut-Adige. Viande de porc."
+    },
+    "guanciale": {
+      "term": "Guanciale",
+      "desc": "Joue de porc affinée, plus grasse et plus goûteuse que la pancetta. Viande de porc."
+    },
+    "capocollo": {
+      "term": "Capocollo",
+      "desc": "Charcuterie affinée tirée du cou du porc. Viande de porc."
+    },
+    "mortadella": {
+      "term": "Mortadelle",
+      "desc": "Charcuterie cuite de Bologne : rose, douce, souvent aux pistaches. Viande de porc.",
+      "match": ["mortadelle"]
+    },
+    "ventricina": {
+      "term": "Ventricina",
+      "desc": "Charcuterie piquante des Abruzzes et du Molise, au piment. Viande de porc."
+    },
+    "fassona": {
+      "term": "Fassona",
+      "desc": "Race bovine piémontaise réputée, à la viande maigre. Viande de bœuf."
+    },
+    "dop": {
+      "term": "DOP",
+      "desc": "Appellation d'Origine Protégée (AOP) : label européen pour les produits entièrement élaborés dans une zone définie, selon des règles précises."
+    },
+    "igp": {
+      "term": "IGP",
+      "desc": "Indication Géographique Protégée : label européen pour les produits dont au moins une étape a lieu dans la zone d'origine."
+    },
+    "evo": {
+      "term": "EVO",
+      "desc": "Huile d'olive extra vierge : obtenue uniquement par pression mécanique.",
+      "match": []
+    },
+    "taggiasche": {
+      "term": "Olives taggiasche",
+      "desc": "Petites olives de Ligurie, douces et délicates."
+    },
+    "crusco": {
+      "term": "Poivron crusco",
+      "desc": "Poivron doux de Senise, séché puis frit : croquant, non piquant."
+    },
+    "riso-venere": {
+      "term": "Riz Venere",
+      "desc": "Riz noir complet italien, parfumé et ferme.",
+      "match": ["Venere"]
+    },
+    "tarallo": {
+      "term": "Tarallo",
+      "desc": "Petit biscuit salé des Pouilles en forme d'anneau, croquant."
+    },
+    "radicchio": {
+      "term": "Radicchio",
+      "desc": "Chicorée rouge de Vénétie, légèrement amère."
+    },
+    "passata": {
+      "term": "Passata",
+      "desc": "Purée de tomates fraîches tamisée, crue et épaisse."
+    },
+    "carmela": {
+      "term": "La Carmela",
+      "desc": "Marque campanienne de tomates pelées, et non un ingrédient en soi."
+    }
   },
   "items": {
     "tris-perfetto": {

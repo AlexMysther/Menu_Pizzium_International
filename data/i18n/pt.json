@@ -1,5 +1,6 @@
 {
   "ui": {
+    "glossaryNote": "Toque nos ingredientes sublinhados para saber o que são.",
     "menuTitle": "NOSSO MENU",
     "searchPlaceholder": "Pesquisar na categoria...",
     "tabMenu": "Menu",
@@ -47,6 +48,122 @@
     "vegetarian": "Prato vegetariano, sem carne nem peixe.",
     "vegan": "Prato vegano, sem qualquer ingrediente de origem animal.",
     "lactose-free": "Prato sem lactose."
+  },
+  "glossary": {
+    "fior-di-latte": {
+      "term": "Fior di latte",
+      "desc": "Mussarela fresca de leite de vaca, mais suave que a de búfala. Contém leite."
+    },
+    "mozzarella-bufala": {
+      "term": "Mozzarella de búfala",
+      "desc": "Mussarela de leite de búfala: mais cremosa e saborosa. Contém leite.",
+      "match": ["mozzarella de búfala"]
+    },
+    "provola": {
+      "term": "Provola",
+      "desc": "Queijo de vaca de massa filada, aqui defumado. Contém leite."
+    },
+    "stracciatella": {
+      "term": "Stracciatella",
+      "desc": "O coração cremoso da burrata: fios de massa filada em creme. Contém leite."
+    },
+    "burrata": {
+      "term": "Burrata",
+      "desc": "Queijo da Puglia: invólucro de massa filada com recheio cremoso. Contém leite."
+    },
+    "ricotta": {
+      "term": "Ricota",
+      "desc": "Laticínio fresco e suave feito a partir do soro do leite. Contém leite.",
+      "match": ["ricota"]
+    },
+    "grana-padano": {
+      "term": "Grana Padano",
+      "desc": "Queijo duro de longa maturação, granuloso e saboroso. Contém leite."
+    },
+    "pecorino": {
+      "term": "Pecorino Romano",
+      "desc": "Queijo de leite de ovelha, salgado e curado. Contém leite."
+    },
+    "gorgonzola": {
+      "term": "Gorgonzola",
+      "desc": "Queijo azul italiano de leite de vaca: cremoso e de sabor intenso. Contém leite."
+    },
+    "caciocavallo": {
+      "term": "Caciocavallo",
+      "desc": "Queijo de massa filada curado, de sabor intenso. Contém leite."
+    },
+    "casciotta": {
+      "term": "Casciotta di Urbino",
+      "desc": "Queijo semicurado das Marcas, de leite de ovelha e vaca. Contém leite."
+    },
+    "speck": {
+      "term": "Speck",
+      "desc": "Presunto cru defumado e curado do Alto Ádige. Carne de porco."
+    },
+    "guanciale": {
+      "term": "Guanciale",
+      "desc": "Papada de porco curada, mais gordurosa e saborosa que a pancetta. Carne de porco."
+    },
+    "capocollo": {
+      "term": "Capocollo",
+      "desc": "Embutido curado feito do pescoço do porco. Carne de porco."
+    },
+    "mortadella": {
+      "term": "Mortadela",
+      "desc": "Embutido cozido de Bolonha: rosado, suave, muitas vezes com pistache. Carne de porco.",
+      "match": ["mortadela"]
+    },
+    "ventricina": {
+      "term": "Ventricina",
+      "desc": "Embutido picante de Abruzzo e Molise, com pimenta. Carne de porco."
+    },
+    "fassona": {
+      "term": "Fassona",
+      "desc": "Raça bovina piemontesa valorizada, de carne magra. Carne bovina."
+    },
+    "dop": {
+      "term": "DOP",
+      "desc": "Denominação de Origem Protegida: selo da UE para produtos feitos inteiramente numa zona definida, com regras fixas."
+    },
+    "igp": {
+      "term": "IGP",
+      "desc": "Indicação Geográfica Protegida: selo da UE para produtos com pelo menos uma fase de produção na zona de origem."
+    },
+    "evo": {
+      "term": "EVO",
+      "desc": "Azeite extra virgem: obtido apenas por prensagem mecânica.",
+      "match": []
+    },
+    "taggiasche": {
+      "term": "Azeitonas taggiasche",
+      "desc": "Pequenas azeitonas da Ligúria, doces e delicadas."
+    },
+    "crusco": {
+      "term": "Pimentão crusco",
+      "desc": "Pimentão doce de Senise, seco e frito: crocante, não picante."
+    },
+    "riso-venere": {
+      "term": "Arroz venere",
+      "desc": "Arroz preto integral italiano, aromático e de grão firme.",
+      "match": ["venere"]
+    },
+    "tarallo": {
+      "term": "Tarallo",
+      "desc": "Pequena bolacha salgada da Puglia em forma de anel, crocante."
+    },
+    "radicchio": {
+      "term": "Radicchio",
+      "desc": "Chicória roxa do Vêneto, de sabor amargo."
+    },
+    "passata": {
+      "term": "Passata",
+      "desc": "Purê de tomate fresco peneirado, cru e encorpado.",
+      "match": []
+    },
+    "carmela": {
+      "term": "La Carmela",
+      "desc": "Marca da Campânia de tomate pelado, não um ingrediente em si."
+    }
   },
   "items": {
     "tris-perfetto": {

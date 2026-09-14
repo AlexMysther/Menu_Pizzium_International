@@ -1,5 +1,6 @@
 {
   "ui": {
+    "glossaryNote": "Tap the underlined ingredients to see what they are.",
     "menuTitle": "OUR MENU",
     "searchPlaceholder": "Search in category...",
     "tabMenu": "Menu",
@@ -47,6 +48,120 @@
     "vegetarian": "Vegetarian dish, no meat or fish.",
     "vegan": "Vegan dish, no ingredients of animal origin.",
     "lactose-free": "Lactose-free dish."
+  },
+  "glossary": {
+    "fior-di-latte": {
+      "term": "Fior di latte",
+      "desc": "Fresh cow's-milk mozzarella, milder than the buffalo kind. Contains milk."
+    },
+    "mozzarella-bufala": {
+      "term": "Buffalo mozzarella",
+      "desc": "Mozzarella made from water-buffalo milk: creamier and tangier. Contains milk.",
+      "match": ["buffalo mozzarella"]
+    },
+    "provola": {
+      "term": "Provola",
+      "desc": "A stretched-curd cow's-milk cheese, here in its smoked version. Contains milk."
+    },
+    "stracciatella": {
+      "term": "Stracciatella",
+      "desc": "The creamy heart of burrata: shreds of stretched curd in cream. Contains milk."
+    },
+    "burrata": {
+      "term": "Burrata",
+      "desc": "A cheese from Puglia: a stretched-curd pouch with a creamy centre. Contains milk."
+    },
+    "ricotta": {
+      "term": "Ricotta",
+      "desc": "A fresh, mildly sweet dairy product made from whey. Contains milk."
+    },
+    "grana-padano": {
+      "term": "Grana Padano",
+      "desc": "A long-aged hard cheese, grainy and savoury. Contains milk."
+    },
+    "pecorino": {
+      "term": "Pecorino Romano",
+      "desc": "A sheep's-milk cheese, salty and well aged. Contains milk."
+    },
+    "gorgonzola": {
+      "term": "Gorgonzola",
+      "desc": "An Italian blue cheese from cow's milk: creamy, blue-veined, boldly flavoured. Contains milk."
+    },
+    "caciocavallo": {
+      "term": "Caciocavallo",
+      "desc": "An aged stretched-curd cheese with an intense flavour. Contains milk."
+    },
+    "casciotta": {
+      "term": "Casciotta di Urbino",
+      "desc": "A semi-aged cheese from the Marche region, made with sheep's and cow's milk. Contains milk."
+    },
+    "speck": {
+      "term": "Speck",
+      "desc": "Smoked, cured ham from Alto Adige. Pork."
+    },
+    "guanciale": {
+      "term": "Guanciale",
+      "desc": "Cured pork cheek, fattier and more intense than pancetta. Pork."
+    },
+    "capocollo": {
+      "term": "Capocollo",
+      "desc": "A cured cold cut made from the neck of the pig. Pork."
+    },
+    "mortadella": {
+      "term": "Mortadella",
+      "desc": "A cooked cold cut from Bologna: pink, mild, often studded with pistachios. Pork."
+    },
+    "ventricina": {
+      "term": "Ventricina",
+      "desc": "A spicy cured sausage from Abruzzo and Molise, made with chilli. Pork."
+    },
+    "fassona": {
+      "term": "Fassona",
+      "desc": "A prized Piedmontese cattle breed, known for its lean meat. Beef."
+    },
+    "dop": {
+      "term": "DOP",
+      "desc": "Protected Designation of Origin: an EU mark for products made entirely in one defined area, following set rules."
+    },
+    "igp": {
+      "term": "IGP",
+      "desc": "Protected Geographical Indication: an EU mark for products with at least one production stage in the area of origin."
+    },
+    "evo": {
+      "term": "EVO oil",
+      "desc": "Extra virgin olive oil: pressed from olives by mechanical means only.",
+      "match": ["EVO oil"]
+    },
+    "taggiasche": {
+      "term": "Taggiasca olives",
+      "desc": "Small olives from Liguria: sweet and delicate.",
+      "match": ["taggiasca"]
+    },
+    "crusco": {
+      "term": "Crusco pepper",
+      "desc": "A sweet pepper from Senise, dried then fried: crisp, not hot."
+    },
+    "riso-venere": {
+      "term": "Venere rice",
+      "desc": "Italian black wholegrain rice: fragrant, with a firm bite.",
+      "match": ["venere"]
+    },
+    "tarallo": {
+      "term": "Tarallo",
+      "desc": "A small savoury ring-shaped cracker from Puglia."
+    },
+    "radicchio": {
+      "term": "Radicchio",
+      "desc": "A red chicory from the Veneto, pleasantly bitter."
+    },
+    "passata": {
+      "term": "Passata",
+      "desc": "Sieved fresh tomato purée, uncooked and thick."
+    },
+    "carmela": {
+      "term": "La Carmela",
+      "desc": "A Campanian brand of peeled tomatoes, not an ingredient in itself."
+    }
   },
   "items": {
     "tris-perfetto": {

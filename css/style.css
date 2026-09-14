@@ -399,3 +399,51 @@ html[dir="rtl"] .lang-item .english { margin-inline-start: 0; margin-inline-end:
   .content { padding: 16px 14px 8px; }
   .lang-panel, .info-panel { left: 10px; right: 10px; max-width: none; }
 }
+
+/* Glossario: termini toccabili dentro le descrizioni */
+.gloss-term {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  text-decoration: underline dotted currentColor;
+  text-underline-offset: 3px;
+  -webkit-text-decoration: underline dotted currentColor;
+}
+.gloss-term--open {
+  color: var(--red);
+  text-decoration-style: solid;
+}
+
+.gloss-popover {
+  position: absolute;
+  z-index: 40;
+  width: max-content;
+  max-width: min(300px, calc(100vw - 20px));
+  background: var(--red);
+  color: #fff;
+  border-radius: 12px;
+  padding: 10px 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,.25);
+}
+.gloss-popover-term {
+  display: block;
+  font-size: 13.5px;
+  font-weight: 800;
+}
+.gloss-popover-desc {
+  margin: 4px 0 0;
+  font-size: 12.5px;
+  line-height: 1.45;
+  opacity: .9;
+}
+
+.info-glossary-note {
+  margin: 14px 0 0;
+  font-size: 12.5px;
+  line-height: 1.4;
+  opacity: .85;
+}

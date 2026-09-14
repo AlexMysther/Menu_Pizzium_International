@@ -34,6 +34,7 @@
     <h2 class="info-panel-title" id="infoPanelTitle"></h2>
     <p class="info-panel-intro" id="infoPanelIntro"></p>
     <ul class="legend-list" id="legendList"></ul>
+    <p class="info-glossary-note" id="infoGlossaryNote" hidden></p>
     <p class="info-cover-charge" id="infoCoverCharge"></p>
   </div>
 </div>
@@ -61,6 +62,11 @@
     <button class="bottom-tab active" id="tabMenuBtn" type="button" data-view="menu"></button>
     <button class="bottom-tab" id="tabBevandeBtn" type="button" data-view="bevande"></button>
   </nav>
+</div>
+
+<div class="gloss-popover" id="glossPopover" role="tooltip" hidden>
+  <strong class="gloss-popover-term" id="glossTerm"></strong>
+  <p class="gloss-popover-desc" id="glossDesc"></p>
 </div>
 
 <script src="js/i18n.js"></script>

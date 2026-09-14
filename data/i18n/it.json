@@ -1,5 +1,6 @@
 {
   "ui": {
+    "glossaryNote": "Tocca gli ingredienti sottolineati per sapere che cosa sono.",
     "menuTitle": "IL NOSTRO MENU",
     "searchPlaceholder": "Cerca nella categoria...",
     "tabMenu": "Menu",
@@ -47,6 +48,143 @@
     "vegetarian": "Piatto vegetariano, senza carne né pesce.",
     "vegan": "Piatto vegano, senza alcun ingrediente di origine animale.",
     "lactose-free": "Piatto senza lattosio."
+  },
+  "glossary": {
+    "fior-di-latte": {
+      "term": "Fior di latte",
+      "desc": "Mozzarella fresca di latte vaccino, più delicata di quella di bufala. Contiene latte.",
+      "match": ["fior di latte"]
+    },
+    "mozzarella-bufala": {
+      "term": "Mozzarella di bufala",
+      "desc": "Mozzarella di latte di bufala: più cremosa e saporita. Contiene latte.",
+      "match": ["mozzarella di bufala"]
+    },
+    "provola": {
+      "term": "Provola",
+      "desc": "Formaggio vaccino a pasta filata, qui affumicato. Contiene latte.",
+      "match": ["provola"]
+    },
+    "stracciatella": {
+      "term": "Stracciatella",
+      "desc": "Il cuore cremoso della burrata: filamenti di pasta filata in panna. Contiene latte.",
+      "match": ["stracciatella"]
+    },
+    "burrata": {
+      "term": "Burrata",
+      "desc": "Formaggio pugliese: involucro di pasta filata con cuore di panna. Contiene latte.",
+      "match": ["burrata"]
+    },
+    "ricotta": {
+      "term": "Ricotta",
+      "desc": "Latticino fresco e dolce ottenuto dal siero di latte. Contiene latte.",
+      "match": ["ricotta"]
+    },
+    "grana-padano": {
+      "term": "Grana Padano",
+      "desc": "Formaggio duro a lunga stagionatura, granuloso e saporito. Contiene latte.",
+      "match": ["grana padano"]
+    },
+    "pecorino": {
+      "term": "Pecorino Romano",
+      "desc": "Formaggio di latte di pecora, sapido e stagionato. Contiene latte.",
+      "match": ["pecorino"]
+    },
+    "gorgonzola": {
+      "term": "Gorgonzola",
+      "desc": "Formaggio erborinato di latte vaccino: cremoso, con venature blu e gusto deciso. Contiene latte.",
+      "match": ["gorgonzola"]
+    },
+    "caciocavallo": {
+      "term": "Caciocavallo",
+      "desc": "Formaggio a pasta filata stagionato, dal sapore intenso. Contiene latte.",
+      "match": ["caciocavallo"]
+    },
+    "casciotta": {
+      "term": "Casciotta di Urbino",
+      "desc": "Formaggio semi-stagionato delle Marche, di latte di pecora e vacca. Contiene latte.",
+      "match": ["casciotta"]
+    },
+    "speck": {
+      "term": "Speck",
+      "desc": "Prosciutto crudo affumicato e stagionato dell'Alto Adige. Carne di maiale.",
+      "match": ["speck"]
+    },
+    "guanciale": {
+      "term": "Guanciale",
+      "desc": "Guancia di maiale stagionata, più grassa e saporita della pancetta. Carne di maiale.",
+      "match": ["guanciale"]
+    },
+    "capocollo": {
+      "term": "Capocollo",
+      "desc": "Salume stagionato ricavato dal collo del maiale. Carne di maiale.",
+      "match": ["capocollo"]
+    },
+    "mortadella": {
+      "term": "Mortadella",
+      "desc": "Salume cotto di Bologna, rosa e delicato, spesso con pistacchi. Carne di maiale.",
+      "match": ["mortadella"]
+    },
+    "ventricina": {
+      "term": "Ventricina",
+      "desc": "Salume piccante di Abruzzo e Molise, con peperoncino. Carne di maiale.",
+      "match": ["ventricina"]
+    },
+    "fassona": {
+      "term": "Fassona",
+      "desc": "Pregiata razza bovina piemontese, dalla carne magra. Carne di manzo.",
+      "match": ["fassona"]
+    },
+    "dop": {
+      "term": "DOP",
+      "desc": "Denominazione di Origine Protetta: marchio UE per prodotti interamente realizzati in una zona d'origine precisa, secondo regole fisse.",
+      "match": ["DOP"]
+    },
+    "igp": {
+      "term": "IGP",
+      "desc": "Indicazione Geografica Protetta: marchio UE per prodotti di cui almeno una fase di produzione avviene nella zona d'origine.",
+      "match": ["IGP"]
+    },
+    "evo": {
+      "term": "Olio EVO",
+      "desc": "Olio extra vergine di oliva: ottenuto dalla sola spremitura meccanica delle olive.",
+      "match": ["olio EVO"]
+    },
+    "taggiasche": {
+      "term": "Olive taggiasche",
+      "desc": "Piccole olive liguri, dolci e delicate.",
+      "match": ["taggiasche"]
+    },
+    "crusco": {
+      "term": "Peperone crusco",
+      "desc": "Peperone dolce di Senise essiccato e fritto: croccante, non piccante.",
+      "match": ["crusco"]
+    },
+    "riso-venere": {
+      "term": "Riso venere",
+      "desc": "Riso nero integrale italiano, profumato e dal chicco sodo.",
+      "match": ["riso venere", "venere"]
+    },
+    "tarallo": {
+      "term": "Tarallo",
+      "desc": "Piccolo biscotto salato pugliese a forma di anello, croccante.",
+      "match": ["tarallo"]
+    },
+    "radicchio": {
+      "term": "Radicchio",
+      "desc": "Cicoria rossa del Veneto, dal gusto amarognolo.",
+      "match": ["radicchio"]
+    },
+    "passata": {
+      "term": "Passata",
+      "desc": "Purea di pomodoro fresco setacciata, cruda e densa.",
+      "match": ["passata"]
+    },
+    "carmela": {
+      "term": "La Carmela",
+      "desc": "Marchio campano di pomodori pelati, non un ingrediente a sé.",
+      "match": ["La Carmela"]
+    }
   },
   "items": {
     "tris-perfetto": {

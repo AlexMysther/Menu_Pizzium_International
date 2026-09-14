@@ -23,6 +23,8 @@ data/
     ru.json, uk.json, zh.json, ja.json, ko.json, ar.json
 ```
 
+Ogni file di lingua contiene, oltre alle traduzioni dei piatti, un **glossario** (`glossary`) dei termini italiani che restano invariati nelle descrizioni (gorgonzola, capocollo, DOP, olio EVO...): nel menu compaiono sottolineati e, al tocco, aprono una spiegazione breve nella lingua attiva. Il termine si traduce **una volta sola per lingua**, non a ogni piatto in cui ricorre.
+
 Il contenuto del menu (`categories.json`, `items.json`) è **separato dalle traduzioni**: ogni piatto ha un id stabile (es. `"valle-aosta"`) usato come chiave nei file `data/i18n/*.json` per recuperare nome/descrizione nella lingua attiva.
 
 ## Come aggiungere una nuova lingua
@@ -39,6 +41,28 @@ Nessuna modifica al codice JS/HTML è necessaria.
 4. Fatto: la lingua compare automaticamente nel selettore ricercabile in alto a destra.
 
 Se una traduzione è incompleta, le chiavi mancanti mostrano automaticamente il testo italiano (fallback), quindi si può pubblicare una lingua anche mentre viene completata.
+
+## Come aggiungere un termine al glossario
+
+Nessuna modifica al codice JS/HTML è necessaria.
+
+1. Aggiungere una voce sotto `glossary` in `data/i18n/it.json`:
+   ```json
+   "nduja": {
+     "term": "'Nduja",
+     "desc": "Salume calabrese piccante e spalmabile. Carne di maiale.",
+     "match": ["nduja"]
+   }
+   ```
+   - `term`: l'etichetta mostrata in cima al riquadro.
+   - `desc`: una frase. Dove serve, chiudere con l'informazione dietetica (`Contiene latte.`, `Carne di maiale.`): è il motivo principale per cui un turista tocca il termine.
+   - `match`: le forme **come compaiono davvero** nelle descrizioni di quella lingua (confronto senza distinzione di maiuscole). Più forme sono ammesse, es. `["рикотта", "рикотты"]` per le declinazioni.
+2. Ripetere la voce negli altri `data/i18n/*.json`, traducendo `term` e `desc`.
+   - `match` si può **omettere** se la forma coincide con quella italiana (es. "gorgonzola" in inglese, francese, spagnolo): vale il fallback su `it.json`.
+   - Va invece indicato quando la lingua scrive il termine diversamente (`"горгонзола"`, `"戈贡佐拉奶酪"`, `"غورغونزولا"`).
+   - `"match": []` disattiva il termine in quella lingua: si usa quando lì è già tradotto e chiaro (es. `passata` → `番茄泥` in cinese).
+
+Le forme più lunghe hanno la precedenza, quindi `"grana padano"` vince su un eventuale `"grana"` e `"riso venere"` su `"venere"`. Nelle lingue che separano le parole con spazi il termine viene evidenziato solo se è una parola intera; in cinese, giapponese e coreano il controllo è disattivato perché lì gli spazi non esistono.
 
 ## Come aggiungere/modificare un piatto
 

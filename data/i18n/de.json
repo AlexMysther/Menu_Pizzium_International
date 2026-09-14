@@ -1,5 +1,6 @@
 {
   "ui": {
+    "glossaryNote": "Tippen Sie auf die unterstrichenen Zutaten, um zu erfahren, was sie sind.",
     "menuTitle": "UNSER MENÜ",
     "searchPlaceholder": "In der Kategorie suchen...",
     "tabMenu": "Menü",
@@ -47,6 +48,120 @@
     "vegetarian": "Vegetarisches Gericht, ohne Fleisch oder Fisch.",
     "vegan": "Veganes Gericht, ohne Zutaten tierischen Ursprungs.",
     "lactose-free": "Laktosefreies Gericht."
+  },
+  "glossary": {
+    "fior-di-latte": {
+      "term": "Fior di Latte",
+      "desc": "Frischer Mozzarella aus Kuhmilch, milder als Büffelmozzarella. Enthält Milch."
+    },
+    "mozzarella-bufala": {
+      "term": "Büffelmozzarella",
+      "desc": "Mozzarella aus Büffelmilch: cremiger und kräftiger. Enthält Milch.",
+      "match": ["Büffelmozzarella"]
+    },
+    "provola": {
+      "term": "Provola",
+      "desc": "Kuhmilchkäse mit gezogenem Teig, hier geräuchert. Enthält Milch."
+    },
+    "stracciatella": {
+      "term": "Stracciatella",
+      "desc": "Das cremige Innere der Burrata: Käsefäden in Sahne. Enthält Milch."
+    },
+    "burrata": {
+      "term": "Burrata",
+      "desc": "Käse aus Apulien: Hülle aus gezogenem Teig mit Sahnekern. Enthält Milch."
+    },
+    "ricotta": {
+      "term": "Ricotta",
+      "desc": "Frisches, mild-süßes Molkenerzeugnis. Enthält Milch."
+    },
+    "grana-padano": {
+      "term": "Grana Padano",
+      "desc": "Lange gereifter Hartkäse, körnig und würzig. Enthält Milch."
+    },
+    "pecorino": {
+      "term": "Pecorino Romano",
+      "desc": "Schafmilchkäse, salzig und gereift. Enthält Milch."
+    },
+    "gorgonzola": {
+      "term": "Gorgonzola",
+      "desc": "Italienischer Blauschimmelkäse aus Kuhmilch: cremig und kräftig im Geschmack. Enthält Milch."
+    },
+    "caciocavallo": {
+      "term": "Caciocavallo",
+      "desc": "Gereifter Käse mit gezogenem Teig und intensivem Geschmack. Enthält Milch."
+    },
+    "casciotta": {
+      "term": "Casciotta di Urbino",
+      "desc": "Halbgereifter Käse aus den Marken, aus Schaf- und Kuhmilch. Enthält Milch."
+    },
+    "speck": {
+      "term": "Speck",
+      "desc": "Geräucherter, gereifter Rohschinken aus Südtirol. Schweinefleisch."
+    },
+    "guanciale": {
+      "term": "Guanciale",
+      "desc": "Gereifte Schweinebacke, fetter und würziger als Pancetta. Schweinefleisch."
+    },
+    "capocollo": {
+      "term": "Capocollo",
+      "desc": "Gereifte Wurstware aus dem Schweinenacken. Schweinefleisch."
+    },
+    "mortadella": {
+      "term": "Mortadella",
+      "desc": "Gekochte Brühwurst aus Bologna: rosa, mild, oft mit Pistazien. Schweinefleisch."
+    },
+    "ventricina": {
+      "term": "Ventricina",
+      "desc": "Scharfe Rohwurst aus den Abruzzen und Molise, mit Chili. Schweinefleisch."
+    },
+    "fassona": {
+      "term": "Fassona",
+      "desc": "Edle Rinderrasse aus dem Piemont mit magerem Fleisch. Rindfleisch."
+    },
+    "dop": {
+      "term": "DOP",
+      "desc": "Geschützte Ursprungsbezeichnung (g.U.): EU-Siegel für Produkte, die vollständig in einem festgelegten Gebiet nach festen Regeln entstehen."
+    },
+    "igp": {
+      "term": "IGP",
+      "desc": "Geschützte geografische Angabe (g.g.A.): EU-Siegel für Produkte, bei denen mindestens ein Produktionsschritt im Ursprungsgebiet erfolgt."
+    },
+    "evo": {
+      "term": "EVO",
+      "desc": "Natives Olivenöl extra: rein mechanisch aus Oliven gepresst.",
+      "match": []
+    },
+    "taggiasche": {
+      "term": "Taggiasca-Oliven",
+      "desc": "Kleine Oliven aus Ligurien, mild und süßlich.",
+      "match": ["Taggiasca"]
+    },
+    "crusco": {
+      "term": "Crusco-Paprika",
+      "desc": "Süße Paprika aus Senise, getrocknet und frittiert: knusprig, nicht scharf."
+    },
+    "riso-venere": {
+      "term": "Venere-Reis",
+      "desc": "Italienischer schwarzer Vollkornreis, aromatisch und bissfest.",
+      "match": ["Venere"]
+    },
+    "tarallo": {
+      "term": "Tarallo",
+      "desc": "Kleines herzhaftes Ringgebäck aus Apulien, knusprig."
+    },
+    "radicchio": {
+      "term": "Radicchio",
+      "desc": "Roter Zichoriensalat aus Venetien, leicht bitter."
+    },
+    "passata": {
+      "term": "Passata",
+      "desc": "Passierte frische Tomaten, ungekocht und dickflüssig."
+    },
+    "carmela": {
+      "term": "La Carmela",
+      "desc": "Kampanische Marke für geschälte Tomaten, keine eigene Zutat."
+    }
   },
   "items": {
     "tris-perfetto": {
