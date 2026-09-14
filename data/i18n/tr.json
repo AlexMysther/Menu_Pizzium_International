@@ -1,5 +1,6 @@
 {
   "ui": {
+    "glossaryNote": "Altı çizili malzemelere dokunarak ne olduklarını görebilirsiniz.",
     "menuTitle": "MENÜMÜZ",
     "searchPlaceholder": "Kategoride ara...",
     "tabMenu": "Menü",
@@ -47,6 +48,121 @@
     "vegetarian": "Vejetaryen yemek, et veya balık içermez.",
     "vegan": "Vegan yemek, hiçbir hayvansal içerik barındırmaz.",
     "lactose-free": "Laktozsuz yemek."
+  },
+  "glossary": {
+    "fior-di-latte": {
+      "term": "Fior di latte",
+      "desc": "İnek sütünden taze mozzarella; manda sütlü olandan daha yumuşak. Süt içerir."
+    },
+    "mozzarella-bufala": {
+      "term": "Bufala mozzarella",
+      "desc": "Manda sütünden mozzarella: daha kremsi ve yoğun. Süt içerir.",
+      "match": ["bufala mozzarella"]
+    },
+    "provola": {
+      "term": "Provola",
+      "desc": "İnek sütünden çekilmiş hamurlu peynir, burada füme hâliyle. Süt içerir."
+    },
+    "stracciatella": {
+      "term": "Stracciatella",
+      "desc": "Burrata'nın kremsi içi: kaymak içinde peynir telleri. Süt içerir."
+    },
+    "burrata": {
+      "term": "Burrata",
+      "desc": "Puglia peyniri: çekilmiş hamurdan bir kese, içi kremsi. Süt içerir."
+    },
+    "ricotta": {
+      "term": "Ricotta",
+      "desc": "Peynir altı suyundan yapılan taze, hafif tatlı süt ürünü. Süt içerir."
+    },
+    "grana-padano": {
+      "term": "Grana Padano",
+      "desc": "Uzun olgunlaştırılmış sert peynir; tanecikli ve lezzetli. Süt içerir."
+    },
+    "pecorino": {
+      "term": "Pecorino Romano",
+      "desc": "Koyun sütünden olgunlaştırılmış, tuzlu peynir. Süt içerir."
+    },
+    "gorgonzola": {
+      "term": "Gorgonzola",
+      "desc": "İnek sütünden İtalyan mavi küflü peynir: kremsi ve güçlü aromalı. Süt içerir."
+    },
+    "caciocavallo": {
+      "term": "Caciocavallo",
+      "desc": "Olgunlaştırılmış çekilmiş hamurlu peynir, yoğun lezzetli. Süt içerir."
+    },
+    "casciotta": {
+      "term": "Casciotta di Urbino",
+      "desc": "Marche bölgesinden koyun ve inek sütüyle yapılan yarı olgun peynir. Süt içerir."
+    },
+    "speck": {
+      "term": "Speck",
+      "desc": "Alto Adige'den füme ve kurutulmuş çiğ jambon. Domuz eti."
+    },
+    "guanciale": {
+      "term": "Guanciale",
+      "desc": "Kurutulmuş domuz yanağı; pancettadan daha yağlı ve yoğun. Domuz eti."
+    },
+    "capocollo": {
+      "term": "Capocollo",
+      "desc": "Domuzun boyun etinden yapılan kurutulmuş şarküteri. Domuz eti."
+    },
+    "mortadella": {
+      "term": "Mortadella",
+      "desc": "Bologna'nın pişmiş şarküterisi: pembe, yumuşak, çoğu zaman antep fıstıklı. Domuz eti."
+    },
+    "ventricina": {
+      "term": "Ventricina",
+      "desc": "Abruzzo ve Molise'nin acı biberli baharatlı sucuğu. Domuz eti."
+    },
+    "fassona": {
+      "term": "Fassona",
+      "desc": "Yağsız etiyle bilinen değerli Piemonte sığır ırkı. Sığır eti."
+    },
+    "dop": {
+      "term": "DOP",
+      "desc": "Korumalı Menşe Adı: ürünün tamamının belirli bir bölgede, sabit kurallara göre üretildiğini gösteren AB işareti."
+    },
+    "igp": {
+      "term": "IGP",
+      "desc": "Korumalı Coğrafi İşaret: üretim aşamalarından en az birinin köken bölgesinde yapıldığını gösteren AB işareti."
+    },
+    "evo": {
+      "term": "EVO",
+      "desc": "Sızma zeytinyağı: yalnızca mekanik presleme ile elde edilir.",
+      "match": []
+    },
+    "taggiasche": {
+      "term": "Taggiasca zeytini",
+      "desc": "Liguria'nın küçük zeytinleri; tatlı ve zarif.",
+      "match": ["taggiasca"]
+    },
+    "crusco": {
+      "term": "Crusco biberi",
+      "desc": "Senise'nin tatlı biberi; kurutulup kızartılır: çıtır, acı değil."
+    },
+    "riso-venere": {
+      "term": "Venere pirinci",
+      "desc": "İtalyan siyah tam tahıllı pirinç; aromatik ve diri.",
+      "match": ["venere"]
+    },
+    "tarallo": {
+      "term": "Tarallo",
+      "desc": "Puglia'nın halka biçimli küçük tuzlu krakeri."
+    },
+    "radicchio": {
+      "term": "Radicchio",
+      "desc": "Veneto'nun kırmızı hindibası; hafif acımsı."
+    },
+    "passata": {
+      "term": "Passata",
+      "desc": "Süzülmüş taze domates püresi; pişmemiş ve koyu.",
+      "match": []
+    },
+    "carmela": {
+      "term": "La Carmela",
+      "desc": "Campania'da üretilen soyulmuş domates markası; başlı başına bir malzeme değil."
+    }
   },
   "items": {
     "tris-perfetto": {

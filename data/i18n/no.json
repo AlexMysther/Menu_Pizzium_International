@@ -1,5 +1,6 @@
 {
   "ui": {
+    "glossaryNote": "Trykk på de understrekede ingrediensene for å se hva de er.",
     "menuTitle": "VÅR MENY",
     "searchPlaceholder": "Søk i kategorien...",
     "tabMenu": "Meny",
@@ -47,6 +48,122 @@
     "vegetarian": "Vegetarrett, uten kjøtt eller fisk.",
     "vegan": "Vegansk rett, uten ingredienser av animalsk opprinnelse.",
     "lactose-free": "Laktosefri rett."
+  },
+  "glossary": {
+    "fior-di-latte": {
+      "term": "Fior di latte",
+      "desc": "Fersk mozzarella av kumelk, mildere enn den av bøffelmelk. Inneholder melk."
+    },
+    "mozzarella-bufala": {
+      "term": "Bøffelmozzarella",
+      "desc": "Mozzarella av bøffelmelk: kremere og fyldigere. Inneholder melk.",
+      "match": ["bøffelmozzarella"]
+    },
+    "provola": {
+      "term": "Provola",
+      "desc": "Kumelksost av trukket ostemasse, her røkt. Inneholder melk."
+    },
+    "stracciatella": {
+      "term": "Stracciatella",
+      "desc": "Den kremete kjernen i burrata: ostetråder i fløte. Inneholder melk."
+    },
+    "burrata": {
+      "term": "Burrata",
+      "desc": "Ost fra Puglia: et hylster av trukket ostemasse med kremet kjerne. Inneholder melk."
+    },
+    "ricotta": {
+      "term": "Ricotta",
+      "desc": "Fersk, mildt søt meieriprodukt laget av myse. Inneholder melk.",
+      "match": ["kumelksricotta", "ricotta"]
+    },
+    "grana-padano": {
+      "term": "Grana Padano",
+      "desc": "Langtidslagret fast ost, kornete og smaksrik. Inneholder melk."
+    },
+    "pecorino": {
+      "term": "Pecorino Romano",
+      "desc": "Ost av sauemelk, salt og lagret. Inneholder melk."
+    },
+    "gorgonzola": {
+      "term": "Gorgonzola",
+      "desc": "Italiensk blåmuggost av kumelk: kremet og kraftig på smak. Inneholder melk."
+    },
+    "caciocavallo": {
+      "term": "Caciocavallo",
+      "desc": "Lagret ost av trukket ostemasse med intens smak. Inneholder melk."
+    },
+    "casciotta": {
+      "term": "Casciotta di Urbino",
+      "desc": "Halvlagret ost fra Marche, av saue- og kumelk. Inneholder melk."
+    },
+    "speck": {
+      "term": "Speck",
+      "desc": "Røkt og modnet spekeskinke fra Alto Adige. Svinekjøtt."
+    },
+    "guanciale": {
+      "term": "Guanciale",
+      "desc": "Modnet svinekinn, fetere og kraftigere enn pancetta. Svinekjøtt."
+    },
+    "capocollo": {
+      "term": "Capocollo",
+      "desc": "Modnet spekemat av nakken på grisen. Svinekjøtt."
+    },
+    "mortadella": {
+      "term": "Mortadella",
+      "desc": "Kokt pålegg fra Bologna: rosa, mildt, ofte med pistasj. Svinekjøtt."
+    },
+    "ventricina": {
+      "term": "Ventricina",
+      "desc": "Sterk spekepølse fra Abruzzo og Molise, med chili. Svinekjøtt."
+    },
+    "fassona": {
+      "term": "Fassona",
+      "desc": "Anerkjent storferase fra Piemonte med magert kjøtt. Storfekjøtt."
+    },
+    "dop": {
+      "term": "DOP",
+      "desc": "Beskyttet opprinnelsesbetegnelse: EU-merke for produkter som lages i sin helhet i ett avgrenset område, etter faste regler."
+    },
+    "igp": {
+      "term": "IGP",
+      "desc": "Beskyttet geografisk betegnelse: EU-merke når minst ett produksjonstrinn skjer i opprinnelsesområdet."
+    },
+    "evo": {
+      "term": "EVO",
+      "desc": "Ekstra virgin olivenolje: kun mekanisk presset.",
+      "match": []
+    },
+    "taggiasche": {
+      "term": "Taggiasca-oliven",
+      "desc": "Små oliven fra Liguria, søte og delikate.",
+      "match": ["taggiasca"]
+    },
+    "crusco": {
+      "term": "Crusco-paprika",
+      "desc": "Søt paprika fra Senise, tørket og fritert: sprø, ikke sterk."
+    },
+    "riso-venere": {
+      "term": "Venere-ris",
+      "desc": "Italiensk svart fullkornsris, aromatisk og fast.",
+      "match": ["venere"]
+    },
+    "tarallo": {
+      "term": "Tarallo",
+      "desc": "Liten salt ringformet kjeks fra Puglia."
+    },
+    "radicchio": {
+      "term": "Radicchio",
+      "desc": "Rød sikori fra Veneto, med et snev av bitterhet."
+    },
+    "passata": {
+      "term": "Passata",
+      "desc": "Silt puré av friske tomater, ukokt og tykk.",
+      "match": []
+    },
+    "carmela": {
+      "term": "La Carmela",
+      "desc": "Et merke flådde tomater fra Campania, ikke en ingrediens i seg selv."
+    }
   },
   "items": {
     "tris-perfetto": {

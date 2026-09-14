@@ -1,5 +1,6 @@
 {
   "ui": {
+    "glossaryNote": "Koppintson az aláhúzott hozzávalókra, hogy megtudja, mik azok.",
     "menuTitle": "ÉTLAPUNK",
     "searchPlaceholder": "Keresés a kategóriában...",
     "tabMenu": "Étlap",
@@ -47,6 +48,122 @@
     "vegetarian": "Vegetáriánus étel, hús és hal nélkül.",
     "vegan": "Vegán étel, semmilyen állati eredetű összetevő nélkül.",
     "lactose-free": "Laktózmentes étel."
+  },
+  "glossary": {
+    "fior-di-latte": {
+      "term": "Fior di latte",
+      "desc": "Friss tehéntejmozzarella, a bivalytejesnél lágyabb ízű. Tejet tartalmaz."
+    },
+    "mozzarella-bufala": {
+      "term": "Bivalymozzarella",
+      "desc": "Bivalytejből készült mozzarella: krémesebb és ízesebb. Tejet tartalmaz.",
+      "match": ["bivalymozzarella"]
+    },
+    "provola": {
+      "term": "Provola",
+      "desc": "Tehéntejből készült gyúrt tésztájú sajt, itt füstölt változatban. Tejet tartalmaz."
+    },
+    "stracciatella": {
+      "term": "Stracciatella",
+      "desc": "A burrata krémes belseje: sajtszálak tejszínben. Tejet tartalmaz."
+    },
+    "burrata": {
+      "term": "Burrata",
+      "desc": "Pugliai sajt: gyúrt tésztájú burok krémes belsővel. Tejet tartalmaz."
+    },
+    "ricotta": {
+      "term": "Ricotta",
+      "desc": "Friss, enyhén édes tejtermék savóból. Tejet tartalmaz.",
+      "match": ["tehéntejricottával", "tehéntejricotta", "ricotta"]
+    },
+    "grana-padano": {
+      "term": "Grana Padano",
+      "desc": "Hosszan érlelt keménysajt, szemcsés és ízes. Tejet tartalmaz."
+    },
+    "pecorino": {
+      "term": "Pecorino Romano",
+      "desc": "Juhtejből készült érlelt sajt, sós ízű. Tejet tartalmaz."
+    },
+    "gorgonzola": {
+      "term": "Gorgonzola",
+      "desc": "Olasz kékpenészes tehénsajt: krémes, határozott ízű. Tejet tartalmaz."
+    },
+    "caciocavallo": {
+      "term": "Caciocavallo",
+      "desc": "Érlelt gyúrt tésztájú sajt, intenzív ízzel. Tejet tartalmaz."
+    },
+    "casciotta": {
+      "term": "Casciotta di Urbino",
+      "desc": "Marche tartománybeli félérett sajt juh- és tehéntejből. Tejet tartalmaz."
+    },
+    "speck": {
+      "term": "Speck",
+      "desc": "Füstölt, érlelt nyers sonka Alto Adigéből. Sertéshús."
+    },
+    "guanciale": {
+      "term": "Guanciale",
+      "desc": "Érlelt sertéspofa, a pancettánál zsírosabb és ízesebb. Sertéshús."
+    },
+    "capocollo": {
+      "term": "Capocollo",
+      "desc": "A sertés tarjájából készült érlelt felvágott. Sertéshús."
+    },
+    "mortadella": {
+      "term": "Mortadella",
+      "desc": "Bolognai főtt felvágott: rózsaszín, lágy ízű, gyakran pisztáciával. Sertéshús."
+    },
+    "ventricina": {
+      "term": "Ventricina",
+      "desc": "Csípős érlelt kolbász Abruzzóból és Moliséból, chilivel. Sertéshús."
+    },
+    "fassona": {
+      "term": "Fassona",
+      "desc": "Nagyra becsült piemonti szarvasmarhafajta, sovány hússal. Marhahús."
+    },
+    "dop": {
+      "term": "DOP",
+      "desc": "Oltalom alatt álló eredetmegjelölés: uniós jelölés olyan termékekre, amelyek teljes egészében egy meghatározott területen, rögzített szabályok szerint készülnek."
+    },
+    "igp": {
+      "term": "IGP",
+      "desc": "Oltalom alatt álló földrajzi jelzés: uniós jelölés, ha a gyártás legalább egy szakasza a származási területen történik."
+    },
+    "evo": {
+      "term": "EVO",
+      "desc": "Extra szűz olívaolaj: kizárólag mechanikus sajtolással készül.",
+      "match": []
+    },
+    "taggiasche": {
+      "term": "Taggiasca olívabogyó",
+      "desc": "Apró ligur olívabogyó, édeskés és finom.",
+      "match": ["taggiasca"]
+    },
+    "crusco": {
+      "term": "Crusco paprika",
+      "desc": "Senisei édes paprika szárítva és olajban sütve: ropogós, nem csípős."
+    },
+    "riso-venere": {
+      "term": "Venere rizs",
+      "desc": "Olasz fekete teljes kiőrlésű rizs, illatos és feszes szemű.",
+      "match": ["venere"]
+    },
+    "tarallo": {
+      "term": "Tarallo",
+      "desc": "Kicsi, sós, gyűrű alakú pugliai ropogtatnivaló."
+    },
+    "radicchio": {
+      "term": "Radicchio",
+      "desc": "Venetói piros cikória, enyhén kesernyés ízzel."
+    },
+    "passata": {
+      "term": "Passata",
+      "desc": "Friss paradicsomból szitált, sűrű, főzetlen püré.",
+      "match": []
+    },
+    "carmela": {
+      "term": "La Carmela",
+      "desc": "Campaniai hámozottparadicsom-márka, nem önálló hozzávaló."
+    }
   },
   "items": {
     "tris-perfetto": {

@@ -1,5 +1,6 @@
 {
   "ui": {
+    "glossaryNote": "Dotknij podkreślonych składników, aby zobaczyć, czym są.",
     "menuTitle": "NASZE MENU",
     "searchPlaceholder": "Szukaj w kategorii...",
     "tabMenu": "Menu",
@@ -47,6 +48,122 @@
     "vegetarian": "Danie wegetariańskie, bez mięsa i ryb.",
     "vegan": "Danie wegańskie, bez jakichkolwiek składników pochodzenia zwierzęcego.",
     "lactose-free": "Danie bez laktozy."
+  },
+  "glossary": {
+    "fior-di-latte": {
+      "term": "Fior di latte",
+      "desc": "Świeża mozzarella z mleka krowiego, łagodniejsza niż ta z mleka bawolego. Zawiera mleko."
+    },
+    "mozzarella-bufala": {
+      "term": "Mozzarella bawola",
+      "desc": "Mozzarella z mleka bawolego: bardziej kremowa i wyrazista. Zawiera mleko.",
+      "match": ["mozzarella z bawolego mleka"]
+    },
+    "provola": {
+      "term": "Provola",
+      "desc": "Ser z mleka krowiego o ciągnionej masie, tutaj wędzony. Zawiera mleko."
+    },
+    "stracciatella": {
+      "term": "Stracciatella",
+      "desc": "Kremowe wnętrze burraty: nitki sera w śmietance. Zawiera mleko."
+    },
+    "burrata": {
+      "term": "Burrata",
+      "desc": "Ser z Apulii: otoczka z ciągnionej masy serowej z kremowym wnętrzem. Zawiera mleko."
+    },
+    "ricotta": {
+      "term": "Ricotta",
+      "desc": "Świeży, lekko słodki produkt mleczny z serwatki. Zawiera mleko.",
+      "match": ["ricottą", "ricotta"]
+    },
+    "grana-padano": {
+      "term": "Grana Padano",
+      "desc": "Długo dojrzewający ser twardy, ziarnisty i wyrazisty. Zawiera mleko."
+    },
+    "pecorino": {
+      "term": "Pecorino Romano",
+      "desc": "Ser z mleka owczego, słony i dojrzewający. Zawiera mleko."
+    },
+    "gorgonzola": {
+      "term": "Gorgonzola",
+      "desc": "Włoski ser pleśniowy z mleka krowiego: kremowy, o zdecydowanym smaku. Zawiera mleko."
+    },
+    "caciocavallo": {
+      "term": "Caciocavallo",
+      "desc": "Dojrzewający ser o ciągnionej masie, o intensywnym smaku. Zawiera mleko."
+    },
+    "casciotta": {
+      "term": "Casciotta di Urbino",
+      "desc": "Półdojrzewający ser z regionu Marche, z mleka owczego i krowiego. Zawiera mleko."
+    },
+    "speck": {
+      "term": "Speck",
+      "desc": "Wędzona, dojrzewająca szynka surowa z Alto Adige. Wieprzowina."
+    },
+    "guanciale": {
+      "term": "Guanciale",
+      "desc": "Dojrzewający policzek wieprzowy, tłustszy i bardziej wyrazisty niż pancetta. Wieprzowina."
+    },
+    "capocollo": {
+      "term": "Capocollo",
+      "desc": "Dojrzewająca wędlina z karku wieprzowego. Wieprzowina."
+    },
+    "mortadella": {
+      "term": "Mortadela",
+      "desc": "Parzona wędlina z Bolonii: różowa, łagodna, często z pistacjami. Wieprzowina.",
+      "match": ["mortadela"]
+    },
+    "ventricina": {
+      "term": "Ventricina",
+      "desc": "Pikantna wędlina z Abruzji i Molise, z papryczką chili. Wieprzowina."
+    },
+    "fassona": {
+      "term": "Fassona",
+      "desc": "Ceniona piemoncka rasa bydła o chudym mięsie. Wołowina."
+    },
+    "dop": {
+      "term": "DOP",
+      "desc": "Chroniona nazwa pochodzenia: unijne oznaczenie produktów wytwarzanych w całości na określonym obszarze, według ustalonych zasad."
+    },
+    "igp": {
+      "term": "IGP",
+      "desc": "Chronione oznaczenie geograficzne: unijne oznaczenie, gdy co najmniej jeden etap produkcji odbywa się na obszarze pochodzenia."
+    },
+    "evo": {
+      "term": "EVO",
+      "desc": "Oliwa z oliwek extra vergine: tłoczona wyłącznie mechanicznie.",
+      "match": []
+    },
+    "taggiasche": {
+      "term": "Oliwki taggiasca",
+      "desc": "Małe oliwki z Ligurii, słodkie i delikatne.",
+      "match": ["taggiasca"]
+    },
+    "crusco": {
+      "term": "Papryka crusco",
+      "desc": "Słodka papryka z Senise, suszona i smażona: chrupiąca, nie ostra."
+    },
+    "riso-venere": {
+      "term": "Ryż Venere",
+      "desc": "Włoski czarny ryż pełnoziarnisty, aromatyczny i sprężysty.",
+      "match": ["venere"]
+    },
+    "tarallo": {
+      "term": "Tarallo",
+      "desc": "Małe słone ciastko w kształcie obwarzanka, z Apulii."
+    },
+    "radicchio": {
+      "term": "Radicchio",
+      "desc": "Czerwona cykoria z Wenecji Euganejskiej, lekko gorzkawa."
+    },
+    "passata": {
+      "term": "Passata",
+      "desc": "Przecier ze świeżych pomidorów, gęsty i niegotowany."
+    },
+    "carmela": {
+      "term": "La Carmela",
+      "desc": "Kampańska marka pomidorów obranych, a nie osobny składnik."
+    }
   },
   "items": {
     "tris-perfetto": {

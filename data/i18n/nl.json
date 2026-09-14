@@ -1,5 +1,6 @@
 {
   "ui": {
+    "glossaryNote": "Tik op de onderstreepte ingrediënten om te zien wat ze zijn.",
     "menuTitle": "ONS MENU",
     "searchPlaceholder": "Zoeken in categorie...",
     "tabMenu": "Menu",
@@ -47,6 +48,121 @@
     "vegetarian": "Vegetarisch gerecht, zonder vlees of vis.",
     "vegan": "Vegan gerecht, zonder ingrediënten van dierlijke oorsprong.",
     "lactose-free": "Lactosevrij gerecht."
+  },
+  "glossary": {
+    "fior-di-latte": {
+      "term": "Fior di latte",
+      "desc": "Verse mozzarella van koemelk, milder dan die van buffelmelk. Bevat melk."
+    },
+    "mozzarella-bufala": {
+      "term": "Buffelmozzarella",
+      "desc": "Mozzarella van buffelmelk: romiger en voller van smaak. Bevat melk.",
+      "match": ["buffelmozzarella"]
+    },
+    "provola": {
+      "term": "Provola",
+      "desc": "Koemelkkaas met gesponnen wrongel, hier gerookt. Bevat melk."
+    },
+    "stracciatella": {
+      "term": "Stracciatella",
+      "desc": "Het romige hart van burrata: draadjes kaas in room. Bevat melk."
+    },
+    "burrata": {
+      "term": "Burrata",
+      "desc": "Kaas uit Puglia: een omhulsel van gesponnen wrongel met een romig hart. Bevat melk."
+    },
+    "ricotta": {
+      "term": "Ricotta",
+      "desc": "Verse, licht zoete zuivel gemaakt van wei. Bevat melk.",
+      "match": ["koemelkricotta", "ricotta"]
+    },
+    "grana-padano": {
+      "term": "Grana Padano",
+      "desc": "Lang gerijpte harde kaas, korrelig en hartig. Bevat melk."
+    },
+    "pecorino": {
+      "term": "Pecorino Romano",
+      "desc": "Kaas van schapenmelk, zout en gerijpt. Bevat melk."
+    },
+    "gorgonzola": {
+      "term": "Gorgonzola",
+      "desc": "Italiaanse blauwe kaas van koemelk: romig en uitgesproken van smaak. Bevat melk."
+    },
+    "caciocavallo": {
+      "term": "Caciocavallo",
+      "desc": "Gerijpte kaas met gesponnen wrongel en een volle smaak. Bevat melk."
+    },
+    "casciotta": {
+      "term": "Casciotta di Urbino",
+      "desc": "Halfgerijpte kaas uit de Marche, van schapen- en koemelk. Bevat melk."
+    },
+    "speck": {
+      "term": "Speck",
+      "desc": "Gerookte, gerijpte rauwe ham uit Alto Adige. Varkensvlees."
+    },
+    "guanciale": {
+      "term": "Guanciale",
+      "desc": "Gerijpte varkenswang, vetter en voller dan pancetta. Varkensvlees."
+    },
+    "capocollo": {
+      "term": "Capocollo",
+      "desc": "Gerijpte vleeswaar van de nek van het varken. Varkensvlees."
+    },
+    "mortadella": {
+      "term": "Mortadella",
+      "desc": "Gekookte vleeswaar uit Bologna: roze, mild, vaak met pistache. Varkensvlees."
+    },
+    "ventricina": {
+      "term": "Ventricina",
+      "desc": "Pittige gerijpte worst uit Abruzzo en Molise, met chilipeper. Varkensvlees."
+    },
+    "fassona": {
+      "term": "Fassona",
+      "desc": "Gewaardeerd Piemontees runderras met mager vlees. Rundvlees."
+    },
+    "dop": {
+      "term": "DOP",
+      "desc": "Beschermde oorsprongsbenaming: EU-keurmerk voor producten die volledig in één gebied worden gemaakt, volgens vaste regels."
+    },
+    "igp": {
+      "term": "IGP",
+      "desc": "Beschermde geografische aanduiding: EU-keurmerk wanneer minstens één productiestap in het gebied van herkomst plaatsvindt."
+    },
+    "evo": {
+      "term": "EVO",
+      "desc": "Extra vergine olijfolie: alleen mechanisch geperst.",
+      "match": []
+    },
+    "taggiasche": {
+      "term": "Taggiasca-olijven",
+      "desc": "Kleine olijven uit Ligurië, zoet en fijn van smaak.",
+      "match": ["taggiasca"]
+    },
+    "crusco": {
+      "term": "Crusco-peper",
+      "desc": "Zoete peper uit Senise, gedroogd en gefrituurd: knapperig, niet pittig."
+    },
+    "riso-venere": {
+      "term": "Venere-rijst",
+      "desc": "Italiaanse zwarte volkorenrijst, geurig en stevig.",
+      "match": ["venere"]
+    },
+    "tarallo": {
+      "term": "Tarallo",
+      "desc": "Klein hartig ringvormig koekje uit Puglia."
+    },
+    "radicchio": {
+      "term": "Radicchio",
+      "desc": "Rode cichorei uit Veneto, licht bitter."
+    },
+    "passata": {
+      "term": "Passata",
+      "desc": "Gezeefde purée van verse tomaten, ongekookt en dik."
+    },
+    "carmela": {
+      "term": "La Carmela",
+      "desc": "Een merk gepelde tomaten uit Campanië, geen ingrediënt op zich."
+    }
   },
   "items": {
     "tris-perfetto": {

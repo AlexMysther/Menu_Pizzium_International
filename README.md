@@ -42,6 +42,8 @@ Nessuna modifica al codice JS/HTML è necessaria.
    Usare `"dir": "rtl"` per lingue scritte da destra a sinistra (es. arabo, ebraico, persiano).
 4. Fatto: la lingua compare automaticamente nel selettore ricercabile in alto a destra.
 
+Attenzione al blocco `glossary` copiato insieme al resto: oltre a `term` e `desc`, va rivisto anche `match`, che elenca le forme del termine **come le scrive la nuova lingua** (vedi sotto).
+
 Se una traduzione è incompleta, le chiavi mancanti mostrano automaticamente il testo italiano (fallback), quindi si può pubblicare una lingua anche mentre viene completata.
 
 ## Come aggiungere un termine al glossario

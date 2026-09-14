@@ -1,5 +1,6 @@
 {
   "ui": {
+    "glossaryNote": "Atinge ingredientele subliniate pentru a vedea ce sunt.",
     "menuTitle": "MENIUL NOSTRU",
     "searchPlaceholder": "Caută în categorie...",
     "tabMenu": "Meniu",
@@ -47,6 +48,121 @@
     "vegetarian": "Preparat vegetarian, fără carne sau pește.",
     "vegan": "Preparat vegan, fără niciun ingredient de origine animală.",
     "lactose-free": "Preparat fără lactoză."
+  },
+  "glossary": {
+    "fior-di-latte": {
+      "term": "Fior di latte",
+      "desc": "Mozzarella proaspătă din lapte de vacă, mai delicată decât cea de bivoliță. Conține lapte."
+    },
+    "mozzarella-bufala": {
+      "term": "Mozzarella de bivoliță",
+      "desc": "Mozzarella din lapte de bivoliță: mai cremoasă și mai gustoasă. Conține lapte.",
+      "match": ["mozzarella de bivoliță"]
+    },
+    "provola": {
+      "term": "Provola",
+      "desc": "Brânză din lapte de vacă cu pastă filată, aici afumată. Conține lapte."
+    },
+    "stracciatella": {
+      "term": "Stracciatella",
+      "desc": "Miezul cremos al burratei: fire de brânză în smântână. Conține lapte."
+    },
+    "burrata": {
+      "term": "Burrata",
+      "desc": "Brânză din Puglia: un înveliș de pastă filată cu miez cremos. Conține lapte."
+    },
+    "ricotta": {
+      "term": "Ricotta",
+      "desc": "Produs lactat proaspăt și ușor dulce, obținut din zer. Conține lapte."
+    },
+    "grana-padano": {
+      "term": "Grana Padano",
+      "desc": "Brânză tare maturată îndelung, granuloasă și gustoasă. Conține lapte."
+    },
+    "pecorino": {
+      "term": "Pecorino Romano",
+      "desc": "Brânză din lapte de oaie, sărată și maturată. Conține lapte."
+    },
+    "gorgonzola": {
+      "term": "Gorgonzola",
+      "desc": "Brânză italiană cu mucegai albastru, din lapte de vacă: cremoasă și cu gust puternic. Conține lapte."
+    },
+    "caciocavallo": {
+      "term": "Caciocavallo",
+      "desc": "Brânză maturată cu pastă filată, cu gust intens. Conține lapte."
+    },
+    "casciotta": {
+      "term": "Casciotta di Urbino",
+      "desc": "Brânză semi-maturată din regiunea Marche, din lapte de oaie și de vacă. Conține lapte."
+    },
+    "speck": {
+      "term": "Speck",
+      "desc": "Șuncă crudă afumată și maturată din Alto Adige. Carne de porc."
+    },
+    "guanciale": {
+      "term": "Guanciale",
+      "desc": "Obraz de porc maturat, mai gras și mai gustos decât pancetta. Carne de porc."
+    },
+    "capocollo": {
+      "term": "Capocollo",
+      "desc": "Mezel maturat din ceafa porcului. Carne de porc."
+    },
+    "mortadella": {
+      "term": "Mortadella",
+      "desc": "Mezel fiert din Bologna: roz, delicat, adesea cu fistic. Carne de porc."
+    },
+    "ventricina": {
+      "term": "Ventricina",
+      "desc": "Mezel picant din Abruzzo și Molise, cu ardei iute. Carne de porc."
+    },
+    "fassona": {
+      "term": "Fassona",
+      "desc": "Rasă de bovine piemonteză apreciată, cu carne slabă. Carne de vită."
+    },
+    "dop": {
+      "term": "DOP",
+      "desc": "Denumire de Origine Protejată: marcă UE pentru produsele realizate integral într-o zonă definită, după reguli fixe."
+    },
+    "igp": {
+      "term": "IGP",
+      "desc": "Indicație Geografică Protejată: marcă UE când cel puțin o etapă de producție are loc în zona de origine."
+    },
+    "evo": {
+      "term": "EVO",
+      "desc": "Ulei de măsline extravirgin: obținut doar prin presare mecanică.",
+      "match": []
+    },
+    "taggiasche": {
+      "term": "Măsline taggiasca",
+      "desc": "Măsline mici din Liguria, dulci și delicate.",
+      "match": ["taggiasca"]
+    },
+    "crusco": {
+      "term": "Ardei crusco",
+      "desc": "Ardei dulce din Senise, uscat și prăjit: crocant, nu iute."
+    },
+    "riso-venere": {
+      "term": "Orez Venere",
+      "desc": "Orez negru integral italian, aromat și cu bob ferm.",
+      "match": ["venere"]
+    },
+    "tarallo": {
+      "term": "Tarallo",
+      "desc": "Biscuit sărat mic în formă de inel, din Puglia."
+    },
+    "radicchio": {
+      "term": "Radicchio",
+      "desc": "Cicoare roșie din Veneto, cu gust ușor amărui."
+    },
+    "passata": {
+      "term": "Passata",
+      "desc": "Piure de roșii proaspete strecurat, necopt și dens.",
+      "match": []
+    },
+    "carmela": {
+      "term": "La Carmela",
+      "desc": "Marcă de roșii decojite din Campania, nu un ingredient în sine."
+    }
   },
   "items": {
     "tris-perfetto": {

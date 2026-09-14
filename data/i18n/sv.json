@@ -1,5 +1,6 @@
 {
   "ui": {
+    "glossaryNote": "Tryck på de understrukna ingredienserna för att se vad de är.",
     "menuTitle": "VÅR MENY",
     "searchPlaceholder": "Sök i kategorin...",
     "tabMenu": "Meny",
@@ -47,6 +48,122 @@
     "vegetarian": "Vegetarisk rätt, utan kött eller fisk.",
     "vegan": "Vegansk rätt, utan ingredienser av animaliskt ursprung.",
     "lactose-free": "Laktosfri rätt."
+  },
+  "glossary": {
+    "fior-di-latte": {
+      "term": "Fior di latte",
+      "desc": "Färsk mozzarella på komjölk, mildare än den på buffelmjölk. Innehåller mjölk."
+    },
+    "mozzarella-bufala": {
+      "term": "Buffelmozzarella",
+      "desc": "Mozzarella på buffelmjölk: krämigare och fylligare. Innehåller mjölk.",
+      "match": ["buffelmozzarella"]
+    },
+    "provola": {
+      "term": "Provola",
+      "desc": "Komjölksost av dragen ostmassa, här rökt. Innehåller mjölk."
+    },
+    "stracciatella": {
+      "term": "Stracciatella",
+      "desc": "Burratans krämiga innanmäte: osttrådar i grädde. Innehåller mjölk."
+    },
+    "burrata": {
+      "term": "Burrata",
+      "desc": "Ost från Puglia: ett hölje av dragen ostmassa med krämig kärna. Innehåller mjölk."
+    },
+    "ricotta": {
+      "term": "Ricotta",
+      "desc": "Färsk, milt söt mejeriprodukt gjord på vassle. Innehåller mjölk.",
+      "match": ["komjölksricotta", "ricotta"]
+    },
+    "grana-padano": {
+      "term": "Grana Padano",
+      "desc": "Länge lagrad hårdost, kornig och smakrik. Innehåller mjölk."
+    },
+    "pecorino": {
+      "term": "Pecorino Romano",
+      "desc": "Ost på fårmjölk, salt och lagrad. Innehåller mjölk."
+    },
+    "gorgonzola": {
+      "term": "Gorgonzola",
+      "desc": "Italiensk blåmögelost på komjölk: krämig och kraftig i smaken. Innehåller mjölk."
+    },
+    "caciocavallo": {
+      "term": "Caciocavallo",
+      "desc": "Lagrad ost av dragen ostmassa med intensiv smak. Innehåller mjölk."
+    },
+    "casciotta": {
+      "term": "Casciotta di Urbino",
+      "desc": "Halvlagrad ost från Marche, på får- och komjölk. Innehåller mjölk."
+    },
+    "speck": {
+      "term": "Speck",
+      "desc": "Rökt och lufttorkad skinka från Alto Adige. Fläskkött."
+    },
+    "guanciale": {
+      "term": "Guanciale",
+      "desc": "Lufttorkad griskind, fetare och smakrikare än pancetta. Fläskkött."
+    },
+    "capocollo": {
+      "term": "Capocollo",
+      "desc": "Lufttorkad charkuteri från grisens nacke. Fläskkött."
+    },
+    "mortadella": {
+      "term": "Mortadella",
+      "desc": "Kokt chark från Bologna: rosa, mild, ofta med pistage. Fläskkött."
+    },
+    "ventricina": {
+      "term": "Ventricina",
+      "desc": "Stark salami från Abruzzo och Molise, med chili. Fläskkött."
+    },
+    "fassona": {
+      "term": "Fassona",
+      "desc": "Uppskattad nötkreatursras från Piemonte med magert kött. Nötkött."
+    },
+    "dop": {
+      "term": "DOP",
+      "desc": "Skyddad ursprungsbeteckning: EU-märkning för produkter som helt tillverkas inom ett bestämt område, enligt fasta regler."
+    },
+    "igp": {
+      "term": "IGP",
+      "desc": "Skyddad geografisk beteckning: EU-märkning när minst ett produktionssteg sker i ursprungsområdet."
+    },
+    "evo": {
+      "term": "EVO",
+      "desc": "Extra jungfruolivolja: enbart mekaniskt pressad.",
+      "match": []
+    },
+    "taggiasche": {
+      "term": "Taggiasca-oliver",
+      "desc": "Små oliver från Ligurien, söta och delikata.",
+      "match": ["taggiasca"]
+    },
+    "crusco": {
+      "term": "Crusco-paprika",
+      "desc": "Sötpaprika från Senise, torkad och friterad: knaprig, inte stark."
+    },
+    "riso-venere": {
+      "term": "Venere-ris",
+      "desc": "Italienskt svart fullkornsris, aromatiskt och med tuggmotstånd.",
+      "match": ["venere"]
+    },
+    "tarallo": {
+      "term": "Tarallo",
+      "desc": "Litet salt ringformat kex från Puglia."
+    },
+    "radicchio": {
+      "term": "Radicchio",
+      "desc": "Röd cikoria från Veneto, lätt beskt."
+    },
+    "passata": {
+      "term": "Passata",
+      "desc": "Silad puré på färska tomater, okokt och tjock.",
+      "match": []
+    },
+    "carmela": {
+      "term": "La Carmela",
+      "desc": "Ett märke skalade tomater från Kampanien, inte en ingrediens i sig."
+    }
   },
   "items": {
     "tris-perfetto": {
