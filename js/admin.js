@@ -21,6 +21,19 @@ function isConfigured() {
   return !FIREBASE_CONFIG.apiKey.startsWith('YOUR_');
 }
 
+// Un tablet lasciato loggato sul bancone non deve restare una porta aperta:
+// niente sessione persistita da un turno all'altro, e logout automatico se
+// resta inattivo troppo a lungo.
+const INACTIVITY_LOGOUT_MS = 15 * 60 * 1000;
+let inactivityTimer = null;
+
+function resetInactivityTimer() {
+  clearTimeout(inactivityTimer);
+  if (firebase.auth().currentUser) {
+    inactivityTimer = setTimeout(() => firebase.auth().signOut(), INACTIVITY_LOGOUT_MS);
+  }
+}
+
 let soldOutRef = null;
 let soldOut = {};
 
@@ -31,6 +44,9 @@ async function init() {
   }
 
   firebase.initializeApp(FIREBASE_CONFIG);
+  // Sessione legata alla scheda del browser: chiudendola si esce, invece
+  // di restare loggati a tempo indeterminato come fa Firebase di default.
+  await firebase.auth().setPersistence(firebase.auth.Auth.Persistence.SESSION);
   soldOutRef = firebase.database().ref('soldOut');
 
   const [categories, items, itDict] = await Promise.all([
@@ -51,7 +67,12 @@ async function init() {
     el.loginForm.hidden = !!user;
     el.panel.hidden = !user;
     if (user) el.loggedInAs.textContent = user.email;
+    resetInactivityTimer();
   });
+
+  ['click', 'keydown', 'touchstart'].forEach(evt =>
+    document.addEventListener(evt, resetInactivityTimer)
+  );
 
   el.loginForm.hidden = false;
 }
