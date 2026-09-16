@@ -77,6 +77,35 @@ Le forme più lunghe hanno la precedenza, quindi `"grana padano"` vince su un ev
    - `tags`: array di tag dietetici tra `vegan`, `vegetarian`, `lactose-free` (icone mostrate automaticamente).
 2. Aggiungere la traduzione (`name`, `desc` — `desc` è opzionale, si può omettere) sotto `items.<id>` in **ogni** file `data/i18n/*.json` (almeno in `it.json`; le altre lingue useranno il fallback finché non tradotte).
 
+## Disponibilità piatti in tempo reale (Firebase)
+
+Quando un piatto finisce, lo staff lo disattiva da `admin.html` e sparisce dal menu di **tutti i client connessi**, senza ricaricare la pagina. Il sito resta statico (GitHub Pages non cambia): Firebase è un servizio esterno chiamato via JS direttamente dal browser, non un server da gestire.
+
+File coinvolti: `js/firebase-config.js` (config progetto), `js/availability.js` (letto da `index.html`, nasconde i piatti dal menu pubblico), `admin.html` + `js/admin.js` (pannello staff per attivare/disattivare).
+
+**Setup una tantum** (richiede un account Google):
+
+1. Crea un progetto su [console.firebase.google.com](https://console.firebase.google.com) (piano gratuito Spark, sufficiente per un locale).
+2. **Build > Realtime Database** → crea database → parti in modalità "locked" (nega tutto), poi vai su "Regole" e incolla:
+   ```json
+   {
+     "rules": {
+       "soldOut": {
+         ".read": true,
+         "$itemId": {
+           ".write": "auth != null"
+         }
+       }
+     }
+   }
+   ```
+   Lettura pubblica (serve ai clienti per vedere il menu), scrittura solo per utenti autenticati (lo staff).
+3. **Build > Authentication** → tab "Sign-in method" → abilita "Email/Password" → tab "Users" → aggiungi manualmente un account per lo staff (email + password).
+4. **Project settings** (icona ingranaggio) → in fondo, sezione "Your apps" → crea una "Web app" → copia i valori mostrati (`apiKey`, `authDomain`, `databaseURL`, `projectId`) dentro `js/firebase-config.js`, al posto dei placeholder `YOUR_...`.
+5. Pubblica (commit + push): `js/firebase-config.js` contiene la config del progetto ma **non è un segreto** — la API key di Firebase non autorizza nulla da sola, la sicurezza reale è nelle Security Rules del punto 2 (vedi anche `js/firebase-config.js` per i dettagli).
+
+**Uso quotidiano:** lo staff apre `admin.html`, fa login con l'account creato al punto 3, e trova la lista di tutti i piatti con un interruttore ciascuno. Finché `firebase-config.js` ha ancora i valori placeholder, sia `index.html` che `admin.html` funzionano normalmente ma senza alcun effetto sulla disponibilità (nessun piatto risulta mai esaurito).
+
 ## Lingue attualmente incluse
 
 Italiano, Inglese, Francese, Spagnolo, Portoghese, Tedesco, Olandese, Norvegese, Svedese, Rumeno, Ungherese, Croato, Sloveno, Serbo, Ceco, Slovacco, Polacco, Russo, Ucraino, Greco, Cinese, Giapponese, Coreano, Turco, Arabo, Ebraico — contenuto reale trascritto dal menu cartaceo Pizzium (86 voci: antipasti, primi, secondi, calzoni, pizze regionali e classiche, insalate, dolci, menu bambino, bevande con birre/vini/cocktail/caffetteria).

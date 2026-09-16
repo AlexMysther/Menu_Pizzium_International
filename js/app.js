@@ -81,6 +81,11 @@ async function init() {
 
   applyLanguage(initialLang, dict);
   bindEvents();
+
+  // Nasconde/mostra i piatti esauriti in tempo reale su tutti i dispositivi
+  // collegati (vedi js/availability.js). Nessun effetto se Firebase non è
+  // stato ancora configurato.
+  Availability.init(() => renderMenuList());
 }
 
 async function setLanguage(code) {
@@ -210,7 +215,9 @@ function renderMenuList() {
 
   el.menuList.innerHTML = '';
   const items = state.items.filter(
-    it => it.categoryId === state.activeCategory && matchesSearch(it)
+    it => it.categoryId === state.activeCategory
+      && matchesSearch(it)
+      && !Availability.isSoldOut(it.id)
   );
 
   if (items.length === 0) {
