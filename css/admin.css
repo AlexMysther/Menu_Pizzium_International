@@ -1,8 +1,26 @@
+/* L'attributo hidden deve sempre vincere, anche su elementi a cui più giù
+   diamo un display: flex esplicito (stessa specificità di [hidden]: senza
+   questa regola vince l'ultima dichiarata, cioè il flex, e l'elemento
+   resterebbe visibile). */
+[hidden] { display: none !important; }
+
 .admin-body {
-  max-width: 640px;
-  margin: 0 auto;
-  padding: 20px 16px 48px;
-  padding-bottom: 48px; /* override the menu page's fixed-footer padding */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 16px;
+  background: #f6f1ef;
+}
+
+.admin-card {
+  width: 100%;
+  max-width: 440px;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 8px 32px rgba(43, 43, 43, 0.12);
+  padding: 28px 24px;
 }
 
 .admin-header {
@@ -33,7 +51,6 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
-  max-width: 320px;
 }
 
 .admin-login label {
@@ -120,17 +137,6 @@
   font-size: 15px;
 }
 
-.admin-item-status {
-  font-size: 12px;
-  color: var(--muted);
-  white-space: nowrap;
-}
-
-.admin-item-status--sold-out {
-  color: var(--red-dark);
-  font-weight: 600;
-}
-
 .admin-toggle {
   position: relative;
   display: inline-block;
@@ -145,10 +151,12 @@
   height: 0;
 }
 
+/* Stato di default = checkbox non selezionata = piatto NON disponibile:
+   rosso, cursore a sinistra. */
 .admin-toggle-slider {
   position: absolute;
   inset: 0;
-  background: var(--dot-vegetarian);
+  background: var(--red);
   border-radius: 999px;
   cursor: pointer;
   transition: background 0.15s;
@@ -166,8 +174,9 @@
   transition: transform 0.15s;
 }
 
+/* Selezionata = piatto disponibile: verde, cursore a destra. */
 .admin-toggle input:checked + .admin-toggle-slider {
-  background: var(--red);
+  background: var(--dot-vegetarian);
 }
 
 .admin-toggle input:checked + .admin-toggle-slider::before {

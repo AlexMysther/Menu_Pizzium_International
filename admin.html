@@ -10,34 +10,38 @@
 </head>
 <body class="admin-body">
 
-<header class="admin-header">
-  <img class="admin-logo" src="img/logo.png" alt="Pizzium">
-  <h1>Disponibilità piatti</h1>
-</header>
+<div class="admin-card">
 
-<div id="configWarning" class="admin-warning" hidden>
-  Firebase non è ancora configurato: modifica <code>js/firebase-config.js</code>
-  con i dati del tuo progetto (vedi README) prima di usare questa pagina.
-</div>
+  <header class="admin-header">
+    <img class="admin-logo" src="img/logo.png" alt="Pizzium">
+    <h1>Disponibilità piatti</h1>
+  </header>
 
-<form id="loginForm" class="admin-login" hidden>
-  <label>Email
-    <input type="email" id="loginEmail" autocomplete="username" required>
-  </label>
-  <label>Password
-    <input type="password" id="loginPassword" autocomplete="current-password" required>
-  </label>
-  <button type="submit">Accedi</button>
-  <p id="loginError" class="admin-error" hidden></p>
-</form>
-
-<div id="panel" class="admin-panel" hidden>
-  <div class="admin-panel-header">
-    <span id="loggedInAs"></span>
-    <button type="button" id="logoutBtn">Esci</button>
+  <div id="configWarning" class="admin-warning" hidden>
+    Firebase non è ancora configurato: modifica <code>js/firebase-config.js</code>
+    con i dati del tuo progetto (vedi README) prima di usare questa pagina.
   </div>
-  <p class="admin-hint">Disattiva un piatto per nasconderlo subito dal menu su tutti i dispositivi. Riattivalo per farlo ricomparire.</p>
-  <div id="itemGroups"></div>
+
+  <form id="loginForm" class="admin-login" hidden>
+    <label>Email
+      <input type="email" id="loginEmail" autocomplete="username" required>
+    </label>
+    <label>Password
+      <input type="password" id="loginPassword" autocomplete="current-password" required>
+    </label>
+    <button type="submit">Accedi</button>
+    <p id="loginError" class="admin-error" hidden></p>
+  </form>
+
+  <div id="panel" class="admin-panel" hidden>
+    <div class="admin-panel-header">
+      <span id="loggedInAs"></span>
+      <button type="button" id="logoutBtn">Esci</button>
+    </div>
+    <p class="admin-hint">Disattiva un piatto per nasconderlo subito dal menu su tutti i dispositivi. Riattivalo per farlo ricomparire.</p>
+    <div id="itemGroups"></div>
+  </div>
+
 </div>
 
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>

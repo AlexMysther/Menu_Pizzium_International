@@ -87,47 +87,34 @@ function renderItemRow(item, itDict) {
   name.textContent = (itDict.items && itDict.items[item.id] && itDict.items[item.id].name) || item.id;
   li.appendChild(name);
 
-  const status = document.createElement('span');
-  status.className = 'admin-item-status';
-  status.dataset.statusFor = item.id;
-  li.appendChild(status);
-
+  // Il checkbox rappresenta "disponibile" (checked = disponibile, a
+  // destra, verde), il contrario del nodo "soldOut" scritto su Firebase:
+  // è lo stato di default/riposo di un piatto, quindi è quello che deve
+  // corrispondere alla posizione "on" naturale dell'interruttore.
   const label = document.createElement('label');
   label.className = 'admin-toggle';
   const input = document.createElement('input');
   input.type = 'checkbox';
   input.dataset.itemId = item.id;
-  input.addEventListener('change', () => {
-    setSoldOut(item.id, input.checked);
-    updateStatusText(status, input.checked);
-  });
+  input.addEventListener('change', () => setAvailable(item.id, input.checked));
   const slider = document.createElement('span');
   slider.className = 'admin-toggle-slider';
   label.appendChild(input);
   label.appendChild(slider);
   li.appendChild(label);
 
-  updateStatusText(status, false);
   return li;
 }
 
-function updateStatusText(statusEl, isSoldOut) {
-  statusEl.textContent = isSoldOut ? 'Esaurito' : 'Disponibile';
-  statusEl.classList.toggle('admin-item-status--sold-out', isSoldOut);
-}
-
-function setSoldOut(itemId, isSoldOut) {
-  soldOutRef.child(itemId).set(isSoldOut || null).catch(err => {
+function setAvailable(itemId, isAvailable) {
+  soldOutRef.child(itemId).set(isAvailable ? null : true).catch(err => {
     alert('Salvataggio non riuscito: ' + err.message);
   });
 }
 
 function syncToggles() {
   el.itemGroups.querySelectorAll('input[data-item-id]').forEach(input => {
-    input.checked = !!soldOut[input.dataset.itemId];
-  });
-  el.itemGroups.querySelectorAll('[data-status-for]').forEach(statusEl => {
-    updateStatusText(statusEl, !!soldOut[statusEl.dataset.statusFor]);
+    input.checked = !soldOut[input.dataset.itemId];
   });
 }
 
