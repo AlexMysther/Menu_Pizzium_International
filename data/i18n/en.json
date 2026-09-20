@@ -9,7 +9,10 @@
     "coverCharge": "Cover charge: € 2.00",
     "infoLabel": "Info",
     "infoTitle": "Symbol Legend",
-    "pizzaPromo": "For € 2.00 you can have the crust filled with ricotta"
+    "pizzaPromo": "For € 2.00 you can have the crust filled with ricotta",
+    "recommended": "Recommended",
+    "recommendedItem": "Recommended dish",
+    "recommendedNote": "Not sure what to pick? These are the dishes we recommend."
   },
   "categories": {
     "antipasti": "Starters",

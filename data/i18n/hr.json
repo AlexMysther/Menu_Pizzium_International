@@ -9,7 +9,10 @@
     "coverCharge": "Couvert i posluživanje: 2,00 €",
     "infoLabel": "Info",
     "infoTitle": "Objašnjenje simbola",
-    "pizzaPromo": "Za 2,00 € rub pizze može biti punjen ricottom"
+    "pizzaPromo": "Za 2,00 € rub pizze može biti punjen ricottom",
+    "recommended": "Preporučeno",
+    "recommendedItem": "Preporučeno jelo",
+    "recommendedNote": "Ne znate što odabrati? Ovo su jela koja preporučujemo."
   },
   "categories": {
     "antipasti": "Predjela",

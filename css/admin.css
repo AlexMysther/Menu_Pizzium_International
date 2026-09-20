@@ -101,6 +101,30 @@
   color: var(--ink);
 }
 
+.admin-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.admin-tab {
+  flex: 1;
+  border: 1.5px solid var(--pill-border);
+  background: #fff;
+  color: var(--red);
+  border-radius: 20px;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.admin-tab.active {
+  background: var(--red);
+  border-color: var(--red);
+  color: #fff;
+}
+
 .admin-hint {
   color: var(--muted);
   font-size: 13px;
@@ -152,7 +176,8 @@
 }
 
 /* Stato di default = checkbox non selezionata = piatto NON disponibile:
-   rosso, cursore a sinistra. */
+   rosso, cursore a sinistra. Nel pannello dei consigliati "spento" è solo
+   l'assenza di un consiglio, quindi lì il rosso diventa grigio. */
 .admin-toggle-slider {
   position: absolute;
   inset: 0;
@@ -181,4 +206,9 @@
 
 .admin-toggle input:checked + .admin-toggle-slider::before {
   transform: translateX(18px);
+}
+
+.admin-groups--neutral-off .admin-toggle-slider { background: #c4c4c4; }
+.admin-groups--neutral-off .admin-toggle input:checked + .admin-toggle-slider {
+  background: var(--dot-vegetarian);
 }

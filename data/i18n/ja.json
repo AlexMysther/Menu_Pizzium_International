@@ -10,7 +10,10 @@
     "coverCharge": "カバーチャージ・サービス料：€2.00",
     "infoLabel": "情報",
     "infoTitle": "記号の説明",
-    "pizzaPromo": "2.00€でリコッタチーズ入りのクラストにできます"
+    "pizzaPromo": "2.00€でリコッタチーズ入りのクラストにできます",
+    "recommended": "おすすめ",
+    "recommendedItem": "おすすめの一品",
+    "recommendedNote": "何を選ぶか迷ったら、こちらがおすすめです。"
   },
   "categories": {
     "antipasti": "前菜",

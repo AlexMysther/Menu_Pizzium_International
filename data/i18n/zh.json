@@ -9,7 +9,10 @@
     "coverCharge": "餐位费及服务费：2.00 欧元",
     "infoLabel": "信息",
     "infoTitle": "图标说明",
-    "pizzaPromo": "加2.00欧元，边缘可换成里科塔奶酪馅"
+    "pizzaPromo": "加2.00欧元，边缘可换成里科塔奶酪馅",
+    "recommended": "推荐菜品",
+    "recommendedItem": "推荐菜品",
+    "recommendedNote": "不知道点什么？这些是我们推荐的菜品。"
   },
   "categories": {
     "antipasti": "前菜",

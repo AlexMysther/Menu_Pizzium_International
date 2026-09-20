@@ -9,7 +9,10 @@
     "coverCharge": "Masa ve servis ücreti: 2,00 €",
     "infoLabel": "Bilgi",
     "infoTitle": "Sembol açıklamaları",
-    "pizzaPromo": "2,00 € ile kenarı ricotta ile doldurabilirsiniz"
+    "pizzaPromo": "2,00 € ile kenarı ricotta ile doldurabilirsiniz",
+    "recommended": "Önerilenler",
+    "recommendedItem": "Önerilen yemek",
+    "recommendedNote": "Ne seçeceğinizi bilmiyor musunuz? İşte önerdiğimiz yemekler."
   },
   "categories": {
     "antipasti": "Başlangıçlar",

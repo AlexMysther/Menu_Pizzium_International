@@ -9,7 +9,10 @@
     "coverCharge": "Couvert a obsluha: 2,00 €",
     "infoLabel": "Info",
     "infoTitle": "Vysvětlivky symbolů",
-    "pizzaPromo": "Za 2,00 € můžete mít okraj plněný ricottou"
+    "pizzaPromo": "Za 2,00 € můžete mít okraj plněný ricottou",
+    "recommended": "Doporučujeme",
+    "recommendedItem": "Doporučené jídlo",
+    "recommendedNote": "Nevíte, co si vybrat? Tato jídla doporučujeme."
   },
   "categories": {
     "antipasti": "Předkrmy",

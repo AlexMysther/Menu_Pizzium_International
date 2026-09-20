@@ -9,7 +9,10 @@
     "coverCharge": "כניסה ושירות: 2.00 €",
     "infoLabel": "מידע",
     "infoTitle": "מקרא הסמלים",
-    "pizzaPromo": "בתוספת 2.00 € אפשר למלא את השוליים בריקוטה"
+    "pizzaPromo": "בתוספת 2.00 € אפשר למלא את השוליים בריקוטה",
+    "recommended": "מומלצים",
+    "recommendedItem": "מנה מומלצת",
+    "recommendedNote": "לא יודעים מה לבחור? אלה המנות שאנחנו ממליצים עליהן."
   },
   "categories": {
     "antipasti": "מנות פתיחה",

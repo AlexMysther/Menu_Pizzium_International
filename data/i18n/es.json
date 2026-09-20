@@ -9,7 +9,10 @@
     "coverCharge": "Cubierto y servicio: € 2,00",
     "infoLabel": "Info",
     "infoTitle": "Leyenda de símbolos",
-    "pizzaPromo": "Por € 2,00 puedes tener el borde relleno de ricotta"
+    "pizzaPromo": "Por € 2,00 puedes tener el borde relleno de ricotta",
+    "recommended": "Recomendados",
+    "recommendedItem": "Plato recomendado",
+    "recommendedNote": "¿No sabes qué elegir? Estos son los platos que te recomendamos."
   },
   "categories": {
     "antipasti": "Entrantes",

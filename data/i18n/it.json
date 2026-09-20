@@ -9,7 +9,10 @@
     "coverCharge": "Coperto e servizio: € 2,00",
     "infoLabel": "Info",
     "infoTitle": "Legenda dei simboli",
-    "pizzaPromo": "Con € 2,00 puoi avere il cornicione ripieno di ricotta"
+    "pizzaPromo": "Con € 2,00 puoi avere il cornicione ripieno di ricotta",
+    "recommended": "Consigliati",
+    "recommendedItem": "Piatto consigliato",
+    "recommendedNote": "Non sai cosa scegliere? Questi sono i piatti che ti consigliamo."
   },
   "categories": {
     "antipasti": "Antipasti",

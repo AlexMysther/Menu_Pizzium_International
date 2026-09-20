@@ -9,7 +9,10 @@
     "coverCharge": "Pogrinjek in postrežba: 2,00 €",
     "infoLabel": "Info",
     "infoTitle": "Legenda simbolov",
-    "pizzaPromo": "Za 2,00 € je lahko rob pice polnjen z ricotto"
+    "pizzaPromo": "Za 2,00 € je lahko rob pice polnjen z ricotto",
+    "recommended": "Priporočamo",
+    "recommendedItem": "Priporočena jed",
+    "recommendedNote": "Ne veste, kaj izbrati? To so jedi, ki jih priporočamo."
   },
   "categories": {
     "antipasti": "Predjedi",

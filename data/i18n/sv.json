@@ -9,7 +9,10 @@
     "coverCharge": "Kuvertavgift och service: 2,00 €",
     "infoLabel": "Info",
     "infoTitle": "Symbolförklaring",
-    "pizzaPromo": "För 2,00 € kan du få kanten fylld med ricotta"
+    "pizzaPromo": "För 2,00 € kan du få kanten fylld med ricotta",
+    "recommended": "Rekommenderat",
+    "recommendedItem": "Rekommenderad rätt",
+    "recommendedNote": "Vet du inte vad du ska välja? Det här är rätterna vi rekommenderar."
   },
   "categories": {
     "antipasti": "Förrätter",

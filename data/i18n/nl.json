@@ -9,7 +9,10 @@
     "coverCharge": "Tafelgeld en bediening: € 2,00",
     "infoLabel": "Info",
     "infoTitle": "Legenda symbolen",
-    "pizzaPromo": "Voor € 2,00 kun je de rand laten vullen met ricotta"
+    "pizzaPromo": "Voor € 2,00 kun je de rand laten vullen met ricotta",
+    "recommended": "Aanbevolen",
+    "recommendedItem": "Aanbevolen gerecht",
+    "recommendedNote": "Weet je niet wat je moet kiezen? Dit zijn de gerechten die wij aanraden."
   },
   "categories": {
     "antipasti": "Voorgerechten",

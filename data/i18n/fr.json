@@ -9,7 +9,10 @@
     "coverCharge": "Couvert et service : 2,00 €",
     "infoLabel": "Info",
     "infoTitle": "Légende des symboles",
-    "pizzaPromo": "Pour 2,00 € vous pouvez avoir le bord fourré à la ricotta"
+    "pizzaPromo": "Pour 2,00 € vous pouvez avoir le bord fourré à la ricotta",
+    "recommended": "Recommandés",
+    "recommendedItem": "Plat recommandé",
+    "recommendedNote": "Vous ne savez pas quoi choisir ? Voici les plats que nous vous recommandons."
   },
   "categories": {
     "antipasti": "Entrées",

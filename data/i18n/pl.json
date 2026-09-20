@@ -9,7 +9,10 @@
     "coverCharge": "Nakrycie i obsługa: 2,00 €",
     "infoLabel": "Info",
     "infoTitle": "Legenda symboli",
-    "pizzaPromo": "Za 2,00 € brzeg może być nadziewany ricottą"
+    "pizzaPromo": "Za 2,00 € brzeg może być nadziewany ricottą",
+    "recommended": "Polecane",
+    "recommendedItem": "Polecane danie",
+    "recommendedNote": "Nie wiesz, co wybrać? Oto dania, które polecamy."
   },
   "categories": {
     "antipasti": "Przystawki",

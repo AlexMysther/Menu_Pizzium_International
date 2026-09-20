@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex, nofollow">
-<title>Pizzium - Gestione disponibilità</title>
+<title>Pizzium - Gestione menu</title>
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/admin.css">
 </head>
@@ -14,7 +14,7 @@
 
   <header class="admin-header">
     <img class="admin-logo" src="img/logo.png" alt="Pizzium">
-    <h1>Disponibilità piatti</h1>
+    <h1>Gestione menu</h1>
   </header>
 
   <div id="configWarning" class="admin-warning" hidden>
@@ -38,7 +38,11 @@
       <span id="loggedInAs"></span>
       <button type="button" id="logoutBtn">Esci</button>
     </div>
-    <p class="admin-hint">Disattiva un piatto per nasconderlo subito dal menu su tutti i dispositivi. Riattivalo per farlo ricomparire.</p>
+    <div class="admin-tabs" role="tablist">
+      <button type="button" class="admin-tab active" id="tabAvailability" role="tab" aria-selected="true" aria-controls="itemGroups">Disponibilità</button>
+      <button type="button" class="admin-tab" id="tabRecommended" role="tab" aria-selected="false" aria-controls="itemGroups">Consigliati</button>
+    </div>
+    <p class="admin-hint" id="adminHint"></p>
     <div id="itemGroups"></div>
   </div>
 

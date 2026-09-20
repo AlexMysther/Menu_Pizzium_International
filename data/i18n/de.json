@@ -9,7 +9,10 @@
     "coverCharge": "Gedeck und Bedienung: € 2,00",
     "infoLabel": "Info",
     "infoTitle": "Symbol-Legende",
-    "pizzaPromo": "Für € 2,00 gibt es den mit Ricotta gefüllten Rand"
+    "pizzaPromo": "Für € 2,00 gibt es den mit Ricotta gefüllten Rand",
+    "recommended": "Empfehlungen",
+    "recommendedItem": "Empfohlenes Gericht",
+    "recommendedNote": "Sie wissen nicht, was Sie wählen sollen? Das sind die Gerichte, die wir empfehlen."
   },
   "categories": {
     "antipasti": "Vorspeisen",

@@ -9,7 +9,10 @@
     "coverCharge": "Cuvert și serviciu: 2,00 €",
     "infoLabel": "Info",
     "infoTitle": "Legenda simbolurilor",
-    "pizzaPromo": "Cu 2,00 € poți avea marginea umplută cu ricotta"
+    "pizzaPromo": "Cu 2,00 € poți avea marginea umplută cu ricotta",
+    "recommended": "Recomandate",
+    "recommendedItem": "Fel recomandat",
+    "recommendedNote": "Nu știi ce să alegi? Acestea sunt felurile pe care ți le recomandăm."
   },
   "categories": {
     "antipasti": "Aperitive",

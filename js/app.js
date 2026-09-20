@@ -1,5 +1,9 @@
 const LEGEND_ORDER = ['vegetarian', 'vegan', 'lactose-free'];
 
+// Categoria che non esiste in categories.json: raccoglie i piatti che lo
+// staff consiglia dal pannello admin, presi da tutte le categorie vere.
+const RECOMMENDED_CATEGORY = '__recommended__';
+
 // Given e.g. "img/flags/it.png", returns the @2x retina variant path.
 function retinaFlag(path) {
   return path.replace(/\.png$/, '@2x.png');
@@ -82,10 +86,25 @@ async function init() {
   applyLanguage(initialLang, dict);
   bindEvents();
 
-  // Nasconde/mostra i piatti esauriti in tempo reale su tutti i dispositivi
-  // collegati (vedi js/availability.js). Nessun effetto se Firebase non è
+  // Esauriti e consigliati arrivano in tempo reale su tutti i dispositivi
+  // collegati (vedi js/live-menu.js). Nessun effetto se Firebase non è
   // stato ancora configurato.
-  Availability.init(() => renderMenuList());
+  LiveMenu.init(() => {
+    // Lo staff può togliere l'ultimo consiglio mentre un cliente sta
+    // guardando proprio quella categoria: senza questo resterebbe su una
+    // pagina vuota e su una pill che nel frattempo è sparita.
+    if (state.activeCategory === RECOMMENDED_CATEGORY && recommendedItems().length === 0) {
+      state.activeCategory = 'pizze';
+      state.view = 'menu';
+      syncBottomTabs();
+    }
+    renderCategoryPills();
+    renderMenuList();
+  });
+}
+
+function recommendedItems() {
+  return state.items.filter(it => LiveMenu.isRecommended(it.id) && !LiveMenu.isSoldOut(it.id));
 }
 
 async function setLanguage(code) {
@@ -149,24 +168,55 @@ function updatePizzaPromoBar() {
   syncBottomFixedHeight();
 }
 
+/* ---------- Bollini dei piatti ----------
+   Vegetariano e vegano condividono la stessa foglia, cambia solo il verde.
+   Il senza lattosio invece non ha un simbolo che si capisca al volo, quindi
+   lo scriviamo: un riquadro azzurro con l'etichetta nella lingua scelta. */
+const LEAF_SVG =
+  '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">' +
+  '<g transform="rotate(-45 12 12)">' +
+  '<path d="M12 2c7 5 7 15 0 20-7-5-7-15 0-20z" fill="currentColor"/>' +
+  '<path d="M12 5v14" fill="none" stroke="#fff" stroke-width="1.4"' +
+  ' stroke-opacity=".55" stroke-linecap="round"/>' +
+  '</g></svg>';
+
+function tagMark(code) {
+  const label = tr(`tags.${code}`);
+
+  if (code === 'lactose-free') {
+    const box = document.createElement('span');
+    box.className = 'tag-box tag-box--lactose-free';
+    box.textContent = label;
+    return box;
+  }
+
+  const leaf = document.createElement('span');
+  leaf.className = `tag-leaf tag-leaf--${code}`;
+  leaf.title = label;
+  leaf.setAttribute('role', 'img');
+  leaf.setAttribute('aria-label', label);
+  leaf.innerHTML = LEAF_SVG;
+  return leaf;
+}
+
 function renderLegend() {
   el.legendList.innerHTML = '';
   LEGEND_ORDER.forEach(code => {
     const li = document.createElement('li');
     li.className = 'legend-item';
 
-    const dot = document.createElement('span');
-    dot.className = `tag-dot tag-dot--${code}`;
-    li.appendChild(dot);
+    li.appendChild(tagMark(code));
 
     const text = document.createElement('div');
     text.className = 'legend-text';
-    const label = document.createElement('strong');
-    label.textContent = tr(`tags.${code}`);
+    if (code !== 'lactose-free') {
+      const label = document.createElement('strong');
+      label.textContent = tr(`tags.${code}`);
+      text.appendChild(label);
+    }
     const desc = document.createElement('span');
     desc.className = 'legend-desc';
     desc.textContent = tr(`legend.${code}`);
-    text.appendChild(label);
     text.appendChild(desc);
     li.appendChild(text);
 
@@ -176,20 +226,32 @@ function renderLegend() {
 
 function renderCategoryPills() {
   el.categoryPills.innerHTML = '';
-  state.categories.forEach(cat => {
+
+  // La pill dei consigliati apre il menu: è la scorciatoia per chi non sa
+  // cosa scegliere, quindi va per prima, e c'è solo se lo staff ha davvero
+  // qualcosa da consigliare in questo momento.
+  const ids = state.categories.map(cat => cat.id);
+  if (recommendedItems().length) ids.unshift(RECOMMENDED_CATEGORY);
+
+  ids.forEach(id => {
     const btn = document.createElement('button');
     btn.type = 'button';
-    btn.className = 'pill' + (cat.id === state.activeCategory ? ' active' : '');
-    btn.textContent = tr(`categories.${cat.id}`);
+    btn.className = 'pill' + (id === state.activeCategory ? ' active' : '');
+    if (id === RECOMMENDED_CATEGORY) btn.classList.add('pill--recommended');
+    btn.textContent = categoryLabel(id);
     btn.addEventListener('click', () => {
-      state.activeCategory = cat.id;
-      state.view = cat.id === 'bevande' ? 'bevande' : 'menu';
+      state.activeCategory = id;
+      state.view = id === 'bevande' ? 'bevande' : 'menu';
       syncBottomTabs();
       renderCategoryPills();
       renderMenuList();
     });
     el.categoryPills.appendChild(btn);
   });
+}
+
+function categoryLabel(id) {
+  return id === RECOMMENDED_CATEGORY ? tr('ui.recommended') : tr(`categories.${id}`);
 }
 
 function syncBottomTabs() {
@@ -209,15 +271,21 @@ function renderMenuList() {
   updatePizzaPromoBar();
   closeGloss();
 
-  const note = I18N.get(state.dict, `categoryNotes.${state.activeCategory}`);
+  // Fra i consigliati i piatti arrivano da categorie diverse, quindi sono
+  // quelle a fare da sotto-sezioni, al posto dei gruppi del menu normale.
+  const showingRecommended = state.activeCategory === RECOMMENDED_CATEGORY;
+
+  const note = showingRecommended
+    ? tr('ui.recommendedNote')
+    : I18N.get(state.dict, `categoryNotes.${state.activeCategory}`);
   el.categoryNote.textContent = note || '';
   el.categoryNote.hidden = !note;
 
   el.menuList.innerHTML = '';
   const items = state.items.filter(
-    it => it.categoryId === state.activeCategory
+    it => (showingRecommended ? LiveMenu.isRecommended(it.id) : it.categoryId === state.activeCategory)
       && matchesSearch(it)
-      && !Availability.isSoldOut(it.id)
+      && !LiveMenu.isSoldOut(it.id)
   );
 
   if (items.length === 0) {
@@ -229,7 +297,7 @@ function renderMenuList() {
   const groups = [];
   const groupIndex = {};
   items.forEach(it => {
-    const key = it.group || '__ungrouped__';
+    const key = showingRecommended ? it.categoryId : (it.group || '__ungrouped__');
     if (!(key in groupIndex)) {
       groupIndex[key] = groups.length;
       groups.push({ key, items: [] });
@@ -237,11 +305,20 @@ function renderMenuList() {
     groups[groupIndex[key]].items.push(it);
   });
 
+  // I consigliati seguono l'ordine del menu cartaceo (antipasti prima dei
+  // dolci) invece dell'ordine in cui lo staff li ha selezionati.
+  if (showingRecommended) {
+    const order = state.categories.map(cat => cat.id);
+    groups.sort((a, b) => order.indexOf(a.key) - order.indexOf(b.key));
+  }
+
   groups.forEach(group => {
     if (group.key !== '__ungrouped__') {
       const h = document.createElement('h2');
       h.className = 'group-title';
-      h.textContent = tr(`groups.${group.key}`);
+      h.textContent = showingRecommended
+        ? categoryLabel(group.key)
+        : tr(`groups.${group.key}`);
       el.menuList.appendChild(h);
     }
     group.items.forEach(item => el.menuList.appendChild(renderItem(item)));
@@ -264,6 +341,18 @@ function renderItem(item) {
   name.className = 'item-name';
   const nameText = tr(`items.${item.id}.name`);
   name.textContent = nameText;
+
+  // La stella resta anche dentro la categoria normale: chi arriva al piatto
+  // sfogliando il menu deve poter vedere che è fra i consigliati.
+  if (LiveMenu.isRecommended(item.id)) {
+    const star = document.createElement('span');
+    star.className = 'item-recommended';
+    star.textContent = '★';
+    star.setAttribute('role', 'img');
+    star.setAttribute('aria-label', tr('ui.recommendedItem'));
+    star.title = tr('ui.recommendedItem');
+    name.appendChild(star);
+  }
 
   // Shown for every category (not just pizze): the Italian-majority staff
   // relies on the Italian name to identify orders regardless of dish type.
@@ -296,14 +385,7 @@ function renderItem(item) {
   if (item.tags && item.tags.length) {
     const tags = document.createElement('div');
     tags.className = 'item-tags';
-    item.tags.forEach(code => {
-      const span = document.createElement('span');
-      span.className = `tag-dot tag-dot--${code}`;
-      span.title = tr(`tags.${code}`);
-      span.setAttribute('role', 'img');
-      span.setAttribute('aria-label', tr(`tags.${code}`));
-      tags.appendChild(span);
-    });
+    item.tags.forEach(code => tags.appendChild(tagMark(code)));
     wrap.appendChild(tags);
   }
 

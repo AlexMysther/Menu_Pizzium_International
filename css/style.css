@@ -9,6 +9,8 @@
   --dot-vegetarian: #8bc34a;
   --dot-vegan: #2e7d32;
   --dot-lactose-free: #29b6f6;
+  --dot-lactose-free-bg: #e8f6fe;
+  --dot-lactose-free-ink: #0277bd;
 }
 
 * { box-sizing: border-box; }
@@ -153,8 +155,13 @@ button { font-family: inherit; }
   align-items: flex-start;
   gap: 10px;
 }
-.legend-item .tag-dot {
-  margin-top: 4px;
+.legend-item .tag-leaf {
+  width: 26px;
+  height: 26px;
+  margin-top: 0;
+}
+.legend-item .tag-box {
+  margin-top: 1px;
   flex-shrink: 0;
 }
 .legend-text {
@@ -261,6 +268,9 @@ button { font-family: inherit; }
   color: #fff;
   border-color: var(--red);
 }
+.pill--recommended::before {
+  content: "★ ";
+}
 
 .menu-list { display: flex; flex-direction: column; gap: 22px; }
 
@@ -287,6 +297,14 @@ button { font-family: inherit; }
   font-size: 17px;
   grid-column: 1;
   grid-row: 1;
+}
+.item-recommended {
+  color: var(--red);
+  font-size: 0.9em;
+  margin-inline-start: 6px;
+  /* La stella non è un carattere della lingua del piatto: isolarla evita
+     che in arabo ed ebraico scivoli dall'altro lato del nome. */
+  unicode-bidi: isolate;
 }
 .item-name-it {
   font-weight: 400;
@@ -322,17 +340,35 @@ button { font-family: inherit; }
   gap: 8px;
   margin-top: 4px;
 }
-.item-tags .tag-dot { cursor: default; }
+.item-tags .tag-leaf,
+.item-tags .tag-box { cursor: default; }
 
-.tag-dot {
+/* Vegetariano e vegano sono la stessa foglia in due verdi: il colore lo
+   danno le variabili qui sotto, la foglia usa currentColor. */
+.tag-leaf {
   display: inline-block;
-  width: 11px;
-  height: 11px;
-  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
 }
-.tag-dot--vegetarian { background: var(--dot-vegetarian); }
-.tag-dot--vegan { background: var(--dot-vegan); }
-.tag-dot--lactose-free { background: var(--dot-lactose-free); }
+.tag-leaf svg { display: block; width: 100%; height: 100%; }
+.tag-leaf--vegetarian { color: var(--dot-vegetarian); }
+.tag-leaf--vegan { color: var(--dot-vegan); }
+
+/* Per il lattosio non esiste un simbolo riconoscibile, quindi il bollino
+   è un riquadro azzurro con la scritta tradotta. */
+.tag-box {
+  display: inline-block;
+  padding: 4px 10px;
+  border: 1px solid var(--dot-lactose-free);
+  border-radius: 5px;
+  background: var(--dot-lactose-free-bg);
+  color: var(--dot-lactose-free-ink);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.35;
+  white-space: nowrap;
+}
 
 .no-results {
   text-align: center;
@@ -343,10 +379,10 @@ button { font-family: inherit; }
 
 .category-note {
   color: var(--muted);
-  font-size: 12px;
+  font-size: 14.5px;
   font-style: italic;
-  margin: -8px 0 16px;
-  line-height: 1.4;
+  margin: -6px 0 16px;
+  line-height: 1.45;
 }
 
 /* Bottom fixed area */
