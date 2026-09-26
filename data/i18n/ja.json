@@ -13,7 +13,9 @@
     "pizzaPromo": "2.00€でリコッタチーズ入りのクラストにできます",
     "recommended": "おすすめ",
     "recommendedItem": "おすすめの一品",
-    "recommendedNote": "何を選ぶか迷ったら、こちらがおすすめです。"
+    "recommendedNote": "何を選ぶか迷ったら、こちらがおすすめです。",
+    "vegFilter": "ベジタリアン・ヴィーガン",
+    "vegFilterNote": "肉・魚を使わないすべての料理です。葉のマークでベジタリアンかヴィーガンかがわかります。"
   },
   "categories": {
     "antipasti": "前菜",

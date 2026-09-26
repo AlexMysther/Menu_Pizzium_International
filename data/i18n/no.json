@@ -12,7 +12,9 @@
     "pizzaPromo": "For 2,00 € kan du få kanten fylt med ricotta",
     "recommended": "Anbefalt",
     "recommendedItem": "Anbefalt rett",
-    "recommendedNote": "Vet du ikke hva du skal velge? Dette er rettene vi anbefaler."
+    "recommendedNote": "Vet du ikke hva du skal velge? Dette er rettene vi anbefaler.",
+    "vegFilter": "Vegetar og vegansk",
+    "vegFilterNote": "Alle retter uten kjøtt eller fisk. Bladene viser om de er vegetariske eller veganske."
   },
   "categories": {
     "antipasti": "Forretter",

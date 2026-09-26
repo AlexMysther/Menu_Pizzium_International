@@ -12,7 +12,9 @@
     "pizzaPromo": "Für € 2,00 gibt es den mit Ricotta gefüllten Rand",
     "recommended": "Empfehlungen",
     "recommendedItem": "Empfohlenes Gericht",
-    "recommendedNote": "Sie wissen nicht, was Sie wählen sollen? Das sind die Gerichte, die wir empfehlen."
+    "recommendedNote": "Sie wissen nicht, was Sie wählen sollen? Das sind die Gerichte, die wir empfehlen.",
+    "vegFilter": "Vegetarisch & vegan",
+    "vegFilterNote": "Alle Gerichte ohne Fleisch und Fisch. Die Blätter zeigen, ob sie vegetarisch oder vegan sind."
   },
   "categories": {
     "antipasti": "Vorspeisen",

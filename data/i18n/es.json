@@ -12,7 +12,9 @@
     "pizzaPromo": "Por € 2,00 puedes tener el borde relleno de ricotta",
     "recommended": "Recomendados",
     "recommendedItem": "Plato recomendado",
-    "recommendedNote": "¿No sabes qué elegir? Estos son los platos que te recomendamos."
+    "recommendedNote": "¿No sabes qué elegir? Estos son los platos que te recomendamos.",
+    "vegFilter": "Vegetariano y vegano",
+    "vegFilterNote": "Todos los platos sin carne ni pescado. Las hojas indican si son vegetarianos o veganos."
   },
   "categories": {
     "antipasti": "Entrantes",

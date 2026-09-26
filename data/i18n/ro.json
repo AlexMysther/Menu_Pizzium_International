@@ -12,7 +12,9 @@
     "pizzaPromo": "Cu 2,00 € poți avea marginea umplută cu ricotta",
     "recommended": "Recomandate",
     "recommendedItem": "Fel recomandat",
-    "recommendedNote": "Nu știi ce să alegi? Acestea sunt felurile pe care ți le recomandăm."
+    "recommendedNote": "Nu știi ce să alegi? Acestea sunt felurile pe care ți le recomandăm.",
+    "vegFilter": "Vegetarian și vegan",
+    "vegFilterNote": "Toate preparatele fără carne sau pește. Frunzele arată dacă sunt vegetariene sau vegane."
   },
   "categories": {
     "antipasti": "Aperitive",

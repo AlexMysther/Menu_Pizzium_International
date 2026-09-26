@@ -12,7 +12,9 @@
     "pizzaPromo": "Pour 2,00 € vous pouvez avoir le bord fourré à la ricotta",
     "recommended": "Recommandés",
     "recommendedItem": "Plat recommandé",
-    "recommendedNote": "Vous ne savez pas quoi choisir ? Voici les plats que nous vous recommandons."
+    "recommendedNote": "Vous ne savez pas quoi choisir ? Voici les plats que nous vous recommandons.",
+    "vegFilter": "Végétarien et végan",
+    "vegFilterNote": "Tous les plats sans viande ni poisson. Les feuilles indiquent s'ils sont végétariens ou végans."
   },
   "categories": {
     "antipasti": "Entrées",

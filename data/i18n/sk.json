@@ -12,7 +12,9 @@
     "pizzaPromo": "Za 2,00 € môžete mať okraj plnený ricottou",
     "recommended": "Odporúčame",
     "recommendedItem": "Odporúčané jedlo",
-    "recommendedNote": "Neviete, čo si vybrať? Tieto jedlá odporúčame."
+    "recommendedNote": "Neviete, čo si vybrať? Tieto jedlá odporúčame.",
+    "vegFilter": "Vegetariánske a vegánske",
+    "vegFilterNote": "Všetky jedlá bez mäsa a rýb. Lístky ukazujú, či sú vegetariánske alebo vegánske."
   },
   "categories": {
     "antipasti": "Predjedlá",

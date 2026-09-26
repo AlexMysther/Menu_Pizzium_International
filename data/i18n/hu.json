@@ -12,7 +12,9 @@
     "pizzaPromo": "2,00 €-ért a szegély ricottával tölthető",
     "recommended": "Ajánlott",
     "recommendedItem": "Ajánlott fogás",
-    "recommendedNote": "Nem tudja, mit válasszon? Ezeket a fogásokat ajánljuk."
+    "recommendedNote": "Nem tudja, mit válasszon? Ezeket a fogásokat ajánljuk.",
+    "vegFilter": "Vegetáriánus és vegán",
+    "vegFilterNote": "Minden étel hús és hal nélkül. A levelek jelzik, hogy vegetáriánus vagy vegán."
   },
   "categories": {
     "antipasti": "Előételek",

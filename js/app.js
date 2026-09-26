@@ -4,6 +4,21 @@ const LEGEND_ORDER = ['vegetarian', 'vegan', 'lactose-free'];
 // staff consiglia dal pannello admin, presi da tutte le categorie vere.
 const RECOMMENDED_CATEGORY = '__recommended__';
 
+// Altra categoria virtuale: tutti i piatti vegetariani o vegani del menu,
+// per chi non mangia carne o pesce (o li evita, es. chi mangia halal).
+const VEG_CATEGORY = '__veg__';
+const VEG_TAGS = ['vegetarian', 'vegan'];
+
+function isVeg(item) {
+  return (item.tags || []).some(tag => VEG_TAGS.includes(tag));
+}
+
+// Le categorie virtuali pescano da tutto il menu: lì i piatti si
+// raggruppano per categoria vera invece che per gruppo.
+function isCrossCategory(id) {
+  return id === RECOMMENDED_CATEGORY || id === VEG_CATEGORY;
+}
+
 // Given e.g. "img/flags/it.png", returns the @2x retina variant path.
 function retinaFlag(path) {
   return path.replace(/\.png$/, '@2x.png');
@@ -231,6 +246,7 @@ function renderCategoryPills() {
   // cosa scegliere, quindi va per prima, e c'è solo se lo staff ha davvero
   // qualcosa da consigliare in questo momento.
   const ids = state.categories.map(cat => cat.id);
+  ids.unshift(VEG_CATEGORY);
   if (recommendedItems().length) ids.unshift(RECOMMENDED_CATEGORY);
 
   ids.forEach(id => {
@@ -238,7 +254,15 @@ function renderCategoryPills() {
     btn.type = 'button';
     btn.className = 'pill' + (id === state.activeCategory ? ' active' : '');
     if (id === RECOMMENDED_CATEGORY) btn.classList.add('pill--recommended');
-    btn.textContent = categoryLabel(id);
+    if (id === VEG_CATEGORY) {
+      btn.classList.add('pill--veg');
+      const leaf = document.createElement('span');
+      leaf.className = 'pill-leaf';
+      leaf.setAttribute('aria-hidden', 'true');
+      leaf.innerHTML = LEAF_SVG;
+      btn.appendChild(leaf);
+    }
+    btn.appendChild(document.createTextNode(categoryLabel(id)));
     btn.addEventListener('click', () => {
       state.activeCategory = id;
       state.view = id === 'bevande' ? 'bevande' : 'menu';
@@ -251,7 +275,9 @@ function renderCategoryPills() {
 }
 
 function categoryLabel(id) {
-  return id === RECOMMENDED_CATEGORY ? tr('ui.recommended') : tr(`categories.${id}`);
+  if (id === RECOMMENDED_CATEGORY) return tr('ui.recommended');
+  if (id === VEG_CATEGORY) return tr('ui.vegFilter');
+  return tr(`categories.${id}`);
 }
 
 function syncBottomTabs() {
@@ -271,21 +297,28 @@ function renderMenuList() {
   updatePizzaPromoBar();
   closeGloss();
 
-  // Fra i consigliati i piatti arrivano da categorie diverse, quindi sono
-  // quelle a fare da sotto-sezioni, al posto dei gruppi del menu normale.
-  const showingRecommended = state.activeCategory === RECOMMENDED_CATEGORY;
+  // Fra i consigliati e i vegetariani i piatti arrivano da categorie
+  // diverse, quindi sono quelle a fare da sotto-sezioni, al posto dei
+  // gruppi del menu normale.
+  const active = state.activeCategory;
+  const crossCategory = isCrossCategory(active);
 
-  const note = showingRecommended
-    ? tr('ui.recommendedNote')
-    : I18N.get(state.dict, `categoryNotes.${state.activeCategory}`);
+  let note;
+  if (active === RECOMMENDED_CATEGORY) note = tr('ui.recommendedNote');
+  else if (active === VEG_CATEGORY) note = tr('ui.vegFilterNote');
+  else note = I18N.get(state.dict, `categoryNotes.${active}`);
   el.categoryNote.textContent = note || '';
   el.categoryNote.hidden = !note;
 
+  const inView = it => {
+    if (active === RECOMMENDED_CATEGORY) return LiveMenu.isRecommended(it.id);
+    if (active === VEG_CATEGORY) return isVeg(it);
+    return it.categoryId === active;
+  };
+
   el.menuList.innerHTML = '';
   const items = state.items.filter(
-    it => (showingRecommended ? LiveMenu.isRecommended(it.id) : it.categoryId === state.activeCategory)
-      && matchesSearch(it)
-      && !LiveMenu.isSoldOut(it.id)
+    it => inView(it) && matchesSearch(it) && !LiveMenu.isSoldOut(it.id)
   );
 
   if (items.length === 0) {
@@ -297,7 +330,7 @@ function renderMenuList() {
   const groups = [];
   const groupIndex = {};
   items.forEach(it => {
-    const key = showingRecommended ? it.categoryId : (it.group || '__ungrouped__');
+    const key = crossCategory ? it.categoryId : (it.group || '__ungrouped__');
     if (!(key in groupIndex)) {
       groupIndex[key] = groups.length;
       groups.push({ key, items: [] });
@@ -307,7 +340,7 @@ function renderMenuList() {
 
   // I consigliati seguono l'ordine del menu cartaceo (antipasti prima dei
   // dolci) invece dell'ordine in cui lo staff li ha selezionati.
-  if (showingRecommended) {
+  if (crossCategory) {
     const order = state.categories.map(cat => cat.id);
     groups.sort((a, b) => order.indexOf(a.key) - order.indexOf(b.key));
   }
@@ -316,7 +349,7 @@ function renderMenuList() {
     if (group.key !== '__ungrouped__') {
       const h = document.createElement('h2');
       h.className = 'group-title';
-      h.textContent = showingRecommended
+      h.textContent = crossCategory
         ? categoryLabel(group.key)
         : tr(`groups.${group.key}`);
       el.menuList.appendChild(h);

@@ -12,7 +12,9 @@
     "pizzaPromo": "Con € 2,00 puoi avere il cornicione ripieno di ricotta",
     "recommended": "Consigliati",
     "recommendedItem": "Piatto consigliato",
-    "recommendedNote": "Non sai cosa scegliere? Questi sono i piatti che ti consigliamo."
+    "recommendedNote": "Non sai cosa scegliere? Questi sono i piatti che ti consigliamo.",
+    "vegFilter": "Vegetariano e vegano",
+    "vegFilterNote": "Tutti i piatti senza carne né pesce. Le foglie indicano se sono vegetariani o vegani."
   },
   "categories": {
     "antipasti": "Antipasti",

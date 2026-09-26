@@ -12,7 +12,9 @@
     "pizzaPromo": "For € 2.00 you can have the crust filled with ricotta",
     "recommended": "Recommended",
     "recommendedItem": "Recommended dish",
-    "recommendedNote": "Not sure what to pick? These are the dishes we recommend."
+    "recommendedNote": "Not sure what to pick? These are the dishes we recommend.",
+    "vegFilter": "Vegetarian & vegan",
+    "vegFilterNote": "All dishes without meat or fish. The leaves show whether each one is vegetarian or vegan."
   },
   "categories": {
     "antipasti": "Starters",

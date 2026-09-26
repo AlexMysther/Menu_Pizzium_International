@@ -13,7 +13,9 @@
     "pizzaPromo": "2.00€를 추가하면 리코타 치즈가 채워진 크러스트로 변경할 수 있습니다",
     "recommended": "추천 메뉴",
     "recommendedItem": "추천 메뉴",
-    "recommendedNote": "무엇을 고를지 모르겠다면, 저희가 추천하는 메뉴입니다."
+    "recommendedNote": "무엇을 고를지 모르겠다면, 저희가 추천하는 메뉴입니다.",
+    "vegFilter": "채식 · 비건",
+    "vegFilterNote": "고기와 생선이 들어가지 않은 모든 요리입니다. 잎 아이콘으로 채식인지 비건인지 알 수 있습니다."
   },
   "categories": {
     "antipasti": "전채",

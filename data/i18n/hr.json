@@ -12,7 +12,9 @@
     "pizzaPromo": "Za 2,00 € rub pizze može biti punjen ricottom",
     "recommended": "Preporučeno",
     "recommendedItem": "Preporučeno jelo",
-    "recommendedNote": "Ne znate što odabrati? Ovo su jela koja preporučujemo."
+    "recommendedNote": "Ne znate što odabrati? Ovo su jela koja preporučujemo.",
+    "vegFilter": "Vegetarijansko i vegansko",
+    "vegFilterNote": "Sva jela bez mesa i ribe. Listići pokazuju jesu li vegetarijanska ili veganska."
   },
   "categories": {
     "antipasti": "Predjela",

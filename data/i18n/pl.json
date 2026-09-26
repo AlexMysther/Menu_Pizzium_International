@@ -12,7 +12,9 @@
     "pizzaPromo": "Za 2,00 € brzeg może być nadziewany ricottą",
     "recommended": "Polecane",
     "recommendedItem": "Polecane danie",
-    "recommendedNote": "Nie wiesz, co wybrać? Oto dania, które polecamy."
+    "recommendedNote": "Nie wiesz, co wybrać? Oto dania, które polecamy.",
+    "vegFilter": "Wegetariańskie i wegańskie",
+    "vegFilterNote": "Wszystkie dania bez mięsa i ryb. Listki pokazują, czy są wegetariańskie, czy wegańskie."
   },
   "categories": {
     "antipasti": "Przystawki",

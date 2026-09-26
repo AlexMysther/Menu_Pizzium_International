@@ -12,7 +12,9 @@
     "pizzaPromo": "Voor € 2,00 kun je de rand laten vullen met ricotta",
     "recommended": "Aanbevolen",
     "recommendedItem": "Aanbevolen gerecht",
-    "recommendedNote": "Weet je niet wat je moet kiezen? Dit zijn de gerechten die wij aanraden."
+    "recommendedNote": "Weet je niet wat je moet kiezen? Dit zijn de gerechten die wij aanraden.",
+    "vegFilter": "Vegetarisch & veganistisch",
+    "vegFilterNote": "Alle gerechten zonder vlees of vis. De blaadjes geven aan of ze vegetarisch of veganistisch zijn."
   },
   "categories": {
     "antipasti": "Voorgerechten",

@@ -12,7 +12,9 @@
     "pizzaPromo": "Za 2,00 € je lahko rob pice polnjen z ricotto",
     "recommended": "Priporočamo",
     "recommendedItem": "Priporočena jed",
-    "recommendedNote": "Ne veste, kaj izbrati? To so jedi, ki jih priporočamo."
+    "recommendedNote": "Ne veste, kaj izbrati? To so jedi, ki jih priporočamo.",
+    "vegFilter": "Vegetarijansko in vegansko",
+    "vegFilterNote": "Vse jedi brez mesa in rib. Listki označujejo, ali so vegetarijanske ali veganske."
   },
   "categories": {
     "antipasti": "Predjedi",

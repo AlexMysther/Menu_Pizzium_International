@@ -76,6 +76,7 @@ Le forme più lunghe hanno la precedenza, quindi `"grana padano"` vince su un ev
    - `price`: singolo prezzo (es. `"14.00"`), oppure
    - `variants`: array di formati/prezzi, es. `[{ "label": "calice", "price": "6.00" }, { "label": "bottiglia 75cl", "price": "22.00" }]` per vini e birre alla spina.
    - `tags`: array di tag dietetici tra `vegan`, `vegetarian`, `lactose-free` (icone mostrate automaticamente).
+     I piatti con `vegan` o `vegetarian` compaiono anche nella pill **"Vegetariano e vegano"** (sempre visibile, con la foglia verde), che raccoglie in un'unica vista, divisi per categoria, tutti i piatti senza carne né pesce: utile per chi è vegetariano/vegano o evita la carne per motivi religiosi (es. halal). Le etichette sono `ui.vegFilter` e `ui.vegFilterNote` nei file di lingua.
 2. Aggiungere la traduzione (`name`, `desc` — `desc` è opzionale, si può omettere) sotto `items.<id>` in **ogni** file `data/i18n/*.json` (almeno in `it.json`; le altre lingue useranno il fallback finché non tradotte).
 
 ## Disponibilità e piatti consigliati in tempo reale (Firebase)

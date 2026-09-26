@@ -12,7 +12,9 @@
     "pizzaPromo": "Por € 2,00 pode ter a borda recheada com ricota",
     "recommended": "Recomendados",
     "recommendedItem": "Prato recomendado",
-    "recommendedNote": "Não sabe o que escolher? Estes são os pratos que recomendamos."
+    "recommendedNote": "Não sabe o que escolher? Estes são os pratos que recomendamos.",
+    "vegFilter": "Vegetariano e vegano",
+    "vegFilterNote": "Todos os pratos sem carne nem peixe. As folhas indicam se são vegetarianos ou veganos."
   },
   "categories": {
     "antipasti": "Entradas",

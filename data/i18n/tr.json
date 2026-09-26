@@ -12,7 +12,9 @@
     "pizzaPromo": "2,00 € ile kenarı ricotta ile doldurabilirsiniz",
     "recommended": "Önerilenler",
     "recommendedItem": "Önerilen yemek",
-    "recommendedNote": "Ne seçeceğinizi bilmiyor musunuz? İşte önerdiğimiz yemekler."
+    "recommendedNote": "Ne seçeceğinizi bilmiyor musunuz? İşte önerdiğimiz yemekler.",
+    "vegFilter": "Vejetaryen ve vegan",
+    "vegFilterNote": "Et ve balık içermeyen tüm yemekler. Yapraklar vejetaryen mi vegan mı olduğunu gösterir."
   },
   "categories": {
     "antipasti": "Başlangıçlar",
