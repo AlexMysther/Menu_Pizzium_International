@@ -14,7 +14,9 @@
     "recommendedItem": "Anbefalt rett",
     "recommendedNote": "Vet du ikke hva du skal velge? Dette er rettene vi anbefaler.",
     "glass": "Glass",
-    "bottle": "Flaske"
+    "bottle": "Flaske",
+    "vegFilter": "Uten kjøtt",
+    "vegFilterNote": "Alle retter uten kjøtt eller fisk. Bladene viser om de er vegetariske eller veganske."
   },
   "categories": {
     "antipasti": "Forretter",

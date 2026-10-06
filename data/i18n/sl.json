@@ -14,7 +14,9 @@
     "recommendedItem": "Priporočena jed",
     "recommendedNote": "Ne veste, kaj izbrati? To so jedi, ki jih priporočamo.",
     "glass": "Kozarec",
-    "bottle": "Steklenica"
+    "bottle": "Steklenica",
+    "vegFilter": "Brez mesa",
+    "vegFilterNote": "Vse jedi brez mesa in rib. Listki označujejo, ali so vegetarijanske ali veganske."
   },
   "categories": {
     "antipasti": "Predjedi",

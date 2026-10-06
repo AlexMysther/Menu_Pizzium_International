@@ -15,7 +15,9 @@
     "recommendedItem": "おすすめの一品",
     "recommendedNote": "何を選ぶか迷ったら、こちらがおすすめです。",
     "glass": "グラス",
-    "bottle": "ボトル"
+    "bottle": "ボトル",
+    "vegFilter": "肉なし",
+    "vegFilterNote": "肉・魚を使わないすべての料理です。葉のマークでベジタリアンかヴィーガンかがわかります。"
   },
   "categories": {
     "antipasti": "前菜",

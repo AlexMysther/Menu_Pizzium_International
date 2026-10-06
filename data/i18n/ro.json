@@ -14,7 +14,9 @@
     "recommendedItem": "Fel recomandat",
     "recommendedNote": "Nu știi ce să alegi? Acestea sunt felurile pe care ți le recomandăm.",
     "glass": "Pahar",
-    "bottle": "Sticlă"
+    "bottle": "Sticlă",
+    "vegFilter": "Fără carne",
+    "vegFilterNote": "Toate preparatele fără carne sau pește. Frunzele arată dacă sunt vegetariene sau vegane."
   },
   "categories": {
     "antipasti": "Aperitive",

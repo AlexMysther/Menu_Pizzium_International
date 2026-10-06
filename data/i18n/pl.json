@@ -14,7 +14,9 @@
     "recommendedItem": "Polecane danie",
     "recommendedNote": "Nie wiesz, co wybrać? Oto dania, które polecamy.",
     "glass": "Kieliszek",
-    "bottle": "Butelka"
+    "bottle": "Butelka",
+    "vegFilter": "Bez mięsa",
+    "vegFilterNote": "Wszystkie dania bez mięsa i ryb. Listki pokazują, czy są wegetariańskie, czy wegańskie."
   },
   "categories": {
     "antipasti": "Przystawki",

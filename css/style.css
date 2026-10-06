@@ -272,6 +272,23 @@ button { font-family: inherit; }
   content: "★ ";
 }
 
+/* Filtro vegetariano/vegano: verde come le foglie dei piatti, così si
+   collega a colpo d'occhio ai bollini che poi mostra. */
+.pill--veg {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border-color: var(--dot-vegan);
+  color: var(--dot-vegan);
+}
+.pill--veg.active {
+  background: var(--dot-vegan);
+  border-color: var(--dot-vegan);
+  color: #fff;
+}
+.pill-leaf { display: inline-block; width: 16px; height: 16px; }
+.pill-leaf svg { display: block; width: 100%; height: 100%; }
+
 .menu-list { display: flex; flex-direction: column; gap: 22px; }
 
 .group-title {

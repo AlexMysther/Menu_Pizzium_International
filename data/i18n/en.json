@@ -14,7 +14,9 @@
     "recommendedItem": "Recommended dish",
     "recommendedNote": "Not sure what to pick? These are the dishes we recommend.",
     "glass": "Glass",
-    "bottle": "Bottle"
+    "bottle": "Bottle",
+    "vegFilter": "No meat",
+    "vegFilterNote": "All dishes without meat or fish. The leaves show whether each one is vegetarian or vegan."
   },
   "categories": {
     "antipasti": "Starters",

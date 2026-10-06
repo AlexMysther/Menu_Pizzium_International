@@ -14,7 +14,9 @@
     "recommendedItem": "Doporučené jídlo",
     "recommendedNote": "Nevíte, co si vybrat? Tato jídla doporučujeme.",
     "glass": "Sklenice",
-    "bottle": "Láhev"
+    "bottle": "Láhev",
+    "vegFilter": "Bez masa",
+    "vegFilterNote": "Všechna jídla bez masa a ryb. Lístky ukazují, zda jsou vegetariánská, nebo veganská."
   },
   "categories": {
     "antipasti": "Předkrmy",

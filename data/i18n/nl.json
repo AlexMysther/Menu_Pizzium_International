@@ -14,7 +14,9 @@
     "recommendedItem": "Aanbevolen gerecht",
     "recommendedNote": "Weet je niet wat je moet kiezen? Dit zijn de gerechten die wij aanraden.",
     "glass": "Glas",
-    "bottle": "Fles"
+    "bottle": "Fles",
+    "vegFilter": "Zonder vlees",
+    "vegFilterNote": "Alle gerechten zonder vlees of vis. De blaadjes geven aan of ze vegetarisch of veganistisch zijn."
   },
   "categories": {
     "antipasti": "Voorgerechten",

@@ -14,7 +14,9 @@
     "recommendedItem": "מנה מומלצת",
     "recommendedNote": "לא יודעים מה לבחור? אלה המנות שאנחנו ממליצים עליהן.",
     "glass": "כוס",
-    "bottle": "בקבוק"
+    "bottle": "בקבוק",
+    "vegFilter": "ללא בשר",
+    "vegFilterNote": "כל המנות ללא בשר ודגים. העלים מציינים אם המנה צמחונית או טבעונית."
   },
   "categories": {
     "antipasti": "מנות פתיחה",

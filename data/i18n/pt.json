@@ -14,7 +14,9 @@
     "recommendedItem": "Prato recomendado",
     "recommendedNote": "Não sabe o que escolher? Estes são os pratos que recomendamos.",
     "glass": "Taça",
-    "bottle": "Garrafa"
+    "bottle": "Garrafa",
+    "vegFilter": "Sem carne",
+    "vegFilterNote": "Todos os pratos sem carne nem peixe. As folhas indicam se são vegetarianos ou veganos."
   },
   "categories": {
     "antipasti": "Entradas",

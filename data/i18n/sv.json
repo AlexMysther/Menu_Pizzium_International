@@ -14,7 +14,9 @@
     "recommendedItem": "Rekommenderad rätt",
     "recommendedNote": "Vet du inte vad du ska välja? Det här är rätterna vi rekommenderar.",
     "glass": "Glas",
-    "bottle": "Flaska"
+    "bottle": "Flaska",
+    "vegFilter": "Utan kött",
+    "vegFilterNote": "Alla rätter utan kött eller fisk. Bladen visar om de är vegetariska eller veganska."
   },
   "categories": {
     "antipasti": "Förrätter",

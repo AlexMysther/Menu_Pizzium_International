@@ -14,7 +14,9 @@
     "recommendedItem": "Odporúčané jedlo",
     "recommendedNote": "Neviete, čo si vybrať? Tieto jedlá odporúčame.",
     "glass": "Pohár",
-    "bottle": "Fľaša"
+    "bottle": "Fľaša",
+    "vegFilter": "Bez mäsa",
+    "vegFilterNote": "Všetky jedlá bez mäsa a rýb. Lístky ukazujú, či sú vegetariánske alebo vegánske."
   },
   "categories": {
     "antipasti": "Predjedlá",

@@ -14,7 +14,9 @@
     "recommendedItem": "Ajánlott fogás",
     "recommendedNote": "Nem tudja, mit válasszon? Ezeket a fogásokat ajánljuk.",
     "glass": "Pohár",
-    "bottle": "Üveg"
+    "bottle": "Üveg",
+    "vegFilter": "Hús nélkül",
+    "vegFilterNote": "Minden étel hús és hal nélkül. A levelek jelzik, hogy vegetáriánus vagy vegán."
   },
   "categories": {
     "antipasti": "Előételek",
