@@ -13,7 +13,9 @@
     "pizzaPromo": "2.00€를 추가하면 리코타 치즈가 채워진 크러스트로 변경할 수 있습니다",
     "recommended": "추천 메뉴",
     "recommendedItem": "추천 메뉴",
-    "recommendedNote": "무엇을 고를지 모르겠다면, 저희가 추천하는 메뉴입니다."
+    "recommendedNote": "무엇을 고를지 모르겠다면, 저희가 추천하는 메뉴입니다.",
+    "glass": "잔",
+    "bottle": "병"
   },
   "categories": {
     "antipasti": "전채",
@@ -240,7 +242,9 @@
     "caprese-pizzium": { "name": "피지움 스타일 카프레제", "desc": "비프스테이크 토마토, 버팔로 모차렐라 DOP, 바질 페스토, 레몬 제스트" },
     "insalata-marinara": { "name": "마리나라 샐러드", "desc": "믹스 그린, 붉은색과 노란색 방울토마토, 오레가노, 타지아스카 올리브, 지중해산 안초비 필레" },
 
-    "cheesecake": { "name": "치즈케이크", "desc": "누텔라®, 피스타치오, 베리 믹스 중 선택" },
+    "cheesecake-nutella": { "name": "치즈케이크 – 누텔라®" },
+    "cheesecake-pistacchio": { "name": "치즈케이크 – 피스타치오" },
+    "cheesecake-frutti-di-bosco": { "name": "치즈케이크 – 베리 믹스" },
     "tiramisu": { "name": "티라미수" },
     "nuvole-cremose": { "name": "크리미 클라우드", "desc": "밀크 시트러스 크림을 채운 반죽 볼 2개" },
     "sorbetto-limone": { "name": "레몬 소르베" },

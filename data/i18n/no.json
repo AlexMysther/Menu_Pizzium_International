@@ -12,7 +12,9 @@
     "pizzaPromo": "For 2,00 € kan du få kanten fylt med ricotta",
     "recommended": "Anbefalt",
     "recommendedItem": "Anbefalt rett",
-    "recommendedNote": "Vet du ikke hva du skal velge? Dette er rettene vi anbefaler."
+    "recommendedNote": "Vet du ikke hva du skal velge? Dette er rettene vi anbefaler.",
+    "glass": "Glass",
+    "bottle": "Flaske"
   },
   "categories": {
     "antipasti": "Forretter",
@@ -346,10 +348,9 @@
       "name": "Marinarasalat",
       "desc": "Blandet salat, røde og gule cherrytomater, oregano, taggiasca-oliven, middelhavsansjosfileter"
     },
-    "cheesecake": {
-      "name": "Cheesecake",
-      "desc": "Nutella®, pistasj eller skogsbær"
-    },
+    "cheesecake-nutella": { "name": "Cheesecake – Nutella®" },
+    "cheesecake-pistacchio": { "name": "Cheesecake – Pistasj" },
+    "cheesecake-frutti-di-bosco": { "name": "Cheesecake – Skogsbær" },
     "tiramisu": {
       "name": "Tiramisù"
     },

@@ -12,7 +12,9 @@
     "pizzaPromo": "Za 2,00 € můžete mít okraj plněný ricottou",
     "recommended": "Doporučujeme",
     "recommendedItem": "Doporučené jídlo",
-    "recommendedNote": "Nevíte, co si vybrat? Tato jídla doporučujeme."
+    "recommendedNote": "Nevíte, co si vybrat? Tato jídla doporučujeme.",
+    "glass": "Sklenice",
+    "bottle": "Láhev"
   },
   "categories": {
     "antipasti": "Předkrmy",
@@ -353,10 +355,9 @@
       "name": "Salát Marinara",
       "desc": "Listový salátový mix, červená a žlutá rajčátka datterino, oregano, olivy taggiasca, filety ze středomořských sardelí"
     },
-    "cheesecake": {
-      "name": "Cheesecake",
-      "desc": "Nutella®, pistácie nebo lesní ovoce"
-    },
+    "cheesecake-nutella": { "name": "Cheesecake – Nutella®" },
+    "cheesecake-pistacchio": { "name": "Cheesecake – Pistácie" },
+    "cheesecake-frutti-di-bosco": { "name": "Cheesecake – Lesní ovoce" },
     "tiramisu": {
       "name": "Tiramisu"
     },

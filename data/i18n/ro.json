@@ -12,7 +12,9 @@
     "pizzaPromo": "Cu 2,00 € poți avea marginea umplută cu ricotta",
     "recommended": "Recomandate",
     "recommendedItem": "Fel recomandat",
-    "recommendedNote": "Nu știi ce să alegi? Acestea sunt felurile pe care ți le recomandăm."
+    "recommendedNote": "Nu știi ce să alegi? Acestea sunt felurile pe care ți le recomandăm.",
+    "glass": "Pahar",
+    "bottle": "Sticlă"
   },
   "categories": {
     "antipasti": "Aperitive",
@@ -345,10 +347,9 @@
       "name": "Salată Marinara",
       "desc": "Salată mixtă, roșii cherry roșii și galbene, oregano, măsline taggiasca, file de hamsii mediteraneene"
     },
-    "cheesecake": {
-      "name": "Cheesecake",
-      "desc": "Nutella®, fistic sau fructe de pădure"
-    },
+    "cheesecake-nutella": { "name": "Cheesecake – Nutella®" },
+    "cheesecake-pistacchio": { "name": "Cheesecake – Fistic" },
+    "cheesecake-frutti-di-bosco": { "name": "Cheesecake – Fructe de pădure" },
     "tiramisu": {
       "name": "Tiramisù"
     },

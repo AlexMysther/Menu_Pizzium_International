@@ -12,7 +12,9 @@
     "pizzaPromo": "För 2,00 € kan du få kanten fylld med ricotta",
     "recommended": "Rekommenderat",
     "recommendedItem": "Rekommenderad rätt",
-    "recommendedNote": "Vet du inte vad du ska välja? Det här är rätterna vi rekommenderar."
+    "recommendedNote": "Vet du inte vad du ska välja? Det här är rätterna vi rekommenderar.",
+    "glass": "Glas",
+    "bottle": "Flaska"
   },
   "categories": {
     "antipasti": "Förrätter",
@@ -346,10 +348,9 @@
       "name": "Marinarasallad",
       "desc": "Blandsallad, röda och gula körsbärstomater, oregano, taggiasca-oliver, medelhavsansjovisfiléer"
     },
-    "cheesecake": {
-      "name": "Cheesecake",
-      "desc": "Nutella®, pistage eller skogsbär"
-    },
+    "cheesecake-nutella": { "name": "Cheesecake – Nutella®" },
+    "cheesecake-pistacchio": { "name": "Cheesecake – Pistage" },
+    "cheesecake-frutti-di-bosco": { "name": "Cheesecake – Skogsbär" },
     "tiramisu": {
       "name": "Tiramisù"
     },

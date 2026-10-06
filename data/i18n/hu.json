@@ -12,7 +12,9 @@
     "pizzaPromo": "2,00 €-ért a szegély ricottával tölthető",
     "recommended": "Ajánlott",
     "recommendedItem": "Ajánlott fogás",
-    "recommendedNote": "Nem tudja, mit válasszon? Ezeket a fogásokat ajánljuk."
+    "recommendedNote": "Nem tudja, mit válasszon? Ezeket a fogásokat ajánljuk.",
+    "glass": "Pohár",
+    "bottle": "Üveg"
   },
   "categories": {
     "antipasti": "Előételek",
@@ -346,10 +348,9 @@
       "name": "Marinara Saláta",
       "desc": "Kevert saláta, piros és sárga koktélparadicsom, oregánó, taggiasca olívabogyó, mediterrán szardellafilé"
     },
-    "cheesecake": {
-      "name": "Sajttorta",
-      "desc": "Nutella®, pisztácia vagy erdei gyümölcs"
-    },
+    "cheesecake-nutella": { "name": "Sajttorta – Nutella®" },
+    "cheesecake-pistacchio": { "name": "Sajttorta – Pisztácia" },
+    "cheesecake-frutti-di-bosco": { "name": "Sajttorta – Erdei gyümölcs" },
     "tiramisu": {
       "name": "Tiramisù"
     },

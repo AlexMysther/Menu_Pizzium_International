@@ -12,7 +12,9 @@
     "pizzaPromo": "Für € 2,00 gibt es den mit Ricotta gefüllten Rand",
     "recommended": "Empfehlungen",
     "recommendedItem": "Empfohlenes Gericht",
-    "recommendedNote": "Sie wissen nicht, was Sie wählen sollen? Das sind die Gerichte, die wir empfehlen."
+    "recommendedNote": "Sie wissen nicht, was Sie wählen sollen? Das sind die Gerichte, die wir empfehlen.",
+    "glass": "Glas",
+    "bottle": "Flasche"
   },
   "categories": {
     "antipasti": "Vorspeisen",
@@ -344,10 +346,9 @@
       "name": "Insalata Marinara",
       "desc": "Gemischter Blattsalat, rote und gelbe Kirschtomaten, Oregano, Taggiasca-Oliven, mediterrane Sardellenfilets"
     },
-    "cheesecake": {
-      "name": "Cheesecake",
-      "desc": "Nutella®, Pistazie oder Waldfrüchte"
-    },
+    "cheesecake-nutella": { "name": "Cheesecake – Nutella®" },
+    "cheesecake-pistacchio": { "name": "Cheesecake – Pistazie" },
+    "cheesecake-frutti-di-bosco": { "name": "Cheesecake – Waldfrüchte" },
     "tiramisu": {
       "name": "Tiramisù"
     },

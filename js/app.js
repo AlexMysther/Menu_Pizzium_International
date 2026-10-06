@@ -49,7 +49,10 @@ const el = {
   infoGlossaryNote: document.getElementById('infoGlossaryNote'),
   glossPopover: document.getElementById('glossPopover'),
   glossTerm: document.getElementById('glossTerm'),
-  glossDesc: document.getElementById('glossDesc')
+  glossDesc: document.getElementById('glossDesc'),
+  imgLightbox: document.getElementById('imgLightbox'),
+  imgLightboxImg: document.getElementById('imgLightboxImg'),
+  imgLightboxClose: document.getElementById('imgLightboxClose')
 };
 
 async function init() {
@@ -325,17 +328,72 @@ function renderMenuList() {
   });
 }
 
+// I formati "20cl"/"40cl" sono già neutri (solo cifre e unità di misura),
+// quindi passano invariati; "glass" e "bottle-75cl" invece sono codici che
+// vanno tradotti, non testo da mostrare così com'è.
+function variantLabel(label) {
+  if (label === 'glass') return tr('ui.glass');
+  const bottleMatch = label.match(/^bottle-(.+)$/);
+  if (bottleMatch) return `${tr('ui.bottle')} ${bottleMatch[1]}`;
+  return label;
+}
+
 function formatPrice(item) {
   if (item.variants && item.variants.length) {
-    return item.variants.map(v => `${v.label} € ${v.price}`).join(' / ');
+    return item.variants.map(v => `${variantLabel(v.label)} € ${v.price}`).join(' / ');
   }
   if (item.price) return `€ ${item.price}`;
   return '';
 }
 
+// Convenzione: la foto del piatto, se esiste, sta in
+// img/immagini_piatti/<id>.jpg (o .png, provato come seconda opzione).
+// Niente da aggiornare in items.json: se nessuno dei due file esiste,
+// l'onerror toglie l'immagine e la riga torna a essere quella di sempre
+// (senza foto rotta).
+const THUMB_EXTENSIONS = ['jpg', 'png'];
+
+function renderItemThumb(item) {
+  const img = document.createElement('img');
+  img.className = 'item-thumb';
+  img.alt = '';
+  img.loading = 'lazy';
+  img.decoding = 'async';
+
+  let extIndex = 0;
+  const tryNext = () => {
+    if (extIndex >= THUMB_EXTENSIONS.length) {
+      img.remove();
+      return;
+    }
+    img.src = `img/immagini_piatti/${item.id}.${THUMB_EXTENSIONS[extIndex]}`;
+    extIndex++;
+  };
+  img.addEventListener('error', tryNext);
+  tryNext();
+
+  img.addEventListener('click', () => openImgLightbox(img.src));
+
+  return img;
+}
+
+function openImgLightbox(src) {
+  el.imgLightboxImg.src = src;
+  el.imgLightbox.hidden = false;
+}
+
+function closeImgLightbox() {
+  el.imgLightbox.hidden = true;
+  el.imgLightboxImg.src = '';
+}
+
 function renderItem(item) {
   const wrap = document.createElement('article');
   wrap.className = 'menu-item';
+  wrap.appendChild(renderItemThumb(item));
+
+  const body = document.createElement('div');
+  body.className = 'item-body';
 
   const name = document.createElement('h3');
   name.className = 'item-name';
@@ -363,7 +421,7 @@ function renderItem(item) {
     itSpan.textContent = ` (${itName})`;
     name.appendChild(itSpan);
   }
-  wrap.appendChild(name);
+  body.appendChild(name);
 
   const priceText = formatPrice(item);
   if (priceText) {
@@ -371,7 +429,7 @@ function renderItem(item) {
     price.className = 'item-price';
     if (item.variants && item.variants.length > 1) price.classList.add('item-price--variants');
     price.textContent = priceText;
-    wrap.appendChild(price);
+    body.appendChild(price);
   }
 
   const descText = I18N.get(state.dict, `items.${item.id}.desc`);
@@ -379,16 +437,17 @@ function renderItem(item) {
     const desc = document.createElement('p');
     desc.className = 'item-desc';
     desc.appendChild(glossedText(descText));
-    wrap.appendChild(desc);
+    body.appendChild(desc);
   }
 
   if (item.tags && item.tags.length) {
     const tags = document.createElement('div');
     tags.className = 'item-tags';
     item.tags.forEach(code => tags.appendChild(tagMark(code)));
-    wrap.appendChild(tags);
+    body.appendChild(tags);
   }
 
+  wrap.appendChild(body);
   return wrap;
 }
 
@@ -645,8 +704,19 @@ function bindEvents() {
     if (!el.glossPopover.hidden && !el.glossPopover.contains(e.target)) closeGloss();
   });
   document.addEventListener('keydown', e => {
-    if (e.key === 'Escape') closeGloss();
+    if (e.key === 'Escape') {
+      closeGloss();
+      closeImgLightbox();
+    }
   });
+
+  el.imgLightboxClose.addEventListener('click', closeImgLightbox);
+  // Un tocco sullo sfondo nero chiude la lightbox; il click sulla foto
+  // stessa invece non deve chiuderla, quindi si ferma qui.
+  el.imgLightbox.addEventListener('click', e => {
+    if (e.target === el.imgLightbox) closeImgLightbox();
+  });
+  el.imgLightboxImg.addEventListener('click', e => e.stopPropagation());
 
   // Pinch-to-zoom cambia solo il visual viewport, non fa scattare il resize
   // della finestra: senza questo, un riquadro già aperto resterebbe della

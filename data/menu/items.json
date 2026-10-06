@@ -51,7 +51,9 @@
   { "id": "caprese-pizzium", "categoryId": "insalate", "price": "11.00", "tags": ["vegetarian"] },
   { "id": "insalata-marinara", "categoryId": "insalate", "price": "11.00", "tags": [] },
 
-  { "id": "cheesecake", "categoryId": "dolci", "price": "7.00", "tags": [] },
+  { "id": "cheesecake-nutella", "categoryId": "dolci", "price": "7.00", "tags": [] },
+  { "id": "cheesecake-pistacchio", "categoryId": "dolci", "price": "7.00", "tags": [] },
+  { "id": "cheesecake-frutti-di-bosco", "categoryId": "dolci", "price": "7.00", "tags": [] },
   { "id": "tiramisu", "categoryId": "dolci", "price": "7.00", "tags": [] },
   { "id": "nuvole-cremose", "categoryId": "dolci", "price": "8.00", "tags": [] },
   { "id": "sorbetto-limone", "categoryId": "dolci", "price": "6.00", "tags": ["vegan", "lactose-free"] },
@@ -84,16 +86,16 @@
   { "id": "milano-torino", "categoryId": "bevande", "group": "cocktails", "price": "8.00", "tags": [] },
   { "id": "gin-tonic", "categoryId": "bevande", "group": "cocktails", "price": "8.00", "tags": [] },
 
-  { "id": "prosecco-soligo", "categoryId": "bevande", "group": "bollicine", "variants": [{ "label": "calice", "price": "6.00" }, { "label": "bottiglia 75cl", "price": "22.00" }], "tags": [] },
+  { "id": "prosecco-soligo", "categoryId": "bevande", "group": "bollicine", "variants": [{ "label": "glass", "price": "6.00" }, { "label": "bottle-75cl", "price": "22.00" }], "tags": [] },
 
-  { "id": "pecorino-terre-chieti", "categoryId": "bevande", "group": "vini-bianchi", "variants": [{ "label": "calice", "price": "6.00" }, { "label": "bottiglia 75cl", "price": "20.00" }], "tags": [] },
-  { "id": "soave-classico", "categoryId": "bevande", "group": "vini-bianchi", "variants": [{ "label": "bottiglia 75cl", "price": "26.00" }], "tags": [] },
-  { "id": "gewurztraminer-kies", "categoryId": "bevande", "group": "vini-bianchi", "variants": [{ "label": "bottiglia 75cl", "price": "30.00" }], "tags": [] },
+  { "id": "pecorino-terre-chieti", "categoryId": "bevande", "group": "vini-bianchi", "variants": [{ "label": "glass", "price": "6.00" }, { "label": "bottle-75cl", "price": "20.00" }], "tags": [] },
+  { "id": "soave-classico", "categoryId": "bevande", "group": "vini-bianchi", "variants": [{ "label": "bottle-75cl", "price": "26.00" }], "tags": [] },
+  { "id": "gewurztraminer-kies", "categoryId": "bevande", "group": "vini-bianchi", "variants": [{ "label": "bottle-75cl", "price": "30.00" }], "tags": [] },
 
-  { "id": "primitivo-rosato", "categoryId": "bevande", "group": "vini-rose", "variants": [{ "label": "calice", "price": "6.00" }, { "label": "bottiglia 75cl", "price": "24.00" }], "tags": [] },
+  { "id": "primitivo-rosato", "categoryId": "bevande", "group": "vini-rose", "variants": [{ "label": "glass", "price": "6.00" }, { "label": "bottle-75cl", "price": "24.00" }], "tags": [] },
 
-  { "id": "montepulciano-abruzzo", "categoryId": "bevande", "group": "vini-rossi", "variants": [{ "label": "calice", "price": "6.00" }, { "label": "bottiglia 75cl", "price": "20.00" }], "tags": [] },
-  { "id": "morellino-scansano", "categoryId": "bevande", "group": "vini-rossi", "variants": [{ "label": "bottiglia 75cl", "price": "26.00" }], "tags": [] },
+  { "id": "montepulciano-abruzzo", "categoryId": "bevande", "group": "vini-rossi", "variants": [{ "label": "glass", "price": "6.00" }, { "label": "bottle-75cl", "price": "20.00" }], "tags": [] },
+  { "id": "morellino-scansano", "categoryId": "bevande", "group": "vini-rossi", "variants": [{ "label": "bottle-75cl", "price": "26.00" }], "tags": [] },
 
   { "id": "lavazza-caffe", "categoryId": "bevande", "group": "caffe-digestivi", "price": "2.00", "tags": [] },
   { "id": "lavazza-decaffeinato", "categoryId": "bevande", "group": "caffe-digestivi", "price": "2.50", "tags": [] },

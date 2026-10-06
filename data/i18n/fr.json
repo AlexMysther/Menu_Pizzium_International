@@ -12,7 +12,9 @@
     "pizzaPromo": "Pour 2,00 € vous pouvez avoir le bord fourré à la ricotta",
     "recommended": "Recommandés",
     "recommendedItem": "Plat recommandé",
-    "recommendedNote": "Vous ne savez pas quoi choisir ? Voici les plats que nous vous recommandons."
+    "recommendedNote": "Vous ne savez pas quoi choisir ? Voici les plats que nous vous recommandons.",
+    "glass": "Verre",
+    "bottle": "Bouteille"
   },
   "categories": {
     "antipasti": "Entrées",
@@ -343,10 +345,9 @@
       "name": "Salade Marinara",
       "desc": "Mesclun, tomates cerises rouges et jaunes, origan, olives taggiasche, filets d'anchois de Méditerranée"
     },
-    "cheesecake": {
-      "name": "Cheesecake",
-      "desc": "Nutella®, pistache ou fruits des bois"
-    },
+    "cheesecake-nutella": { "name": "Cheesecake – Nutella®" },
+    "cheesecake-pistacchio": { "name": "Cheesecake – Pistache" },
+    "cheesecake-frutti-di-bosco": { "name": "Cheesecake – Fruits des bois" },
     "tiramisu": {
       "name": "Tiramisù"
     },

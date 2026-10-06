@@ -12,7 +12,9 @@
     "pizzaPromo": "Por € 2,00 puedes tener el borde relleno de ricotta",
     "recommended": "Recomendados",
     "recommendedItem": "Plato recomendado",
-    "recommendedNote": "¿No sabes qué elegir? Estos son los platos que te recomendamos."
+    "recommendedNote": "¿No sabes qué elegir? Estos son los platos que te recomendamos.",
+    "glass": "Copa",
+    "bottle": "Botella"
   },
   "categories": {
     "antipasti": "Entrantes",
@@ -344,10 +346,9 @@
       "name": "Ensalada Marinara",
       "desc": "Mezclum, tomates cherry rojos y amarillos, orégano, aceitunas taggiasche, filetes de anchoa del Mediterráneo"
     },
-    "cheesecake": {
-      "name": "Cheesecake",
-      "desc": "Nutella®, pistacho o frutos del bosque"
-    },
+    "cheesecake-nutella": { "name": "Cheesecake – Nutella®" },
+    "cheesecake-pistacchio": { "name": "Cheesecake – Pistacho" },
+    "cheesecake-frutti-di-bosco": { "name": "Cheesecake – Frutos del bosque" },
     "tiramisu": {
       "name": "Tiramisú"
     },

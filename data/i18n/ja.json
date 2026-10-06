@@ -13,7 +13,9 @@
     "pizzaPromo": "2.00€でリコッタチーズ入りのクラストにできます",
     "recommended": "おすすめ",
     "recommendedItem": "おすすめの一品",
-    "recommendedNote": "何を選ぶか迷ったら、こちらがおすすめです。"
+    "recommendedNote": "何を選ぶか迷ったら、こちらがおすすめです。",
+    "glass": "グラス",
+    "bottle": "ボトル"
   },
   "categories": {
     "antipasti": "前菜",
@@ -241,7 +243,9 @@
     "caprese-pizzium": { "name": "カプレーゼ・ピッツィウム風", "desc": "牛肉トマト、水牛モッツァレラDOP、バジルペースト、レモンの皮" },
     "insalata-marinara": { "name": "マリナーラサラダ", "desc": "ミックスリーフ、赤と黄のミニトマト、オレガノ、タジャスカオリーブ、地中海産アンチョビフィレ" },
 
-    "cheesecake": { "name": "チーズケーキ", "desc": "Nutella®、ピスタチオ、ベリーミックスから選べます" },
+    "cheesecake-nutella": { "name": "チーズケーキ – Nutella®" },
+    "cheesecake-pistacchio": { "name": "チーズケーキ – ピスタチオ" },
+    "cheesecake-frutti-di-bosco": { "name": "チーズケーキ – ベリーミックス" },
     "tiramisu": { "name": "ティラミス" },
     "nuvole-cremose": { "name": "クリーミー・クラウド", "desc": "ミルク＆シトラスクリーム入りの生地のボール2個" },
     "sorbetto-limone": { "name": "レモンシャーベット" },

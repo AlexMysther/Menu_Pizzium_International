@@ -12,7 +12,9 @@
     "pizzaPromo": "Za 2,00 € brzeg może być nadziewany ricottą",
     "recommended": "Polecane",
     "recommendedItem": "Polecane danie",
-    "recommendedNote": "Nie wiesz, co wybrać? Oto dania, które polecamy."
+    "recommendedNote": "Nie wiesz, co wybrać? Oto dania, które polecamy.",
+    "glass": "Kieliszek",
+    "bottle": "Butelka"
   },
   "categories": {
     "antipasti": "Przystawki",
@@ -346,10 +348,9 @@
       "name": "Sałatka Marinara",
       "desc": "Mieszane sałaty, czerwone i żółte pomidorki cherry, oregano, oliwki taggiasca, filety z sardeli śródziemnomorskiej"
     },
-    "cheesecake": {
-      "name": "Sernik",
-      "desc": "Nutella®, pistacjowy lub owoce leśne"
-    },
+    "cheesecake-nutella": { "name": "Sernik – Nutella®" },
+    "cheesecake-pistacchio": { "name": "Sernik – pistacjowy" },
+    "cheesecake-frutti-di-bosco": { "name": "Sernik – owoce leśne" },
     "tiramisu": {
       "name": "Tiramisù"
     },

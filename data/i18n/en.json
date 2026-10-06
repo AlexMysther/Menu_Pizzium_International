@@ -12,7 +12,9 @@
     "pizzaPromo": "For € 2.00 you can have the crust filled with ricotta",
     "recommended": "Recommended",
     "recommendedItem": "Recommended dish",
-    "recommendedNote": "Not sure what to pick? These are the dishes we recommend."
+    "recommendedNote": "Not sure what to pick? These are the dishes we recommend.",
+    "glass": "Glass",
+    "bottle": "Bottle"
   },
   "categories": {
     "antipasti": "Starters",
@@ -344,10 +346,9 @@
       "name": "Marinara Salad",
       "desc": "Mixed greens, red and yellow cherry tomatoes, oregano, taggiasca olives, Mediterranean anchovy fillets"
     },
-    "cheesecake": {
-      "name": "Cheesecake",
-      "desc": "Nutella®, pistachio or forest fruits"
-    },
+    "cheesecake-nutella": { "name": "Cheesecake – Nutella®" },
+    "cheesecake-pistacchio": { "name": "Cheesecake – Pistachio" },
+    "cheesecake-frutti-di-bosco": { "name": "Cheesecake – Forest Fruits" },
     "tiramisu": {
       "name": "Tiramisù"
     },

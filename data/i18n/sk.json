@@ -12,7 +12,9 @@
     "pizzaPromo": "Za 2,00 € môžete mať okraj plnený ricottou",
     "recommended": "Odporúčame",
     "recommendedItem": "Odporúčané jedlo",
-    "recommendedNote": "Neviete, čo si vybrať? Tieto jedlá odporúčame."
+    "recommendedNote": "Neviete, čo si vybrať? Tieto jedlá odporúčame.",
+    "glass": "Pohár",
+    "bottle": "Fľaša"
   },
   "categories": {
     "antipasti": "Predjedlá",
@@ -353,10 +355,9 @@
       "name": "Šalát Marinara",
       "desc": "Listový šalátový mix, červené a žlté paradajky datterino, oregano, olivy taggiasca, filety zo stredomorských sardel"
     },
-    "cheesecake": {
-      "name": "Cheesecake",
-      "desc": "Nutella®, pistácie alebo lesné ovocie"
-    },
+    "cheesecake-nutella": { "name": "Cheesecake – Nutella®" },
+    "cheesecake-pistacchio": { "name": "Cheesecake – Pistácie" },
+    "cheesecake-frutti-di-bosco": { "name": "Cheesecake – Lesné ovocie" },
     "tiramisu": {
       "name": "Tiramisu"
     },

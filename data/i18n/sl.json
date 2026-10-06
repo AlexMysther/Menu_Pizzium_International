@@ -12,7 +12,9 @@
     "pizzaPromo": "Za 2,00 € je lahko rob pice polnjen z ricotto",
     "recommended": "Priporočamo",
     "recommendedItem": "Priporočena jed",
-    "recommendedNote": "Ne veste, kaj izbrati? To so jedi, ki jih priporočamo."
+    "recommendedNote": "Ne veste, kaj izbrati? To so jedi, ki jih priporočamo.",
+    "glass": "Kozarec",
+    "bottle": "Steklenica"
   },
   "categories": {
     "antipasti": "Predjedi",
@@ -354,10 +356,9 @@
       "name": "Solata Marinara",
       "desc": "Mešane mlade solate, rdeči in rumeni paradižniki datterino, origano, olive taggiasca, fileji sredozemskih sardonov"
     },
-    "cheesecake": {
-      "name": "Cheesecake",
-      "desc": "Nutella®, pistacija ali gozdni sadeži"
-    },
+    "cheesecake-nutella": { "name": "Cheesecake – Nutella®" },
+    "cheesecake-pistacchio": { "name": "Cheesecake – Pistacija" },
+    "cheesecake-frutti-di-bosco": { "name": "Cheesecake – Gozdni sadeži" },
     "tiramisu": {
       "name": "Tiramisu"
     },

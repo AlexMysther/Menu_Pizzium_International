@@ -12,7 +12,9 @@
     "pizzaPromo": "Voor € 2,00 kun je de rand laten vullen met ricotta",
     "recommended": "Aanbevolen",
     "recommendedItem": "Aanbevolen gerecht",
-    "recommendedNote": "Weet je niet wat je moet kiezen? Dit zijn de gerechten die wij aanraden."
+    "recommendedNote": "Weet je niet wat je moet kiezen? Dit zijn de gerechten die wij aanraden.",
+    "glass": "Glas",
+    "bottle": "Fles"
   },
   "categories": {
     "antipasti": "Voorgerechten",
@@ -345,10 +347,9 @@
       "name": "Marinarasalade",
       "desc": "Gemengde sla, rode en gele cherrytomaatjes, oregano, taggiasca-olijven, mediterrane ansjovisfilets"
     },
-    "cheesecake": {
-      "name": "Cheesecake",
-      "desc": "Nutella®, pistache of bosvruchten"
-    },
+    "cheesecake-nutella": { "name": "Cheesecake – Nutella®" },
+    "cheesecake-pistacchio": { "name": "Cheesecake – Pistache" },
+    "cheesecake-frutti-di-bosco": { "name": "Cheesecake – Bosvruchten" },
     "tiramisu": {
       "name": "Tiramisù"
     },

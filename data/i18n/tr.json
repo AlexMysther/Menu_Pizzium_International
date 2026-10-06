@@ -12,7 +12,9 @@
     "pizzaPromo": "2,00 € ile kenarı ricotta ile doldurabilirsiniz",
     "recommended": "Önerilenler",
     "recommendedItem": "Önerilen yemek",
-    "recommendedNote": "Ne seçeceğinizi bilmiyor musunuz? İşte önerdiğimiz yemekler."
+    "recommendedNote": "Ne seçeceğinizi bilmiyor musunuz? İşte önerdiğimiz yemekler.",
+    "glass": "Kadeh",
+    "bottle": "Şişe"
   },
   "categories": {
     "antipasti": "Başlangıçlar",
@@ -345,10 +347,9 @@
       "name": "Marinara Salata",
       "desc": "Karışık yeşillik, kırmızı ve sarı kiraz domates, kekik, taggiasca zeytini, Akdeniz ançüez fileto"
     },
-    "cheesecake": {
-      "name": "Cheesecake",
-      "desc": "Nutella®, antep fıstıklı veya orman meyveli"
-    },
+    "cheesecake-nutella": { "name": "Cheesecake – Nutella®" },
+    "cheesecake-pistacchio": { "name": "Cheesecake – Antep fıstıklı" },
+    "cheesecake-frutti-di-bosco": { "name": "Cheesecake – Orman meyveli" },
     "tiramisu": {
       "name": "Tiramisù"
     },

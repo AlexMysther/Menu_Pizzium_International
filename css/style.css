@@ -284,12 +284,66 @@ button { font-family: inherit; }
 }
 
 .menu-item {
+  display: flex;
+  gap: 12px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #f1e0e0;
+}
+
+.item-thumb {
+  width: 64px;
+  height: 64px;
+  border-radius: 10px;
+  object-fit: cover;
+  flex-shrink: 0;
+  background: #f1e0e0;
+  cursor: zoom-in;
+}
+
+/* Lightbox: ingrandisce la foto del piatto a tutto schermo */
+.img-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  background: rgba(0, 0, 0, .9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+}
+/* La regola display:flex sopra batte lo stile predefinito del
+   browser per [hidden] (è nel foglio utente, priorità più bassa di
+   qualunque regola d'autore): senza questa riga la lightbox restava
+   visibile anche da nascosta. */
+.img-lightbox[hidden] { display: none; }
+.img-lightbox-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+.img-lightbox-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255, 255, 255, .15);
+  color: #fff;
+  font-size: 26px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.item-body {
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: baseline;
   gap: 4px 12px;
-  padding-bottom: 14px;
-  border-bottom: 1px solid #f1e0e0;
+  flex: 1;
+  min-width: 0;
 }
 
 .item-name {
@@ -427,7 +481,8 @@ button { font-family: inherit; }
 }
 
 /* RTL */
-html[dir="rtl"] .menu-item { grid-template-columns: auto 1fr; }
+html[dir="rtl"] .menu-item { flex-direction: row-reverse; }
+html[dir="rtl"] .item-body { grid-template-columns: auto 1fr; }
 html[dir="rtl"] .item-name { grid-column: 2; text-align: right; }
 html[dir="rtl"] .item-price { grid-column: 1; }
 html[dir="rtl"] .lang-panel { right: auto; left: 12px; }

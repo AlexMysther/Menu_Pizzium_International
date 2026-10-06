@@ -12,7 +12,9 @@
     "pizzaPromo": "加2.00欧元，边缘可换成里科塔奶酪馅",
     "recommended": "推荐菜品",
     "recommendedItem": "推荐菜品",
-    "recommendedNote": "不知道点什么？这些是我们推荐的菜品。"
+    "recommendedNote": "不知道点什么？这些是我们推荐的菜品。",
+    "glass": "杯",
+    "bottle": "瓶"
   },
   "categories": {
     "antipasti": "前菜",
@@ -364,10 +366,9 @@
       "name": "玛丽娜拉沙拉",
       "desc": "时蔬沙拉、红黄圣女果、牛至、塔贾斯卡橄榄、地中海凤尾鱼片"
     },
-    "cheesecake": {
-      "name": "芝士蛋糕",
-      "desc": "Nutella®榛子酱、开心果或森林莓果口味"
-    },
+    "cheesecake-nutella": { "name": "芝士蛋糕 – Nutella®榛子酱" },
+    "cheesecake-pistacchio": { "name": "芝士蛋糕 – 开心果" },
+    "cheesecake-frutti-di-bosco": { "name": "芝士蛋糕 – 森林莓果" },
     "tiramisu": {
       "name": "提拉米苏"
     },
