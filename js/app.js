@@ -326,6 +326,7 @@ function renderMenuList() {
 
   if (items.length === 0) {
     el.noResults.hidden = false;
+    playSectionEnterAnimation();
     return;
   }
   el.noResults.hidden = true;
@@ -359,6 +360,17 @@ function renderMenuList() {
     }
     group.items.forEach(item => el.menuList.appendChild(renderItem(item)));
   });
+
+  playSectionEnterAnimation();
+}
+
+// Rigioca l'animazione di comparsa ogni volta che si cambia sezione/categoria:
+// rimuovere e riaggiungere la classe forza il browser a far ripartire la
+// keyframe anche se era già presente dall'ultimo render.
+function playSectionEnterAnimation() {
+  el.menuList.classList.remove('section-enter');
+  void el.menuList.offsetWidth;
+  el.menuList.classList.add('section-enter');
 }
 
 // I formati "20cl"/"40cl" sono già neutri (solo cifre e unità di misura),
@@ -386,12 +398,20 @@ function formatPrice(item) {
 // (senza foto rotta).
 const THUMB_EXTENSIONS = ['jpg', 'png'];
 
+// Categorie senza foto piatto: evitiamo di tentare il caricamento per
+// non riempire la console di 404 ad ogni rendering della sezione.
+const NO_PHOTO_CATEGORIES = ['bevande', 'bambini'];
+
 function renderItemThumb(item) {
   const img = document.createElement('img');
   img.className = 'item-thumb';
   img.alt = '';
   img.loading = 'lazy';
   img.decoding = 'async';
+  // Resta invisibile finché la foto non è davvero caricata: altrimenti
+  // si vede per un istante il riquadro vuoto (sfondo di .item-thumb)
+  // prima che l'onerror lo rimuova, quando il piatto non ha foto.
+  img.style.visibility = 'hidden';
 
   let extIndex = 0;
   const tryNext = () => {
@@ -403,6 +423,7 @@ function renderItemThumb(item) {
     extIndex++;
   };
   img.addEventListener('error', tryNext);
+  img.addEventListener('load', () => { img.style.visibility = 'visible'; });
   tryNext();
 
   img.addEventListener('click', () => openImgLightbox(img.src));
@@ -423,7 +444,7 @@ function closeImgLightbox() {
 function renderItem(item) {
   const wrap = document.createElement('article');
   wrap.className = 'menu-item';
-  wrap.appendChild(renderItemThumb(item));
+  if (!NO_PHOTO_CATEGORIES.includes(item.categoryId)) wrap.appendChild(renderItemThumb(item));
 
   const body = document.createElement('div');
   body.className = 'item-body';

@@ -57,7 +57,6 @@
   { "id": "tiramisu", "categoryId": "dolci", "price": "7.00", "tags": [] },
   { "id": "nuvole-cremose", "categoryId": "dolci", "price": "8.00", "tags": [] },
   { "id": "sorbetto-limone", "categoryId": "dolci", "price": "6.00", "tags": ["vegan", "lactose-free"] },
-  { "id": "caffe-goloso", "categoryId": "dolci", "price": "4.00", "tags": ["lactose-free"] },
 
   { "id": "menu-bambino", "categoryId": "bambini", "price": "10.00", "tags": [] },
 
