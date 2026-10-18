@@ -22,11 +22,11 @@
     "antipasti": "Előételek",
     "primi": "Első fogások",
     "secondi": "Második fogások",
-    "calzoni": "Sült calzone",
+    "contorni": "Köretek",
+    "baciate": "Baciate",
     "pizze": "Pizzák",
     "insalate": "Saláták",
     "dolci": "Desszertek",
-    "bambini": "Gyerekmenü",
     "bevande": "Italok"
   },
   "categoryNotes": {
@@ -43,7 +43,8 @@
     "vini-bianchi": "Fehérborok",
     "vini-rose": "Rozéborok",
     "vini-rossi": "Vörösborok",
-    "caffe-digestivi": "Kávé és digestifek"
+    "caffe-digestivi": "Kávé és digestifek",
+    "analcolici": "Alkoholmentes"
   },
   "tags": {
     "vegan": "Vegán",
@@ -167,46 +168,49 @@
       "desc": "Friss paradicsomból szitált, sűrű, főzetlen püré.",
       "match": []
     },
-    "carmela": {
-      "term": "La Carmela",
-      "desc": "Campaniai hámozottparadicsom-márka, nem önálló hozzávaló."
+    "friarielli": {
+      "term": "Friarielli",
+      "desc": "Nápolyi keserű levélzöldség, a repcéhez hasonló, általában fokhagymával és chilivel sütik."
+    },
+    "nduja": {
+      "term": "'Nduja",
+      "desc": "Csípős, kenhető kalábriai sertésszalámi. Sertéshús."
     }
   },
   "items": {
-    "tris-perfetto": {
-      "name": "A Tökéletes Trió",
-      "desc": "Burgonyakroketta Pecorino Romano DOP krémmel, nerano stílusú frittata cukkinikrémmel, arancino ragùval és sült paradicsomszósszal"
+    "frittatina-classica": {
+      "name": "Klasszikus frittatina",
+      "desc": "Tésztafrittata besamellel, főtt sonkával, fior di latte-val és borsóval"
+    },
+    "crocche-napoli": {
+      "name": "Napoli krokett",
+      "desc": "Burgonyakrokett egy szelet Napoli szalámival"
     },
     "tagliere-condividere": {
       "name": "Megosztható Tál",
-      "desc": "San Daniele DOP nyers sonka, édes nápolyi stílusú szalámi, grillezett cukkini, grillezett padlizsán, Casciotta di Urbino DOP, taggiasca olívabogyó. Meleg focacciával tálalva"
-    },
-    "verdure-grigliate-burrata": {
-      "name": "Grillezett Zöldségek és Burrata"
+      "desc": "San Daniele DOP nyers sonka, Napoli szalámi, olajban eltett articsóka, taggiasca olívabogyó, caciocavallo. Meleg focacciával tálalva"
     },
     "prosciutto-crudo-bufala": {
       "name": "Nyers Sonka és Bivalymozzarella",
       "desc": "San Daniele DOP nyers sonka és bivalymozzarella DOP"
     },
-    "panzanella-mediterranea": {
-      "name": "Mediterrán Panzanella",
-      "desc": "Sült articsóka, csicseriborsó, piros koktélparadicsom és Grana Padano DOP forgács balzsamos glazúrral"
-    },
     "bruschetta-stracciatella-zucchine": {
       "name": "Bruschetta Stracciatellával és Cukkinivel",
-      "desc": "Bruschetta pugliai stracciatellával és cukkinichipsszel"
+      "desc": "Bruschetta pugliai stracciatellával és sült cukkinivel"
+    },
+    "bruschetta-datterini": {
+      "name": "Bruschetta piros datterini paradicsommal"
+    },
+    "bruschetta-caponatina": {
+      "name": "Bruschetta szicíliai caponatinával"
     },
     "gnocchi-sorrentina": {
       "name": "Gnocchi alla Sorrentina",
       "desc": "Burgonyagnocchi, paradicsomszósz, fior di latte"
     },
-    "lasagna-golosa": {
-      "name": "Ínycsiklandó Lasagne",
-      "desc": "Bolognai stílusú lasagne spenótos tésztalapokkal, darált húsos töltelékkel és besamellel"
-    },
-    "fregola-estate": {
-      "name": "Nyári Fregola",
-      "desc": "Szardíniai fregola aszalt paradicsommal, taggiasca olívabogyóval, morzsolt fetával, bazsalikommal"
+    "sformato-pasta": {
+      "name": "Sült tésztatimbal",
+      "desc": "Sült tészta bolognai raguval"
     },
     "polpette-sugo": {
       "name": "Húsgombóc Paradicsomszószban"
@@ -214,25 +218,22 @@
     "parmigiana-melanzane": {
       "name": "Padlizsán Parmigiana"
     },
-    "frisella-mare": {
-      "name": "Frisella di Mare",
-      "desc": "Piros és sárga koktélparadicsom, Pescatorello sárgaúszójú tonhalfilé, Maione kapribogyó, taggiasca olívabogyó, Guglielmi extra szűz olívaolaj Pugliából, bazsalikom"
+    "patate-forno": {
+      "name": "Sült burgonya"
     },
-    "frisella-terra": {
-      "name": "Frisella di Terra",
-      "desc": "Sült articsóka, kevert saláta, aszalt koktélparadicsom, bivalymozzarella DOP, Guglielmi extra szűz olívaolaj Pugliából, bazsalikom"
+    "friarielli-spadellati": {
+      "name": "Serpenyős friarielli",
+      "desc": "Fokhagymával, olajjal és chilivel serpenyőben sült nápolyi friarielli"
     },
-    "calzone-napoletano": {
-      "name": "Calzone Napoletano",
-      "desc": "Hámozott paradicsom La Carmela, tehéntejricotta, füstölt provola, Grana Padano DOP, édes nápolyi stílusú szalámi, fekete bors, Guglielmi extra szűz olívaolaj Pugliából, bazsalikom"
+    "caponatina-siciliana": {
+      "name": "Szicíliai caponatina",
+      "desc": "Padlizsán, sült paradicsom, taggiasca olajbogyó, kapribogyó és fenyőmag"
     },
-    "calzone-vegetariano": {
-      "name": "Vegetáriánus Calzone",
-      "desc": "Füstölt provola, gombafélék (cardoncelli), cukkinikrém, Grana Padano DOP, pirított fenyőmag, Guglielmi extra szűz olívaolaj Pugliából, bazsalikom"
+    "baciata-cotto": {
+      "name": "Baciata főtt sonkával és fior di latte-val"
     },
-    "valle-aosta": {
-      "name": "Valle d'Aosta",
-      "desc": "Hámozott paradicsom La Carmela, fior di latte, kiváló minőségű, fán sütött főtt sonka Lorenzi, sült articsóka, gombafélék (cardoncelli), taggiasca olívabogyó, Guglielmi extra szűz olívaolaj Pugliából, bazsalikom"
+    "baciata-parmigiana": {
+      "name": "Baciata parmigiana"
     },
     "piemonte": {
       "name": "Piemonte",
@@ -240,140 +241,159 @@
     },
     "lombardia": {
       "name": "Lombardia",
-      "desc": "Fior di latte, füstölt provola, gorgonzola DOP, Grana Padano DOP, dió, Guglielmi extra szűz olívaolaj Pugliából, bazsalikom"
-    },
-    "trentino-alto-adige": {
-      "name": "Trentino Alto Adige",
-      "desc": "Fior di latte, Trentino Alto Adige-i speck, gorgonzola DOP, vegyesvirág méz, édesgyökérpor, Guglielmi extra szűz olívaolaj Pugliából, bazsalikom"
+      "desc": "Sütőtökkrém, füstölt provola, gorgonzola dolce DOP, kolbász, fekete bors, extra szűz olívaolaj, bazsalikom"
     },
     "friuli-venezia-giulia": {
       "name": "Friuli Venezia Giulia",
-      "desc": "Fior di latte, piros koktélparadicsom, San Daniele DOP nyers sonka, rukkola, Grana Padano DOP forgács, bazsalikom"
-    },
-    "veneto": {
-      "name": "Veneto",
-      "desc": "Fior di latte, agnonei caciocavallo, friss radicchio, dió, Guglielmi extra szűz olívaolaj Pugliából, bazsalikom"
+      "desc": "Fior di latte, San Daniele DOP nyers sonka, rukkola, Grana Padano DOP forgács, extra szűz olívaolaj, bazsalikom"
     },
     "liguria": {
       "name": "Liguria",
-      "desc": "Fior di latte, sárga és piros koktélparadicsom, bazsalikompesto, Guglielmi extra szűz olívaolaj Pugliából, bazsalikom"
+      "desc": "Fior di latte, sárga és piros koktélparadicsom, bazsalikompesto, extra szűz olívaolaj, bazsalikom"
     },
     "emilia-romagna": {
       "name": "Emilia Romagna",
-      "desc": "Fior di latte, mortadella Bologna IGP, aprított pisztácia, Guglielmi extra szűz olívaolaj Pugliából, bazsalikom"
+      "desc": "Fior di latte, mortadella Bologna IGP, aprított pisztácia, extra szűz olívaolaj, bazsalikom"
     },
     "toscana": {
       "name": "Toscana",
-      "desc": "Fior di latte, feketekáposzta-krém, sült burgonya, sült padlizsáncsíkok, sült cukkini, pirított fenyőmag, bazsalikom"
-    },
-    "marche": {
-      "name": "Marche",
-      "desc": "Hámozott paradicsom La Carmela, fior di latte, édes szalámi, Casciotta di Urbino DOP, fekete bors, Guglielmi extra szűz olívaolaj Pugliából, bazsalikom"
+      "desc": "Fior di latte, feketekáposzta-krém, sült burgonya, gombafélék (cardoncelli), sült cukkini, pirított fenyőmag, bazsalikom"
     },
     "umbria": {
       "name": "Umbria",
-      "desc": "Füstölt provola, sült burgonya, norciai kolbász, Pecorino Romano DOP fondü, Guglielmi extra szűz olívaolaj Pugliából, bazsalikom"
+      "desc": "Füstölt provola, sült burgonya, kolbász, umbriai pecorino fonduta, extra szűz olívaolaj, bazsalikom"
     },
     "lazio": {
       "name": "Lazio",
-      "desc": "Fior di latte, articsókakrém, articsókaszív, kiváló minőségű, fán sütött főtt sonka Lorenzi, Pecorino Romano DOP fondü, Guglielmi extra szűz olívaolaj Pugliából, bazsalikom"
+      "desc": "Füstölt provola, porchetta d'Ariccia, friarielli-krém, kenyérmorzsa-crumble, extra szűz olívaolaj, bazsalikom"
     },
     "abruzzo": {
       "name": "Abruzzo",
-      "desc": "Hámozott paradicsom La Carmela, fior di latte, érlelt guanciale amatriciana stílusban a Salumificio Sanótól, Pecorino Romano DOP, őrölt bors, bazsalikom"
-    },
-    "molise": {
-      "name": "Molise",
-      "desc": "Fior di latte, agnonei caciocavallo, norciai kolbász, Guglielmi extra szűz olívaolaj Pugliából, bazsalikom"
+      "desc": "Hámozott paradicsom, fior di latte, érlelt guanciale amatriciano, reszelt pecorino, őrölt bors, bazsalikom"
     },
     "campania": {
       "name": "Campania",
-      "desc": "Füstölt provola, cukkinikrém, sült cukkini, Grana Padano DOP, Guglielmi extra szűz olívaolaj Pugliából, bazsalikom"
+      "desc": "Füstölt provola, kolbász, nápolyi friarielli, extra szűz olívaolaj, bazsalikom"
     },
     "puglia": {
       "name": "Puglia",
-      "desc": "Sárga paradicsompüré, malacsült capocollo, pugliai burrata, morzsolt tarallo, taggiasca olívabogyó, Guglielmi extra szűz olívaolaj Pugliából, bazsalikom"
+      "desc": "Sárga paradicsompüré, malacsült capocollo, pugliai burrata, morzsolt tarallo, taggiasca olívabogyó, extra szűz olívaolaj, bazsalikom"
     },
     "basilicata": {
       "name": "Basilicata",
-      "desc": "Füstölt provola, sült burgonya, paprikakrém, morzsolt crusco paprika, Guglielmi extra szűz olívaolaj Pugliából, bazsalikom"
+      "desc": "Fior di latte, burgonyakrém, érlelt guanciale amatriciano, peperone crusco, extra szűz olívaolaj, bazsalikom"
     },
     "calabria": {
       "name": "Calabria",
-      "desc": "Fior di latte, karamellizált vöröshagyma, pugliai stracciatella, taggiasca olívabogyó, Guglielmi chiliolaj, bazsalikom"
+      "desc": "Hámozott paradicsom, fior di latte, 'nduja, caciocavallo, extra szűz olívaolaj, bazsalikom"
     },
     "sicilia": {
       "name": "Sicilia",
-      "desc": "Hámozott paradicsom La Carmela, sült padlizsán, sózott ricotta, Guglielmi extra szűz olívaolaj Pugliából, bazsalikom"
-    },
-    "sardegna": {
-      "name": "Sardegna",
-      "desc": "Fior di latte, piros koktélparadicsom, morzsolt feta, mediterrán szardella, Cannonau vörösboros redukció, bazsalikom"
+      "desc": "Hámozott paradicsom, sült padlizsán, sózott ricotta, extra szűz olívaolaj, bazsalikom"
     },
     "margherita": {
       "name": "Margherita",
-      "desc": "Hámozott paradicsom La Carmela, fior di latte, megszórva Grana Padano DOP-val, Guglielmi extra szűz olívaolaj Pugliából, bazsalikom"
+      "desc": "Hámozott paradicsom, fior di latte, megszórva Grana Padano DOP-val, extra szűz olívaolaj, bazsalikom"
+    },
+    "margherita-wurstel": {
+      "name": "Margherita Würstel",
+      "desc": "Hámozott paradicsom, fior di latte, würstel, extra szűz olívaolaj, bazsalikom"
     },
     "margherita-vegana": {
       "name": "Vegán Margherita",
-      "desc": "Hámozott paradicsom La Carmela, növényi mozzarella-alternatíva, Guglielmi extra szűz olívaolaj Pugliából, bazsalikom"
+      "desc": "Hámozott paradicsom, növényi mozzarella-alternatíva, extra szűz olívaolaj, bazsalikom"
     },
     "bufalina": {
       "name": "Bufalina",
-      "desc": "Hámozott paradicsom La Carmela, bivalymozzarella DOP, megszórva Grana Padano DOP-val, Guglielmi extra szűz olívaolaj Pugliából, bazsalikom"
+      "desc": "Hámozott paradicsom, bivalymozzarella DOP, megszórva Grana Padano DOP-val, extra szűz olívaolaj, bazsalikom"
     },
     "bufalina-senza-lattosio": {
       "name": "Bufalina Laktózmentes",
-      "desc": "Hámozott paradicsom La Carmela, laktózmentes bivalymozzarella DOP, Guglielmi extra szűz olívaolaj Pugliából, bazsalikom"
+      "desc": "Hámozott paradicsom, laktózmentes bivalymozzarella, extra szűz olívaolaj, bazsalikom"
     },
     "marinara-pizzium": {
       "name": "Marinara Pizzium Módra",
-      "desc": "Hámozott paradicsom La Carmela, piros koktélparadicsom, Maione kapribogyó, mediterrán szardellafilé, taggiasca olívabogyó, oregánó, fokhagyma, Guglielmi extra szűz olívaolaj Pugliából, bazsalikom"
+      "desc": "Hámozott paradicsom, piros koktélparadicsom, mediterrán szardellafilé, taggiasca olívabogyó, oregánó, fokhagyma, extra szűz olívaolaj, bazsalikom"
+    },
+    "quattro-formaggi": {
+      "name": "4 sajt",
+      "desc": "Fior di latte, füstölt provola, gorgonzola dolce DOP, Grana Padano DOP forgács, extra szűz olívaolaj, bazsalikom"
+    },
+    "capricciosa-special": {
+      "name": "Capricciosa Special",
+      "desc": "Hámozott paradicsom, fior di latte, kiváló minőségű, fán sütött főtt sonka Lorenzi, olajban eltett articsóka, gombafélék (cardoncelli), taggiasca olívabogyó, extra szűz olívaolaj, bazsalikom"
     },
     "diavola": {
       "name": "Diavola",
-      "desc": "Hámozott paradicsom La Carmela, fior di latte, csípős ventricina, Guglielmi extra szűz olívaolaj Pugliából, bazsalikom"
+      "desc": "Hámozott paradicsom, fior di latte, csípős szalámi, extra szűz olívaolaj, bazsalikom"
     },
-    "orto-venere": {
-      "name": "Orto & Venere",
-      "desc": "Venere fekete rizs, zöldségkaponáta, pugliai stracciatella"
+    "calzone-napoletano": {
+      "name": "Calzone Napoletano",
+      "desc": "Hámozott paradicsom, tehéntejricotta, füstölt provola, Grana Padano DOP, Napoli szalámi, fekete bors, extra szűz olívaolaj, bazsalikom"
     },
     "insalata-caesar": {
       "name": "Caesar Saláta",
       "desc": "Kevert saláta, sült csirkemell, piros koktélparadicsom, Grana Padano DOP forgács, krutonok, Caesar szósz"
     },
-    "caprese-pizzium": {
-      "name": "Caprese Pizzium Módra",
-      "desc": "Ökörszív paradicsom, bivalymozzarella DOP, bazsalikompesto, citromhéjreszelék"
-    },
     "insalata-marinara": {
       "name": "Marinara Saláta",
-      "desc": "Kevert saláta, piros és sárga koktélparadicsom, oregánó, taggiasca olívabogyó, mediterrán szardellafilé"
+      "desc": "Kevert saláta, piros és sárga koktélparadicsom, taggiasca olívabogyó, tonhalfilé"
     },
-    "cheesecake-nutella": { "name": "Sajttorta – Nutella®" },
-    "cheesecake-pistacchio": { "name": "Sajttorta – Pisztácia" },
-    "cheesecake-frutti-di-bosco": { "name": "Sajttorta – Erdei gyümölcs" },
+    "insalata-rustica": {
+      "name": "Rustica saláta",
+      "desc": "Árpa, csiperkegomba-krém, dió, ropogós guanciale"
+    },
+    "cheesecake-nutella": {
+      "name": "Sajttorta – Nutella®"
+    },
+    "cheesecake-pistacchio": {
+      "name": "Sajttorta – Pisztácia"
+    },
     "tiramisu": {
       "name": "Tiramisù"
     },
     "nuvole-cremose": {
-      "name": "Krémes Felhők",
-      "desc": "2 tejszínes-citrusos krémmel töltött tésztagolyó"
+      "name": "Finom felhők",
+      "desc": "2 töltött tésztagömb tejkrémmel és mogyorókrémmel"
     },
-    "sorbetto-limone": {
-      "name": "Citromszorbet"
+    "cannolo-siciliano": {
+      "name": "Szicíliai cannolo",
+      "desc": "Szicíliai cannolo cukrozott ricottával, pisztáciamorzsával és kandírozott piros cseresznyével töltve"
     },
-    "menu-bambino": {
-      "name": "Gyerekmenü",
-      "desc": "Baby Margherita Pizza + Üdítő"
+    "caprese-dolce": {
+      "name": "Caprese torta",
+      "desc": "Caprese torta étcsokoládéval és mandulával"
     },
-    "ichnusa-anima-sarda": {
-      "name": "Ichnusa Anima Sarda",
-      "desc": "Világos és üdítő"
+    "acqua-naturale": {
+      "name": "Electa szénsavmentes víz"
     },
-    "ichnusa-non-filtrata": {
-      "name": "Ichnusa Non Filtrata",
-      "desc": "Gyümölcsös, komlós aromákkal"
+    "acqua-frizzante": {
+      "name": "Maxima szénsavas víz"
+    },
+    "coca-cola": {
+      "name": "Coca-Cola"
+    },
+    "coca-cola-zero": {
+      "name": "Coca-Cola Zero"
+    },
+    "coca-cola-zero-zero": {
+      "name": "Coca-Cola Zero Cukor Zero Koffein"
+    },
+    "fanta": {
+      "name": "Fanta"
+    },
+    "sprite": {
+      "name": "Sprite"
+    },
+    "estathe-limone": {
+      "name": "Estathé citrom"
+    },
+    "estathe-pesca": {
+      "name": "Estathé őszibarack"
+    },
+    "bibita-lurisia": {
+      "name": "Lurisia Üdítő",
+      "desc": "chinotto / limonádé / tonik"
     },
     "birrium-blonde": {
       "name": "Birrium Blonde - Gluténmentes",
@@ -391,27 +411,16 @@
       "name": "Birrium Belgian Ale",
       "desc": "Belga stílusú vörös sör, gyümölcsös és fűszeres"
     },
+    "ichnusa-non-filtrata": {
+      "name": "Ichnusa Non Filtrata",
+      "desc": "Gyümölcsös, komlós aromákkal"
+    },
+    "moretti-baffo-oro": {
+      "name": "Moretti Baffo d'Oro",
+      "desc": "Világos és üdítő"
+    },
     "heineken-00": {
       "name": "Heineken 0.0 Alkoholmentes"
-    },
-    "acqua-naturale-frizzante": {
-      "name": "Electa Szénsavmentes Víz / Maxima Szénsavas Víz"
-    },
-    "coca-cola": {
-      "name": "Coca-Cola / Coca-Cola Zero"
-    },
-    "coca-cola-zero-zero": {
-      "name": "Coca-Cola Zero Cukor Zero Koffein"
-    },
-    "fanta-sprite": {
-      "name": "Fanta / Sprite"
-    },
-    "estathe": {
-      "name": "Estathé Citromos / Barackos Jeges Tea"
-    },
-    "bibita-lurisia": {
-      "name": "Lurisia Üdítő",
-      "desc": "Narancs / chinotto / limonádé / tonik"
     },
     "crodino-xl": {
       "name": "Crodino XL"
@@ -438,20 +447,14 @@
       "name": "Gin Tonic"
     },
     "prosecco-soligo": {
-      "name": "Prosecco DOC Treviso Millesimato Extra Dry",
-      "desc": "Soligo, Veneto"
+      "name": "Prosecco DOC"
     },
     "pecorino-terre-chieti": {
       "name": "Pecorino Terre di Chieti",
       "desc": "Tratturo Spinelli, Abruzzo"
     },
-    "soave-classico": {
-      "name": "Soave Classico DOC \"San Michele\"",
-      "desc": "Ca Rugate, Veneto"
-    },
-    "gewurztraminer-kies": {
-      "name": "Gewürztraminer Trentino DOC \"Kies\"",
-      "desc": "Roeno, Trentino Alto Adige"
+    "picco-angelo-falanghina": {
+      "name": "Picco dell'Angelo Falanghina IGT"
     },
     "primitivo-rosato": {
       "name": "Primitivo Rosato Puglia IGP",
@@ -461,9 +464,8 @@
       "name": "Montepulciano d'Abruzzo DOC",
       "desc": "Tratturo Spinelli, Abruzzo"
     },
-    "morellino-scansano": {
-      "name": "Morellino di Scansano DOCG",
-      "desc": "Cerreto Piano, Toscana"
+    "vallone-negroamaro": {
+      "name": "Vallone Versante Negroamaro IGP"
     },
     "lavazza-caffe": {
       "name": "Lavazza Kávé"
@@ -481,7 +483,7 @@
       "name": "Limoncello / Mirto"
     },
     "grappa": {
-      "name": "Grappa"
+      "name": "Grappa Castagner (Morbida / Barrique)"
     },
     "amaro": {
       "name": "Amaro"

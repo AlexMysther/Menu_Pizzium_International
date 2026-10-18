@@ -22,11 +22,11 @@
     "antipasti": "前菜",
     "primi": "第一道菜",
     "secondi": "主菜",
-    "calzoni": "烤卡尔佐内",
+    "contorni": "配菜",
+    "baciate": "巴恰塔",
     "pizze": "披萨",
     "insalate": "沙拉",
     "dolci": "甜点",
-    "bambini": "儿童套餐",
     "bevande": "饮品"
   },
   "categoryNotes": {
@@ -43,7 +43,8 @@
     "vini-bianchi": "白葡萄酒",
     "vini-rose": "桃红葡萄酒",
     "vini-rossi": "红葡萄酒",
-    "caffe-digestivi": "咖啡及餐后酒"
+    "caffe-digestivi": "咖啡及餐后酒",
+    "analcolici": "无酒精饮品"
   },
   "tags": {
     "vegan": "纯素",
@@ -185,46 +186,51 @@
       "desc": "新鲜番茄过筛制成的浓稠生番茄泥。",
       "match": []
     },
-    "carmela": {
-      "term": "La Carmela",
-      "desc": "坎帕尼亚的去皮番茄品牌，并非某种食材。"
+    "friarielli": {
+      "term": "弗里亚列利",
+      "desc": "那不勒斯特有的微苦叶菜，类似意大利芥蓝，通常用蒜和辣椒爆炒。",
+      "match": ["弗里亚列利"]
+    },
+    "nduja": {
+      "term": "恩杜佳辣香肠",
+      "desc": "卡拉布里亚辣味可涂抹猪肉萨拉米。猪肉制品。",
+      "match": ["恩杜佳"]
     }
   },
   "items": {
-    "tris-perfetto": {
-      "name": "完美三重奏",
-      "desc": "土豆可乐饼配佩科里诺罗马诺奶酪DOP奶油、内拉诺风味蛋饼配西葫芦奶油、番茄肉酱烤饭团配烤番茄酱"
+    "frittatina-classica": {
+      "name": "经典小蛋饼",
+      "desc": "意面蛋饼配白汁、熟火腿、牛奶马苏里拉芝士和豌豆"
+    },
+    "crocche-napoli": {
+      "name": "那不勒斯可乐饼",
+      "desc": "土豆可乐饼配一片那不勒斯萨拉米"
     },
     "tagliere-condividere": {
       "name": "分享拼盘",
-      "desc": "圣达涅莱DOP生火腿、那不勒斯风味甜味萨拉米、烤西葫芦、烤茄子、乌尔比诺卡肖塔奶酪DOP、塔贾斯卡橄榄。配温热佛卡夏饼"
-    },
-    "verdure-grigliate-burrata": {
-      "name": "烤蔬菜配布拉塔奶酪"
+      "desc": "圣达涅莱DOP生火腿、那不勒斯萨拉米、油浸洋蓟、塔贾斯卡橄榄、卡秋卡瓦洛奶酪。配温热佛卡夏饼"
     },
     "prosciutto-crudo-bufala": {
       "name": "生火腿配水牛芝士",
       "desc": "圣达涅莱DOP生火腿及水牛莫扎里拉奶酪DOP"
     },
-    "panzanella-mediterranea": {
-      "name": "地中海面包沙拉",
-      "desc": "烤朝鲜蓟、鹰嘴豆、红色圣女果及帕达诺干酪DOP薄片，配香醋酱"
-    },
     "bruschetta-stracciatella-zucchine": {
       "name": "布拉塔芝士西葫芦烤面包",
-      "desc": "普利亚风味斯特拉恰泰拉芝士烤面包，配西葫芦脆片"
+      "desc": "普利亚斯特拉恰泰拉奶酪配炸西葫芦的意式烤面包片"
+    },
+    "bruschetta-datterini": {
+      "name": "红樱桃番茄意式烤面包片"
+    },
+    "bruschetta-caponatina": {
+      "name": "西西里卡波纳塔意式烤面包片"
     },
     "gnocchi-sorrentina": {
       "name": "索伦托风味土豆团子",
       "desc": "土豆团子、番茄酱、牛奶马苏里拉芝士"
     },
-    "lasagna-golosa": {
-      "name": "浓郁千层面",
-      "desc": "波伦亚风味千层面，菠菜面皮，肉馅及白汁酱"
-    },
-    "fregola-estate": {
-      "name": "夏日弗雷古拉",
-      "desc": "撒丁岛弗雷古拉配日晒番茄干、塔贾斯卡橄榄、碎羊奶酪、罗勒"
+    "sformato-pasta": {
+      "name": "焗意面塔",
+      "desc": "波伦亚肉酱焗意面"
     },
     "polpette-sugo": {
       "name": "番茄酱肉丸"
@@ -232,25 +238,22 @@
     "parmigiana-melanzane": {
       "name": "帕玛森烤茄子"
     },
-    "frisella-mare": {
-      "name": "海味弗里塞拉",
-      "desc": "红黄圣女果、Pescatorello黄鳍金枪鱼片、Maione刺山柑、塔贾斯卡橄榄、普利亚Guglielmi特级初榨橄榄油、罗勒"
+    "patate-forno": {
+      "name": "烤土豆"
     },
-    "frisella-terra": {
-      "name": "田园弗里塞拉",
-      "desc": "烤朝鲜蓟、时蔬沙拉、日晒圣女果干、水牛莫扎里拉奶酪DOP、普利亚Guglielmi特级初榨橄榄油、罗勒"
+    "friarielli-spadellati": {
+      "name": "爆炒弗里亚列利",
+      "desc": "蒜香橄榄油辣椒爆炒那不勒斯弗里亚列利"
     },
-    "calzone-napoletano": {
-      "name": "那不勒斯卡尔佐内",
-      "desc": "La Carmela去皮番茄、牛奶里科塔芝士、烟熏波萝伏洛芝士、帕达诺干酪DOP、那不勒斯风味甜味萨拉米、黑胡椒、普利亚Guglielmi特级初榨橄榄油、罗勒"
+    "caponatina-siciliana": {
+      "name": "西西里卡波纳塔",
+      "desc": "茄子、烤番茄、塔贾斯卡橄榄、酸豆和松子"
     },
-    "calzone-vegetariano": {
-      "name": "素食卡尔佐内",
-      "desc": "烟熏波萝伏洛芝士、皇帝蘑菇、西葫芦奶油、帕达诺干酪DOP、烤松子、普利亚Guglielmi特级初榨橄榄油、罗勒"
+    "baciata-cotto": {
+      "name": "熟火腿牛奶马苏里拉巴恰塔"
     },
-    "valle-aosta": {
-      "name": "奥斯塔山谷",
-      "desc": "La Carmela去皮番茄、牛奶马苏里拉芝士、木炭烤制高品质熟火腿、烤朝鲜蓟、皇帝蘑菇、塔贾斯卡橄榄、普利亚Guglielmi特级初榨橄榄油、罗勒"
+    "baciata-parmigiana": {
+      "name": "巴恰塔帕尔米贾纳"
     },
     "piemonte": {
       "name": "皮埃蒙特",
@@ -258,140 +261,159 @@
     },
     "lombardia": {
       "name": "伦巴第",
-      "desc": "牛奶马苏里拉芝士、烟熏波萝伏洛芝士、戈贡佐拉奶酪DOP、帕达诺干酪DOP、核桃、普利亚Guglielmi特级初榨橄榄油、罗勒"
-    },
-    "trentino-alto-adige": {
-      "name": "特伦蒂诺-上阿迪杰",
-      "desc": "牛奶马苏里拉芝士、特伦蒂诺-上阿迪杰风干火腿、戈贡佐拉奶酪DOP、百花蜂蜜、甘草粉、普利亚Guglielmi特级初榨橄榄油、罗勒"
+      "desc": "南瓜泥、烟熏波萝伏洛芝士、甜味戈贡佐拉奶酪DOP、香肠、黑胡椒、特级初榨橄榄油、罗勒"
     },
     "friuli-venezia-giulia": {
       "name": "弗留利-威尼斯朱利亚",
-      "desc": "牛奶马苏里拉芝士、红色圣女果、圣达涅莱DOP生火腿、芝麻菜、帕达诺干酪DOP薄片、罗勒"
-    },
-    "veneto": {
-      "name": "威尼托",
-      "desc": "牛奶马苏里拉芝士、阿尼奥内产卡秋卡瓦洛奶酪、新鲜菊苣、核桃、普利亚Guglielmi特级初榨橄榄油、罗勒"
+      "desc": "牛奶马苏里拉芝士、圣达涅莱DOP生火腿、芝麻菜、帕达诺干酪DOP薄片、特级初榨橄榄油、罗勒"
     },
     "liguria": {
       "name": "利古里亚",
-      "desc": "牛奶马苏里拉芝士、黄红圣女果、罗勒青酱、普利亚Guglielmi特级初榨橄榄油、罗勒"
+      "desc": "牛奶马苏里拉芝士、黄红圣女果、罗勒青酱、特级初榨橄榄油、罗勒"
     },
     "emilia-romagna": {
       "name": "艾米利亚-罗马涅",
-      "desc": "牛奶马苏里拉芝士、博洛尼亚熟火腿肠IGP、开心果碎、普利亚Guglielmi特级初榨橄榄油、罗勒"
+      "desc": "牛奶马苏里拉芝士、博洛尼亚熟火腿肠IGP、开心果碎、特级初榨橄榄油、罗勒"
     },
     "toscana": {
       "name": "托斯卡纳",
-      "desc": "牛奶马苏里拉芝士、黑甘蓝奶油、烤土豆、炸茄子条、炸西葫芦、烤松子、罗勒"
-    },
-    "marche": {
-      "name": "马尔凯",
-      "desc": "La Carmela去皮番茄、牛奶马苏里拉芝士、甜味萨拉米、乌尔比诺卡肖塔奶酪DOP、黑胡椒、普利亚Guglielmi特级初榨橄榄油、罗勒"
+      "desc": "牛奶马苏里拉芝士、黑甘蓝奶油、烤土豆、皇帝蘑菇、炸西葫芦、烤松子、罗勒"
     },
     "umbria": {
       "name": "翁布里亚",
-      "desc": "烟熏波萝伏洛芝士、烤土豆、诺尔恰香肠、佩科里诺罗马诺奶酪DOP芝士锅、普利亚Guglielmi特级初榨橄榄油、罗勒"
+      "desc": "烟熏波萝伏洛芝士、烤土豆、香肠、翁布里亚佩科里诺奶酪芝士锅、特级初榨橄榄油、罗勒"
     },
     "lazio": {
       "name": "拉齐奥",
-      "desc": "牛奶马苏里拉芝士、朝鲜蓟奶油、朝鲜蓟心、木炭烤制高品质熟火腿、佩科里诺罗马诺奶酪DOP芝士锅、普利亚Guglielmi特级初榨橄榄油、罗勒"
+      "desc": "烟熏波萝伏洛芝士、阿里恰烤猪肉卷、弗里亚列利菜泥、面包屑酥粒、特级初榨橄榄油、罗勒"
     },
     "abruzzo": {
       "name": "阿布鲁佐",
-      "desc": "La Carmela去皮番茄、牛奶马苏里拉芝士、Salumificio Sano熟成阿马特里恰纳风味猪颊肉、佩科里诺罗马诺奶酪DOP、现磨胡椒、罗勒"
-    },
-    "molise": {
-      "name": "莫利塞",
-      "desc": "牛奶马苏里拉芝士、阿尼奥内产卡秋卡瓦洛奶酪、诺尔恰香肠、普利亚Guglielmi特级初榨橄榄油、罗勒"
+      "desc": "去皮番茄、牛奶马苏里拉芝士、熟成那不勒斯风味猪颊肉、佩科里诺奶酪碎、现磨胡椒、罗勒"
     },
     "campania": {
       "name": "坎帕尼亚",
-      "desc": "烟熏波萝伏洛芝士、西葫芦奶油、炸西葫芦、帕达诺干酪DOP、普利亚Guglielmi特级初榨橄榄油、罗勒"
+      "desc": "烟熏波萝伏洛芝士、香肠、那不勒斯弗里亚列利、特级初榨橄榄油、罗勒"
     },
     "puglia": {
       "name": "普利亚",
-      "desc": "黄番茄泥、乳猪头肉肠、普利亚布拉塔奶酪、碎塔拉洛饼干、塔贾斯卡橄榄、普利亚Guglielmi特级初榨橄榄油、罗勒"
+      "desc": "黄番茄泥、乳猪头肉肠、普利亚布拉塔奶酪、碎塔拉洛饼干、塔贾斯卡橄榄、特级初榨橄榄油、罗勒"
     },
     "basilicata": {
       "name": "巴西利卡塔",
-      "desc": "烟熏波萝伏洛芝士、烤土豆、彩椒奶油、碎克鲁斯科干甜椒、普利亚Guglielmi特级初榨橄榄油、罗勒"
+      "desc": "牛奶马苏里拉芝士、土豆泥、熟成那不勒斯风味猪颊肉、克鲁斯科干甜椒、特级初榨橄榄油、罗勒"
     },
     "calabria": {
       "name": "卡拉布里亚",
-      "desc": "牛奶马苏里拉芝士、焦糖红洋葱、普利亚斯特拉恰泰拉芝士、塔贾斯卡橄榄、Guglielmi辣椒油、罗勒"
+      "desc": "去皮番茄、牛奶马苏里拉芝士、恩杜佳辣香肠、卡秋卡瓦洛奶酪、特级初榨橄榄油、罗勒"
     },
     "sicilia": {
       "name": "西西里",
-      "desc": "La Carmela去皮番茄、炸茄子、咸味里科塔芝士、普利亚Guglielmi特级初榨橄榄油、罗勒"
-    },
-    "sardegna": {
-      "name": "撒丁岛",
-      "desc": "牛奶马苏里拉芝士、红色圣女果、碎羊奶酪、地中海凤尾鱼、卡诺瑙红酒还原汁、罗勒"
+      "desc": "去皮番茄、炸茄子、咸味里科塔芝士、特级初榨橄榄油、罗勒"
     },
     "margherita": {
       "name": "玛格丽塔",
-      "desc": "La Carmela去皮番茄、牛奶马苏里拉芝士、撒帕达诺干酪DOP粉、普利亚Guglielmi特级初榨橄榄油、罗勒"
+      "desc": "去皮番茄、牛奶马苏里拉芝士、撒帕达诺干酪DOP粉、特级初榨橄榄油、罗勒"
+    },
+    "margherita-wurstel": {
+      "name": "Margherita Würstel",
+      "desc": "去皮番茄、牛奶马苏里拉芝士、维也纳香肠、特级初榨橄榄油、罗勒"
     },
     "margherita-vegana": {
       "name": "纯素玛格丽塔",
-      "desc": "La Carmela去皮番茄、植物基莫扎里拉替代品、普利亚Guglielmi特级初榨橄榄油、罗勒"
+      "desc": "去皮番茄、植物基莫扎里拉替代品、特级初榨橄榄油、罗勒"
     },
     "bufalina": {
       "name": "水牛芝士披萨",
-      "desc": "La Carmela去皮番茄、水牛莫扎里拉奶酪DOP、撒帕达诺干酪DOP粉、普利亚Guglielmi特级初榨橄榄油、罗勒"
+      "desc": "去皮番茄、水牛莫扎里拉奶酪DOP、撒帕达诺干酪DOP粉、特级初榨橄榄油、罗勒"
     },
     "bufalina-senza-lattosio": {
       "name": "无乳糖水牛芝士披萨",
-      "desc": "La Carmela去皮番茄、无乳糖水牛莫扎里拉奶酪DOP、普利亚Guglielmi特级初榨橄榄油、罗勒"
+      "desc": "去皮番茄、无乳糖水牛莫扎里拉奶酪、特级初榨橄榄油、罗勒"
     },
     "marinara-pizzium": {
       "name": "Pizzium风味玛丽娜拉",
-      "desc": "La Carmela去皮番茄、红色圣女果、Maione刺山柑、地中海凤尾鱼片、塔贾斯卡橄榄、牛至、大蒜、普利亚Guglielmi特级初榨橄榄油、罗勒"
+      "desc": "去皮番茄、红色圣女果、地中海凤尾鱼片、塔贾斯卡橄榄、牛至、大蒜、特级初榨橄榄油、罗勒"
+    },
+    "quattro-formaggi": {
+      "name": "四种奶酪",
+      "desc": "牛奶马苏里拉芝士、烟熏波萝伏洛芝士、甜味戈贡佐拉奶酪DOP、帕达诺干酪DOP薄片、特级初榨橄榄油、罗勒"
+    },
+    "capricciosa-special": {
+      "name": "Capricciosa Special",
+      "desc": "去皮番茄、牛奶马苏里拉芝士、木炭烤制高品质熟火腿、油浸洋蓟、皇帝蘑菇、塔贾斯卡橄榄、特级初榨橄榄油、罗勒"
     },
     "diavola": {
       "name": "恶魔披萨",
-      "desc": "La Carmela去皮番茄、牛奶马苏里拉芝士、辣味温特里奇纳香肠、普利亚Guglielmi特级初榨橄榄油、罗勒"
+      "desc": "去皮番茄、牛奶马苏里拉芝士、辣味萨拉米、特级初榨橄榄油、罗勒"
     },
-    "orto-venere": {
-      "name": "田园与维纳斯",
-      "desc": "维纳斯黑米、蔬菜卡波纳塔、普利亚斯特拉恰泰拉芝士"
+    "calzone-napoletano": {
+      "name": "那不勒斯卡尔佐内",
+      "desc": "去皮番茄、牛奶里科塔芝士、烟熏波萝伏洛芝士、帕达诺干酪DOP、那不勒斯萨拉米、黑胡椒、特级初榨橄榄油、罗勒"
     },
     "insalata-caesar": {
       "name": "凯撒沙拉",
       "desc": "时蔬沙拉、烤鸡胸肉、红色圣女果、帕达诺干酪DOP薄片、面包丁、凯撒酱"
     },
-    "caprese-pizzium": {
-      "name": "Pizzium风味卡普雷塞",
-      "desc": "牛心番茄、水牛莫扎里拉奶酪DOP、罗勒青酱、柠檬皮屑"
-    },
     "insalata-marinara": {
       "name": "玛丽娜拉沙拉",
-      "desc": "时蔬沙拉、红黄圣女果、牛至、塔贾斯卡橄榄、地中海凤尾鱼片"
+      "desc": "时蔬沙拉、红黄圣女果、塔贾斯卡橄榄、金枪鱼片"
     },
-    "cheesecake-nutella": { "name": "芝士蛋糕 – Nutella®榛子酱" },
-    "cheesecake-pistacchio": { "name": "芝士蛋糕 – 开心果" },
-    "cheesecake-frutti-di-bosco": { "name": "芝士蛋糕 – 森林莓果" },
+    "insalata-rustica": {
+      "name": "田园沙拉",
+      "desc": "大麦、蘑菇奶油酱、核桃、酥脆猪颊肉"
+    },
+    "cheesecake-nutella": {
+      "name": "芝士蛋糕 – Nutella®榛子酱"
+    },
+    "cheesecake-pistacchio": {
+      "name": "芝士蛋糕 – 开心果"
+    },
     "tiramisu": {
       "name": "提拉米苏"
     },
     "nuvole-cremose": {
-      "name": "奶油云朵",
-      "desc": "2个夹心球，内馅为牛奶柑橘奶油"
+      "name": "美味云朵",
+      "desc": "2个夹心面团球，内馅为牛奶奶油和榛子奶油"
     },
-    "sorbetto-limone": {
-      "name": "柠檬雪芭"
+    "cannolo-siciliano": {
+      "name": "西西里卡诺里卷",
+      "desc": "西西里卡诺里卷，内馅为加糖瑞可达奶酪，配开心果碎和糖渍红樱桃"
     },
-    "menu-bambino": {
-      "name": "儿童套餐",
-      "desc": "儿童版玛格丽塔披萨＋饮料"
+    "caprese-dolce": {
+      "name": "卡普雷塞蛋糕",
+      "desc": "黑巧克力杏仁卡普雷塞蛋糕"
     },
-    "ichnusa-anima-sarda": {
-      "name": "Ichnusa Anima Sarda",
-      "desc": "清爽淡色啤酒"
+    "acqua-naturale": {
+      "name": "Electa天然水"
     },
-    "ichnusa-non-filtrata": {
-      "name": "Ichnusa Non Filtrata（未过滤）",
-      "desc": "果香浓郁，带啤酒花香气"
+    "acqua-frizzante": {
+      "name": "Maxima气泡水"
+    },
+    "coca-cola": {
+      "name": "Coca-Cola"
+    },
+    "coca-cola-zero": {
+      "name": "Coca-Cola Zero"
+    },
+    "coca-cola-zero-zero": {
+      "name": "零糖零咖啡因可口可乐"
+    },
+    "fanta": {
+      "name": "Fanta"
+    },
+    "sprite": {
+      "name": "Sprite"
+    },
+    "estathe-limone": {
+      "name": "Estathé 柠檬味"
+    },
+    "estathe-pesca": {
+      "name": "Estathé 蜜桃味"
+    },
+    "bibita-lurisia": {
+      "name": "Lurisia饮料",
+      "desc": "苦橙味 / 柠檬味 / 汤力水"
     },
     "birrium-blonde": {
       "name": "Birrium Blonde－无麸质",
@@ -409,27 +431,16 @@
       "name": "Birrium Belgian Ale",
       "desc": "比利时风格红啤酒，果香浓郁带香料味"
     },
+    "ichnusa-non-filtrata": {
+      "name": "Ichnusa Non Filtrata（未过滤）",
+      "desc": "果香浓郁，带啤酒花香气"
+    },
+    "moretti-baffo-oro": {
+      "name": "Moretti Baffo d'Oro",
+      "desc": "清爽淡色啤酒"
+    },
     "heineken-00": {
       "name": "喜力0.0无酒精啤酒"
-    },
-    "acqua-naturale-frizzante": {
-      "name": "Electa天然水／Maxima气泡水"
-    },
-    "coca-cola": {
-      "name": "可口可乐／零度可口可乐"
-    },
-    "coca-cola-zero-zero": {
-      "name": "零糖零咖啡因可口可乐"
-    },
-    "fanta-sprite": {
-      "name": "芬达／雪碧"
-    },
-    "estathe": {
-      "name": "Estathé柠檬／水蜜桃冰茶"
-    },
-    "bibita-lurisia": {
-      "name": "Lurisia饮料",
-      "desc": "橙味／苦橙味／柠檬味／汤力水"
     },
     "crodino-xl": {
       "name": "Crodino XL"
@@ -456,20 +467,14 @@
       "name": "金汤力"
     },
     "prosecco-soligo": {
-      "name": "普洛塞克DOC特雷维索年份特干型",
-      "desc": "Soligo酒庄，威尼托"
+      "name": "Prosecco DOC"
     },
     "pecorino-terre-chieti": {
       "name": "佩科里诺 基耶蒂产区",
       "desc": "Tratturo Spinelli酒庄，阿布鲁佐"
     },
-    "soave-classico": {
-      "name": "索阿维经典DOC「圣米凯莱」",
-      "desc": "Ca Rugate酒庄，威尼托"
-    },
-    "gewurztraminer-kies": {
-      "name": "特伦蒂诺琼瑶浆DOC「基斯」",
-      "desc": "Roeno酒庄，特伦蒂诺-上阿迪杰"
+    "picco-angelo-falanghina": {
+      "name": "Picco dell'Angelo Falanghina IGT"
     },
     "primitivo-rosato": {
       "name": "普利亚普里米蒂沃桃红IGP",
@@ -479,9 +484,8 @@
       "name": "阿布鲁佐蒙特普恰诺DOC",
       "desc": "Tratturo Spinelli酒庄，阿布鲁佐"
     },
-    "morellino-scansano": {
-      "name": "斯坎萨诺莫雷利诺DOCG",
-      "desc": "Cerreto Piano酒庄，托斯卡纳"
+    "vallone-negroamaro": {
+      "name": "Vallone Versante Negroamaro IGP"
     },
     "lavazza-caffe": {
       "name": "Lavazza咖啡"
@@ -499,7 +503,7 @@
       "name": "柠檬酒／香桃木酒"
     },
     "grappa": {
-      "name": "格拉帕酒"
+      "name": "格拉帕酒 Castagner (Morbida / Barrique)"
     },
     "amaro": {
       "name": "阿马罗苦味酒"

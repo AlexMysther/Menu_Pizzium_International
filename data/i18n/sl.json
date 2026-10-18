@@ -22,11 +22,11 @@
     "antipasti": "Predjedi",
     "primi": "Prve jedi",
     "secondi": "Glavne jedi",
-    "calzoni": "Calzone iz peči",
+    "contorni": "Priloge",
+    "baciate": "Baciate",
     "pizze": "Pice",
     "insalate": "Solate",
     "dolci": "Sladice",
-    "bambini": "Otroški meni",
     "bevande": "Pijača"
   },
   "categoryNotes": {
@@ -43,7 +43,8 @@
     "vini-bianchi": "Bela vina",
     "vini-rose": "Rosé vina",
     "vini-rossi": "Rdeča vina",
-    "caffe-digestivi": "Kava in digestivi"
+    "caffe-digestivi": "Kava in digestivi",
+    "analcolici": "Brezalkoholno"
   },
   "tags": {
     "vegan": "Vegansko",
@@ -175,46 +176,49 @@
       "desc": "Gost pasiran pire iz svežih paradižnikov, nekuhan.",
       "match": ["passata"]
     },
-    "carmela": {
-      "term": "La Carmela",
-      "desc": "Kampanjska znamka olupljenih paradižnikov, ne posebna sestavina."
+    "friarielli": {
+      "term": "Friarielli",
+      "desc": "Grenka napolitanska listnata zelenjava, podobna repi, običajno popečena s česnom in čilijem."
+    },
+    "nduja": {
+      "term": "'Nduja",
+      "desc": "Pikantna, namazljiva kalabrijska salama iz svinjine. Svinjina."
     }
   },
   "items": {
-    "tris-perfetto": {
-      "name": "Popolni trio",
-      "desc": "Krokete iz krompirja s kremo iz sira Pecorino Romano DOP, frittatina po nerantsko s kremo iz bučk, arancino z ragujem in omako iz pečenega paradižnika"
+    "frittatina-classica": {
+      "name": "Klasična frittatina",
+      "desc": "Testeninska frittata z bešamelom, kuhano šunko, fior di latte in grahom"
+    },
+    "crocche-napoli": {
+      "name": "Napoli kroketi",
+      "desc": "Krompirjevi kroketi s kosom salame Napoli"
     },
     "tagliere-condividere": {
       "name": "Deska za deljenje",
-      "desc": "Pršut San Daniele DOP, blaga salama neapeljskega tipa, bučka z žara, jajčevec z žara, Casciotta di Urbino DOP, olive taggiasca. Postreženo s toplo fokačo"
-    },
-    "verdure-grigliate-burrata": {
-      "name": "Zelenjava z žara in burrata"
+      "desc": "Pršut San Daniele DOP, salama Napoli, artičoke v olju, olive taggiasca, caciocavallo. Postreženo s toplo fokačo"
     },
     "prosciutto-crudo-bufala": {
       "name": "Pršut in bivolja mocarela",
       "desc": "Pršut San Daniele DOP in bivolja mocarela DOP"
     },
-    "panzanella-mediterranea": {
-      "name": "Sredozemska panzanella",
-      "desc": "Pečene artičoke, čičerika, rdeči paradižniki datterino in lističi sira Grana Padano DOP z balzamično glazuro"
-    },
     "bruschetta-stracciatella-zucchine": {
       "name": "Bruschetta s stracciatello in bučkami",
-      "desc": "Bruschetta z apulijsko stracciatello in čipsom iz bučk"
+      "desc": "Bruschetta z apulijsko stracciatello in ocvrto bučko"
+    },
+    "bruschetta-datterini": {
+      "name": "Bruschetta z rdečim paradižnikom datterini"
+    },
+    "bruschetta-caponatina": {
+      "name": "Bruschetta s sicilijansko caponatino"
     },
     "gnocchi-sorrentina": {
       "name": "Njoki alla Sorrentina",
       "desc": "Krompirjevi njoki, paradižnikova omaka, fior di latte"
     },
-    "lasagna-golosa": {
-      "name": "Slastne lazanje",
-      "desc": "Bolonjske lazanje s špinačnimi listi, nadevom iz mletega mesa in bešamelom"
-    },
-    "fregola-estate": {
-      "name": "Poletna fregola",
-      "desc": "Sardinska fregola s sušenimi paradižniki, olivami taggiasca, nadrobljeno feto in baziliko"
+    "sformato-pasta": {
+      "name": "Pečen testeninski timbal",
+      "desc": "Pečene testenine z bolonjsko omako"
     },
     "polpette-sugo": {
       "name": "Mesne kroglice v omaki"
@@ -222,25 +226,22 @@
     "parmigiana-melanzane": {
       "name": "Parmigiana iz jajčevcev"
     },
-    "frisella-mare": {
-      "name": "Frisella z morja",
-      "desc": "Rdeči in rumeni paradižniki datterino, fileji rumenoplavutega tuna Pescatorello, kapre Maione, olive taggiasca, ekstra deviško oljčno olje iz Apulije Guglielmi, bazilika"
+    "patate-forno": {
+      "name": "Pečen krompir"
     },
-    "frisella-terra": {
-      "name": "Frisella s kopnega",
-      "desc": "Pečene artičoke, mešane mlade solate, sušeni paradižniki, bivolja mocarela DOP, ekstra deviško oljčno olje iz Apulije Guglielmi, bazilika"
+    "friarielli-spadellati": {
+      "name": "Popečeni friarielli",
+      "desc": "Napolitanski friarielli, popečeni s česnom, oljem in čilijem"
     },
-    "calzone-napoletano": {
-      "name": "Neapeljski calzone",
-      "desc": "Olupljeni paradižniki La Carmela, kravja ricotta, prekajena provola, Grana Padano DOP, blaga salama neapeljskega tipa, črni poper, ekstra deviško oljčno olje iz Apulije Guglielmi, bazilika"
+    "caponatina-siciliana": {
+      "name": "Sicilijanska caponatina",
+      "desc": "Jajčevci, pečen paradižnik, taggiasca olive, kapre in pinjole"
     },
-    "calzone-vegetariano": {
-      "name": "Vegetarijanski calzone",
-      "desc": "Prekajena provola, gobe cardoncelli, krema iz bučk, Grana Padano DOP, praženi pinjoli, ekstra deviško oljčno olje iz Apulije Guglielmi, bazilika"
+    "baciata-cotto": {
+      "name": "Baciata s kuhano šunko in fior di latte"
     },
-    "valle-aosta": {
-      "name": "Valle d'Aosta",
-      "desc": "Olupljeni paradižniki La Carmela, fior di latte, vrhunska kuhana šunka, pečena na žerjavici, Lorenzi, pečene artičoke, gobe cardoncelli, olive taggiasca, ekstra deviško oljčno olje iz Apulije Guglielmi, bazilika"
+    "baciata-parmigiana": {
+      "name": "Baciata parmigiana"
     },
     "piemonte": {
       "name": "Piemonte",
@@ -248,140 +249,159 @@
     },
     "lombardia": {
       "name": "Lombardia",
-      "desc": "Fior di latte, prekajena provola, gorgonzola DOP, Grana Padano DOP, orehi, ekstra deviško oljčno olje iz Apulije Guglielmi, bazilika"
-    },
-    "trentino-alto-adige": {
-      "name": "Trentino Alto Adige",
-      "desc": "Fior di latte, speck z Južne Tirolske, gorgonzola DOP, cvetlični med, sladkorenov prah, ekstra deviško oljčno olje iz Apulije Guglielmi, bazilika"
+      "desc": "Bučna krema, prekajena provola, gorgonzola dolce DOP, klobasa, črni poper, ekstra deviško oljčno olje, bazilika"
     },
     "friuli-venezia-giulia": {
       "name": "Friuli Venezia Giulia",
-      "desc": "Fior di latte, rdeči paradižniki datterino, pršut San Daniele DOP, rukola, lističi sira Grana Padano DOP, bazilika"
-    },
-    "veneto": {
-      "name": "Veneto",
-      "desc": "Fior di latte, caciocavallo iz Agnona, svež radikijo, orehi, ekstra deviško oljčno olje iz Apulije Guglielmi, bazilika"
+      "desc": "Fior di latte, pršut San Daniele DOP, rukola, lističi sira Grana Padano DOP, ekstra deviško oljčno olje, bazilika"
     },
     "liguria": {
       "name": "Liguria",
-      "desc": "Fior di latte, rumeni in rdeči paradižniki datterino, bazilikin pesto, ekstra deviško oljčno olje iz Apulije Guglielmi, bazilika"
+      "desc": "Fior di latte, rumeni in rdeči paradižniki datterino, bazilikin pesto, ekstra deviško oljčno olje, bazilika"
     },
     "emilia-romagna": {
       "name": "Emilia Romagna",
-      "desc": "Fior di latte, mortadela Bologna IGP, drobljene pistacije, ekstra deviško oljčno olje iz Apulije Guglielmi, bazilika"
+      "desc": "Fior di latte, mortadela Bologna IGP, drobljene pistacije, ekstra deviško oljčno olje, bazilika"
     },
     "toscana": {
       "name": "Toscana",
-      "desc": "Fior di latte, krema iz črnega ohrovta, pečen krompir, trakci ocvrtih jajčevcev, ocvrte bučke, praženi pinjoli, bazilika"
-    },
-    "marche": {
-      "name": "Marche",
-      "desc": "Olupljeni paradižniki La Carmela, fior di latte, blaga salama, Casciotta di Urbino DOP, črni poper, ekstra deviško oljčno olje iz Apulije Guglielmi, bazilika"
+      "desc": "Fior di latte, krema iz črnega ohrovta, pečen krompir, gobe cardoncelli, ocvrte bučke, praženi pinjoli, bazilika"
     },
     "umbria": {
       "name": "Umbria",
-      "desc": "Prekajena provola, pečen krompir, klobasa iz Norcie, fondi iz sira Pecorino Romano DOP, ekstra deviško oljčno olje iz Apulije Guglielmi, bazilika"
+      "desc": "Prekajena provola, pečen krompir, klobasa, fonduta iz umbrijskega pecorina, ekstra deviško oljčno olje, bazilika"
     },
     "lazio": {
       "name": "Lazio",
-      "desc": "Fior di latte, krema iz artičok, srce artičoke, vrhunska kuhana šunka, pečena na žerjavici, Lorenzi, fondi iz sira Pecorino Romano DOP, ekstra deviško oljčno olje iz Apulije Guglielmi, bazilika"
+      "desc": "Prekajena provola, porchetta d'Ariccia, krema iz friarielli, drobtinice crumble, ekstra deviško oljčno olje, bazilika"
     },
     "abruzzo": {
       "name": "Abruzzo",
-      "desc": "Olupljeni paradižniki La Carmela, fior di latte, zorjen guanciale po amatriško iz mesnice Sano, Pecorino Romano DOP, mlet poper, bazilika"
-    },
-    "molise": {
-      "name": "Molise",
-      "desc": "Fior di latte, caciocavallo iz Agnona, klobasa iz Norcie, ekstra deviško oljčno olje iz Apulije Guglielmi, bazilika"
+      "desc": "Olupljeni paradižnik, fior di latte, zorjeni guanciale amatriciano, naribani pecorino, mlet poper, bazilika"
     },
     "campania": {
       "name": "Campania",
-      "desc": "Prekajena provola, krema iz bučk, ocvrte bučke, Grana Padano DOP, ekstra deviško oljčno olje iz Apulije Guglielmi, bazilika"
+      "desc": "Prekajena provola, klobasa, napolitanski friarielli, ekstra deviško oljčno olje, bazilika"
     },
     "puglia": {
       "name": "Puglia",
-      "desc": "Passata iz rumenih paradižnikov, capocollo iz pujska, apulijska burrata, nadrobljen tarallo, olive taggiasca, ekstra deviško oljčno olje iz Apulije Guglielmi, bazilika"
+      "desc": "Passata iz rumenih paradižnikov, capocollo iz pujska, apulijska burrata, nadrobljen tarallo, olive taggiasca, ekstra deviško oljčno olje, bazilika"
     },
     "basilicata": {
       "name": "Basilicata",
-      "desc": "Prekajena provola, pečen krompir, krema iz paprike, nadrobljena paprika crusco, ekstra deviško oljčno olje iz Apulije Guglielmi, bazilika"
+      "desc": "Fior di latte, krompirjeva krema, zorjeni guanciale amatriciano, peperone crusco, ekstra deviško oljčno olje, bazilika"
     },
     "calabria": {
       "name": "Calabria",
-      "desc": "Fior di latte, karamelizirana rdeča čebula, apulijska stracciatella, olive taggiasca, čilijevo olje Guglielmi, bazilika"
+      "desc": "Olupljeni paradižnik, fior di latte, 'nduja, caciocavallo, ekstra deviško oljčno olje, bazilika"
     },
     "sicilia": {
       "name": "Sicilia",
-      "desc": "Olupljeni paradižniki La Carmela, ocvrti jajčevci, slana ricotta, ekstra deviško oljčno olje iz Apulije Guglielmi, bazilika"
-    },
-    "sardegna": {
-      "name": "Sardegna",
-      "desc": "Fior di latte, rdeči paradižniki datterino, nadrobljena feta, sredozemski sardoni, redukcija rdečega vina Cannonau, bazilika"
+      "desc": "Olupljeni paradižnik, ocvrti jajčevci, slana ricotta, ekstra deviško oljčno olje, bazilika"
     },
     "margherita": {
       "name": "Margherita",
-      "desc": "Olupljeni paradižniki La Carmela, fior di latte, posip sira Grana Padano DOP, ekstra deviško oljčno olje iz Apulije Guglielmi, bazilika"
+      "desc": "Olupljeni paradižnik, fior di latte, posip sira Grana Padano DOP, ekstra deviško oljčno olje, bazilika"
+    },
+    "margherita-wurstel": {
+      "name": "Margherita Würstel",
+      "desc": "Olupljeni paradižnik, fior di latte, würstel, ekstra deviško oljčno olje, bazilika"
     },
     "margherita-vegana": {
       "name": "Veganska Margherita",
-      "desc": "Olupljeni paradižniki La Carmela, rastlinska alternativa mocareli, ekstra deviško oljčno olje iz Apulije Guglielmi, bazilika"
+      "desc": "Olupljeni paradižnik, rastlinska alternativa mocareli, ekstra deviško oljčno olje, bazilika"
     },
     "bufalina": {
       "name": "Bufalina",
-      "desc": "Olupljeni paradižniki La Carmela, bivolja mocarela DOP, posip sira Grana Padano DOP, ekstra deviško oljčno olje iz Apulije Guglielmi, bazilika"
+      "desc": "Olupljeni paradižnik, bivolja mocarela DOP, posip sira Grana Padano DOP, ekstra deviško oljčno olje, bazilika"
     },
     "bufalina-senza-lattosio": {
       "name": "Bufalina brez laktoze",
-      "desc": "Olupljeni paradižniki La Carmela, bivolja mocarela brez laktoze DOP, ekstra deviško oljčno olje iz Apulije Guglielmi, bazilika"
+      "desc": "Olupljeni paradižnik, brezlaktozna mozzarella iz bivolje mleka, ekstra deviško oljčno olje, bazilika"
     },
     "marinara-pizzium": {
       "name": "Marinara po Pizziumovo",
-      "desc": "Olupljeni paradižniki La Carmela, rdeči paradižniki datterino, kapre Maione, fileji sredozemskih sardonov, olive taggiasca, origano, česen, ekstra deviško oljčno olje iz Apulije Guglielmi, bazilika"
+      "desc": "Olupljeni paradižnik, rdeči paradižniki datterino, fileji sredozemskih sardonov, olive taggiasca, origano, česen, ekstra deviško oljčno olje, bazilika"
+    },
+    "quattro-formaggi": {
+      "name": "4 siri",
+      "desc": "Fior di latte, prekajena provola, gorgonzola dolce DOP, lističi sira Grana Padano DOP, ekstra deviško oljčno olje, bazilika"
+    },
+    "capricciosa-special": {
+      "name": "Capricciosa Special",
+      "desc": "Olupljeni paradižnik, fior di latte, vrhunska kuhana šunka na žerjavici Lorenzi, artičoke v olju, gobe cardoncelli, olive taggiasca, ekstra deviško oljčno olje, bazilika"
     },
     "diavola": {
       "name": "Diavola",
-      "desc": "Olupljeni paradižniki La Carmela, fior di latte, pikantna ventricina, ekstra deviško oljčno olje iz Apulije Guglielmi, bazilika"
+      "desc": "Olupljeni paradižnik, fior di latte, pikantna salama, ekstra deviško oljčno olje, bazilika"
     },
-    "orto-venere": {
-      "name": "Orto & Venere",
-      "desc": "Črni riž venere, zelenjavna caponata, apulijska stracciatella"
+    "calzone-napoletano": {
+      "name": "Neapeljski calzone",
+      "desc": "Olupljeni paradižnik, kravja ricotta, prekajena provola, Grana Padano DOP, salama Napoli, črni poper, ekstra deviško oljčno olje, bazilika"
     },
     "insalata-caesar": {
       "name": "Solata Cezar",
       "desc": "Mešane mlade solate, pečene piščančje prsi, rdeči paradižniki datterino, lističi sira Grana Padano DOP, kruhovi kocki, omaka Cezar"
     },
-    "caprese-pizzium": {
-      "name": "Caprese po Pizziumovo",
-      "desc": "Paradižnik volovsko srce, bivolja mocarela DOP, bazilikin pesto, limonina lupinica"
-    },
     "insalata-marinara": {
       "name": "Solata Marinara",
-      "desc": "Mešane mlade solate, rdeči in rumeni paradižniki datterino, origano, olive taggiasca, fileji sredozemskih sardonov"
+      "desc": "Mešane mlade solate, rdeči in rumeni paradižniki datterino, olive taggiasca, fileji tuna"
     },
-    "cheesecake-nutella": { "name": "Cheesecake – Nutella®" },
-    "cheesecake-pistacchio": { "name": "Cheesecake – Pistacija" },
-    "cheesecake-frutti-di-bosco": { "name": "Cheesecake – Gozdni sadeži" },
+    "insalata-rustica": {
+      "name": "Rustica solata",
+      "desc": "Ješprenj, krema iz šampinjonov, orehi, hrustljavi guanciale"
+    },
+    "cheesecake-nutella": {
+      "name": "Cheesecake – Nutella®"
+    },
+    "cheesecake-pistacchio": {
+      "name": "Cheesecake – Pistacija"
+    },
     "tiramisu": {
       "name": "Tiramisu"
     },
     "nuvole-cremose": {
-      "name": "Kremni oblački",
-      "desc": "2 kroglici iz testa, polnjeni z mlečno kremo in citrusi"
+      "name": "Slastni oblački",
+      "desc": "2 polnjeni testeni kroglici z mlečno kremo in lešnikovo kremo"
     },
-    "sorbetto-limone": {
-      "name": "Limonin sorbet"
+    "cannolo-siciliano": {
+      "name": "Sicilijanski cannolo",
+      "desc": "Sicilijanski cannolo, polnjen s sladkano ricotto, drobljenimi pistacijami in kandiranimi rdečimi češnjami"
     },
-    "menu-bambino": {
-      "name": "Otroški meni",
-      "desc": "Mala pica Margherita + pijača"
+    "caprese-dolce": {
+      "name": "Caprese torta",
+      "desc": "Caprese torta s temno čokolado in mandlji"
     },
-    "ichnusa-anima-sarda": {
-      "name": "Ichnusa Anima Sarda",
-      "desc": "Svetlo in osvežilno"
+    "acqua-naturale": {
+      "name": "Negazirana voda Electa"
     },
-    "ichnusa-non-filtrata": {
-      "name": "Ichnusa Non Filtrata",
-      "desc": "Sadno, z vonjem hmelja"
+    "acqua-frizzante": {
+      "name": "Gazirana voda Maxima"
+    },
+    "coca-cola": {
+      "name": "Coca-Cola"
+    },
+    "coca-cola-zero": {
+      "name": "Coca-Cola Zero"
+    },
+    "coca-cola-zero-zero": {
+      "name": "Coca-Cola brez sladkorja in brez kofeina"
+    },
+    "fanta": {
+      "name": "Fanta"
+    },
+    "sprite": {
+      "name": "Sprite"
+    },
+    "estathe-limone": {
+      "name": "Estathé limona"
+    },
+    "estathe-pesca": {
+      "name": "Estathé breskev"
+    },
+    "bibita-lurisia": {
+      "name": "Pijača Lurisia",
+      "desc": "chinotto / limonada / tonik"
     },
     "birrium-blonde": {
       "name": "Birrium Blonde – brez glutena",
@@ -399,27 +419,16 @@
       "name": "Birrium Belgian Ale",
       "desc": "Rdeče pivo belgijskega sloga, sadno in začinjeno"
     },
+    "ichnusa-non-filtrata": {
+      "name": "Ichnusa Non Filtrata",
+      "desc": "Sadno, z vonjem hmelja"
+    },
+    "moretti-baffo-oro": {
+      "name": "Moretti Baffo d'Oro",
+      "desc": "Svetlo in osvežilno"
+    },
     "heineken-00": {
       "name": "Heineken 0.0 brezalkoholno"
-    },
-    "acqua-naturale-frizzante": {
-      "name": "Negazirana voda Electa / gazirana Maxima"
-    },
-    "coca-cola": {
-      "name": "Coca-Cola / Coca-Cola Zero"
-    },
-    "coca-cola-zero-zero": {
-      "name": "Coca-Cola brez sladkorja in brez kofeina"
-    },
-    "fanta-sprite": {
-      "name": "Fanta / Sprite"
-    },
-    "estathe": {
-      "name": "Ledeni čaj Estathé limona / breskev"
-    },
-    "bibita-lurisia": {
-      "name": "Pijača Lurisia",
-      "desc": "Pomaranča / chinotto / limonada / tonik"
     },
     "crodino-xl": {
       "name": "Crodino XL"
@@ -446,20 +455,14 @@
       "name": "Gin tonic"
     },
     "prosecco-soligo": {
-      "name": "Prosecco DOC Treviso Millesimato Extra Dry",
-      "desc": "Soligo, Veneto"
+      "name": "Prosecco DOC"
     },
     "pecorino-terre-chieti": {
       "name": "Pecorino Terre di Chieti",
       "desc": "Tratturo Spinelli, Abruzzo"
     },
-    "soave-classico": {
-      "name": "Soave Classico DOC \"San Michele\"",
-      "desc": "Ca Rugate, Veneto"
-    },
-    "gewurztraminer-kies": {
-      "name": "Gewürztraminer Trentino DOC \"Kies\"",
-      "desc": "Roeno, Trentino Alto Adige"
+    "picco-angelo-falanghina": {
+      "name": "Picco dell'Angelo Falanghina IGT"
     },
     "primitivo-rosato": {
       "name": "Primitivo Rosato Puglia IGP",
@@ -469,9 +472,8 @@
       "name": "Montepulciano d'Abruzzo DOC",
       "desc": "Tratturo Spinelli, Abruzzo"
     },
-    "morellino-scansano": {
-      "name": "Morellino di Scansano DOCG",
-      "desc": "Cerreto Piano, Toscana"
+    "vallone-negroamaro": {
+      "name": "Vallone Versante Negroamaro IGP"
     },
     "lavazza-caffe": {
       "name": "Kava Lavazza"
@@ -489,7 +491,7 @@
       "name": "Limoncello / Mirto"
     },
     "grappa": {
-      "name": "Grappa"
+      "name": "Grappa Castagner (Morbida / Barrique)"
     },
     "amaro": {
       "name": "Amaro"

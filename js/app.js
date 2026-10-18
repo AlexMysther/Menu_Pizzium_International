@@ -400,7 +400,7 @@ const THUMB_EXTENSIONS = ['jpg', 'png'];
 
 // Categorie senza foto piatto: evitiamo di tentare il caricamento per
 // non riempire la console di 404 ad ogni rendering della sezione.
-const NO_PHOTO_CATEGORIES = ['bevande', 'bambini'];
+const NO_PHOTO_CATEGORIES = ['bevande'];
 
 function renderItemThumb(item) {
   const img = document.createElement('img');

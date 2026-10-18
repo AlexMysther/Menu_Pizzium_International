@@ -22,11 +22,11 @@
     "antipasti": "Předkrmy",
     "primi": "První chody",
     "secondi": "Hlavní chody",
-    "calzoni": "Calzone z pece",
+    "contorni": "Přílohy",
+    "baciate": "Baciate",
     "pizze": "Pizzy",
     "insalate": "Saláty",
     "dolci": "Dezerty",
-    "bambini": "Dětské menu",
     "bevande": "Nápoje"
   },
   "categoryNotes": {
@@ -43,7 +43,8 @@
     "vini-bianchi": "Bílá vína",
     "vini-rose": "Růžová vína",
     "vini-rossi": "Červená vína",
-    "caffe-digestivi": "Káva a digestivy"
+    "caffe-digestivi": "Káva a digestivy",
+    "analcolici": "Nealkoholické nápoje"
   },
   "tags": {
     "vegan": "Veganské",
@@ -174,46 +175,49 @@
       "desc": "Husté pasírované pyré z čerstvých rajčat, tepelně neupravené.",
       "match": ["passata"]
     },
-    "carmela": {
-      "term": "La Carmela",
-      "desc": "Kampánská značka loupaných rajčat, nikoli samostatná surovina."
+    "friarielli": {
+      "term": "Friarielli",
+      "desc": "Hořká neapolská listová zelenina podobná brokolici rabe, obvykle opékaná s česnekem a chilli."
+    },
+    "nduja": {
+      "term": "'Nduja",
+      "desc": "Pikantní, mazatelný kalabrijský salám z vepřového masa. Vepřové maso."
     }
   },
   "items": {
-    "tris-perfetto": {
-      "name": "Dokonalé trio",
-      "desc": "Bramborová kroketa s krémem ze sýra Pecorino Romano DOP, frittatina po neranském způsobu s cuketovým krémem, arancino s ragù a omáčkou z pečených rajčat"
+    "frittatina-classica": {
+      "name": "Klasická frittatina",
+      "desc": "Těstovinová frittata s bešamelem, vařenou šunkou, fior di latte a hráškem"
+    },
+    "crocche-napoli": {
+      "name": "Krokety Napoli",
+      "desc": "Bramborové krokety s plátkem salámu Napoli"
     },
     "tagliere-condividere": {
       "name": "Prkénko na sdílení",
-      "desc": "Šunka San Daniele DOP, jemný salám neapolského typu, grilovaná cuketa, grilovaný lilek, Casciotta di Urbino DOP, olivy taggiasca. Podává se s teplou focacciou"
-    },
-    "verdure-grigliate-burrata": {
-      "name": "Grilovaná zelenina a burrata"
+      "desc": "Šunka San Daniele DOP, salám Napoli, artyčoky v oleji, olivy taggiasca, caciocavallo. Podává se s teplou focacciou"
     },
     "prosciutto-crudo-bufala": {
       "name": "Šunka a buvolí mozzarella",
       "desc": "Šunka San Daniele DOP a buvolí mozzarella DOP"
     },
-    "panzanella-mediterranea": {
-      "name": "Středomořská panzanella",
-      "desc": "Pečené artyčoky, cizrna, červená rajčátka datterino a hobliny sýra Grana Padano DOP s balzamikovou glazurou"
-    },
     "bruschetta-stracciatella-zucchine": {
       "name": "Bruschetta se stracciatellou a cuketou",
-      "desc": "Bruschetta s apulijskou stracciatellou a cuketovými chipsy"
+      "desc": "Bruschetta s apulskou stracciatellou a smaženými cuketami"
+    },
+    "bruschetta-datterini": {
+      "name": "Bruschetta s červenými rajčátky datterini"
+    },
+    "bruschetta-caponatina": {
+      "name": "Bruschetta se sicilskou caponatinou"
     },
     "gnocchi-sorrentina": {
       "name": "Gnocchi alla Sorrentina",
       "desc": "Bramborové gnocchi, rajčatová omáčka, fior di latte"
     },
-    "lasagna-golosa": {
-      "name": "Mlsné lasagne",
-      "desc": "Boloňské lasagne se špenátovými plátky, náplní z mletého masa a bešamelem"
-    },
-    "fregola-estate": {
-      "name": "Letní fregola",
-      "desc": "Sardská fregola se sušenými rajčaty, olivami taggiasca, rozdrobenou fetou a bazalkou"
+    "sformato-pasta": {
+      "name": "Zapečený těstovinový timbal",
+      "desc": "Zapečené těstoviny s boloňskou omáčkou"
     },
     "polpette-sugo": {
       "name": "Masové kuličky v omáčce"
@@ -221,25 +225,22 @@
     "parmigiana-melanzane": {
       "name": "Parmigiana z lilku"
     },
-    "frisella-mare": {
-      "name": "Frisella z moře",
-      "desc": "Červená a žlutá rajčátka datterino, filety z tuňáka žlutoploutvého Pescatorello, kapary Maione, olivy taggiasca, extra panenský olivový olej z Apulie Guglielmi, bazalka"
+    "patate-forno": {
+      "name": "Pečené brambory"
     },
-    "frisella-terra": {
-      "name": "Frisella ze země",
-      "desc": "Pečené artyčoky, listový salátový mix, sušená rajčata, buvolí mozzarella DOP, extra panenský olivový olej z Apulie Guglielmi, bazalka"
+    "friarielli-spadellati": {
+      "name": "Opečené friarielli",
+      "desc": "Neapolské friarielli opečené na česneku, oleji a chilli"
     },
-    "calzone-napoletano": {
-      "name": "Neapolské calzone",
-      "desc": "Loupaná rajčata La Carmela, kravská ricotta, uzená provola, Grana Padano DOP, jemný salám neapolského typu, černý pepř, extra panenský olivový olej z Apulie Guglielmi, bazalka"
+    "caponatina-siciliana": {
+      "name": "Sicilská caponatina",
+      "desc": "Lilek, pečená rajčata, olivy taggiasca, kapary a piniové oříšky"
     },
-    "calzone-vegetariano": {
-      "name": "Vegetariánské calzone",
-      "desc": "Uzená provola, hlívy cardoncelli, cuketový krém, Grana Padano DOP, opražené piniové oříšky, extra panenský olivový olej z Apulie Guglielmi, bazalka"
+    "baciata-cotto": {
+      "name": "Baciata s vařenou šunkou a fior di latte"
     },
-    "valle-aosta": {
-      "name": "Valle d'Aosta",
-      "desc": "Loupaná rajčata La Carmela, fior di latte, prvotřídní vařená šunka pečená na žáru Lorenzi, pečené artyčoky, hlívy cardoncelli, olivy taggiasca, extra panenský olivový olej z Apulie Guglielmi, bazalka"
+    "baciata-parmigiana": {
+      "name": "Baciata parmigiana"
     },
     "piemonte": {
       "name": "Piemonte",
@@ -247,140 +248,159 @@
     },
     "lombardia": {
       "name": "Lombardia",
-      "desc": "Fior di latte, uzená provola, gorgonzola DOP, Grana Padano DOP, vlašské ořechy, extra panenský olivový olej z Apulie Guglielmi, bazalka"
-    },
-    "trentino-alto-adige": {
-      "name": "Trentino Alto Adige",
-      "desc": "Fior di latte, speck z Jižního Tyrolska, gorgonzola DOP, květový med, lékořicový prášek, extra panenský olivový olej z Apulie Guglielmi, bazalka"
+      "desc": "Dýňový krém, uzená provola, gorgonzola dolce DOP, klobása, černý pepř, extra panenský olivový olej, bazalka"
     },
     "friuli-venezia-giulia": {
       "name": "Friuli Venezia Giulia",
-      "desc": "Fior di latte, červená rajčátka datterino, šunka San Daniele DOP, rukola, hobliny sýra Grana Padano DOP, bazalka"
-    },
-    "veneto": {
-      "name": "Veneto",
-      "desc": "Fior di latte, caciocavallo z Agnone, čerstvé radicchio, vlašské ořechy, extra panenský olivový olej z Apulie Guglielmi, bazalka"
+      "desc": "Fior di latte, šunka San Daniele DOP, rukola, hobliny sýra Grana Padano DOP, extra panenský olivový olej, bazalka"
     },
     "liguria": {
       "name": "Liguria",
-      "desc": "Fior di latte, žlutá a červená rajčátka datterino, bazalkové pesto, extra panenský olivový olej z Apulie Guglielmi, bazalka"
+      "desc": "Fior di latte, žlutá a červená rajčátka datterino, bazalkové pesto, extra panenský olivový olej, bazalka"
     },
     "emilia-romagna": {
       "name": "Emilia Romagna",
-      "desc": "Fior di latte, mortadella Bologna IGP, drcené pistácie, extra panenský olivový olej z Apulie Guglielmi, bazalka"
+      "desc": "Fior di latte, mortadella Bologna IGP, drcené pistácie, extra panenský olivový olej, bazalka"
     },
     "toscana": {
       "name": "Toscana",
-      "desc": "Fior di latte, krém z kadeřavé kapusty, pečené brambory, proužky smaženého lilku, smažená cuketa, opražené piniové oříšky, bazalka"
-    },
-    "marche": {
-      "name": "Marche",
-      "desc": "Loupaná rajčata La Carmela, fior di latte, jemný salám, Casciotta di Urbino DOP, černý pepř, extra panenský olivový olej z Apulie Guglielmi, bazalka"
+      "desc": "Fior di latte, krém z kadeřavé kapusty, pečené brambory, hlívy cardoncelli, smažená cuketa, opražené piniové oříšky, bazalka"
     },
     "umbria": {
       "name": "Umbria",
-      "desc": "Uzená provola, pečené brambory, klobása z Norcie, fondue ze sýra Pecorino Romano DOP, extra panenský olivový olej z Apulie Guglielmi, bazalka"
+      "desc": "Uzená provola, pečené brambory, klobása, fonduta z umbrijského pecorina, extra panenský olivový olej, bazalka"
     },
     "lazio": {
       "name": "Lazio",
-      "desc": "Fior di latte, artyčokový krém, artyčokové srdce, prvotřídní vařená šunka pečená na žáru Lorenzi, fondue ze sýra Pecorino Romano DOP, extra panenský olivový olej z Apulie Guglielmi, bazalka"
+      "desc": "Uzená provola, porchetta d'Ariccia, krém z friarielli, strouhankový crumble, extra panenský olivový olej, bazalka"
     },
     "abruzzo": {
       "name": "Abruzzo",
-      "desc": "Loupaná rajčata La Carmela, fior di latte, zrající guanciale po amatricijsku z uzenářství Sano, Pecorino Romano DOP, mletý pepř, bazalka"
-    },
-    "molise": {
-      "name": "Molise",
-      "desc": "Fior di latte, caciocavallo z Agnone, klobása z Norcie, extra panenský olivový olej z Apulie Guglielmi, bazalka"
+      "desc": "Loupená rajčata, fior di latte, zrající guanciale amatriciano, strouhané pecorino, mletý pepř, bazalka"
     },
     "campania": {
       "name": "Campania",
-      "desc": "Uzená provola, cuketový krém, smažená cuketa, Grana Padano DOP, extra panenský olivový olej z Apulie Guglielmi, bazalka"
+      "desc": "Uzená provola, klobása, neapolské friarielli, extra panenský olivový olej, bazalka"
     },
     "puglia": {
       "name": "Puglia",
-      "desc": "Passata ze žlutých rajčat, capocollo ze selete, apulijská burrata, rozdrobený tarallo, olivy taggiasca, extra panenský olivový olej z Apulie Guglielmi, bazalka"
+      "desc": "Passata ze žlutých rajčat, capocollo ze selete, apulijská burrata, rozdrobený tarallo, olivy taggiasca, extra panenský olivový olej, bazalka"
     },
     "basilicata": {
       "name": "Basilicata",
-      "desc": "Uzená provola, pečené brambory, paprikový krém, rozdrobená paprika crusco, extra panenský olivový olej z Apulie Guglielmi, bazalka"
+      "desc": "Fior di latte, bramborový krém, zrající guanciale amatriciano, peperone crusco, extra panenský olivový olej, bazalka"
     },
     "calabria": {
       "name": "Calabria",
-      "desc": "Fior di latte, karamelizovaná červená cibule, apulijská stracciatella, olivy taggiasca, chilli olej Guglielmi, bazalka"
+      "desc": "Loupená rajčata, fior di latte, 'nduja, caciocavallo, extra panenský olivový olej, bazalka"
     },
     "sicilia": {
       "name": "Sicilia",
-      "desc": "Loupaná rajčata La Carmela, smažený lilek, solená ricotta, extra panenský olivový olej z Apulie Guglielmi, bazalka"
-    },
-    "sardegna": {
-      "name": "Sardegna",
-      "desc": "Fior di latte, červená rajčátka datterino, rozdrobená feta, středomořské ančovičky, redukce z červeného vína Cannonau, bazalka"
+      "desc": "Loupená rajčata, smažený lilek, solená ricotta, extra panenský olivový olej, bazalka"
     },
     "margherita": {
       "name": "Margherita",
-      "desc": "Loupaná rajčata La Carmela, fior di latte, posyp ze sýra Grana Padano DOP, extra panenský olivový olej z Apulie Guglielmi, bazalka"
+      "desc": "Loupená rajčata, fior di latte, posyp ze sýra Grana Padano DOP, extra panenský olivový olej, bazalka"
+    },
+    "margherita-wurstel": {
+      "name": "Margherita Würstel",
+      "desc": "Loupená rajčata, fior di latte, würstel, extra panenský olivový olej, bazalka"
     },
     "margherita-vegana": {
       "name": "Veganská Margherita",
-      "desc": "Loupaná rajčata La Carmela, rostlinná alternativa mozzarelly, extra panenský olivový olej z Apulie Guglielmi, bazalka"
+      "desc": "Loupená rajčata, rostlinná alternativa mozzarelly, extra panenský olivový olej, bazalka"
     },
     "bufalina": {
       "name": "Bufalina",
-      "desc": "Loupaná rajčata La Carmela, buvolí mozzarella DOP, posyp ze sýra Grana Padano DOP, extra panenský olivový olej z Apulie Guglielmi, bazalka"
+      "desc": "Loupená rajčata, buvolí mozzarella DOP, posyp ze sýra Grana Padano DOP, extra panenský olivový olej, bazalka"
     },
     "bufalina-senza-lattosio": {
       "name": "Bufalina bez laktózy",
-      "desc": "Loupaná rajčata La Carmela, buvolí mozzarella bez laktózy DOP, extra panenský olivový olej z Apulie Guglielmi, bazalka"
+      "desc": "Loupená rajčata, bezlaktózová mozzarella z buvolího mléka, extra panenský olivový olej, bazalka"
     },
     "marinara-pizzium": {
       "name": "Marinara podle Pizzia",
-      "desc": "Loupaná rajčata La Carmela, červená rajčátka datterino, kapary Maione, filety ze středomořských sardelí, olivy taggiasca, oregano, česnek, extra panenský olivový olej z Apulie Guglielmi, bazalka"
+      "desc": "Loupená rajčata, červená rajčátka datterino, filety ze středomořských sardelí, olivy taggiasca, oregano, česnek, extra panenský olivový olej, bazalka"
+    },
+    "quattro-formaggi": {
+      "name": "4 sýry",
+      "desc": "Fior di latte, uzená provola, gorgonzola dolce DOP, hobliny sýra Grana Padano DOP, extra panenský olivový olej, bazalka"
+    },
+    "capricciosa-special": {
+      "name": "Capricciosa Special",
+      "desc": "Loupená rajčata, fior di latte, prvotřídní vařená šunka pečená na žáru Lorenzi, artyčoky v oleji, hlívy cardoncelli, olivy taggiasca, extra panenský olivový olej, bazalka"
     },
     "diavola": {
       "name": "Diavola",
-      "desc": "Loupaná rajčata La Carmela, fior di latte, pikantní ventricina, extra panenský olivový olej z Apulie Guglielmi, bazalka"
+      "desc": "Loupená rajčata, fior di latte, pikantní salám, extra panenský olivový olej, bazalka"
     },
-    "orto-venere": {
-      "name": "Orto & Venere",
-      "desc": "Černá rýže venere, zeleninová caponata, apulijská stracciatella"
+    "calzone-napoletano": {
+      "name": "Neapolské calzone",
+      "desc": "Loupená rajčata, kravská ricotta, uzená provola, Grana Padano DOP, salám Napoli, černý pepř, extra panenský olivový olej, bazalka"
     },
     "insalata-caesar": {
       "name": "Caesar salát",
       "desc": "Listový salátový mix, pečená kuřecí prsa, červená rajčátka datterino, hobliny sýra Grana Padano DOP, krutony, Caesar dresink"
     },
-    "caprese-pizzium": {
-      "name": "Caprese po pizziumsku",
-      "desc": "Rajče volské srdce, buvolí mozzarella DOP, bazalkové pesto, citronová kůra"
-    },
     "insalata-marinara": {
       "name": "Salát Marinara",
-      "desc": "Listový salátový mix, červená a žlutá rajčátka datterino, oregano, olivy taggiasca, filety ze středomořských sardelí"
+      "desc": "Listový salátový mix, červená a žlutá rajčátka datterino, olivy taggiasca, filety z tuňáka"
     },
-    "cheesecake-nutella": { "name": "Cheesecake – Nutella®" },
-    "cheesecake-pistacchio": { "name": "Cheesecake – Pistácie" },
-    "cheesecake-frutti-di-bosco": { "name": "Cheesecake – Lesní ovoce" },
+    "insalata-rustica": {
+      "name": "Salát Rustica",
+      "desc": "Ječmen, žampionový krém, vlašské ořechy, křupavé guanciale"
+    },
+    "cheesecake-nutella": {
+      "name": "Cheesecake – Nutella®"
+    },
+    "cheesecake-pistacchio": {
+      "name": "Cheesecake – Pistácie"
+    },
     "tiramisu": {
       "name": "Tiramisu"
     },
     "nuvole-cremose": {
-      "name": "Krémové obláčky",
-      "desc": "2 kuličky z těsta plněné mléčným krémem s citrusy"
+      "name": "Lahodné obláčky",
+      "desc": "2 plněné těstové koule s mléčným krémem a lískooříškovým krémem"
     },
-    "sorbetto-limone": {
-      "name": "Citronový sorbet"
+    "cannolo-siciliano": {
+      "name": "Sicilské cannolo",
+      "desc": "Sicilské cannolo plněné slazenou ricottou, pistáciovou drtí a kandovanými červenými třešněmi"
     },
-    "menu-bambino": {
-      "name": "Dětské menu",
-      "desc": "Malá pizza Margherita + nápoj"
+    "caprese-dolce": {
+      "name": "Caprese dort",
+      "desc": "Dort caprese s hořkou čokoládou a mandlemi"
     },
-    "ichnusa-anima-sarda": {
-      "name": "Ichnusa Anima Sarda",
-      "desc": "Světlé a osvěžující"
+    "acqua-naturale": {
+      "name": "Neperlivá voda Electa"
     },
-    "ichnusa-non-filtrata": {
-      "name": "Ichnusa Non Filtrata",
-      "desc": "Ovocné s vůní chmele"
+    "acqua-frizzante": {
+      "name": "Perlivá voda Maxima"
+    },
+    "coca-cola": {
+      "name": "Coca-Cola"
+    },
+    "coca-cola-zero": {
+      "name": "Coca-Cola Zero"
+    },
+    "coca-cola-zero-zero": {
+      "name": "Coca-Cola bez cukru a bez kofeinu"
+    },
+    "fanta": {
+      "name": "Fanta"
+    },
+    "sprite": {
+      "name": "Sprite"
+    },
+    "estathe-limone": {
+      "name": "Estathé citron"
+    },
+    "estathe-pesca": {
+      "name": "Estathé broskev"
+    },
+    "bibita-lurisia": {
+      "name": "Nápoj Lurisia",
+      "desc": "chinotto / limonáda / tonik"
     },
     "birrium-blonde": {
       "name": "Birrium Blonde – bez lepku",
@@ -398,27 +418,16 @@
       "name": "Birrium Belgian Ale",
       "desc": "Červené pivo belgického stylu, ovocné a kořeněné"
     },
+    "ichnusa-non-filtrata": {
+      "name": "Ichnusa Non Filtrata",
+      "desc": "Ovocné s vůní chmele"
+    },
+    "moretti-baffo-oro": {
+      "name": "Moretti Baffo d'Oro",
+      "desc": "Světlé a osvěžující"
+    },
     "heineken-00": {
       "name": "Heineken 0.0 nealkoholické"
-    },
-    "acqua-naturale-frizzante": {
-      "name": "Neperlivá voda Electa / perlivá Maxima"
-    },
-    "coca-cola": {
-      "name": "Coca-Cola / Coca-Cola Zero"
-    },
-    "coca-cola-zero-zero": {
-      "name": "Coca-Cola bez cukru a bez kofeinu"
-    },
-    "fanta-sprite": {
-      "name": "Fanta / Sprite"
-    },
-    "estathe": {
-      "name": "Ledový čaj Estathé citron / broskev"
-    },
-    "bibita-lurisia": {
-      "name": "Nápoj Lurisia",
-      "desc": "Pomeranč / chinotto / limonáda / tonik"
     },
     "crodino-xl": {
       "name": "Crodino XL"
@@ -445,20 +454,14 @@
       "name": "Gin s tonikem"
     },
     "prosecco-soligo": {
-      "name": "Prosecco DOC Treviso Millesimato Extra Dry",
-      "desc": "Soligo, Veneto"
+      "name": "Prosecco DOC"
     },
     "pecorino-terre-chieti": {
       "name": "Pecorino Terre di Chieti",
       "desc": "Tratturo Spinelli, Abruzzo"
     },
-    "soave-classico": {
-      "name": "Soave Classico DOC \"San Michele\"",
-      "desc": "Ca Rugate, Veneto"
-    },
-    "gewurztraminer-kies": {
-      "name": "Gewürztraminer Trentino DOC \"Kies\"",
-      "desc": "Roeno, Trentino Alto Adige"
+    "picco-angelo-falanghina": {
+      "name": "Picco dell'Angelo Falanghina IGT"
     },
     "primitivo-rosato": {
       "name": "Primitivo Rosato Puglia IGP",
@@ -468,9 +471,8 @@
       "name": "Montepulciano d'Abruzzo DOC",
       "desc": "Tratturo Spinelli, Abruzzo"
     },
-    "morellino-scansano": {
-      "name": "Morellino di Scansano DOCG",
-      "desc": "Cerreto Piano, Toscana"
+    "vallone-negroamaro": {
+      "name": "Vallone Versante Negroamaro IGP"
     },
     "lavazza-caffe": {
       "name": "Káva Lavazza"
@@ -488,7 +490,7 @@
       "name": "Limoncello / Mirto"
     },
     "grappa": {
-      "name": "Grappa"
+      "name": "Grappa Castagner (Morbida / Barrique)"
     },
     "amaro": {
       "name": "Amaro"

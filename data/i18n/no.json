@@ -22,11 +22,11 @@
     "antipasti": "Forretter",
     "primi": "Første rett",
     "secondi": "Hovedretter",
-    "calzoni": "Ovnsbakt calzone",
+    "contorni": "Tilbehør",
+    "baciate": "Baciate",
     "pizze": "Pizza",
     "insalate": "Salater",
     "dolci": "Desserter",
-    "bambini": "Barnemeny",
     "bevande": "Drikke"
   },
   "categoryNotes": {
@@ -43,7 +43,8 @@
     "vini-bianchi": "Hvitvin",
     "vini-rose": "Rosévin",
     "vini-rossi": "Rødvin",
-    "caffe-digestivi": "Kaffe og digestiv"
+    "caffe-digestivi": "Kaffe og digestiv",
+    "analcolici": "Alkoholfritt"
   },
   "tags": {
     "vegan": "Vegansk",
@@ -167,46 +168,49 @@
       "desc": "Silt puré av friske tomater, ukokt og tykk.",
       "match": []
     },
-    "carmela": {
-      "term": "La Carmela",
-      "desc": "Et merke flådde tomater fra Campania, ikke en ingrediens i seg selv."
+    "friarielli": {
+      "term": "Friarielli",
+      "desc": "Bitre napolitanske bladgrønnsaker, lik raps-bladkål, vanligvis stekt med hvitløk og chili."
+    },
+    "nduja": {
+      "term": "'Nduja",
+      "desc": "Skarp, smørbar kalabrisk salami av svinekjøtt. Svinekjøtt."
     }
   },
   "items": {
-    "tris-perfetto": {
-      "name": "Den Perfekte Trioen",
-      "desc": "Potetkrokett med krem av Pecorino Romano DOP, frittata i Nerano-stil med squashkrem, arancino med ragù og stekt tomatsaus"
+    "frittatina-classica": {
+      "name": "Klassisk frittatina",
+      "desc": "Pastafrittata med béchamel, kokt skinke, fior di latte og erter"
+    },
+    "crocche-napoli": {
+      "name": "Napoli-kroketter",
+      "desc": "Potetkroketter med en skive Napoli-salami"
     },
     "tagliere-condividere": {
       "name": "Delefat",
-      "desc": "San Daniele DOP-spekeskinke, søt napolitansk salami, grillet squash, grillet aubergine, Casciotta di Urbino DOP, taggiasca-oliven. Servert med varm focaccia"
-    },
-    "verdure-grigliate-burrata": {
-      "name": "Grillede Grønnsaker og Burrata"
+      "desc": "San Daniele DOP-spekeskinke, Napoli-salami, artisjokker i olje, taggiasca-oliven, caciocavallo. Servert med varm focaccia"
     },
     "prosciutto-crudo-bufala": {
       "name": "Spekeskinke og Bøffelmozzarella",
       "desc": "San Daniele DOP-spekeskinke og bøffelmozzarella DOP"
     },
-    "panzanella-mediterranea": {
-      "name": "Middelhavs-Panzanella",
-      "desc": "Ovnsbakte artisjokker, kikerter, røde cherrytomater og Grana Padano DOP-fliser med balsamicoglasur"
-    },
     "bruschetta-stracciatella-zucchine": {
       "name": "Bruschetta med Stracciatella og Squash",
-      "desc": "Bruschetta med puljisk stracciatella og squashchips"
+      "desc": "Bruschetta med apulisk stracciatella og stekt squash"
+    },
+    "bruschetta-datterini": {
+      "name": "Bruschetta med røde datterini-tomater"
+    },
+    "bruschetta-caponatina": {
+      "name": "Bruschetta med siciliansk caponatina"
     },
     "gnocchi-sorrentina": {
       "name": "Gnocchi alla Sorrentina",
       "desc": "Potetgnocchi, tomatsaus, fior di latte"
     },
-    "lasagna-golosa": {
-      "name": "Fristende Lasagne",
-      "desc": "Lasagne bolognese med spinatplater, kjøttfyll og bechamel"
-    },
-    "fregola-estate": {
-      "name": "Sommer-Fregola",
-      "desc": "Sardinsk fregola med soltørkede tomater, taggiasca-oliven, smuldret fetaost, basilikum"
+    "sformato-pasta": {
+      "name": "Ovnsbakt pastatimbal",
+      "desc": "Ovnsbakt pasta med bolognesesaus"
     },
     "polpette-sugo": {
       "name": "Kjøttboller i Tomatsaus"
@@ -214,25 +218,22 @@
     "parmigiana-melanzane": {
       "name": "Aubergineparmigiana"
     },
-    "frisella-mare": {
-      "name": "Frisella di Mare",
-      "desc": "Røde og gule cherrytomater, gulfinnet tunfiskfilet fra Pescatorello, Maione-kapers, taggiasca-oliven, Guglielmi ekstra jomfru olivenolje fra Puglia, basilikum"
+    "patate-forno": {
+      "name": "Ovnsbakte poteter"
     },
-    "frisella-terra": {
-      "name": "Frisella di Terra",
-      "desc": "Ovnsbakte artisjokker, blandet salat, soltørkede cherrytomater, bøffelmozzarella DOP, Guglielmi ekstra jomfru olivenolje fra Puglia, basilikum"
+    "friarielli-spadellati": {
+      "name": "Stekt friarielli",
+      "desc": "Napolitanske friarielli stekt med hvitløk, olje og chili"
     },
-    "calzone-napoletano": {
-      "name": "Calzone Napoletano",
-      "desc": "Flådde tomater La Carmela, kumelksricotta, røkt provola, Grana Padano DOP, søt napolitansk salami, sort pepper, Guglielmi ekstra jomfru olivenolje fra Puglia, basilikum"
+    "caponatina-siciliana": {
+      "name": "Siciliansk caponatina",
+      "desc": "Aubergine, ovnsbakte tomater, taggiasca-oliven, kapers og pinjekjerner"
     },
-    "calzone-vegetariano": {
-      "name": "Vegetarisk Calzone",
-      "desc": "Røkt provola, kongeøstersopp, squashkrem, Grana Padano DOP, ristede pinjekjerner, Guglielmi ekstra jomfru olivenolje fra Puglia, basilikum"
+    "baciata-cotto": {
+      "name": "Baciata med kokt skinke og fior di latte"
     },
-    "valle-aosta": {
-      "name": "Valle d'Aosta",
-      "desc": "Flådde tomater La Carmela, fior di latte, vedovnsstekt kokt skinke av høy kvalitet Lorenzi, ovnsbakte artisjokker, kongeøstersopp, taggiasca-oliven, Guglielmi ekstra jomfru olivenolje fra Puglia, basilikum"
+    "baciata-parmigiana": {
+      "name": "Baciata parmigiana"
     },
     "piemonte": {
       "name": "Piemonte",
@@ -240,140 +241,159 @@
     },
     "lombardia": {
       "name": "Lombardia",
-      "desc": "Fior di latte, røkt provola, gorgonzola DOP, Grana Padano DOP, valnøtter, Guglielmi ekstra jomfru olivenolje fra Puglia, basilikum"
-    },
-    "trentino-alto-adige": {
-      "name": "Trentino Alto Adige",
-      "desc": "Fior di latte, speck fra Trentino Alto Adige, gorgonzola DOP, blomsterhonning, lakrispulver, Guglielmi ekstra jomfru olivenolje fra Puglia, basilikum"
+      "desc": "Gresskarkrem, røkt provola, gorgonzola dolce DOP, pølse, sort pepper, ekstra virgin olivenolje, basilikum"
     },
     "friuli-venezia-giulia": {
       "name": "Friuli Venezia Giulia",
-      "desc": "Fior di latte, røde cherrytomater, San Daniele DOP-spekeskinke, ruccola, Grana Padano DOP-fliser, basilikum"
-    },
-    "veneto": {
-      "name": "Veneto",
-      "desc": "Fior di latte, caciocavallo fra Agnone, fersk radicchio, valnøtter, Guglielmi ekstra jomfru olivenolje fra Puglia, basilikum"
+      "desc": "Fior di latte, San Daniele DOP-spekeskinke, ruccola, Grana Padano DOP-fliser, ekstra virgin olivenolje, basilikum"
     },
     "liguria": {
       "name": "Liguria",
-      "desc": "Fior di latte, gule og røde cherrytomater, basilikumpesto, Guglielmi ekstra jomfru olivenolje fra Puglia, basilikum"
+      "desc": "Fior di latte, gule og røde cherrytomater, basilikumpesto, ekstra virgin olivenolje, basilikum"
     },
     "emilia-romagna": {
       "name": "Emilia Romagna",
-      "desc": "Fior di latte, mortadella Bologna IGP, hakket pistasj, Guglielmi ekstra jomfru olivenolje fra Puglia, basilikum"
+      "desc": "Fior di latte, mortadella Bologna IGP, hakket pistasj, ekstra virgin olivenolje, basilikum"
     },
     "toscana": {
       "name": "Toscana",
-      "desc": "Fior di latte, krem av toskansk grønnkål, ovnsbakte poteter, stekte auberginestrimler, stekt squash, ristede pinjekjerner, basilikum"
-    },
-    "marche": {
-      "name": "Marche",
-      "desc": "Flådde tomater La Carmela, fior di latte, søt salami, Casciotta di Urbino DOP, sort pepper, Guglielmi ekstra jomfru olivenolje fra Puglia, basilikum"
+      "desc": "Fior di latte, krem av toskansk grønnkål, ovnsbakte poteter, kongeøstersopp, stekt squash, ristede pinjekjerner, basilikum"
     },
     "umbria": {
       "name": "Umbria",
-      "desc": "Røkt provola, ovnsbakte poteter, pølse fra Norcia, Pecorino Romano DOP-fondue, Guglielmi ekstra jomfru olivenolje fra Puglia, basilikum"
+      "desc": "Røkt provola, ovnsbakte poteter, pølse, fonduta av umbrisk pecorino, ekstra virgin olivenolje, basilikum"
     },
     "lazio": {
       "name": "Lazio",
-      "desc": "Fior di latte, artisjokkrem, artisjokkhjerte, vedovnsstekt kokt skinke av høy kvalitet Lorenzi, Pecorino Romano DOP-fondue, Guglielmi ekstra jomfru olivenolje fra Puglia, basilikum"
+      "desc": "Røkt provola, porchetta d'Ariccia, friarielli-krem, brødcrumble, ekstra virgin olivenolje, basilikum"
     },
     "abruzzo": {
       "name": "Abruzzo",
-      "desc": "Flådde tomater La Carmela, fior di latte, modnet guanciale i amatriciana-stil fra Salumificio Sano, Pecorino Romano DOP, malt pepper, basilikum"
-    },
-    "molise": {
-      "name": "Molise",
-      "desc": "Fior di latte, caciocavallo fra Agnone, pølse fra Norcia, Guglielmi ekstra jomfru olivenolje fra Puglia, basilikum"
+      "desc": "Skrellede tomater, fior di latte, modnet guanciale amatriciano, revet pecorino, malt pepper, basilikum"
     },
     "campania": {
       "name": "Campania",
-      "desc": "Røkt provola, squashkrem, stekt squash, Grana Padano DOP, Guglielmi ekstra jomfru olivenolje fra Puglia, basilikum"
+      "desc": "Røkt provola, pølse, napolitanske friarielli, ekstra virgin olivenolje, basilikum"
     },
     "puglia": {
       "name": "Puglia",
-      "desc": "Puré av gule tomater, capocollo av spegris, puljisk burrata, smuldret tarallo, taggiasca-oliven, Guglielmi ekstra jomfru olivenolje fra Puglia, basilikum"
+      "desc": "Puré av gule tomater, capocollo av spegris, puljisk burrata, smuldret tarallo, taggiasca-oliven, ekstra virgin olivenolje, basilikum"
     },
     "basilicata": {
       "name": "Basilicata",
-      "desc": "Røkt provola, ovnsbakte poteter, paprikakrem, smuldret crusco-paprika, Guglielmi ekstra jomfru olivenolje fra Puglia, basilikum"
+      "desc": "Fior di latte, potetkrem, modnet guanciale amatriciano, peperone crusco, ekstra virgin olivenolje, basilikum"
     },
     "calabria": {
       "name": "Calabria",
-      "desc": "Fior di latte, karamellisert rødløk, puljisk stracciatella, taggiasca-oliven, Guglielmi chiliolje, basilikum"
+      "desc": "Skrellede tomater, fior di latte, 'nduja, caciocavallo, ekstra virgin olivenolje, basilikum"
     },
     "sicilia": {
       "name": "Sicilia",
-      "desc": "Flådde tomater La Carmela, stekt aubergine, saltet ricotta, Guglielmi ekstra jomfru olivenolje fra Puglia, basilikum"
-    },
-    "sardegna": {
-      "name": "Sardegna",
-      "desc": "Fior di latte, røde cherrytomater, smuldret fetaost, middelhavsansjos, rødvinsreduksjon av Cannonau, basilikum"
+      "desc": "Skrellede tomater, stekt aubergine, saltet ricotta, ekstra virgin olivenolje, basilikum"
     },
     "margherita": {
       "name": "Margherita",
-      "desc": "Flådde tomater La Carmela, fior di latte, drysset med Grana Padano DOP, Guglielmi ekstra jomfru olivenolje fra Puglia, basilikum"
+      "desc": "Skrellede tomater, fior di latte, drysset med Grana Padano DOP, ekstra virgin olivenolje, basilikum"
+    },
+    "margherita-wurstel": {
+      "name": "Margherita Würstel",
+      "desc": "Skrellede tomater, fior di latte, würstel, ekstra virgin olivenolje, basilikum"
     },
     "margherita-vegana": {
       "name": "Vegansk Margherita",
-      "desc": "Flådde tomater La Carmela, plantebasert mozzarella-alternativ, Guglielmi ekstra jomfru olivenolje fra Puglia, basilikum"
+      "desc": "Skrellede tomater, plantebasert mozzarella-alternativ, ekstra virgin olivenolje, basilikum"
     },
     "bufalina": {
       "name": "Bufalina",
-      "desc": "Flådde tomater La Carmela, bøffelmozzarella DOP, drysset med Grana Padano DOP, Guglielmi ekstra jomfru olivenolje fra Puglia, basilikum"
+      "desc": "Skrellede tomater, bøffelmozzarella DOP, drysset med Grana Padano DOP, ekstra virgin olivenolje, basilikum"
     },
     "bufalina-senza-lattosio": {
       "name": "Bufalina Laktosefri",
-      "desc": "Flådde tomater La Carmela, laktosefri bøffelmozzarella DOP, Guglielmi ekstra jomfru olivenolje fra Puglia, basilikum"
+      "desc": "Skrellede tomater, laktosefri buffelmozzarella, ekstra virgin olivenolje, basilikum"
     },
     "marinara-pizzium": {
       "name": "Marinara på Pizzium-vis",
-      "desc": "Flådde tomater La Carmela, røde cherrytomater, Maione-kapers, middelhavsansjosfileter, taggiasca-oliven, oregano, hvitløk, Guglielmi ekstra jomfru olivenolje fra Puglia, basilikum"
+      "desc": "Skrellede tomater, røde cherrytomater, middelhavsansjosfileter, taggiasca-oliven, oregano, hvitløk, ekstra virgin olivenolje, basilikum"
+    },
+    "quattro-formaggi": {
+      "name": "4 oster",
+      "desc": "Fior di latte, røkt provola, gorgonzola dolce DOP, Grana Padano DOP-fliser, ekstra virgin olivenolje, basilikum"
+    },
+    "capricciosa-special": {
+      "name": "Capricciosa Special",
+      "desc": "Skrellede tomater, fior di latte, vedovnsstekt kokt skinke av høy kvalitet Lorenzi, artisjokker i olje, kongeøstersopp, taggiasca-oliven, ekstra virgin olivenolje, basilikum"
     },
     "diavola": {
       "name": "Diavola",
-      "desc": "Flådde tomater La Carmela, fior di latte, sterk ventricina, Guglielmi ekstra jomfru olivenolje fra Puglia, basilikum"
+      "desc": "Skrellede tomater, fior di latte, skarp salami, ekstra virgin olivenolje, basilikum"
     },
-    "orto-venere": {
-      "name": "Orto & Venere",
-      "desc": "Sort Venere-ris, grønnsakscaponata, puljisk stracciatella"
+    "calzone-napoletano": {
+      "name": "Calzone Napoletano",
+      "desc": "Skrellede tomater, kumelksricotta, røkt provola, Grana Padano DOP, Napoli-salami, sort pepper, ekstra virgin olivenolje, basilikum"
     },
     "insalata-caesar": {
       "name": "Caesarsalat",
       "desc": "Blandet salat, ovnsbakt kyllingbryst, røde cherrytomater, Grana Padano DOP-fliser, krutonger, Caesar-dressing"
     },
-    "caprese-pizzium": {
-      "name": "Caprese på Pizzium-vis",
-      "desc": "Oksehjertetomat, bøffelmozzarella DOP, basilikumpesto, sitronskall"
-    },
     "insalata-marinara": {
       "name": "Marinarasalat",
-      "desc": "Blandet salat, røde og gule cherrytomater, oregano, taggiasca-oliven, middelhavsansjosfileter"
+      "desc": "Blandet salat, røde og gule cherrytomater, taggiasca-oliven, tunfiskfileter"
     },
-    "cheesecake-nutella": { "name": "Cheesecake – Nutella®" },
-    "cheesecake-pistacchio": { "name": "Cheesecake – Pistasj" },
-    "cheesecake-frutti-di-bosco": { "name": "Cheesecake – Skogsbær" },
+    "insalata-rustica": {
+      "name": "Rustica-salat",
+      "desc": "Bygg, sjampinjongkrem, valnøtter, sprø guanciale"
+    },
+    "cheesecake-nutella": {
+      "name": "Cheesecake – Nutella®"
+    },
+    "cheesecake-pistacchio": {
+      "name": "Cheesecake – Pistasj"
+    },
     "tiramisu": {
       "name": "Tiramisù"
     },
     "nuvole-cremose": {
-      "name": "Kremete Skyer",
-      "desc": "2 fylte deigkuler med melke- og sitruskrem"
+      "name": "Deilige skyer",
+      "desc": "2 fylte deigkuler med melkekrem og hasselnøttkrem"
     },
-    "sorbetto-limone": {
-      "name": "Sitronsorbet"
+    "cannolo-siciliano": {
+      "name": "Siciliansk cannolo",
+      "desc": "Siciliansk cannolo fylt med søtet ricotta, pistasjknas og kandiserte røde kirsebær"
     },
-    "menu-bambino": {
-      "name": "Barnemeny",
-      "desc": "Pizza Margherita Baby + Drikke"
+    "caprese-dolce": {
+      "name": "Caprese-kake",
+      "desc": "Caprese-kake med mørk sjokolade og mandler"
     },
-    "ichnusa-anima-sarda": {
-      "name": "Ichnusa Anima Sarda",
-      "desc": "Lys og forfriskende"
+    "acqua-naturale": {
+      "name": "Vann uten kullsyre Electa"
     },
-    "ichnusa-non-filtrata": {
-      "name": "Ichnusa Non Filtrata",
-      "desc": "Fruktig, med humlearomaer"
+    "acqua-frizzante": {
+      "name": "Vann med kullsyre Maxima"
+    },
+    "coca-cola": {
+      "name": "Coca-Cola"
+    },
+    "coca-cola-zero": {
+      "name": "Coca-Cola Zero"
+    },
+    "coca-cola-zero-zero": {
+      "name": "Coca-Cola Zero Sukker Zero Koffein"
+    },
+    "fanta": {
+      "name": "Fanta"
+    },
+    "sprite": {
+      "name": "Sprite"
+    },
+    "estathe-limone": {
+      "name": "Estathé sitron"
+    },
+    "estathe-pesca": {
+      "name": "Estathé fersken"
+    },
+    "bibita-lurisia": {
+      "name": "Lurisia-drikke",
+      "desc": "chinotto / limonade / tonic"
     },
     "birrium-blonde": {
       "name": "Birrium Blonde - Glutenfri",
@@ -391,27 +411,16 @@
       "name": "Birrium Belgian Ale",
       "desc": "Rød øl i belgisk stil, fruktig og krydret"
     },
+    "ichnusa-non-filtrata": {
+      "name": "Ichnusa Non Filtrata",
+      "desc": "Fruktig, med humlearomaer"
+    },
+    "moretti-baffo-oro": {
+      "name": "Moretti Baffo d'Oro",
+      "desc": "Lys og forfriskende"
+    },
     "heineken-00": {
       "name": "Heineken 0.0 Alkoholfri"
-    },
-    "acqua-naturale-frizzante": {
-      "name": "Vann Uten Kullsyre Electa / Med Kullsyre Maxima"
-    },
-    "coca-cola": {
-      "name": "Coca-Cola / Coca-Cola Zero"
-    },
-    "coca-cola-zero-zero": {
-      "name": "Coca-Cola Zero Sukker Zero Koffein"
-    },
-    "fanta-sprite": {
-      "name": "Fanta / Sprite"
-    },
-    "estathe": {
-      "name": "Estathé Sitron / Fersken Iste"
-    },
-    "bibita-lurisia": {
-      "name": "Lurisia-drikke",
-      "desc": "Appelsin / chinotto / limonade / tonic"
     },
     "crodino-xl": {
       "name": "Crodino XL"
@@ -438,20 +447,14 @@
       "name": "Gin Tonic"
     },
     "prosecco-soligo": {
-      "name": "Prosecco DOC Treviso Millesimato Extra Dry",
-      "desc": "Soligo, Veneto"
+      "name": "Prosecco DOC"
     },
     "pecorino-terre-chieti": {
       "name": "Pecorino Terre di Chieti",
       "desc": "Tratturo Spinelli, Abruzzo"
     },
-    "soave-classico": {
-      "name": "Soave Classico DOC \"San Michele\"",
-      "desc": "Ca Rugate, Veneto"
-    },
-    "gewurztraminer-kies": {
-      "name": "Gewürztraminer Trentino DOC \"Kies\"",
-      "desc": "Roeno, Trentino Alto Adige"
+    "picco-angelo-falanghina": {
+      "name": "Picco dell'Angelo Falanghina IGT"
     },
     "primitivo-rosato": {
       "name": "Primitivo Rosato Puglia IGP",
@@ -461,9 +464,8 @@
       "name": "Montepulciano d'Abruzzo DOC",
       "desc": "Tratturo Spinelli, Abruzzo"
     },
-    "morellino-scansano": {
-      "name": "Morellino di Scansano DOCG",
-      "desc": "Cerreto Piano, Toscana"
+    "vallone-negroamaro": {
+      "name": "Vallone Versante Negroamaro IGP"
     },
     "lavazza-caffe": {
       "name": "Lavazza Kaffe"
@@ -481,7 +483,7 @@
       "name": "Limoncello / Mirto"
     },
     "grappa": {
-      "name": "Grappa"
+      "name": "Grappa Castagner (Morbida / Barrique)"
     },
     "amaro": {
       "name": "Amaro"

@@ -123,4 +123,4 @@ Le etichette mostrate ai clienti (`ui.recommended`, `ui.recommendedItem`, `ui.re
 
 ## Lingue attualmente incluse
 
-Italiano, Inglese, Francese, Spagnolo, Portoghese, Tedesco, Olandese, Norvegese, Svedese, Rumeno, Ungherese, Croato, Sloveno, Serbo, Ceco, Slovacco, Polacco, Russo, Ucraino, Greco, Cinese, Giapponese, Coreano, Turco, Arabo, Ebraico — contenuto reale trascritto dal menu cartaceo Pizzium (86 voci: antipasti, primi, secondi, calzoni, pizze regionali e classiche, insalate, dolci, menu bambino, bevande con birre/vini/cocktail/caffetteria).
+Italiano, Inglese, Francese, Spagnolo, Portoghese, Tedesco, Olandese, Norvegese, Svedese, Rumeno, Ungherese, Croato, Sloveno, Serbo, Ceco, Slovacco, Polacco, Russo, Ucraino, Greco, Cinese, Giapponese, Coreano, Turco, Arabo, Ebraico — contenuto reale trascritto dal menu cartaceo Pizzium (menu invernale, 87 voci: antipasti, primi, secondi, contorni, baciate, pizze regionali e classiche (con calzone), insalate, dolci, bevande con birre/vini/cocktail/caffetteria).

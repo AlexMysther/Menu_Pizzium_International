@@ -2,10 +2,10 @@
   { "id": "antipasti", "order": 1 },
   { "id": "primi", "order": 2 },
   { "id": "secondi", "order": 3 },
-  { "id": "calzoni", "order": 4 },
-  { "id": "pizze", "order": 5 },
-  { "id": "insalate", "order": 6 },
-  { "id": "dolci", "order": 7 },
-  { "id": "bambini", "order": 8 },
+  { "id": "contorni", "order": 4 },
+  { "id": "baciate", "order": 5 },
+  { "id": "pizze", "order": 6 },
+  { "id": "insalate", "order": 7 },
+  { "id": "dolci", "order": 8 },
   { "id": "bevande", "order": 9 }
 ]
