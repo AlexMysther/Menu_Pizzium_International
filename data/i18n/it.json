@@ -16,7 +16,17 @@
     "glass": "Calice",
     "bottle": "Bottiglia",
     "vegFilter": "No carne",
-    "vegFilterNote": "Tutti i piatti senza carne né pesce. Le foglie indicano se sono vegetariani o vegani."
+    "vegFilterNote": "Tutti i piatti senza carne né pesce. Le foglie indicano se sono vegetariani o vegani.",
+    "consentTitle": "Disponibilità in tempo reale",
+    "consentBody": "Per mostrarti subito se un piatto è esaurito o consigliato dallo chef, questo sito si collega a Google Firebase: il tuo browser invierà il tuo indirizzo IP a Google. Se rifiuti, il menu funziona comunque normalmente.",
+    "consentAccept": "Accetta",
+    "consentDecline": "Rifiuta",
+    "consentLearnMore": "Maggiori informazioni",
+    "privacyLinkLabel": "Privacy e consenso",
+    "consentStatusAccepted": "Hai accettato il collegamento a Google Firebase.",
+    "consentStatusDeclined": "Hai rifiutato il collegamento a Google Firebase. Il menu funziona normalmente, ma non vedrai i piatti esauriti o consigliati in tempo reale.",
+    "consentStatusUnset": "Non hai ancora scelto se collegarti a Google Firebase.",
+    "consentChangeChoice": "Cambia scelta"
   },
   "categories": {
     "antipasti": "Antipasti",

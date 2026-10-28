@@ -67,7 +67,14 @@ const el = {
   glossDesc: document.getElementById('glossDesc'),
   imgLightbox: document.getElementById('imgLightbox'),
   imgLightboxImg: document.getElementById('imgLightboxImg'),
-  imgLightboxClose: document.getElementById('imgLightboxClose')
+  imgLightboxClose: document.getElementById('imgLightboxClose'),
+  consentBanner: document.getElementById('consentBanner'),
+  consentTitle: document.getElementById('consentTitle'),
+  consentBody: document.getElementById('consentBody'),
+  consentLearnMore: document.getElementById('consentLearnMore'),
+  consentAccept: document.getElementById('consentAccept'),
+  consentDecline: document.getElementById('consentDecline'),
+  privacyLink: document.getElementById('privacyLink')
 };
 
 async function init() {
@@ -105,9 +112,11 @@ async function init() {
   bindEvents();
 
   // Esauriti e consigliati arrivano in tempo reale su tutti i dispositivi
-  // collegati (vedi js/live-menu.js). Nessun effetto se Firebase non è
-  // stato ancora configurato.
-  LiveMenu.init(() => {
+  // collegati (vedi js/live-menu.js). ConsentManager carica Firebase solo
+  // dopo che il cliente ha accettato il banner di consenso (vedi
+  // js/consent.js) — finché non lo fa, nessuna chiamata a Google parte e
+  // il menu si comporta come se nulla fosse esaurito o consigliato.
+  ConsentManager.initLiveMenu(() => {
     // Lo staff può togliere l'ultimo consiglio mentre un cliente sta
     // guardando proprio quella categoria: senza questo resterebbe su una
     // pagina vuota e su una pill che nel frattempo è sparita.
@@ -170,6 +179,12 @@ function renderStaticText() {
   el.infoCoverCharge.textContent = tr('ui.coverCharge');
   el.infoGlossaryNote.textContent = tr('ui.glossaryNote');
   el.infoGlossaryNote.hidden = state.glossary.length === 0;
+  el.privacyLink.textContent = tr('ui.privacyLinkLabel');
+  el.consentTitle.textContent = tr('ui.consentTitle');
+  el.consentBody.textContent = tr('ui.consentBody');
+  el.consentLearnMore.textContent = tr('ui.consentLearnMore');
+  el.consentAccept.textContent = tr('ui.consentAccept');
+  el.consentDecline.textContent = tr('ui.consentDecline');
 }
 
 // Keeps the page's bottom padding in sync with the fixed footer's actual

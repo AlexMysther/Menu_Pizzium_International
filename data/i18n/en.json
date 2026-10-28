@@ -16,7 +16,17 @@
     "glass": "Glass",
     "bottle": "Bottle",
     "vegFilter": "No meat",
-    "vegFilterNote": "All dishes without meat or fish. The leaves show whether each one is vegetarian or vegan."
+    "vegFilterNote": "All dishes without meat or fish. The leaves show whether each one is vegetarian or vegan.",
+    "consentTitle": "Real-time availability",
+    "consentBody": "To show you right away whether a dish is sold out or chef-recommended, this site connects to Google Firebase: your browser will send your IP address to Google. If you decline, the menu still works normally.",
+    "consentAccept": "Accept",
+    "consentDecline": "Decline",
+    "consentLearnMore": "Learn more",
+    "privacyLinkLabel": "Privacy and consent",
+    "consentStatusAccepted": "You accepted the connection to Google Firebase.",
+    "consentStatusDeclined": "You declined the connection to Google Firebase. The menu still works normally, but you won't see real-time sold-out or recommended dishes.",
+    "consentStatusUnset": "You haven't chosen yet whether to connect to Google Firebase.",
+    "consentChangeChoice": "Change choice"
   },
   "categories": {
     "antipasti": "Starters",

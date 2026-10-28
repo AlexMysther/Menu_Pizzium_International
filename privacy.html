@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>Pizzium - Privacy</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .privacy-header {
+    background: var(--red);
+    color: #fff;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: sticky;
+    top: 0;
+  }
+  .privacy-header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 1;
+  }
+  .privacy-header h1 {
+    margin: 0;
+    font-size: 17px;
+    font-weight: 800;
+  }
+  .privacy-content {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 20px 20px 48px;
+    color: var(--ink);
+    line-height: 1.55;
+    font-size: 14px;
+  }
+  .privacy-content h2 {
+    color: var(--red);
+    font-size: 15.5px;
+    margin: 28px 0 8px;
+  }
+  .privacy-content h2:first-of-type { margin-top: 8px; }
+  .privacy-content p { margin: 0 0 10px; }
+  .privacy-content ul { margin: 0 0 10px; padding-left: 20px; }
+  .privacy-content a { color: var(--red); }
+  .pref-box {
+    margin-top: 10px;
+    padding: 14px;
+    background: #faf2f2;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+  }
+  .pref-status {
+    margin: 0 0 12px;
+    font-size: 13.5px;
+    font-weight: 600;
+  }
+  .pref-actions { display: flex; gap: 10px; }
+  .pref-actions button {
+    flex: 1;
+    border-radius: 10px;
+    padding: 10px 12px;
+    font-size: 13.5px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  #consentDecline { background: #fff; border: 1.5px solid var(--red); color: var(--red); }
+  #consentAccept { background: var(--red); border: 1.5px solid var(--red); color: #fff; }
+</style>
+</head>
+<body>
+
+<header class="privacy-header">
+  <a href="index.html" aria-label="Torna al menu">&larr;</a>
+  <h1>Privacy e consenso</h1>
+</header>
+
+<main class="privacy-content">
+
+  <h2>Che cos'è questa pagina</h2>
+  <p>Il menu digitale Pizzium è un sito statico: le pagine e il contenuto del menu arrivano direttamente dal nostro hosting, senza passare da server intermedi che raccolgono dati. L'unica eccezione è la funzione facoltativa descritta sotto.</p>
+
+  <h2>Google Fonts</h2>
+  <p>Questo sito <strong>non</strong> usa Google Fonts né altri font caricati da server esterni: tutti i caratteri sono quelli già presenti sul tuo dispositivo. Nessun dato viene inviato a Google per la visualizzazione del testo.</p>
+
+  <h2>Disponibilità e consigli in tempo reale (Google Firebase)</h2>
+  <p>Il menu può mostrare in tempo reale quali piatti sono momentaneamente esauriti o consigliati dallo chef. Questa funzione è <strong>facoltativa</strong> ed è disattivata finché non la accetti esplicitamente: se non accetti (o non scegli), il tuo browser non si collega a nessun servizio Google e il menu funziona comunque normalmente, semplicemente senza l'aggiornamento in tempo reale.</p>
+  <p>Se accetti, il tuo browser carica due script da <code>gstatic.com</code> e si collega al database in tempo reale di Google Firebase (infrastruttura nella regione UE, Belgio) per leggere l'elenco dei piatti esauriti/consigliati. Questo comporta l'invio del tuo indirizzo IP a Google.</p>
+  <ul>
+    <li><strong>Dati trattati:</strong> indirizzo IP e altri dati tecnici di connessione standard (user agent, timestamp della richiesta).</li>
+    <li><strong>Finalità:</strong> ricevere in tempo reale lo stato di disponibilità dei piatti.</li>
+    <li><strong>Base giuridica:</strong> il tuo consenso esplicito, che puoi revocare in qualsiasi momento dalla sezione qui sotto.</li>
+    <li><strong>Destinatario:</strong> Google LLC / Google Ireland Limited (infrastruttura Firebase). Consulta la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">informativa privacy di Google</a> e i <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">termini sulla privacy di Firebase</a>.</li>
+    <li><strong>Conservazione:</strong> nessun dato storico viene conservato da noi; la connessione è solo per la lettura in tempo reale mentre tieni il menu aperto.</li>
+  </ul>
+
+  <h2>Le tue preferenze attuali</h2>
+  <div class="pref-box">
+    <p class="pref-status" id="consentStatusText"></p>
+    <div class="pref-actions">
+      <button id="consentDecline" type="button">Rifiuta</button>
+      <button id="consentAccept" type="button">Accetta</button>
+    </div>
+  </div>
+
+  <h2>Dati tecnici salvati sul tuo dispositivo</h2>
+  <p>Il sito salva localmente sul tuo dispositivo (tramite <code>localStorage</code> del browser, non un cookie tradizionale) due sole informazioni: la lingua del menu che hai scelto e la scelta fatta su questa pagina. Non vengono mai inviate a noi né a terzi, restano solo sul tuo browser, e puoi cancellarle in qualsiasi momento dalle impostazioni del browser stesso. Nessun dato di navigazione viene raccolto a fini statistici o pubblicitari: il sito non usa cookie di profilazione, analytics o tracciamento di terze parti.</p>
+
+  <h2>I tuoi diritti</h2>
+  <p>Puoi in ogni momento revocare il consenso dato (sezione sopra), chiedere informazioni su come vengono trattati i tuoi dati, o segnalare dubbi rivolgendoti direttamente al personale del locale.</p>
+
+</main>
+
+<script src="js/consent.js"></script>
+<script>
+  const STATUS_TEXT = {
+    'ui.consentStatusAccepted': 'Hai accettato il collegamento a Google Firebase.',
+    'ui.consentStatusDeclined': 'Hai rifiutato il collegamento a Google Firebase. Il menu funziona normalmente, ma non vedrai i piatti esauriti o consigliati in tempo reale.',
+    'ui.consentStatusUnset': 'Non hai ancora scelto se collegarti a Google Firebase.'
+  };
+  function tr(key) { return STATUS_TEXT[key] || key; }
+  ConsentManager.refreshStatusUI();
+</script>
+</body>
+</html>

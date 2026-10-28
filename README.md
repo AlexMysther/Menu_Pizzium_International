@@ -121,6 +121,16 @@ File coinvolti: `js/firebase-config.js` (config progetto), `js/live-menu.js` (le
 
 Le etichette mostrate ai clienti (`ui.recommended`, `ui.recommendedItem`, `ui.recommendedNote`) stanno nei file di lingua come tutto il resto: la scelta dei piatti è una sola e vale per tutte le lingue.
 
+### Consenso prima di caricare Firebase (privacy)
+
+`index.html` **non** carica più gli script Firebase in modo statico: caricarli per ogni visitatore significherebbe che il browser di ogni cliente si collega a server Google (`gstatic.com` + il database Firebase) a ogni visita, inviando il suo indirizzo IP, anche se non userà mai la disponibilità in tempo reale — lo stesso tipo di problema per cui diversi siti sono stati multati in UE per aver caricato Google Fonts senza consenso.
+
+Per questo `js/consent.js` mostra un banner alla prima visita (testo in `ui.consentTitle`/`ui.consentBody`/ecc., in ogni file lingua) e carica gli script Firebase via JS **solo se il cliente accetta**. Se rifiuta (o non sceglie), Firebase non si carica mai e il menu funziona comunque normalmente — `js/live-menu.js` tratta "Firebase non caricato" come "nessun piatto esaurito, nessun consigliato", esattamente come già faceva prima per "Firebase non configurato".
+
+`privacy.html` spiega la cosa ai clienti e permette di cambiare scelta in qualsiasi momento (riusa `js/consent.js`); è raggiungibile dal link "Privacy e consenso" in fondo al pannello info (ⓘ). La scelta resta salvata in `localStorage` sul dispositivo del cliente, non viene mai inviata a noi.
+
+`admin.html` (pannello staff, non pubblico) continua a caricare Firebase staticamente: non è rivolto ai clienti, non si pone il problema del consenso.
+
 ## Lingue attualmente incluse
 
 Italiano, Inglese, Francese, Spagnolo, Portoghese, Tedesco, Olandese, Norvegese, Svedese, Rumeno, Ungherese, Croato, Sloveno, Serbo, Ceco, Slovacco, Polacco, Russo, Ucraino, Greco, Cinese, Giapponese, Coreano, Turco, Arabo, Ebraico — contenuto reale trascritto dal menu cartaceo Pizzium (menu invernale, 87 voci: antipasti, primi, secondi, contorni, baciate, pizze regionali e classiche (con calzone), insalate, dolci, bevande con birre/vini/cocktail/caffetteria).
